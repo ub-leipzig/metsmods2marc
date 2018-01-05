@@ -1,0 +1,3 @@
+rootProject.name = 'metsmods2marc'
+include 'xslt'
+

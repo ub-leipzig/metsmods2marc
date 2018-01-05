@@ -1,0 +1,239 @@
+<out
+        xmlns:dv="http://dfg-viewer.de/"
+>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0001">
+        <mods:identifier type="goobi">4341</mods:identifier>
+        <mods:location>
+            <mods:physicalLocation authority="marcorg"
+                                   displayLabel="Leipzig University Library, Leipzig, Germany">DE-15
+            </mods:physicalLocation>
+            <mods:shelfLocator>Exeg.App.150-bo:1</mods:shelfLocator>
+        </mods:location>
+        <mods:relatedItem type="series">
+            <mods:titleInfo>
+                <mods:title lang="ger">VD16</mods:title>
+            </mods:titleInfo>
+        </mods:relatedItem>
+        <mods:identifier type="urn">urn:nbn:de:bsz:15-0010-139416</mods:identifier>
+        <mods:relatedItem type="host">
+            <mods:recordInfo>
+                <mods:recordIdentifier source="http://digital.ub.uni-leipzig.de/oai/">
+                    oai:de:ub.uni-leipzig:db:id-021339902
+                </mods:recordIdentifier>
+            </mods:recordInfo>
+        </mods:relatedItem>
+        <mods:identifier type="swb-ppn">021340072</mods:identifier>
+        <mods:extension>
+            <slub:slub xmlns:slub="http://slub-dresden.de/">
+                <slub:id type="source">021340072
+                </slub:id>
+            </slub:slub>
+        </mods:extension>
+        <mods:identifier type="vd16">VD16 ZV 2668</mods:identifier>
+        <mods:part order="0100" type="host">
+            <mods:detail>
+                <mods:number>1</mods:number>
+            </mods:detail>
+        </mods:part>
+        <mods:language>
+            <mods:languageTerm authority="rfc3066" type="code">ger</mods:languageTerm>
+        </mods:language>
+        <mods:originInfo>
+            <mods:place>
+                <mods:placeTerm type="text">Magdeburgk</mods:placeTerm>
+            </mods:place>
+            <mods:dateIssued keyDate="yes">1585</mods:dateIssued>
+            <mods:dateOther encoding="w3cdtf" type="order">1585</mods:dateOther>
+            <mods:publisher>in Verlegung Ambrosij Kirchners</mods:publisher>
+        </mods:originInfo>
+        <mods:name type="personal">
+            <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="family">Bünting</mods:namePart>
+            <mods:namePart type="given">Heinrich</mods:namePart>
+            <mods:displayForm>Bünting, Heinrich</mods:displayForm>
+        </mods:name>
+        <mods:physicalDescription>
+            <mods:extent>[8] Bl., 142 [i.e. 242] S., [11] Bl.</mods:extent>
+        </mods:physicalDescription>
+        <mods:originInfo>
+            <mods:edition>Auffs new widerumb ... ubersehen und vermehret</mods:edition>
+        </mods:originInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0002">
+        <mods:titleInfo>
+            <mods:title>Vorrede des Authoris</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0003">
+        <mods:titleInfo>
+            <mods:title>Von der Ordnung dieses Buchs</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0004">
+        <mods:titleInfo>
+            <mods:title>Etliche Taffeln, darin alles augenscheinlich abgemalet ist</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0005">
+        <mods:titleInfo>
+            <mods:title>Beschreibung der Heiligen Stadt Jerusalem</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0006">
+        <mods:titleInfo>
+            <mods:title>Folgen nu die Reisen der Heiligen Patriarchen ...</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0007">
+        <mods:titleInfo>
+            <mods:title>Reisen des Propheten Mose ...</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0008">
+        <mods:titleInfo>
+            <mods:title>Auff das Buch Josua</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0009">
+        <mods:titleInfo>
+            <mods:title>Auff das Buch der Richter ...</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0010">
+        <mods:titleInfo>
+            <mods:title>Auff das Buch Ruth</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0011">
+        <mods:titleInfo>
+            <mods:title>Uber das Erste Buch Samuelis</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0012">
+        <mods:titleInfo>
+            <mods:title>Reisen des Propheten Samuel</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0013">
+        <mods:titleInfo>
+            <mods:title>Wie König Saul gereiset habe</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0014">
+        <mods:titleInfo>
+            <mods:title>Reisen des Königs Davids</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0015">
+        <mods:titleInfo>
+            <mods:title>Uber die Bücher der Königen, und Chronica</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0016">
+        <mods:titleInfo>
+            <mods:title>Reisen des Königs Salomon</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0017">
+        <mods:titleInfo>
+            <mods:title>Folgen nun die Reisen der Könige in Israel</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0018">
+        <mods:titleInfo>
+            <mods:title>Reisen der Könige aus Syrien ...</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0019">
+        <mods:titleInfo>
+            <mods:title>Reisen der Könige Juda ...</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0020">
+        <mods:titleInfo>
+            <mods:title>Reisen der Könige aus Egypten ...</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0021">
+        <mods:titleInfo>
+            <mods:title>Reisen der Könige zu Assyrien ...</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0022">
+        <mods:titleInfo>
+            <mods:title>Reisen der Heiligen Propheten</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0023">
+        <mods:titleInfo>
+            <mods:title>Register der Lender und Stedte ...</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0024">
+        <mods:titleInfo>
+            <mods:title>Von Esra dem Schrifftgelerten</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0025">
+        <mods:titleInfo>
+            <mods:title>Auff das Buch Esther</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0026">
+        <mods:titleInfo>
+            <mods:title>Von dem heiligen Job</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0027">
+        <mods:titleInfo>
+            <mods:title>Uber das Buch Judith</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0028">
+        <mods:titleInfo>
+            <mods:title>Auff das Buch Tobiae</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0029">
+        <mods:titleInfo>
+            <mods:title>Reise Jesu Syrachs</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0030">
+        <mods:titleInfo>
+            <mods:title>Auff die Bücher der Maccabeer</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0031">
+        <mods:titleInfo>
+            <mods:title>Reisen Judae Macchabei</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0032">
+        <mods:titleInfo>
+            <mods:title>Reisen Simonis des Bruders Judae Maccabei</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0033">
+        <mods:titleInfo>
+            <mods:title>Reisen der Könige In Syria ...</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDLOG_0034">
+        <mods:titleInfo>
+            <mods:title>Reisen der Hohenprister ...</mods:title>
+        </mods:titleInfo>
+    </mods:mods>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" name="DMDPHYS_0000">
+        <mods:location>
+            <mods:physicalLocation authority="marcorg"
+                                   displayLabel="Leipzig University Library, Leipzig, Germany">DE-15
+            </mods:physicalLocation>
+            <mods:shelfLocator>Exeg.App.150-bo:1/2</mods:shelfLocator>
+        </mods:location>
+    </mods:mods>
+    <dv:rights/>
+    <dv:links/>
+</out>
