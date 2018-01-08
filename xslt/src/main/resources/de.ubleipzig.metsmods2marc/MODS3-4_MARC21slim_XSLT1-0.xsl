@@ -1,6 +1,6 @@
 <xsl:stylesheet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
-				xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:marc="http://www.loc.gov/MARC21/slim"
-				version="2.0" exclude-result-prefixes="mods xlink">
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:marc="http://www.loc.gov/MARC21/slim"
+                version="2.0" exclude-result-prefixes="mods xlink">
     <!--
  
     Upgraded to MODS 3.4 XSLT 1.0 - 2012/05/11
@@ -165,7 +165,7 @@
         <marc:record>
             <marc:leader>
                 <!--  00-04  -->
-                <xsl:text/>
+                <xsl:text>00000</xsl:text>
                 <!--  05  -->
                 <xsl:text>n</xsl:text>
                 <!--  06  -->
@@ -189,21 +189,21 @@
                     <xsl:otherwise>m</xsl:otherwise>
                 </xsl:choose>
                 <!--  08  -->
-                <xsl:text/>
+                <xsl:text> </xsl:text>
                 <!--  09  -->
-                <xsl:text/>
+                <xsl:text> </xsl:text>
                 <!--  10  -->
                 <xsl:text>2</xsl:text>
                 <!--  11  -->
                 <xsl:text>2</xsl:text>
                 <!--  12-16  -->
-                <xsl:text/>
+                <xsl:text>00000</xsl:text>
                 <!--  17  -->
                 <xsl:text>u</xsl:text>
                 <!--  18  -->
                 <xsl:text>u</xsl:text>
                 <!--  19  -->
-                <xsl:text/>
+                <xsl:text> </xsl:text>
                 <!--  20-23  -->
                 <xsl:text>4500</xsl:text>
             </marc:leader>

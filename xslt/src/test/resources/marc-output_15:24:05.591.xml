@@ -1,0 +1,68 @@
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim">
+   <marc:leader>00000nm  2200000uu 4500</marc:leader>
+   <marc:controlfield tag="008">s
+                    ||||||||||||||||||||||</marc:controlfield>
+   <marc:datafield tag="440" ind1="" ind2="">
+      <marc:subfield code="a">Leipziger Verlage</marc:subfield>
+   </marc:datafield>
+   <marc:datafield tag="887" ind1="" ind2="">
+      <marc:subfield code="a">086770535ReutBeit494185910</marc:subfield>
+   </marc:datafield>
+   <marc:datafield tag="245" ind1="1" ind2="0">
+      <marc:subfield code="a">Beiträge zu einer Ikonographie des Todes</marc:subfield>
+   </marc:datafield>
+   <marc:datafield tag="260" ind1="" ind2="">
+      <marc:subfield code="a">Leipzig</marc:subfield>
+      <marc:subfield code="b">Dieterich</marc:subfield>
+      <marc:subfield code="c">1913</marc:subfield>
+   </marc:datafield>
+   <marc:datafield tag="720" ind1="" ind2="">
+      <marc:subfield code="a">Reuter Adele</marc:subfield>
+   </marc:datafield>
+   <marc:datafield tag="300" ind1="" ind2="">
+      <marc:subfield code="a">57 S.</marc:subfield>
+   </marc:datafield>
+</marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim">
+   <marc:leader>00000nm  2200000uu 4500</marc:leader>
+   <marc:controlfield tag="008">|||||||||||||||||||||||</marc:controlfield>
+   <marc:datafield tag="245" ind1="1" ind2="0">
+      <marc:subfield code="a">Widmung</marc:subfield>
+   </marc:datafield>
+</marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim">
+   <marc:leader>00000nm  2200000uu 4500</marc:leader>
+   <marc:controlfield tag="008">|||||||||||||||||||||||</marc:controlfield>
+   <marc:datafield tag="245" ind1="1" ind2="0">
+      <marc:subfield code="a">Abkürzungen</marc:subfield>
+   </marc:datafield>
+</marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim">
+   <marc:leader>00000nm  2200000uu 4500</marc:leader>
+   <marc:controlfield tag="008">|||||||||||||||||||||||</marc:controlfield>
+   <marc:datafield tag="245" ind1="1" ind2="0">
+      <marc:subfield code="a">III. Die Darstellung des Todes in der byzantinischen und frühmittelalterlichen Kunst</marc:subfield>
+   </marc:datafield>
+</marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim">
+   <marc:leader>00000nm  2200000uu 4500</marc:leader>
+   <marc:controlfield tag="008">|||||||||||||||||||||||</marc:controlfield>
+   <marc:datafield tag="245" ind1="1" ind2="0">
+      <marc:subfield code="a">IV. Das byzantinische Mönchtum und seine Todesbetrachtungen</marc:subfield>
+   </marc:datafield>
+</marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim">
+   <marc:leader>00000nm  2200000uu 4500</marc:leader>
+   <marc:controlfield tag="008">|||||||||||||||||||||||</marc:controlfield>
+   <marc:datafield tag="245" ind1="1" ind2="0">
+      <marc:subfield code="a">Lebenslauf</marc:subfield>
+   </marc:datafield>
+</marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim">
+   <marc:leader>00000nm  2200000uu 4500</marc:leader>
+   <marc:controlfield tag="008">|||||||||||||||||||||||</marc:controlfield>
+   <marc:datafield tag="852" ind1="" ind2="">
+      <marc:subfield code="a">DE-15</marc:subfield>
+      <marc:subfield code="3">Leipzig University Library, Leipzig, Germany</marc:subfield>
+   </marc:datafield>
+</marc:record>
