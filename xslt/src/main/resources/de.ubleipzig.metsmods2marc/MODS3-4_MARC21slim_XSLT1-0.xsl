@@ -39,6 +39,7 @@
         <xsl:choose>
             <xsl:when test="text() = 'text'">a</xsl:when>
             <xsl:when test="text() = 'text' and @manuscript = 'yes'">t</xsl:when>
+            <xsl:when test="text() = 'Handschrift' and @manuscript = 'yes'">t</xsl:when>
             <xsl:when test="text() = 'cartographic' and @manuscript = 'yes'">f</xsl:when>
             <xsl:when test="text() = 'cartographic'">e</xsl:when>
             <xsl:when test="text() = 'notated music' and @manuscript = 'yes'">d</xsl:when>
@@ -165,7 +166,7 @@
         <marc:record>
             <marc:leader>
                 <!--  00-04  -->
-                <xsl:text>00000</xsl:text>
+                <xsl:text>     </xsl:text>
                 <!--  05  -->
                 <xsl:text>n</xsl:text>
                 <!--  06  -->

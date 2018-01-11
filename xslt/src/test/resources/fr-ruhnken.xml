@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+    <marc:record>
+        <marc:leader>02663ctm a2200781 4500</marc:leader>
+        <marc:controlfield tag="001">0007186275</marc:controlfield>
+        <marc:controlfield tag="003">de-576</marc:controlfield>
+        <marc:controlfield tag="005">20130702142005.0</marc:controlfield>
+        <marc:controlfield tag="007">tu</marc:controlfield>
+        <marc:controlfield tag="008">130319s1748 xx 00 0 lat c</marc:controlfield>
+        <marc:datafield tag="016" ind1=" " ind2=" ">
+            <marc:subfield code="a">(ocolc)840018338</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">(de-599)bsz380131897</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">de-576</marc:subfield>
+            <marc:subfield code="b">ger</marc:subfield>
+            <marc:subfield code="c">de-576</marc:subfield>
+            <marc:subfield code="e">rakwb</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041" ind1="0" ind2=" ">
+            <marc:subfield code="a">lat</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="046" ind1=" " ind2=" ">
+            <marc:subfield code="j">ad18</marc:subfield>
+            <marc:subfield code="2">de-576</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">ruhnken, david</marc:subfield>
+            <marc:subfield code="d">1723 - 1798</marc:subfield>
+            <marc:subfield code="0">(de-588)116702664</marc:subfield>
+            <marc:subfield code="0">(de-576)162818823</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="243" ind1="1" ind2="0">
+            <marc:subfield code="a">sammlung</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="246" ind1="3" ind2="0">
+            <marc:subfield code="a">ms.0350</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">leiden, paris [u.a.],</marc:subfield>
+            <marc:subfield code="c">[mitte d. 18. jh.]</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">92 bl. ;</marc:subfield>
+            <marc:subfield code="c">27,5 x 22,5.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">kurzaufnahme der handschrift. - quelle: döring, detlef: die neuzeitlichen
+                handschriften der nullgruppe, teil 2: (ms 0301 - 0600). - wiesbaden : harrassowitz, 2002. - (katalog der
+                handschriften der universitätsbibliothek leipzig : n.f. ; 1,2)
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">ernesti, johann august</marc:subfield>
+            <marc:subfield code="d">1707 - 1781</marc:subfield>
+            <marc:subfield code="e">adressat</marc:subfield>
+            <marc:subfield code="0">(de-588)100804500</marc:subfield>
+            <marc:subfield code="0">(de-576)160880246</marc:subfield>
+            <marc:subfield code="4">crp</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="775" ind1="0" ind2=" ">
+            <marc:subfield code="a">ruhnken, david</marc:subfield>
+            <marc:subfield code="t">[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</marc:subfield>
+            <marc:subfield code="w">(de-576)380132060</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="935" ind1=" " ind2=" ">
+            <marc:subfield code="b">handschr</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="982" ind1=" " ind2=" ">
+            <marc:subfield code="a">(de-15)7013993525</marc:subfield>
+            <marc:subfield code="x">1</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="969" ind1=" " ind2=" ">
+            <marc:subfield code="b">keine</marc:subfield>
+            <marc:subfield code="x">1</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="983" ind1=" " ind2=" ">
+            <marc:subfield code="a">(de-15)3208807</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="969" ind1=" " ind2=" ">
+            <marc:subfield code="c">ah</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ruhnke, david</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ruhneken, david</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ruhnkenio, david</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ruhnkenius, davidius</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ruhnkenius, davidus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ruhnkenius, davide</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ruhnquenius, david</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ruhnken</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">rhunkenius</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ruhnkenius, david</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, johannes august</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, joannes augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, ioannes augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, ioann. aug.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, io. augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, jo. augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, joh. augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, jo. aug.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, io. aug.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, io. august.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, i. a.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestius, joannes augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestius, johannes august</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestius, ioann. aug.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestius, joann. aug.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestus, joannes augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestus, ioannes augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestus, johann a.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernesti, johannes augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestius, johannes augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestus, johannes augustus</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernst, johann august</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestus, ioan. august.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="900" ind1=" " ind2=" ">
+            <marc:subfield code="a">ernestus, joan. august.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="951" ind1=" " ind2=" ">
+            <marc:subfield code="b">xa-nl</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="852" ind1=" " ind2=" ">
+            <marc:subfield code="a">de-15</marc:subfield>
+            <marc:subfield code="z">2013-03-19t11:46:56z</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="980" ind1=" " ind2=" ">
+            <marc:subfield code="a">380131897</marc:subfield>
+            <marc:subfield code="b">0</marc:subfield>
+            <marc:subfield code="c">201403061834</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>

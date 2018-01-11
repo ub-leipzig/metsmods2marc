@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns="http://www.loc.gov/mods/v3"
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <mods version="3.6">
+        <titleInfo>
+            <title>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</title>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>ms.0350</title>
+        </titleInfo>
+        <name type="personal" usage="primary">
+            <namePart>ruhnken, david</namePart>
+            <namePart type="date">1723 - 1798</namePart>
+            <nameIdentifier>(de-588)116702664</nameIdentifier>
+            <nameIdentifier>(de-576)162818823</nameIdentifier>
+        </name>
+        <name type="personal">
+            <namePart>ernesti, johann august</namePart>
+            <namePart type="date">1707 - 1781</namePart>
+            <role>
+                <roleTerm type="text">adressat</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="code">crp</roleTerm>
+            </role>
+            <nameIdentifier>(de-588)100804500</nameIdentifier>
+            <nameIdentifier>(de-576)160880246</nameIdentifier>
+        </name>
+        <typeOfResource manuscript="yes">text</typeOfResource>
+        <genre authority="marcgt">catalog</genre>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">00</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">leiden, paris [u.a.]</placeTerm>
+            </place>
+            <dateCreated>[mitte d. 18. jh.]</dateCreated>
+            <dateModified>ad18</dateModified>
+            <dateCreated encoding="marc">1748xx</dateCreated>
+            <dateIssued encoding="marc">1748</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <form authority="marccategory">text</form>
+            <extent>92 bl. ; 27,5 x 22,5.</extent>
+        </physicalDescription>
+        <note>kurzaufnahme der handschrift. - quelle: döring, detlef: die neuzeitlichen
+            handschriften der nullgruppe, teil 2: (ms 0301 - 0600). - wiesbaden : harrassowitz, 2002. - (katalog der
+            handschriften der universitätsbibliothek leipzig : n.f. ; 1,2)
+        </note>
+        <location>
+            <physicalLocation>de-15</physicalLocation>
+        </location>
+        <relatedItem type="otherVersion">
+            <titleInfo>
+                <title>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</title>
+            </titleInfo>
+            <identifier type="local">(de-576)380132060</identifier>
+            <name>
+                <namePart>ruhnken, david</namePart>
+            </name>
+        </relatedItem>
+        <recordInfo>
+            <descriptionStandard>rakwb</descriptionStandard>
+            <recordContentSource authority="marcorg">de-576</recordContentSource>
+            <recordCreationDate encoding="marc">130319</recordCreationDate>
+            <recordChangeDate encoding="iso8601">20130702142005.0</recordChangeDate>
+            <recordIdentifier source="de-576">0007186275</recordIdentifier>
+            <recordOrigin>
+                Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6_XSL2-0.xsl (Revision 2.31 2016/3/15)
+            </recordOrigin>
+            <languageOfCataloging>
+                <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+            </languageOfCataloging>
+        </recordInfo>
+    </mods>
+</modsCollection>

@@ -1,0 +1,149 @@
+{
+  "author_variant": [
+    "f v z fv fvz"
+  ],
+  "mega_collection": [
+    "verbunddaten swb"
+  ],
+  "oclc_num": [
+    "840018176"
+  ],
+  "publishdate": [
+    "ende d. 18. jh. / anfang d. 19. jh"
+  ],
+  "spelling": [
+    "zinck, friedrich von 1753 - 1802 (de-588)130838691 (de-576)298368714 sammlung [briefe von friedrich freiherr von zinck] - ms 0349 ms.0349 emmendingen, karslruhe, leipzig, [ende d. 18. jh. / anfang d. 19. jh.] 208 bl. ; 25 x 19. kurzaufnahme der handschrift. - quelle:  döring, detlef: die neuzeitlichen handschriften der nullgruppe, teil 2: (ms 0301 - 0600). - wiesbaden : harrassowitz, 2002. - (katalog der handschriften der universitätsbibliothek leipzig : n.f. ; 1,2) zinck, friedrich von [briefe von friedrich freiherr von zinck] - ms 0349 (de-576)380129108"
+  ],
+  "language": [
+    "german"
+  ],
+  "itemdata": "{\"de-15\":[{\"bc\":\"7013993398\",\"cn\":\"ms.0349\"}]}",
+  "timecode": [
+    "1801 – 1850",
+    "1701 – 1800"
+  ],
+  "institution": [
+    "de-15"
+  ],
+  "id": "0007186269",
+  "barcode": [
+    "(de-15)7013993398"
+  ],
+  "author": [
+    "zinck, friedrich von"
+  ],
+  "spellingshingle": [
+    "zinck, friedrich von",
+    "[briefe von friedrich freiherr von zinck] - ms 0349"
+  ],
+  "format": [
+    "manuscript"
+  ],
+  "author_role": [
+    ""
+  ],
+  "publishplace": [
+    "emmendingen, karslruhe, leipzig,"
+  ],
+  "format_de540": [
+    "manuscript"
+  ],
+  "callnumber_de15_ct_mv": [
+    "ms.0349",
+    "ms 0349"
+  ],
+  "illustrated": "not illustrated",
+  "branch_de15": [
+    "bibliotheca albertina"
+  ],
+  "branch_nrw": [
+    "local holdings"
+  ],
+  "format_nrw": [
+    "manuscript"
+  ],
+  "author_id": [
+    "130838691"
+  ],
+  "access_facet": "local holdings",
+  "is_hierarchy_id": "0007186269",
+  "format_de15": [
+    "manuscript"
+  ],
+  "is_hierarchy_title": "[briefe von friedrich freiherr von zinck] - ms 0349",
+  "format_dezi4": [
+    "e-book"
+  ],
+  "imprint": "emmendingen, karslruhe, leipzig, [ende d. 18. jh. / anfang d. 19. jh.]",
+  "rsn": [
+    "(de-15)3208784"
+  ],
+  "title": "[briefe von friedrich freiherr von zinck] - ms 0349",
+  "title_full": "[briefe von friedrich freiherr von zinck] - ms 0349",
+  "title_fullstr": "[briefe von friedrich freiherr von zinck] - ms 0349",
+  "title_full_unstemmed": "[briefe von friedrich freiherr von zinck] - ms 0349",
+  "fullrecord": "01416ctm a2200385   4500001001100000003000700011005001700018007000300035008004100038016002100079035002500100040003100125041000800156046001700164046001700181100007600198243001300274245005600287246001200343260007600355300002400431500024900455775009700704935001300801982002500814969001300839983001900852969000700871900002400878900001700902900002500919900002300944852003200967980003100999\u001e0007186269\u001ede-576\u001e20130424220959.0\u001etu\u001e130319s1775    xx             00 0 ger c\u001e  \u001fa(ocolc)840018176\u001e  \u001fa(de-599)bsz380127997\u001e  \u001fade-576\u001fbger\u001fcde-576\u001ferakwb\u001e0 \u001fager\u001e  \u001fja19a\u001f2de-576\u001e  \u001fjad18\u001f2de-576\u001e1 \u001fazinck, friedrich von\u001fd1753 - 1802\u001f0(de-588)130838691\u001f0(de-576)298368714\u001e10\u001fasammlung\u001e10\u001fa[briefe von friedrich freiherr von zinck] - ms 0349\u001e30\u001fams.0349\u001e  \u001faemmendingen, karslruhe, leipzig,\u001fc[ende d. 18. jh. / anfang d. 19. jh.]\u001e  \u001fa208 bl. ;\u001fc25 x 19.\u001e  \u001fakurzaufnahme der handschrift. - quelle:  döring, detlef: die neuzeitlichen handschriften der nullgruppe, teil 2: (ms 0301 - 0600). - wiesbaden : harrassowitz, 2002. - (katalog der handschriften der universitätsbibliothek leipzig : n.f. ; 1,2)\u001e0 \u001fazinck, friedrich von\u001ft[briefe von friedrich freiherr von zinck] - ms 0349\u001fw(de-576)380129108\u001e  \u001fbhandschr\u001e  \u001fa(de-15)7013993398\u001fx1\u001e  \u001fbkeine\u001fx1\u001e  \u001fa(de-15)3208784\u001e  \u001fcah\u001e  \u001fazink, friedrich von\u001e  \u001fazink, f. von\u001e  \u001fazinck, fridericus de\u001e  \u001fazinck, friedr. von\u001e  \u001fade-15\u001fz2013-03-19t11:19:01z\u001e  \u001fa380127997\u001fb0\u001fc201403061834\u001e\u001d",
+  "callnumber_de15_cns_mv": [
+    "ms.0349",
+    "ms 0349"
+  ],
+  "author_sort": "zinck, friedrich von",
+  "recordtype": "marcfinc",
+  "publishdatesort": "1775",
+  "signatur": [
+    "(de-15)ms.0349",
+    "(de-15)ms 0349"
+  ],
+  "facet_avail": [
+    "local"
+  ],
+  "vf1_author": "zinck, friedrich von",
+  "format_ded117": [
+    "manuscript"
+  ],
+  "physical": [
+    "208 bl. ; 25 x 19."
+  ],
+  "multipart_set": " ",
+  "title_sort": "[briefe von friedrich freiherr von zinck] - ms 0349",
+  "footnote": [
+    "kurzaufnahme der handschrift. - quelle:  döring, detlef: die neuzeitlichen handschriften der nullgruppe, teil 2: (ms 0301 - 0600). - wiesbaden : harrassowitz, 2002. - (katalog der handschriften der universitätsbibliothek leipzig : n.f. ; 1,2)"
+  ],
+  "format_del189": [
+    "book"
+  ],
+  "title_short": "[briefe von friedrich freiherr von zinck] - ms 0349",
+  "barcode_de15": [
+    "7013993398"
+  ],
+  "record_id": "380127997",
+  "callnumber_de15": [
+    "ms.0349",
+    "ms 0349"
+  ],
+  "date_de15": "2013-03-19t10:19:01z",
+  "title_alt": [
+    "ms.0349"
+  ],
+  "rvk_facet": [
+    "no subject assigned"
+  ],
+  "source_id": "0",
+  "format_degla1": [
+    "manuscript"
+  ],
+  "collcode_de15": [
+    "magazin / sonstige"
+  ],
+  "_version_": 1584423396653924400,
+  "geogr_code": [
+    "not assigned"
+  ],
+  "geogr_code_person": [
+    "not assigned"
+  ],
+  "finc_class_facet": [
+    "not assigned"
+  ]
+}
+

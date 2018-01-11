@@ -27,6 +27,7 @@ import org.junit.Test;
  */
 public class ArgParserTest {
     private ArgParser parser;
+    private String testFileName = "MS_152.xml";
 
     @Test
     public void testArgs() {
@@ -34,13 +35,13 @@ public class ArgParserTest {
         final String[] args;
         if (!new File(OUTPUT_DIR).exists()) {
             String path = get(".").toAbsolutePath().normalize().getParent().toString();
-            args = new String[]{"-r", path + "/xslt/src/test/resources/MS_152.xml",
+            args = new String[]{"-r", path + "/xslt/src/test/resources/" + testFileName,
                     "-x",
                     path + "/xslt/src/main/resources/de.ubleipzig.metsmods2marc/extract-mods.xsl",
                     "-d", "/tmp"};
         } else {
             String path = get(".").toAbsolutePath().normalize().getParent().toString();
-            args = new String[]{"-r", path + "/xslt/src/test/resources/MS_152.xml",
+            args = new String[]{"-r", path + "/xslt/src/test/resources/" +testFileName,
                     "-x",
                     path + "/xslt/src/main/resources/de.ubleipzig.metsmods2marc/extract-mods.xsl",
                     "-d", OUTPUT_DIR};

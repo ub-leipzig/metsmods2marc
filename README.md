@@ -21,4 +21,4 @@ example:
 
 ### Output
 
-See [example](https://github.com/ub-leipzig/metsmods2marc/blob/master/xslt/src/test/resources/marc-out.xml)
+See [example](https://github.com/ub-leipzig/metsmods2marc/blob/master/xslt/src/test/resources/marc-output_15:32:11.860.xml)
