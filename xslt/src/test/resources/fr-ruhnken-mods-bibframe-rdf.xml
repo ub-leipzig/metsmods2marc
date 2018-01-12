@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:local="http://www.loc.org/namespace"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:marc="http://www.loc.gov/MARC21/slim">
+    <bf:Work rdf:about="http://bibframe.org/resources/0007186275">
+        <bf:authorizedAccessPoint>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:authorizedAccessPoint>
+        <bf:authorizedAccessPoint xml:lang="x-bf-hash">ruhnkeniietaliorumepistolaeadernesti-ms0350</bf:authorizedAccessPoint>
+        <bf:workTitle rdf:resource="http://bibframe.org/resources/0007186275title1"/>
+        <bf:title>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
+        <bf:title xml:lang="x-bf-sort">[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
+        <bf:creator rdf:resource="http://bibframe.org/resources/0007186275person3"/>
+        <crp xmlns="http://id.loc.gov/vocabulary/relators/"
+             rdfs:resource="http://bibframe.org/resources/0007186275person4"/>
+        <bf:language>
+            <bf:Language>
+                <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/lat"/>
+                <bf:languageSource>iso639-2b</bf:languageSource>
+            </bf:Language>
+        </bf:language>
+        <bf:genre rdf:resource="http://bibframe.org/resources/0007186275genre6"/>
+        <bf:otherEdition rdf:resource="http://bibframe.org/resources/(de-576)380132060otherVersion12"/>
+    </bf:Work>
+    <bf:Instance rdf:about="http://bibframe.org/resources/0007186275instance13">
+        <rdf:type rdf:resource="http://bibframe.org/vocab/Manuscript"/>
+        <bf:instanceTitle rdf:resource="http://bibframe.org/resources/0007186275title1"/>
+        <bf:titleVariation rdf:resource="http://bibframe.org/resources/0007186275titleVariation2"/>
+        <bf:title>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
+        <bf:title xml:lang="x-bf-sort">[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
+        <bf:providerStatement>leiden, paris [u.a.], [mitte d. 18. jh.]1748xx1748</bf:providerStatement>
+        <bf:modeOfIssuance>monographic</bf:modeOfIssuance>
+        <bf:carrierCategory rdf:resource="http://bibframe.org/resources/0007186275genre1"/>
+        <bf:carrierCategory rdf:resource="http://bibframe.org/resources/0007186275genre2"/>
+        <bf:extent>92 bl. ; 27,5 x 22,5.</bf:extent>
+        <bf:note>kurzaufnahme der handschrift. - quelle: döring, detlef: die neuzeitlichen
+            handschriften der nullgruppe, teil 2: (ms 0301 - 0600). - wiesbaden : harrassowitz, 2002. - (katalog der
+            handschriften der universitätsbibliothek leipzig : n.f. ; 1,2)
+        </bf:note>
+        <bf:instanceOf rdf:resource="http://bibframe.org/resources/0007186275"/>
+    </bf:Instance>
+    <bf:Annotation rdf:about="http://bibframe.org/resources/0007186275annotation13">
+        <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/rakwb"/>
+        <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/de-576"/>
+        <bf:creationDate>130319</bf:creationDate>
+        <bf:changeDate>20130702142005.0</bf:changeDate>
+
+        <bf:generationProcess>Converted from MODS to BIBFRAME using MODS_BIBFRAME.xsl (2018-01-12T09:33:19.151+01:00)</bf:generationProcess>
+        <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/ger"/>
+        <bf:annotates rdf:resource="http://bibframe.org/resources/0007186275"/>
+    </bf:Annotation>
+    <bf:Title rdf:about="http://bibframe.org/resources/0007186275title1">
+        <bf:titleValue>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:titleValue>
+    </bf:Title>
+    <bf:Title rdf:about="http://bibframe.org/resources/0007186275titleVariation2">
+        <bf:titleValue>ms.0350</bf:titleValue>
+    </bf:Title>
+    <bf:Person rdf:about="http://bibframe.org/resources/0007186275person3">
+        <bf:label>ruhnken, david 1723 - 1798</bf:label>
+        <bf:authorizedAccessPoint>ruhnken, david 1723 - 1798</bf:authorizedAccessPoint>
+    </bf:Person>
+    <bf:Person rdf:about="http://bibframe.org/resources/0007186275person4">
+        <bf:label>ernesti, johann august 1707 - 1781</bf:label>
+        <bf:authorizedAccessPoint>ernesti, johann august 1707 - 1781</bf:authorizedAccessPoint>
+    </bf:Person>
+    <bf:Category rdf:about="http://bibframe.org/resources/0007186275genre6">
+        <bf:categorySource>marcgt</bf:categorySource>
+        <bf:categoryType>catalog</bf:categoryType>
+        <bf:categoryValue>catalog</bf:categoryValue>
+    </bf:Category>
+    <bf:Language rdf:about="http://bibframe.org/resources/0007186275languages8">
+        <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/lat"/>
+        <bf:languageSource>iso639-2b</bf:languageSource>
+    </bf:Language>
+    <bf:Work rdf:about="http://bibframe.org/resources/(de-576)380132060relatedItem12">
+        <bf:authorizedAccessPoint>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:authorizedAccessPoint>
+        <bf:authorizedAccessPoint xml:lang="x-bf-hash">ruhnkeniietaliorumepistolaeadernesti-ms0350</bf:authorizedAccessPoint>
+        <bf:workTitle rdf:resource="http://bibframe.org/resources/(de-576)380132060relatedItemotherVersionTitle1"/>
+        <bf:title>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
+        <bf:title xml:lang="x-bf-sort">[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
+        <bf:contributor rdf:resource="http://bibframe.org/resources/(de-576)380132060agentotherVersionTitle3"/>
+    </bf:Work>
+    <bf:Instance rdf:about="http://bibframe.org/resources/(de-576)380132060relatedItem12instance3">
+        <bf:instanceTitle rdf:resource="http://bibframe.org/resources/(de-576)380132060relatedItemotherVersionTitle1"/>
+        <bf:title>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
+        <bf:title xml:lang="x-bf-sort">[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
+        <bf:local>
+            <bf:Identifier>
+                <bf:identifierValue>(de-576)380132060</bf:identifierValue>
+                <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/local"/>
+            </bf:Identifier>
+        </bf:local>
+        <bf:instanceOf rdf:resource="http://bibframe.org/resources/(de-576)380132060relatedItem12"/>
+    </bf:Instance>
+    <bf:Title rdf:about="http://bibframe.org/resources/(de-576)380132060relatedItemotherVersionTitle1">
+        <bf:titleValue>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:titleValue>
+    </bf:Title>
+    <bf:Agent rdf:about="http://bibframe.org/resources/(de-576)380132060agentotherVersionTitle3">
+        <bf:label>ruhnken, david</bf:label>
+        <bf:authorizedAccessPoint>ruhnken, david</bf:authorizedAccessPoint>
+    </bf:Agent>
+    <bf:Category rdf:about="http://bibframe.org/resources/0007186275genre1">
+        <bf:categorySource>marcform</bf:categorySource>
+        <bf:categoryType>print</bf:categoryType>
+        <bf:categoryValue>print</bf:categoryValue>
+    </bf:Category>
+    <bf:Category rdf:about="http://bibframe.org/resources/0007186275genre2">
+        <bf:categorySource>marccategory</bf:categorySource>
+        <bf:categoryType>text</bf:categoryType>
+        <bf:categoryValue>text</bf:categoryValue>
+    </bf:Category>
+</rdf:RDF>

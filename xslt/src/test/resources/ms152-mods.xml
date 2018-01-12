@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns="http://www.loc.gov/mods/v3"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:local="http://www.loc.org/namespace"
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <mods version="3.6">
+        <titleInfo>
+            <title>[Theologische Sammelhandschrift] - Ms 152</title>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Ms.152 Cod.152 Cod 152 Cod. Lips. 152</title>
+        </titleInfo>
+        <typeOfResource manuscript="yes">text</typeOfResource>
+        <genre authority="marcgt">catalog</genre>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">00</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">S.l.</placeTerm>
+            </place>
+            <dateCreated>[14. Jh.]</dateCreated>
+            <dateModified>ad14</dateModified>
+            <dateCreated encoding="marc">1301xx</dateCreated>
+            <dateIssued encoding="marc">1301</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <form authority="marccategory">text</form>
+            <extent>122 Bl.</extent>
+        </physicalDescription>
+        <note>Kurzaufnahme der Handschrift. - Quelle: Helssig, Rudolf: Die lateinischen und
+            deutschen Handschriften der Universitätsbibliothek Leipzig, Bd. 1: Die theologischen Handschriften. Teil
+            1. - Unveränd. Nachdr. der Aufl. 1926. - Wiesbaden : Harrassowitz, 1995. - (Katalog der Handschriften
+            der Universitätsbibliothek Leipzig ; 4)
+        </note>
+        <location>
+            <physicalLocation>DE-15</physicalLocation>
+        </location>
+        <location>
+            <url displayLabel="electronic resource">http://www.manuscripta-mediaevalia.de/obj31560861.html</url>
+        </location>
+        <relatedItem>
+            <location>
+                <url displayLabel="Handschriftenkatalog">http://www.manuscripta-mediaevalia.de/obj31560861.html</url>
+            </location>
+        </relatedItem>
+        <recordInfo>
+            <descriptionStandard>rakwb</descriptionStandard>
+            <recordContentSource authority="marcorg">DE-576</recordContentSource>
+            <recordCreationDate encoding="marc">110324</recordCreationDate>
+            <recordChangeDate encoding="iso8601">20110728102508.0</recordChangeDate>
+            <recordIdentifier source="DE-576">0001140429</recordIdentifier>
+            <recordOrigin>
+                Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6_XSL2-0.xsl (Revision 2.31 2016/3/15)
+            </recordOrigin>
+            <languageOfCataloging>
+                <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+            </languageOfCataloging>
+        </recordInfo>
+    </mods>
+</modsCollection>

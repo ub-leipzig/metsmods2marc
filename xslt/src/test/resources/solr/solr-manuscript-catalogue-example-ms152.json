@@ -1,0 +1,950 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1,
+    "params": {
+      "q": "title:\"*Ms 152\"",
+      "facet.field": "format",
+      "indent": "true",
+      "wt": "json",
+      "facet": "on",
+      "_": "1515756501837"
+    }
+  },
+  "response": {
+    "numFound": 5,
+    "start": 0,
+    "docs": [
+      {
+        "facet_coll": [
+          "sid-0"
+        ],
+        "mega_collection": [
+          "Verbunddaten SWB"
+        ],
+        "oclc_num": [
+          "712579864"
+        ],
+        "publishDate": [
+          "14. Jh"
+        ],
+        "spelling": [
+          "[Theologische Sammelhandschrift] - Ms 152 Ms.152 Cod.152 Cod 152 Cod. Lips. 152 [S.l.], [14. Jh.] 122 Bl. Pergament Kurzaufnahme der Handschrift. - Quelle: Helssig, Rudolf: Die lateinischen und deutschen Handschriften der Universitätsbibliothek Leipzig, Bd. 1: Die theologischen Handschriften. Teil 1. - Unveränd. Nachdr. der Aufl. 1926. - Wiesbaden : Harrassowitz, 1995. - (Katalog der Handschriften der Universitätsbibliothek Leipzig ; 4)"
+        ],
+        "language": [
+          "Latin"
+        ],
+        "itemdata": "{\"DE-15\":[{\"bc\":\"7006414076\",\"cn\":\"Ms.152\"}]}",
+        "timecode": [
+          "1301 – 1400"
+        ],
+        "institution": [
+          "DE-15"
+        ],
+        "id": "0001140429",
+        "barcode": [
+          "(DE-15)7006414076"
+        ],
+        "format": [
+          "Manuscript"
+        ],
+        "publishPlace": [
+          "[S.l.],"
+        ],
+        "format_de540": [
+          "Manuscript"
+        ],
+        "callnumber_de15_ct_mv": [
+          "Ms.152",
+          "Cod 152",
+          "Cod Lips 152",
+          "Cod.152",
+          "Cod.Lips.152",
+          "Ms 152"
+        ],
+        "illustrated": "Not Illustrated",
+        "branch_de15": [
+          "Bibliotheca Albertina"
+        ],
+        "branch_nrw": [
+          "Local Holdings"
+        ],
+        "format_nrw": [
+          "Manuscript"
+        ],
+        "access_facet": "Local Holdings",
+        "is_hierarchy_id": "0001140429",
+        "format_de15": [
+          "Manuscript"
+        ],
+        "is_hierarchy_title": "[Theologische Sammelhandschrift] - Ms 152",
+        "format_dezi4": [
+          "e-Book"
+        ],
+        "imprint": "[S.l.], [14. Jh.]",
+        "rsn": [
+          "(DE-15)2376441"
+        ],
+        "title": "[Theologische Sammelhandschrift] - Ms 152",
+        "spellingShingle": [
+          "[Theologische Sammelhandschrift] - Ms 152"
+        ],
+        "title_full": "[Theologische Sammelhandschrift] - Ms 152",
+        "title_fullStr": "[Theologische Sammelhandschrift] - Ms 152",
+        "title_full_unstemmed": "[Theologische Sammelhandschrift] - Ms 152",
+        "fullrecord": "01275ctm a2200325   4500001001100000003000700011005001700018007000300035008004100038016002100079035002500100040003100125041000800156046001700164245004600181246004200227260002300269300001200292340001400304500033200318856008100650935001300731856007800744982002500822969001300847983001900860969000700879852003200886980003100918\u001e0001140429\u001eDE-576\u001e20110728102508.0\u001etu\u001e110324s1301    xx             00 0 lat c\u001e  \u001fa(OCoLC)712579864\u001e  \u001fa(DE-599)BSZ339310030\u001e  \u001faDE-576\u001fbger\u001fcDE-576\u001ferakwb\u001e0 \u001falat\u001e  \u001fjad14\u001f2DE-576\u001e10\u001fa[Theologische Sammelhandschrift] - Ms 152\u001e30\u001faMs.152 Cod.152 Cod 152 Cod. Lips. 152\u001e  \u001fa[S.l.],\u001fc[14. Jh.]\u001e  \u001fa122 Bl.\u001e  \u001faPergament\u001e  \u001faKurzaufnahme der Handschrift. - Quelle: Helssig, Rudolf: Die lateinischen und deutschen Handschriften der Universitätsbibliothek Leipzig, Bd. 1: Die theologischen Handschriften. Teil 1. - Unveränd. Nachdr. der Aufl. 1926. - Wiesbaden : Harrassowitz, 1995. - (Katalog der Handschriften der Universitätsbibliothek Leipzig ; 4)\u001e42\u001fuhttp://www.manuscripta-mediaevalia.de/obj31560861.html\u001f3Handschriftenkatalog\u001e  \u001fbhandschr\u001e  \u001f9DE-15\u001fuhttp://www.manuscripta-mediaevalia.de/obj31560861.html\u001find14\u001find2 \u001e  \u001fa(DE-15)7006414076\u001fx1\u001e  \u001fbKeine\u001fx1\u001e  \u001fa(DE-15)2376441\u001e  \u001fcAH\u001e  \u001faDE-15\u001fz2011-07-28T10:24:45Z\u001e  \u001fa339310030\u001fb0\u001fc201403061351\u001e\u001d",
+        "callnumber_de15_cns_mv": [
+          "Ms.152",
+          "Cod 152",
+          "Cod Lips 152",
+          "Cod.152",
+          "Cod.Lips.152",
+          "Ms 152"
+        ],
+        "recordtype": "marcfinc",
+        "publishDateSort": "1301",
+        "signatur": [
+          "(DE-15)Ms.152",
+          "(DE-15)Cod 152",
+          "(DE-15)Cod Lips 152",
+          "(DE-15)Cod.152",
+          "(DE-15)Cod.Lips.152",
+          "(DE-15)Ms 152"
+        ],
+        "facet_avail": [
+          "Local"
+        ],
+        "format_ded117": [
+          "Manuscript"
+        ],
+        "physical": [
+          "122 Bl."
+        ],
+        "multipart_set": " ",
+        "title_sort": "[theologische sammelhandschrift] - ms 152",
+        "footnote": [
+          "Kurzaufnahme der Handschrift. - Quelle: Helssig, Rudolf: Die lateinischen und deutschen Handschriften der Universitätsbibliothek Leipzig, Bd. 1: Die theologischen Handschriften. Teil 1. - Unveränd. Nachdr. der Aufl. 1926. - Wiesbaden : Harrassowitz, 1995. - (Katalog der Handschriften der Universitätsbibliothek Leipzig ; 4)"
+        ],
+        "format_del189": [
+          "Book"
+        ],
+        "title_short": "[Theologische Sammelhandschrift] - Ms 152",
+        "barcode_de15": [
+          "7006414076"
+        ],
+        "url": [
+          "http://www.manuscripta-mediaevalia.de/obj31560861.html"
+        ],
+        "record_id": "339310030",
+        "callnumber_de15": [
+          "Ms.152",
+          "Cod 152",
+          "Cod Lips 152",
+          "Cod.152",
+          "Cod.Lips.152",
+          "Ms 152"
+        ],
+        "date_de15": "2011-07-28T08:24:45Z",
+        "title_alt": [
+          "Ms.152 Cod.152 Cod 152 Cod. Lips. 152"
+        ],
+        "rvk_facet": [
+          "No subject assigned"
+        ],
+        "source_id": "0",
+        "format_degla1": [
+          "Manuscript"
+        ],
+        "collcode_de15": [
+          "Magazin / Sonstige"
+        ],
+        "_version_": 1585005172910719000,
+        "geogr_code": [
+          "not assigned"
+        ],
+        "geogr_code_person": [
+          "not assigned"
+        ],
+        "finc_class_facet": [
+          "not assigned"
+        ]
+      },
+      {
+        "facet_coll": [
+          "sid-0"
+        ],
+        "mega_collection": [
+          "Verbunddaten SWB"
+        ],
+        "oclc_num": [
+          "712579957"
+        ],
+        "publishDate": [
+          "14. Jh"
+        ],
+        "spelling": [
+          "[Theologische Sammelhandschrift] - Ms 152 [Mikroform] Ms.152 Cod.152 Cod 152 Cod. Lips. 152 [S.l.], [14. Jh.] 122 Bl. Pergament Kurzaufnahme der Handschrift. - Quelle: Helssig, Rudolf: Die lateinischen und deutschen Handschriften der Universitätsbibliothek Leipzig, Bd. 1: Die theologischen Handschriften. Teil 1. - Unveränd. Nachdr. der Aufl. 1926. - Wiesbaden : Harrassowitz, 1995. - (Katalog der Handschriften der Universitätsbibliothek Leipzig ; 4) Mikrofilm-Ausg. Leipzig UB 2008 |2008|||||||||| 1 Mikrofilm UB Leipzig Ms 152"
+        ],
+        "language": [
+          "Latin"
+        ],
+        "itemdata": "{\"DE-15\":[{\"bc\":\"0019115857\",\"cn\":\"01F-2011-133\"}]}",
+        "timecode": [
+          "1301 – 1400"
+        ],
+        "institution": [
+          "DE-15"
+        ],
+        "id": "0001140435",
+        "barcode": [
+          "(DE-15)0019115857"
+        ],
+        "format": [
+          "Microfilm"
+        ],
+        "publishPlace": [
+          "[S.l.],"
+        ],
+        "format_de540": [
+          "Microform"
+        ],
+        "callnumber_de15_ct_mv": [
+          "01F-2011-133"
+        ],
+        "illustrated": "Not Illustrated",
+        "branch_de15": [
+          "Bibliotheca Albertina"
+        ],
+        "branch_nrw": [
+          "Local Holdings"
+        ],
+        "format_nrw": [
+          "Microform"
+        ],
+        "access_facet": "Local Holdings",
+        "is_hierarchy_id": "0001140435",
+        "format_de15": [
+          "Microform"
+        ],
+        "is_hierarchy_title": "[Theologische Sammelhandschrift] - Ms 152",
+        "format_dezi4": [
+          "e-Book"
+        ],
+        "imprint": "[S.l.], [14. Jh.]",
+        "rsn": [
+          "(DE-15)2376447"
+        ],
+        "title": "[Theologische Sammelhandschrift] - Ms 152",
+        "spellingShingle": [
+          "[Theologische Sammelhandschrift] - Ms 152"
+        ],
+        "title_full": "[Theologische Sammelhandschrift] - Ms 152",
+        "title_fullStr": "[Theologische Sammelhandschrift] - Ms 152",
+        "title_full_unstemmed": "[Theologische Sammelhandschrift] - Ms 152",
+        "fullrecord": "01432cam a2200361   4500001001100000003000700011005001700018007001400035008004100049016002100090035002500111040003100136041000800167046001700175245005900192246004200251260002300293300001200316340001400328500033200342533006900674535002300743856008100766935000900847935000900856856007800865982002500943969001300968983001900981969000701000852003201007980003101039\u001e0001140435\u001eDE-576\u001e20110812134021.0\u001ehu uuu---uuuu\u001e110324s1301    xx      a     000 0 lat c\u001e  \u001fa(OCoLC)712579957\u001e  \u001fa(DE-599)BSZ339310596\u001e  \u001faDE-576\u001fbger\u001fcDE-576\u001ferakwb\u001e0 \u001falat\u001e  \u001fjad14\u001f2DE-576\u001e10\u001fa[Theologische Sammelhandschrift] - Ms 152\u001fh[Mikroform]\u001e30\u001faMs.152 Cod.152 Cod 152 Cod. Lips. 152\u001e  \u001fa[S.l.],\u001fc[14. Jh.]\u001e  \u001fa122 Bl.\u001e  \u001faPergament\u001e  \u001faKurzaufnahme der Handschrift. - Quelle: Helssig, Rudolf: Die lateinischen und deutschen Handschriften der Universitätsbibliothek Leipzig, Bd. 1: Die theologischen Handschriften. Teil 1. - Unveränd. Nachdr. der Aufl. 1926. - Wiesbaden : Harrassowitz, 1995. - (Katalog der Handschriften der Universitätsbibliothek Leipzig ; 4)\u001e  \u001faMikrofilm-Ausg.\u001fbLeipzig\u001fcUB\u001fd2008\u001f7|2008||||||||||\u001fe1 Mikrofilm\u001e1 \u001faUB Leipzig\u001fgMs 152\u001e42\u001fuhttp://www.manuscripta-mediaevalia.de/obj31560861.html\u001f3Handschriftenkatalog\u001e  \u001fblkop\u001e  \u001fchand\u001e  \u001f9DE-15\u001fuhttp://www.manuscripta-mediaevalia.de/obj31560861.html\u001find14\u001find2 \u001e  \u001fa(DE-15)0019115857\u001fx1\u001e  \u001fbKeine\u001fx1\u001e  \u001fa(DE-15)2376447\u001e  \u001fcMF\u001e  \u001faDE-15\u001fz2011-03-24T15:04:14Z\u001e  \u001fa339310596\u001fb0\u001fc201403061351\u001e\u001d",
+        "callnumber_de15_cns_mv": [
+          "01F-2011-133"
+        ],
+        "recordtype": "marcfinc",
+        "publishDateSort": "1301",
+        "signatur": [
+          "(DE-15)01F-2011-133"
+        ],
+        "facet_avail": [
+          "Local"
+        ],
+        "format_ded117": [
+          "Microform"
+        ],
+        "physical": [
+          "122 Bl."
+        ],
+        "multipart_set": " ",
+        "title_sort": "[theologische sammelhandschrift] - ms 152",
+        "footnote": [
+          "Kurzaufnahme der Handschrift. - Quelle: Helssig, Rudolf: Die lateinischen und deutschen Handschriften der Universitätsbibliothek Leipzig, Bd. 1: Die theologischen Handschriften. Teil 1. - Unveränd. Nachdr. der Aufl. 1926. - Wiesbaden : Harrassowitz, 1995. - (Katalog der Handschriften der Universitätsbibliothek Leipzig ; 4)"
+        ],
+        "format_del189": [
+          "Microform"
+        ],
+        "title_short": "[Theologische Sammelhandschrift] - Ms 152",
+        "barcode_de15": [
+          "0019115857"
+        ],
+        "url": [
+          "http://www.manuscripta-mediaevalia.de/obj31560861.html"
+        ],
+        "record_id": "339310596",
+        "callnumber_de15": [
+          "01F-2011-133"
+        ],
+        "date_de15": "2011-03-24T14:04:14Z",
+        "title_alt": [
+          "Ms.152 Cod.152 Cod 152 Cod. Lips. 152"
+        ],
+        "rvk_facet": [
+          "No subject assigned"
+        ],
+        "source_id": "0",
+        "format_degla1": [
+          "Microform"
+        ],
+        "collcode_de15": [
+          "Magazin / Sonstige"
+        ],
+        "_version_": 1585005173178105900,
+        "geogr_code": [
+          "not assigned"
+        ],
+        "geogr_code_person": [
+          "not assigned"
+        ],
+        "finc_class_facet": [
+          "not assigned"
+        ]
+      },
+      {
+        "author_variant": [
+          "r w c rw rwc"
+        ],
+        "mega_collection": [
+          "Verbunddaten SWB",
+          "SWB SSG UB Heidelberg"
+        ],
+        "oclc_num": [
+          "311325498"
+        ],
+        "publishDate": [
+          "1986"
+        ],
+        "spelling": [
+          "Corrie, Rebecca W. (DE-576)166936324 The Conradin Bible, Ms. 152, the Walters Art Gallery : manuscript illumination in a thirteenth-century Italian atelier / by Rebecca Wells Corrie 1986 2, 560, [162] S. : zahlr. Ill. Cambridge, Mass., Harvard Univ., Diss., 1986. 580 ff. bvb u (DE-588)4421204-5 (DE-576)21226558X gnd Konradin-Bibel DE-576"
+        ],
+        "language": [
+          "English"
+        ],
+        "itemdata": "{}",
+        "institution": [
+          "DE-16",
+          "DE-1989"
+        ],
+        "geogr_code": [
+          "America",
+          "USA"
+        ],
+        "id": "0014802431",
+        "author": [
+          "Corrie, Rebecca W."
+        ],
+        "spellingShingle": [
+          "Corrie, Rebecca W.",
+          "The Conradin Bible, Ms. 152, the Walters Art Gallery : manuscript illumination in a thirteenth-century Italian atelier /"
+        ],
+        "format": [
+          "Thesis"
+        ],
+        "author_role": [
+          ""
+        ],
+        "marc024a_ct_mv": [
+          "Order no. 86-20447"
+        ],
+        "format_de540": [
+          "Thesis"
+        ],
+        "illustrated": "Illustrated",
+        "branch_nrw": [
+          "Local Holdings"
+        ],
+        "format_nrw": [
+          "Thesis"
+        ],
+        "access_facet": "Local Holdings",
+        "is_hierarchy_id": "0014802431",
+        "format_de15": [
+          "Thesis"
+        ],
+        "is_hierarchy_title": "The Conradin Bible, Ms. 152, the Walters Art Gallery : manuscript illumination in a thirteenth-century Italian atelier",
+        "format_dezi4": [
+          "e-Book"
+        ],
+        "imprint": "1986",
+        "title": "The Conradin Bible, Ms. 152, the Walters Art Gallery : manuscript illumination in a thirteenth-century Italian atelier /",
+        "format_del152": [
+          "Buch"
+        ],
+        "title_full": "The Conradin Bible, Ms. 152, the Walters Art Gallery : manuscript illumination in a thirteenth-century Italian atelier /",
+        "title_fullStr": "The Conradin Bible, Ms. 152, the Walters Art Gallery : manuscript illumination in a thirteenth-century Italian atelier /",
+        "title_full_unstemmed": "The Conradin Bible, Ms. 152, the Walters Art Gallery : manuscript illumination in a thirteenth-century Italian atelier /",
+        "fullrecord": "01248cam a2200409   4500001001100000003000700011005001700018007000300035008004100038016002100079024002300100035002500123040003100148041000800179041001000187084001500197100004200212245015100254260000900405300003600414502005000450591001600500689006500516689001100581935001000592935000700602900002600609950001900635950002300654950001200677950001600689951001000705935002600715852003200741852003400773980003100807\u001e0014802431\u001eDE-576\u001e20100319210800.0\u001etu\u001e900914s1986    xx       m    000 0 eng c\u001e  \u001fa(OCoLC)311325498\u001e8 \u001faOrder no. 86-20447\u001e  \u001fa(DE-599)BSZ021607338\u001e  \u001faDE-576\u001fbger\u001fcDE-576\u001ferakwb\u001e0 \u001faeng\u001e07\u001faengl.\u001e  \u001fa9,10\u001f2ssgn\u001e1 \u001faCorrie, Rebecca W.\u001f0(DE-576)166936324\u001e14\u001faThe Conradin Bible, Ms. 152, the Walters Art Gallery :\u001fbmanuscript illumination in a thirteenth-century Italian atelier /\u001fcby Rebecca Wells Corrie\u001e  \u001fc1986\u001e  \u001fa2, 560, [162] S. :\u001fbzahlr. Ill.\u001e  \u001faCambridge, Mass., Harvard Univ., Diss., 1986.\u001e  \u001fa580 ff. bvb\u001e00\u001fdu\u001f0(DE-588)4421204-5\u001f0(DE-576)21226558X\u001f2gnd\u001ftKonradin-Bibel\u001e0 \u001f5DE-576\u001e  \u001fbdruck\u001e  \u001fchs\u001e  \u001faWells Corrie, Rebecca\u001e  \u001faBaltimore, Md.\u001e  \u001faWalters Art Museum\u001e  \u001faMs. 152\u001e  \u001faHandschrift\u001e  \u001faXD-US\u001e  \u001faSWB SSG UB Heidelberg\u001e  \u001faDE-16\u001fz2015-07-28T14:24:03Z\u001e  \u001faDE-1989\u001fz2015-07-28T14:24:03Z\u001e  \u001fa021607338\u001fb0\u001fc201507281420\u001e\u001d",
+        "author_sort": "Corrie, Rebecca W.",
+        "recordtype": "marcfinc",
+        "publishDateSort": "1986",
+        "facet_avail": [
+          "Local"
+        ],
+        "topic_id": [
+          "4421204-5"
+        ],
+        "vf1_author": "Corrie, Rebecca W.",
+        "format_ded117": [
+          "Thesis"
+        ],
+        "physical": [
+          "2, 560, [162] S. : zahlr. Ill."
+        ],
+        "title_sub": "manuscript illumination in a thirteenth-century Italian atelier /",
+        "dissertation_note": [
+          "Cambridge, Mass., Harvard Univ., Diss., 1986."
+        ],
+        "multipart_set": " ",
+        "title_sort": "conradin bible, ms. 152, the walters art gallery :manuscript illumination in a thirteenth-century italian atelier",
+        "format_del189": [
+          "Book"
+        ],
+        "title_short": "The Conradin Bible, Ms. 152, the Walters Art Gallery :",
+        "marc_error": [
+          "org.marc4j.ErrorHandler$Error:Minor Error  : Subfield tag is an invalid uppercase character, changing it to lower case. --- [ 689 : D ]"
+        ],
+        "record_id": "021607338",
+        "rvk_facet": [
+          "No subject assigned"
+        ],
+        "ismn": [
+          "Order no. 86-20447"
+        ],
+        "source_id": "0",
+        "format_degla1": [
+          "Thesis"
+        ],
+        "_version_": 1581818711967268900,
+        "geogr_code_person": [
+          "not assigned"
+        ],
+        "finc_class_facet": [
+          "not assigned"
+        ]
+      },
+      {
+        "mega_collection": [
+          "Verbunddaten SWB",
+          "Lizenzfreie Online-Ressourcen"
+        ],
+        "oclc_num": [
+          "723349082"
+        ],
+        "publishDate": [
+          "1740 (1740c)"
+        ],
+        "date_de520": "2017-10-19T08:24:13Z",
+        "spelling": [
+          "Ave verum corpus - Don Mus.Ms. 152 [Elektronische Ressource] : V (3), brasses, org; E|b / Anonymus Diplomatischer Titel:  [without title] [S.l.], 1740 (1740c) 6 parts ; 18 x 21 cm Quelle: manuscript. - Provenienz: Fürstlich Fürstenbergische Hofbibliothek, Donaueschingen. In der Orgelstimme (f1v) dasselbe Stück auch in D-dur. - Vermerk auf der S 1-Stimme: \"antonia\" Online-Ausg. Karlsruhe Badische Landesbibliothek 2017 |2017|||||||||| Online-Ressource Digitale Sammlungen der Badischen Landesbibliothek : Musikalien Musikalien der Fürstlich Fürstenbergischen Hofbibliothek Donaueschingen : Handschriften BLB Karlsruhe Don Mus.Ms. 152 Sacred songs Geistliche Gesänge Musikalien der Fürstlich Fürstenbergischen Hofbibliothek Donaueschingen. Handschriften (DE-576)336624395 don,mus,ms,152 Badische Landesbibliothek Digitale Sammlungen der Badischen Landesbibliothek. Musikalien (DE-576)332261603 don,mus,ms,152"
+        ],
+        "language": [
+          "Latin"
+        ],
+        "itemdata": "{}",
+        "date_del152": "2017-10-19T08:24:13Z",
+        "timecode": [
+          "1701 – 1800"
+        ],
+        "date_degla1": "2017-10-19T08:24:13Z",
+        "misc_de105": [
+          "EBOOK"
+        ],
+        "institution": [
+          "DE-105",
+          "DE-1156",
+          "DE-14",
+          "DE-15",
+          "DE-1972",
+          "DE-520",
+          "DE-Bn3",
+          "DE-Brt1",
+          "DE-Ch1",
+          "DE-D161",
+          "DE-Gla1",
+          "DE-Kn38",
+          "DE-L152",
+          "DE-L229",
+          "DE-Pl11",
+          "DE-Rs1",
+          "DE-Zi4",
+          "DE-Zwi2",
+          "LFER"
+        ],
+        "topic_facet": [
+          "Sacred songs",
+          "Geistliche Gesänge"
+        ],
+        "id": "0018607392",
+        "local_heading_facet_dezwi2": [
+          "Sacred songs",
+          "Geistliche Gesänge"
+        ],
+        "format": [
+          "ElectronicNotatedMusic"
+        ],
+        "publishPlace": [
+          "[S.l.],"
+        ],
+        "facet_music_notation": [
+          "Quelle"
+        ],
+        "marc024a_ct_mv": [
+          "urn:nbn:de:bsz:31-72595"
+        ],
+        "date_dech1": "2017-10-19T08:24:13Z",
+        "illustrated": "Not Illustrated",
+        "contents": [
+          "In der Orgelstimme (f1v) dasselbe Stück auch in D-dur. - Vermerk auf der S 1-Stimme: \"antonia\""
+        ],
+        "spellingShingle": [
+          "In der Orgelstimme (f1v) dasselbe Stück auch in D-dur. - Vermerk auf der S 1-Stimme: \"antonia\"",
+          "Sacred songs",
+          "Geistliche Gesänge",
+          "Quelle",
+          "Ave verum corpus - Don Mus.Ms. 152 V (3), brasses, org; E|b /"
+        ],
+        "format_de105": [
+          "Ebook",
+          "Electronic Resource",
+          "Book"
+        ],
+        "format_dech1": [
+          "Elektronische Ressource"
+        ],
+        "topic": [
+          "Sacred songs",
+          "Geistliche Gesänge",
+          "Quelle"
+        ],
+        "branch_nrw": [
+          "Electronic Resources"
+        ],
+        "date_dezi4": "2017-10-19T08:24:13Z",
+        "access_facet": "Electronic Resources",
+        "is_hierarchy_id": "0018607392",
+        "format_de15": [
+          "Musical Score"
+        ],
+        "is_hierarchy_title": "Ave verum corpus - Don Mus.Ms. 152 V (3), brasses, org; E|b",
+        "format_dezi4": [
+          "e-Book"
+        ],
+        "imprint": "[S.l.], 1740 (1740c)",
+        "date_dezwi2": "2017-10-19T08:24:13Z",
+        "title": "Ave verum corpus - Don Mus.Ms. 152 V (3), brasses, org; E|b /",
+        "date_de105": "2017-10-19T08:24:13Z",
+        "format_del152": [
+          "Noten"
+        ],
+        "title_full": "Ave verum corpus - Don Mus.Ms. 152 V (3), brasses, org; E|b /",
+        "title_fullStr": "Ave verum corpus - Don Mus.Ms. 152 V (3), brasses, org; E|b /",
+        "title_full_unstemmed": "Ave verum corpus - Don Mus.Ms. 152 V (3), brasses, org; E|b /",
+        "fullrecord": "03011cam a2200733   4500001001100000003000700011005001700018007001500035008004100050024003300091035002100124035002500145035002000170040003100190041000800221044001000229046001700239245010600256246004400362260002600406300002600432500009800458520010000556533025200656535003500908650001700943650002400960776012800984776012901112856007601241856011501317935000901432935001501441935000701456935000701463935002401470970001101494970000701505971001001512972001001522973000701532935000901539856006501548852003201613852003201645852003401677852003401711852003401745852003301779852003301812852003401845852003301879852003301912852003401945852003301979852003402012852003402046852003402080852003302114852003402147852003402181852003102215980003102246\u001e0018607392\u001eDE-576\u001e20170207120914.0\u001ecr uuu---uuuuu\u001e110406s1740    xx      s     000 0 lat c\u001e7 \u001faurn:nbn:de:bsz:31-72595\u001f2urn\u001e  \u001fa(OCoLC)723349082\u001e  \u001fa(DE-599)BSZ339912480\u001e  \u001fa(RISM)450019025\u001e  \u001faDE-576\u001fbger\u001fcDE-576\u001ferakwb\u001e  \u001falat\u001e  \u001faXA-DE\u001e  \u001fjad18\u001f2DE-576\u001e10\u001faAve verum corpus - Don Mus.Ms. 152\u001fh[Elektronische Ressource] :\u001fbV (3), brasses, org; E|b /\u001fcAnonymus\u001e1 \u001fiDiplomatischer Titel: \u001fa[without title]\u001e  \u001fa[S.l.],\u001fc1740 (1740c)\u001e  \u001fa6 parts ;\u001fc18 x 21 cm\u001e  \u001faQuelle: manuscript. - Provenienz: Fürstlich Fürstenbergische Hofbibliothek, Donaueschingen.\u001e  \u001faIn der Orgelstimme (f1v) dasselbe Stück auch in D-dur. - Vermerk auf der S 1-Stimme: \"antonia\"\u001e  \u001faOnline-Ausg.\u001fbKarlsruhe\u001fcBadische Landesbibliothek\u001fd2017\u001f7|2017||||||||||\u001feOnline-Ressource\u001ffDigitale Sammlungen der Badischen Landesbibliothek : Musikalien\u001ffMusikalien der Fürstlich Fürstenbergischen Hofbibliothek Donaueschingen : Handschriften\u001e1 \u001faBLB Karlsruhe\u001f3Don Mus.Ms. 152\u001e 4\u001faSacred songs\u001e 4\u001faGeistliche Gesänge\u001e10\u001faMusikalien der Fürstlich Fürstenbergischen Hofbibliothek Donaueschingen. Handschriften\u001fw(DE-576)336624395\u001fqdon,mus,ms,152\u001e1 \u001faBadische Landesbibliothek\u001ftDigitale Sammlungen der Badischen Landesbibliothek. Musikalien\u001fw(DE-576)332261603\u001fqdon,mus,ms,152\u001e40\u001fuhttp://digital.blb-karlsruhe.de/id/3726078\u001fxDigitalisierung\u001fzKostenfrei\u001e42\u001fuhttp://opac.rism.info/search?documentid=450019025\u001f3Nachweis im Internationalen Quellenlexikon der Musik (RISM)\u001e  \u001fbcofz\u001e  \u001fcmuno\u001fchand\u001e  \u001fdld\u001e  \u001fddm\u001e  \u001feRISM-A/II-450019025\u001e  \u001fdQuelle\u001e  \u001fcDN\u001e  \u001fcEBOOK\u001e  \u001fcEBOOK\u001e  \u001fcEB\u001e  \u001falfer\u001e  \u001f9LFER\u001fuhttp://digital.blb-karlsruhe.de/id/3726078\u001find14\u001find2 \u001e  \u001faDE-14\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-15\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-D161\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-Gla1\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-1972\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-520\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-Ch1\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-Kn38\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-Rs1\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-Bn3\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-Brt1\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-105\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-Zwi2\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-Pl11\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-L229\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-Zi4\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-1156\u001fz2017-10-19T10:24:13Z\u001e  \u001faDE-L152\u001fz2017-10-19T10:24:13Z\u001e  \u001faLFER\u001fz2017-10-19T10:24:13Z\u001e  \u001fa339912480\u001fb0\u001fc201711091125\u001e\u001d",
+        "recordtype": "marcfinc",
+        "publishDateSort": "1740",
+        "facet_avail": [
+          "Online"
+        ],
+        "physical": [
+          "6 parts ; 18 x 21 cm"
+        ],
+        "title_sub": "V (3), brasses, org; E|b /",
+        "local_heading_facet_del152": [
+          "Quelle"
+        ],
+        "multipart_set": " ",
+        "title_sort": "ave verum corpus - don mus.ms. 152v (3), brasses, org; e|b",
+        "footnote": [
+          "Quelle: manuscript. - Provenienz: Fürstlich Fürstenbergische Hofbibliothek, Donaueschingen."
+        ],
+        "title_short": "Ave verum corpus - Don Mus.Ms. 152",
+        "url": [
+          "http://digital.blb-karlsruhe.de/id/3726078",
+          "http://opac.rism.info/search?documentid=450019025"
+        ],
+        "format_de520": [
+          "eBook online"
+        ],
+        "record_id": "339912480",
+        "date_de15": "2017-10-19T08:24:13Z",
+        "title_alt": [
+          "[without title]"
+        ],
+        "rvk_facet": [
+          "No subject assigned"
+        ],
+        "ismn": [
+          "urn:nbn:de:bsz:31-72595"
+        ],
+        "source_id": "0",
+        "_version_": 1583694695743094800,
+        "geogr_code": [
+          "not assigned"
+        ],
+        "geogr_code_person": [
+          "not assigned"
+        ],
+        "finc_class_facet": [
+          "not assigned"
+        ]
+      },
+      {
+        "author_variant": [
+          "a b ab"
+        ],
+        "mega_collection": [
+          "Bayerische Staatsbibliothek Musik"
+        ],
+        "oclc_num": [
+          "844051822"
+        ],
+        "vf1_author2": [
+          "Metastasio, Pietro"
+        ],
+        "publishDate": [
+          "1766 (1766c)"
+        ],
+        "spelling": [
+          "Bernasconi, Andrea 1706-1784 (DE-588)12412609X aut Demofoonte - BSB Mus.ms. 152 Opera // di // Demofoonte // del Sigr. Bernasconi // Maestro di Capella // Atto Primo // [spine title, later:] Bernasconi, // Demafoonte[!] // 1 1766 (1766c) score (3vol.): 151, 108, 105f 20,5 x 25,5 cm Abschrift. - Alte Signatur: \"289-291\"; \"H\" (Bleistift). - In der vorliegenden Partitur ist die bei Metastasio aufgeführte Licenza nicht enthalten; die Oper endet mit dem Chor \"Par maggiore ogni diletto\" Maria Anna, Kurfüstin von Bayern Opern Metastasio, Pietro 1698-1782 textverf (DE-588)118733141 oth"
+        ],
+        "language": [
+          "Italian"
+        ],
+        "institution": [
+          "DE-1156",
+          "DE-14",
+          "DE-1972",
+          "DE-D117",
+          "DE-Kn38",
+          "DE-L152"
+        ],
+        "topic_facet": [
+          "Opern"
+        ],
+        "id": "0012927501",
+        "local_heading_facet_dezwi2": [
+          "Opern"
+        ],
+        "author": [
+          "Bernasconi, Andrea"
+        ],
+        "spellingShingle": [
+          "Bernasconi, Andrea",
+          "Opern",
+          "Quelle",
+          "Demofoonte - BSB Mus.ms. 152 Opera // di // Demofoonte // del Sigr. Bernasconi // Maestro di Capella // Atto Primo // [spine title, later:] Bernasconi, // Demafoonte[!] // 1"
+        ],
+        "format": [
+          "MusicalScore"
+        ],
+        "vf1_author2-role": [
+          "textverf"
+        ],
+        "author_role": [
+          "aut"
+        ],
+        "collection": [
+          "digit"
+        ],
+        "facet_music_notation": [
+          "Quelle"
+        ],
+        "marc024a_ct_mv": [
+          "urn:nbn:de:bvb:12-bsb00082149-3",
+          "BSB-Hss Mus.ms. 152",
+          "RISM 456008429"
+        ],
+        "format_de540": [
+          "Musical Score"
+        ],
+        "illustrated": "Not Illustrated",
+        "topic": [
+          "Opern",
+          "Quelle"
+        ],
+        "branch_nrw": [
+          "Electronic Resources"
+        ],
+        "format_nrw": [
+          "Musical Score"
+        ],
+        "author_id": [
+          "12412609X",
+          "118733141"
+        ],
+        "access_facet": "Electronic Resources",
+        "format_de15": [
+          "Musical Score"
+        ],
+        "format_dezi4": [
+          "e-Book"
+        ],
+        "imprint": "1766 (1766c)",
+        "title": "Demofoonte - BSB Mus.ms. 152 Opera // di // Demofoonte // del Sigr. Bernasconi // Maestro di Capella // Atto Primo // [spine title, later:] Bernasconi, // Demafoonte[!] // 1",
+        "format_del152": [
+          "Noten"
+        ],
+        "title_full": "Demofoonte - BSB Mus.ms. 152 Opera // di // Demofoonte // del Sigr. Bernasconi // Maestro di Capella // Atto Primo // [spine title, later:] Bernasconi, // Demafoonte[!] // 1",
+        "title_fullStr": "Demofoonte - BSB Mus.ms. 152 Opera // di // Demofoonte // del Sigr. Bernasconi // Maestro di Capella // Atto Primo // [spine title, later:] Bernasconi, // Demafoonte[!] // 1",
+        "title_full_unstemmed": "Demofoonte - BSB Mus.ms. 152 Opera // di // Demofoonte // del Sigr. Bernasconi // Maestro di Capella // Atto Primo // [spine title, later:] Bernasconi, // Demafoonte[!] // 1",
+        "fullrecord": "02035ndm a2200457 c 4500001001100000005001700011006001900028007001500047007000200062008004100064007000200105024004100107024002400148024001900172035002700191035002100218040001700239049001000256084001400266100005800280245017900338260001700517300005000534500020800584561003800792650001000830700006800840856026600908856009101174912001001265940001401275999004101289970001501330852003401345852003401379852003401413852003201447852003401479852003401513980003001547\u001e0012927501\u001e20130722        \u001em|||| o||u| ||||||\u001ecr|uuu---uuuuu\u001et\u001e130409s1766       |||| s|||||||| | ita d\u001eq\u001e7 \u001faurn:nbn:de:bvb:12-bsb00082149-3\u001f2urn\u001e8 \u001faBSB-Hss Mus.ms. 152\u001e8 \u001faRISM 456008429\u001e  \u001fa(DE-599)BVBBV040933559\u001e  \u001fa(OCoLC)844051822\u001e  \u001faDE-604\u001feaacr\u001e  \u001faDE-12\u001e  \u001fa9,2\u001f2ssgn\u001e1 \u001faBernasconi, Andrea\u001fd1706-1784\u001f0(DE-588)12412609X\u001f4aut\u001e10\u001faDemofoonte - BSB Mus.ms. 152\u001fbOpera // di // Demofoonte // del Sigr. Bernasconi // Maestro di Capella // Atto Primo // [spine title, later:] Bernasconi, // Demafoonte[!] // 1\u001e  \u001fc1766 (1766c)\u001e  \u001fascore (3vol.): 151, 108, 105f\u001fc20,5 x 25,5 cm\u001e  \u001faAbschrift. - Alte Signatur: \"289-291\"; \"H\" (Bleistift). - In der vorliegenden Partitur ist die bei Metastasio aufgeführte Licenza nicht enthalten; die Oper endet mit dem Chor \"Par maggiore ogni diletto\"\u001e0 \u001faMaria Anna, Kurfüstin von Bayern\u001e 4\u001faOpern\u001e1 \u001faMetastasio, Pietro\u001fd1698-1782\u001fetextverf\u001f0(DE-588)118733141\u001f4oth\u001e4 \u001fuhttp://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00082149-3\u001fxResolving-System\u001fzkostenfrei\u001f3Volltext // 2013 digitalisiert von: Bayerische Staatsbibliothek, München. Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Mus.ms. 152\u001e4 \u001fuhttp://opac.rism.info/search?documentid=456008429\u001fyZum Rism-OPAC\u001f3Zusätzliche Angaben\u001e  \u001fadigit\u001e1 \u001fqBSBRISM01\u001e  \u001faoai:aleph.bib-bvb.de:BVB01-025912472\u001e  \u001fcDN\u001fdQuelle\u001e  \u001faDE-1972\u001fz2015-11-12T15:31:46Z\u001e  \u001faDE-D117\u001fz2017-05-11T16:45:39Z\u001e  \u001faDE-1156\u001fz2015-10-28T09:53:00Z\u001e  \u001faDE-14\u001fz2015-06-10T10:25:42Z\u001e  \u001faDE-L152\u001fz2014-06-05T09:22:47Z\u001e  \u001faDE-Kn38\u001fz2015-11-12T15:31:46Z\u001e  \u001faBV040933559\u001fb12\u001fc20150610\u001e\u001d",
+        "author_sort": "Bernasconi, Andrea",
+        "recordtype": "marcfinc",
+        "publishDateSort": "1766",
+        "facet_avail": [
+          "Online"
+        ],
+        "vf1_author": "Bernasconi, Andrea",
+        "format_ded117": [
+          "Musical Score"
+        ],
+        "physical": [
+          "score (3vol.): 151, 108, 105f 20,5 x 25,5 cm"
+        ],
+        "title_sub": "Opera // di // Demofoonte // del Sigr. Bernasconi // Maestro di Capella // Atto Primo // [spine title, later:] Bernasconi, // Demafoonte[!] // 1",
+        "local_heading_facet_del152": [
+          "Quelle"
+        ],
+        "multipart_set": " ",
+        "title_sort": "demofoonte - bsb mus.ms. 152opera // di // demofoonte // del sigr. bernasconi // maestro di capella // atto primo // [spine title, later:] bernasconi, // demafoonte[!] // 1",
+        "footnote": [
+          "Abschrift. - Alte Signatur: \"289-291\"; \"H\" (Bleistift). - In der vorliegenden Partitur ist die bei Metastasio aufgeführte Licenza nicht enthalten; die Oper endet mit dem Chor \"Par maggiore ogni diletto\""
+        ],
+        "format_del189": [
+          "Musical Score"
+        ],
+        "facet_912a": [
+          "digit"
+        ],
+        "title_short": "Demofoonte - BSB Mus.ms. 152",
+        "url": [
+          "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00082149-3",
+          "http://opac.rism.info/search?documentid=456008429"
+        ],
+        "record_id": "BV040933559",
+        "rvk_facet": [
+          "No subject assigned"
+        ],
+        "ismn": [
+          "urn:nbn:de:bvb:12-bsb00082149-3",
+          "BSB-Hss Mus.ms. 152",
+          "RISM 456008429"
+        ],
+        "source_id": "12",
+        "format_degla1": [
+          "Musical Score"
+        ],
+        "_version_": 1576085786725449700,
+        "geogr_code": [
+          "not assigned"
+        ],
+        "geogr_code_person": [
+          "not assigned"
+        ],
+        "finc_class_facet": [
+          "not assigned"
+        ]
+      }
+    ]
+  },
+  "facet_counts": {
+    "facet_queries": {},
+    "facet_fields": {
+      "format": [
+        "ElectronicNotatedMusic",
+        1,
+        "Manuscript",
+        1,
+        "Microfilm",
+        1,
+        "MusicalScore",
+        1,
+        "Thesis",
+        1,
+        "Andenkenblatt",
+        0,
+        "ArtPrint",
+        0,
+        "Article",
+        0,
+        "AudioTape",
+        0,
+        "AudioVisualMedia",
+        0,
+        "Bild",
+        0,
+        "BluRayDisc",
+        0,
+        "Book",
+        0,
+        "BookPart",
+        0,
+        "Braille",
+        0,
+        "Buch",
+        0,
+        "Buchseite",
+        0,
+        "CD",
+        0,
+        "CD-ROM",
+        0,
+        "CDROM",
+        0,
+        "Charter",
+        0,
+        "DVD",
+        0,
+        "DVDAudio",
+        0,
+        "DVDROM",
+        0,
+        "DVDVideo",
+        0,
+        "DiscCartridge",
+        0,
+        "Drawing",
+        0,
+        "Druck",
+        0,
+        "ElectronicArticle",
+        0,
+        "ElectronicBook",
+        0,
+        "ElectronicBookPart",
+        0,
+        "ElectronicIntegratingResource",
+        0,
+        "ElectronicJournal",
+        0,
+        "ElectronicManuscript",
+        0,
+        "ElectronicMap",
+        0,
+        "ElectronicMusicalScore",
+        0,
+        "ElectronicNewspaper",
+        0,
+        "ElectronicResourceDataCarrier",
+        0,
+        "ElectronicResourceRemoteAccess",
+        0,
+        "ElectronicSerial",
+        0,
+        "ElectronicSoundRecordingMedium",
+        0,
+        "ElectronicThesis",
+        0,
+        "ElectronicVideo",
+        0,
+        "Erinnerungsblatt",
+        0,
+        "Exlibris",
+        0,
+        "FloppyDisk",
+        0,
+        "Fragment",
+        0,
+        "Freundschaftsbild",
+        0,
+        "Frontispiz",
+        0,
+        "IntegratingResource",
+        0,
+        "Journal",
+        0,
+        "KEINSACHBEGRIFF",
+        0,
+        "Kit",
+        0,
+        "LockerKey",
+        0,
+        "Map",
+        0,
+        "Microfiche",
+        0,
+        "Microform",
+        0,
+        "Mikroform",
+        0,
+        "MixedMaterials",
+        0,
+        "MotionPicture",
+        0,
+        "MusicRecording",
+        0,
+        "NaxosCD",
+        0,
+        "Newspaper",
+        0,
+        "NotatedMusic",
+        0,
+        "Periodical",
+        0,
+        "Photo",
+        0,
+        "PhysicalObject",
+        0,
+        "Placard",
+        0,
+        "Print",
+        0,
+        "Record",
+        0,
+        "ReliefPrint",
+        0,
+        "ResourceDataCarrier",
+        0,
+        "Serial",
+        0,
+        "Silhouettenbild",
+        0,
+        "Slide",
+        0,
+        "Software",
+        0,
+        "SoundCassette",
+        0,
+        "SoundDisc",
+        0,
+        "SoundRecording",
+        0,
+        "SoundRecordingMedium",
+        0,
+        "Stammbuchblatt",
+        0,
+        "Text",
+        0,
+        "Titelblatt",
+        0,
+        "Transparency",
+        0,
+        "Video",
+        0,
+        "VideoCassette",
+        0,
+        "VideoDisc",
+        0,
+        "VideoTape",
+        0,
+        "Widmungsbild",
+        0,
+        "Widmungsblatt",
+        0,
+        "Zeichnung",
+        0,
+        "eBook",
+        0,
+        "not assigned",
+        0
+      ]
+    },
+    "facet_dates": {},
+    "facet_ranges": {},
+    "facet_intervals": {},
+    "facet_heatmaps": {}
+  }
+}

@@ -4461,11 +4461,11 @@
                 </xsl:when>
                 <xsl:when test="not(contains(text(),':'))">
                     <!--  1 or 1<3  -->
-                    <xsl:if test="contains(text(),'<')">
+                    <xsl:if test="contains(text(),'&lt;')">
                         <!--  1<3  -->
-                        <xsl:value-of select="substring-before(text(),'<')"/>
+                        <xsl:value-of select="substring-before(text(),'&lt;')"/>
                     </xsl:if>
-                    <xsl:if test="not(contains(text(),'<'))">
+                    <xsl:if test="not(contains(text(),'&lt;'))">
                         <!--  1  -->
                         <xsl:value-of select="text()"/>
                     </xsl:if>
@@ -4488,9 +4488,9 @@
                     <!--   2:3<4   -->
                     <xsl:value-of select="substring-before($sici2,':')"/>
                 </xsl:when>
-                <xsl:when test="contains($sici2,'<')">
+                <xsl:when test="contains($sici2,'&lt;')">
                     <!--  1: 2<4  -->
-                    <xsl:value-of select="substring-before($sici2,'<')"/>
+                    <xsl:value-of select="substring-before($sici2,'&lt;')"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="$sici2"/>
@@ -4510,9 +4510,9 @@
         </xsl:variable>
         <xsl:variable name="level3">
             <xsl:choose>
-                <xsl:when test="contains($sici3,'<')">
+                <xsl:when test="contains($sici3,'&lt;')">
                     <!--  2<4  -->
-                    <xsl:value-of select="substring-before($sici3,'<')"/>
+                    <xsl:value-of select="substring-before($sici3,'&lt;')"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="$sici3"/>
@@ -4521,8 +4521,8 @@
             </xsl:choose>
         </xsl:variable>
         <xsl:variable name="page">
-            <xsl:if test="contains(text(),'<')">
-                <xsl:value-of select="substring-after(text(),'<')"/>
+            <xsl:if test="contains(text(),'&lt;')">
+                <xsl:value-of select="substring-after(text(),'&lt;')"/>
             </xsl:if>
         </xsl:variable>
         <xsl:if test="$level1">

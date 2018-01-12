@@ -18,7 +18,7 @@ import org.marc4j.MarcXmlWriter;
 import org.marc4j.marc.Record;
 
 public class SolrFullRecordToMarcXMLTest {
-    private String testResource = "fr-ruhnken.mrc";
+    private String testResource = "ms152.mrc";
     @Test
     public void testMarcReaderXmlWriter() throws Exception {
         String path = get(".").toAbsolutePath().normalize().toString();

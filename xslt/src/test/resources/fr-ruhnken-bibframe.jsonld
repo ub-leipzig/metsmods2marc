@@ -1,0 +1,226 @@
+{
+  "@context": {
+    "bibframe": "http://bibframe.org/vocab/",
+    "identifiers": "http://id.loc.gov/vocabulary/identifiers/",
+    "marcrelators": "http://id.loc.gov/vocabulary/relators/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "_:g69903130306420",
+      "@type": "bibframe:Identifier",
+      "bibframe:identifierScheme": {
+        "@id": "identifiers:local"
+      },
+      "bibframe:identifierValue": "(de-576)380132060"
+    },
+    {
+      "@id": "_:g69903130927120",
+      "@type": "bibframe:Language",
+      "bibframe:language": {
+        "@id": "http://id.loc.gov/vocabulary/languages/lat"
+      },
+      "bibframe:languageSource": "iso639-2b"
+    },
+    {
+      "@id": "_:g69903130934560",
+      "rdfs:resource": "http://bibframe.org/resources/0007186275person4"
+    },
+    {
+      "@id": "http://bibframe.org/resources/(de-576)380132060agentotherVersionTitle3",
+      "@type": "bibframe:Agent",
+      "bibframe:authorizedAccessPoint": "ruhnken, david",
+      "bibframe:label": "ruhnken, david"
+    },
+    {
+      "@id": "http://bibframe.org/resources/(de-576)380132060relatedItem12",
+      "@type": "bibframe:Work",
+      "bibframe:authorizedAccessPoint": [
+        "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350",
+        {
+          "@value": "ruhnkeniietaliorumepistolaeadernesti-ms0350",
+          "@language": "x-bf-hash"
+        }
+      ],
+      "bibframe:contributor": {
+        "@id": "http://bibframe.org/resources/(de-576)380132060agentotherVersionTitle3"
+      },
+      "bibframe:title": [
+        {
+          "@value": "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350",
+          "@language": "x-bf-sort"
+        },
+        "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350"
+      ],
+      "bibframe:workTitle": {
+        "@id": "http://bibframe.org/resources/(de-576)380132060relatedItemotherVersionTitle1"
+      }
+    },
+    {
+      "@id": "http://bibframe.org/resources/(de-576)380132060relatedItem12instance3",
+      "@type": "bibframe:Instance",
+      "bibframe:instanceOf": {
+        "@id": "http://bibframe.org/resources/(de-576)380132060relatedItem12"
+      },
+      "bibframe:instanceTitle": {
+        "@id": "http://bibframe.org/resources/(de-576)380132060relatedItemotherVersionTitle1"
+      },
+      "bibframe:local": {
+        "@id": "_:g69903130306420"
+      },
+      "bibframe:title": [
+        {
+          "@value": "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350",
+          "@language": "x-bf-sort"
+        },
+        "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350"
+      ]
+    },
+    {
+      "@id": "http://bibframe.org/resources/(de-576)380132060relatedItemotherVersionTitle1",
+      "@type": "bibframe:Title",
+      "bibframe:titleValue": "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350"
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275",
+      "@type": "bibframe:Work",
+      "bibframe:authorizedAccessPoint": [
+        "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350",
+        {
+          "@value": "ruhnkeniietaliorumepistolaeadernesti-ms0350",
+          "@language": "x-bf-hash"
+        }
+      ],
+      "bibframe:creator": {
+        "@id": "http://bibframe.org/resources/0007186275person3"
+      },
+      "bibframe:genre": {
+        "@id": "http://bibframe.org/resources/0007186275genre6"
+      },
+      "bibframe:language": {
+        "@id": "_:g69903130927120"
+      },
+      "bibframe:otherEdition": {
+        "@id": "http://bibframe.org/resources/(de-576)380132060otherVersion12"
+      },
+      "bibframe:title": [
+        {
+          "@value": "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350",
+          "@language": "x-bf-sort"
+        },
+        "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350"
+      ],
+      "bibframe:workTitle": {
+        "@id": "http://bibframe.org/resources/0007186275title1"
+      },
+      "marcrelators:crp": {
+        "@id": "_:g69903130934560"
+      }
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275annotation13",
+      "@type": "bibframe:Annotation",
+      "bibframe:annotates": {
+        "@id": "http://bibframe.org/resources/0007186275"
+      },
+      "bibframe:changeDate": "20130702142005.0",
+      "bibframe:creationDate": "130319",
+      "bibframe:descriptionConventions": {
+        "@id": "http://id.loc.gov/vocabulary/descriptionConventions/rakwb"
+      },
+      "bibframe:descriptionLanguage": {
+        "@id": "http://id.loc.gov/vocabulary/languages/ger"
+      },
+      "bibframe:descriptionSource": {
+        "@id": "http://id.loc.gov/vocabulary/organizations/de-576"
+      },
+      "bibframe:generationProcess": "Converted from MODS to BIBFRAME using MODS_BIBFRAME.xsl (2018-01-12T09:51:56.014+01:00)"
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275genre1",
+      "@type": "bibframe:Category",
+      "bibframe:categorySource": "marcform",
+      "bibframe:categoryType": "print",
+      "bibframe:categoryValue": "print"
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275genre2",
+      "@type": "bibframe:Category",
+      "bibframe:categorySource": "marccategory",
+      "bibframe:categoryType": "text",
+      "bibframe:categoryValue": "text"
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275genre6",
+      "@type": "bibframe:Category",
+      "bibframe:categorySource": "marcgt",
+      "bibframe:categoryType": "catalog",
+      "bibframe:categoryValue": "catalog"
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275instance13",
+      "@type": [
+        "bibframe:Manuscript",
+        "bibframe:Instance"
+      ],
+      "bibframe:carrierCategory": [
+        {
+          "@id": "http://bibframe.org/resources/0007186275genre2"
+        },
+        {
+          "@id": "http://bibframe.org/resources/0007186275genre1"
+        }
+      ],
+      "bibframe:extent": "92 bl. ; 27,5 x 22,5.",
+      "bibframe:instanceOf": {
+        "@id": "http://bibframe.org/resources/0007186275"
+      },
+      "bibframe:instanceTitle": {
+        "@id": "http://bibframe.org/resources/0007186275title1"
+      },
+      "bibframe:modeOfIssuance": "monographic",
+      "bibframe:note": "kurzaufnahme der handschrift. - quelle: döring, detlef: die neuzeitlichen\n            handschriften der nullgruppe, teil 2: (ms 0301 - 0600). - wiesbaden : harrassowitz, 2002. - (katalog der\n            handschriften der universitätsbibliothek leipzig : n.f. ; 1,2)\n        ",
+      "bibframe:providerStatement": "leiden, paris [u.a.], [mitte d. 18. jh.]1748xx1748",
+      "bibframe:title": [
+        {
+          "@value": "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350",
+          "@language": "x-bf-sort"
+        },
+        "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350"
+      ],
+      "bibframe:titleVariation": {
+        "@id": "http://bibframe.org/resources/0007186275titleVariation2"
+      }
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275languages8",
+      "@type": "bibframe:Language",
+      "bibframe:language": {
+        "@id": "http://id.loc.gov/vocabulary/languages/lat"
+      },
+      "bibframe:languageSource": "iso639-2b"
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275person3",
+      "@type": "bibframe:Person",
+      "bibframe:authorizedAccessPoint": "ruhnken, david 1723 - 1798",
+      "bibframe:label": "ruhnken, david 1723 - 1798"
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275person4",
+      "@type": "bibframe:Person",
+      "bibframe:authorizedAccessPoint": "ernesti, johann august 1707 - 1781",
+      "bibframe:label": "ernesti, johann august 1707 - 1781"
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275title1",
+      "@type": "bibframe:Title",
+      "bibframe:titleValue": "[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350"
+    },
+    {
+      "@id": "http://bibframe.org/resources/0007186275titleVariation2",
+      "@type": "bibframe:Title",
+      "bibframe:titleValue": "ms.0350"
+    }
+  ]
+}
