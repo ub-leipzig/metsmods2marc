@@ -1,0 +1,852 @@
+[
+  {
+    "@id": "_:b0",
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Popular philosophy"
+      }
+    ],
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ]
+  },
+  {
+    "@id": "_:b1",
+    "http://bibframe.org/vocab/languageSource": [
+      {
+        "@value": "iso639-2b"
+      }
+    ],
+    "http://bibframe.org/vocab/language": [
+      {
+        "@id": "http://id.loc.gov/vocabulary/languages/eng"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Language"
+    ]
+  },
+  {
+    "@id": "_:b10",
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Philosophy of science"
+      }
+    ],
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ]
+  },
+  {
+    "@id": "_:b11",
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Philosophy of science"
+      }
+    ],
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ]
+  },
+  {
+    "@id": "_:b12",
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Science--Mathematics"
+      }
+    ],
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ]
+  },
+  {
+    "@id": "_:b13",
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Mathematics--Philosophy"
+      }
+    ],
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ]
+  },
+  {
+    "@id": "_:b2",
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Philosophy"
+      }
+    ],
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ]
+  },
+  {
+    "@id": "_:b3",
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Mathematics"
+      }
+    ],
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ]
+  },
+  {
+    "@id": "_:b4",
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Philosophy of mathematics"
+      }
+    ],
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ]
+  },
+  {
+    "@id": "_:b5",
+    "http://bibframe.org/vocab/identifierValue": [
+      {
+        "@value": "9780230285200"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Identifier"
+    ]
+  },
+  {
+    "@id": "_:b6",
+    "http://bibframe.org/vocab/identifierScheme": [
+      {
+        "@id": "http://id.loc.gov/vocabulary/identifiers/isbn"
+      }
+    ],
+    "http://bibframe.org/vocab/identifierValue": [
+      {
+        "@value": "0230285201 (hbk.) :"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Identifier"
+    ]
+  },
+  {
+    "@id": "_:b7",
+    "http://bibframe.org/vocab/identifierScheme": [
+      {
+        "@id": "http://id.loc.gov/vocabulary/identifiers/isbn"
+      }
+    ],
+    "http://bibframe.org/vocab/identifierValue": [
+      {
+        "@value": "9780230285200 (hbk.) :"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Identifier"
+    ]
+  },
+  {
+    "@id": "_:b8",
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "History of mathematics"
+      }
+    ],
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ]
+  },
+  {
+    "@id": "_:b9",
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Philosophy of mathematics"
+      }
+    ],
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159",
+    "http://bibframe.org/vocab/title": [
+      {
+        "@value": "Applicability of Mathematics in Science: Indispensability and Ontology ",
+        "@language": "x-bf-sort"
+      },
+      {
+        "@value": "\nThe \n Applicability of Mathematics in Science: Indispensability and Ontology "
+      }
+    ],
+    "http://bibframe.org/vocab/subject": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159topic13"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159topic22"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159topic21"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159topic17"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159topic16"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159topic19"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159topic18"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159topic15"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159topic14"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159topic20"
+      }
+    ],
+    "http://bibframe.org/vocab/series": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159series25"
+      }
+    ],
+    "http://bibframe.org/vocab/creator": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159person2"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Work"
+    ],
+    "http://bibframe.org/vocab/classificationDdc": [
+      {
+        "@id": "http://dewey.info/class/510.1/about"
+      }
+    ],
+    "http://bibframe.org/vocab/workTitle": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159title1"
+      }
+    ],
+    "http://bibframe.org/vocab/language": [
+      {
+        "@id": "_:b1"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "The Applicability of Mathematics in Science: Indispensability and Ontology"
+      },
+      {
+        "@value": "theapplicabilityofmathematicsinscienceindispensabilityandontology",
+        "@language": "x-bf-hash"
+      }
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159annotation29",
+    "http://bibframe.org/vocab/annotates": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159"
+      }
+    ],
+    "http://bibframe.org/vocab/descriptionLanguage": [
+      {
+        "@id": "http://id.loc.gov/vocabulary/languages/eng"
+      }
+    ],
+    "http://bibframe.org/vocab/generationProcess": [
+      {
+        "@value": "Converted from MODS to BIBFRAME using MODS_BIBFRAME.xsl (2018-01-15T15:03:17.835+01:00)"
+      }
+    ],
+    "http://bibframe.org/vocab/changeDate": [
+      {
+        "@value": "20120411000000.0"
+      }
+    ],
+    "http://bibframe.org/vocab/creationDate": [
+      {
+        "@value": "120411"
+      }
+    ],
+    "http://bibframe.org/vocab/descriptionSource": [
+      {
+        "@id": "http://id.loc.gov/vocabulary/organizations/UK-WkNB"
+      }
+    ],
+    "http://bibframe.org/vocab/descriptionConventions": [
+      {
+        "@id": "http://id.loc.gov/vocabulary/descriptionConventions/aacr"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Annotation"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159classification23",
+    "http://bibframe.org/vocab/classificationEdition": [
+      {
+        "@value": "23"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "510.1"
+      }
+    ],
+    "http://bibframe.org/vocab/classificationNumber": [
+      {
+        "@value": "510.1"
+      }
+    ],
+    "http://bibframe.org/vocab/classificationScheme": [
+      {
+        "@value": "ddc"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Classification"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159genre1",
+    "http://bibframe.org/vocab/categoryValue": [
+      {
+        "@value": "print"
+      }
+    ],
+    "http://bibframe.org/vocab/categoryType": [
+      {
+        "@value": "print"
+      }
+    ],
+    "http://bibframe.org/vocab/categorySource": [
+      {
+        "@value": "marcform"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Category"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159genre2",
+    "http://bibframe.org/vocab/categoryValue": [
+      {
+        "@value": "text"
+      }
+    ],
+    "http://bibframe.org/vocab/categoryType": [
+      {
+        "@value": "text"
+      }
+    ],
+    "http://bibframe.org/vocab/categorySource": [
+      {
+        "@value": "marccategory"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Category"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159genre3",
+    "http://bibframe.org/vocab/categoryValue": [
+      {
+        "@value": "regular print"
+      }
+    ],
+    "http://bibframe.org/vocab/categoryType": [
+      {
+        "@value": "regular print"
+      }
+    ],
+    "http://bibframe.org/vocab/categorySource": [
+      {
+        "@value": "marcsmd"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Category"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159instance29",
+    "http://bibframe.org/vocab/carrierCategory": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159genre1"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159genre3"
+      },
+      {
+        "@id": "http://localhost:8080/repository/0004825159genre2"
+      }
+    ],
+    "http://bibframe.org/vocab/modeOfIssuance": [
+      {
+        "@value": "monographic"
+      }
+    ],
+    "http://bibframe.org/vocab/instanceOf": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Instance",
+      "http://bibframe.org/vocab/Text"
+    ],
+    "http://bibframe.org/vocab/responsibilityStatement": [
+      {
+        "@value": "Sorin Bangu."
+      }
+    ],
+    "http://bibframe.org/vocab/instanceTitle": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159title1"
+      }
+    ],
+    "http://bibframe.org/vocab/note": [
+      {
+        "@value": "Hardback."
+      },
+      {
+        "@value": "SORIN BANGU is Associate Professor in the Department of Philosophy, University of Bergen, Norway. His main interests and publications are in philosophy of science and mathematics, and the history of analytic philosophy (especially Wittgenstein and Quine)."
+      },
+      {
+        "@value": "No outer packaging."
+      }
+    ],
+    "http://bibframe.org/vocab/title": [
+      {
+        "@value": "\nThe \n Applicability of Mathematics in Science: Indispensability and Ontology "
+      },
+      {
+        "@value": "Applicability of Mathematics in Science: Indispensability and Ontology ",
+        "@language": "x-bf-sort"
+      }
+    ],
+    "http://bibframe.org/vocab/isbn": [
+      {
+        "@id": "_:b6"
+      },
+      {
+        "@id": "_:b7"
+      }
+    ],
+    "http://bibframe.org/vocab/contentsNote": [
+      {
+        "@value": "Series Editor's Preface Acknowledgements Introduction: The Question PART I: NATURALISM, INDISPENSABILITY AND POSIT REALISM Naturalism: Science as the Measure of All Things Holism Posit Realism PART II: THE VANTAGE POINT: MATHEMATICS IN SCIENCE Standard and Non-Standard Applications Mathematics and Scientific Discovery Wigner's Puzzle Revisited PART III: EXPLANATION AND MATHEMATICAL REALISM Inference to the Best Mathematical Explanation Explanation, Holism, and Ontological Commitment: The Objection from Scientific Practice Concluding remarks Notes Bibliography."
+      }
+    ],
+    "http://bibframe.org/vocab/extent": [
+      {
+        "@value": "256 p. : 256 p. ; 22x14 cm."
+      }
+    ],
+    "http://bibframe.org/vocab/providerStatement": [
+      {
+        "@value": "Basingstoke : Palgrave Macmillan [distributor] Springer-Verlag Berlin and Heidelberg GmbH & Co. KG [distributor] United Book Distributors [distributor] United Book Distributors [distributor] Macmillan South Africa Head Office, 2012"
+      }
+    ],
+    "http://bibframe.org/vocab/systemNumber": [
+      {
+        "@id": "_:b5"
+      }
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159languages5",
+    "http://bibframe.org/vocab/languageSource": [
+      {
+        "@value": "iso639-2b"
+      }
+    ],
+    "http://bibframe.org/vocab/language": [
+      {
+        "@id": "http://id.loc.gov/vocabulary/languages/eng"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Language"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159person2",
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "Bangu, Sorin"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "Bangu, Sorin"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Person"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159relatedItem25",
+    "http://bibframe.org/vocab/title": [
+      {
+        "@value": "New Directions in the Philosophy of Science",
+        "@language": "x-bf-sort"
+      },
+      {
+        "@value": "New Directions in the Philosophy of Science"
+      }
+    ],
+    "http://bibframe.org/vocab/workTitle": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159relatedItemseriesTitle1"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "newdirectionsinthephilosophyofscience",
+        "@language": "x-bf-hash"
+      },
+      {
+        "@value": "New Directions in the Philosophy of Science"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Work"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159relatedItem25instance1",
+    "http://bibframe.org/vocab/instanceOf": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159relatedItem25"
+      }
+    ],
+    "http://bibframe.org/vocab/title": [
+      {
+        "@value": "New Directions in the Philosophy of Science",
+        "@language": "x-bf-sort"
+      },
+      {
+        "@value": "New Directions in the Philosophy of Science"
+      }
+    ],
+    "http://bibframe.org/vocab/instanceTitle": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159relatedItemseriesTitle1"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Instance"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159relatedItemseriesTitle1",
+    "http://bibframe.org/vocab/titleValue": [
+      {
+        "@value": "New Directions in the Philosophy of Science"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Title"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159summary7",
+    "http://bibframe.org/vocab/summaryOf": [
+      {
+        "@id": "http://localhost:8080/repository/0004825159"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "This examination of a series of philosophical issues arising from the applicability of mathematics to science consists of scientifically-informed philosophical analysis and argument. One distinctive feature of this project is that it proposes to look at issues in philosophy of mathematics within the larger context of philosophy of science. This examination of a series of philosophical issues arising from the applicability of mathematics to science consists of scientifically-informed philosophical analysis and argument. One distinctive feature of this project is that it proposes to look at issues in philosophy of mathematics within the larger context of philosophy of science."
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Summary"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159title1",
+    "http://bibframe.org/vocab/titleValue": [
+      {
+        "@value": "\nThe \n Applicability of Mathematics in Science: Indispensability and Ontology "
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Title"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159topic13",
+    "http://bibframe.org/vocab/hasAuthority": [
+      {
+        "@id": "_:b13"
+      }
+    ],
+    "http://bibframe.org/vocab/authoritySource": [
+      {
+        "@value": "lcsh"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "Mathematics--Philosophy"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "Mathematics--Philosophy"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Topic"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159topic14",
+    "http://bibframe.org/vocab/hasAuthority": [
+      {
+        "@id": "_:b12"
+      }
+    ],
+    "http://bibframe.org/vocab/authoritySource": [
+      {
+        "@value": "lcsh"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "Science--Mathematics"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "Science--Mathematics"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Topic"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159topic15",
+    "http://bibframe.org/vocab/hasAuthority": [
+      {
+        "@id": "_:b9"
+      }
+    ],
+    "http://bibframe.org/vocab/authoritySource": [
+      {
+        "@value": "bicssc"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "Philosophy of mathematics"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "Philosophy of mathematics"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Topic"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159topic16",
+    "http://bibframe.org/vocab/hasAuthority": [
+      {
+        "@id": "_:b10"
+      }
+    ],
+    "http://bibframe.org/vocab/authoritySource": [
+      {
+        "@value": "bicssc"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "Philosophy of science"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "Philosophy of science"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Topic"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159topic17",
+    "http://bibframe.org/vocab/hasAuthority": [
+      {
+        "@id": "_:b3"
+      }
+    ],
+    "http://bibframe.org/vocab/authoritySource": [
+      {
+        "@value": "ukslc"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "Mathematics"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "Mathematics"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Topic"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159topic18",
+    "http://bibframe.org/vocab/hasAuthority": [
+      {
+        "@id": "_:b2"
+      }
+    ],
+    "http://bibframe.org/vocab/authoritySource": [
+      {
+        "@value": "thema"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "Philosophy"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "Philosophy"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Topic"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159topic19",
+    "http://bibframe.org/vocab/hasAuthority": [
+      {
+        "@id": "_:b11"
+      }
+    ],
+    "http://bibframe.org/vocab/authoritySource": [
+      {
+        "@value": "thema"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "Philosophy of science"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "Philosophy of science"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Topic"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159topic20",
+    "http://bibframe.org/vocab/hasAuthority": [
+      {
+        "@id": "_:b8"
+      }
+    ],
+    "http://bibframe.org/vocab/authoritySource": [
+      {
+        "@value": "thema"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "History of mathematics"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "History of mathematics"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Topic"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159topic21",
+    "http://bibframe.org/vocab/hasAuthority": [
+      {
+        "@id": "_:b4"
+      }
+    ],
+    "http://bibframe.org/vocab/authoritySource": [
+      {
+        "@value": "thema"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "Philosophy of mathematics"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "Philosophy of mathematics"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Topic"
+    ]
+  },
+  {
+    "@id": "http://localhost:8080/repository/0004825159topic22",
+    "http://bibframe.org/vocab/hasAuthority": [
+      {
+        "@id": "_:b0"
+      }
+    ],
+    "http://bibframe.org/vocab/authoritySource": [
+      {
+        "@value": "thema"
+      }
+    ],
+    "http://bibframe.org/vocab/label": [
+      {
+        "@value": "Popular philosophy"
+      }
+    ],
+    "http://bibframe.org/vocab/authorizedAccessPoint": [
+      {
+        "@value": "Popular philosophy"
+      }
+    ],
+    "@type": [
+      "http://bibframe.org/vocab/Topic"
+    ]
+  }
+]

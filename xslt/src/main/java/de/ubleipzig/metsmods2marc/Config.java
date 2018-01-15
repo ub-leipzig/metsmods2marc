@@ -41,7 +41,7 @@ public class Config {
     private URI resource;
     private URI xsltresource;
     private URI source;
-    private URI fedoraBaseUri;
+    private URI repositoryBaseUri;
     private URI destination;
     private File baseDirectory;
     private File writeConfig;
@@ -50,7 +50,7 @@ public class Config {
     private boolean retrieveExternal = false;
     private boolean retrieveInbound = false;
     private boolean overwriteTombstones = false;
-    private boolean legacy = false;
+    private boolean bibframe = false;
     private boolean includeVersions = false;
     private String bagProfile = null;
     private String bagConfigPath = null;
@@ -312,24 +312,24 @@ public class Config {
     /**
      * Sets the URI of the repository.
      *
-     * @param fedoraBaseUri URI to import/export
+     * @param repositoryBaseUri URI to import/export
      */
-    public void setFedoraBaseUri(final String fedoraBaseUri) {
-        setFedoraBaseUri(URI.create(fedoraBaseUri));
+    public void setRepositoryBaseUri(final String repositoryBaseUri) {
+        setRepositoryBaseUri(URI.create(repositoryBaseUri));
     }
 
     /**
      * Sets the URI of the repository.
      *
-     * @param fedoraBaseUri URI to import/export
+     * @param repositoryBaseUri URI to import/export
      */
-    private void setFedoraBaseUri(final URI fedoraBaseUri) {
-        if (fedoraBaseUri.toString().endsWith("/")) {
-            this.fedoraBaseUri =
-                    URI.create(fedoraBaseUri.toString().substring(0,
-                            fedoraBaseUri.toString().length() - 1));
+    private void setRepositoryBaseUri(final URI repositoryBaseUri) {
+        if (repositoryBaseUri.toString().endsWith("/")) {
+            this.repositoryBaseUri =
+                    URI.create(repositoryBaseUri.toString().substring(0,
+                            repositoryBaseUri.toString().length() - 1));
         } else {
-            this.fedoraBaseUri = fedoraBaseUri;
+            this.repositoryBaseUri = repositoryBaseUri;
         }
     }
 
@@ -338,8 +338,8 @@ public class Config {
      *
      * @return resource
      */
-    public URI getFedoraBaseUri() {
-        return fedoraBaseUri;
+    public URI getRepositoryBaseUri() {
+        return repositoryBaseUri;
     }
 
 
@@ -519,8 +519,8 @@ public class Config {
      *
      * @return true if legacy mode is enabled, false, otherwise
      */
-    public boolean isLegacy() {
-        return this.legacy;
+    public boolean isBibFrame() {
+        return this.bibframe;
     }
 
     /**
@@ -530,7 +530,7 @@ public class Config {
      *
      * @param legacy true to indicate legacy mode should be enabled, false to disable it
      */
-    public void setLegacy(final boolean legacy) {
-        this.legacy = legacy;
+    public void setBibFrame(final boolean bibframe) {
+        this.bibframe = bibframe;
     }
 }

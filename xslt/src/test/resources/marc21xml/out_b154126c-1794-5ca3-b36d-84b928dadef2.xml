@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+    <marc:record>
+        <marc:leader>04562cam a2200505za 4500</marc:leader>
+        <marc:controlfield tag="001">0004825141</marc:controlfield>
+        <marc:controlfield tag="003">UK-WkNB</marc:controlfield>
+        <marc:controlfield tag="005">20120303000000.0</marc:controlfield>
+        <marc:controlfield tag="007">ta</marc:controlfield>
+        <marc:controlfield tag="008">120303e201211uuii | |||||||0|0 eng|d</marc:controlfield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">9780198078944 (hbk.) :</marc:subfield>
+            <marc:subfield code="c">£25.00</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">0198078943 (hbk.) :</marc:subfield>
+            <marc:subfield code="c">£25.00</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="024" ind1="3" ind2=" ">
+            <marc:subfield code="a">9780198078944</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">UK-WkNB</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="c">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">LAZ</marc:subfield>
+            <marc:subfield code="x">1FKA</marc:subfield>
+            <marc:subfield code="x">3JJPG</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">JFSJ</marc:subfield>
+            <marc:subfield code="x">1FKA</marc:subfield>
+            <marc:subfield code="x">3JJPG</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">LAW</marc:subfield>
+            <marc:subfield code="2">ukslc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">LAZ</marc:subfield>
+            <marc:subfield code="x">1FKA</marc:subfield>
+            <marc:subfield code="x">3MPQM</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">JBSF</marc:subfield>
+            <marc:subfield code="x">1FKA</marc:subfield>
+            <marc:subfield code="x">3MPQM</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="082" ind1="0" ind2="4">
+            <marc:subfield code="a">347.60954</marc:subfield>
+            <marc:subfield code="2">23</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Sinha, Chitra.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Debating Patriarchy :</marc:subfield>
+            <marc:subfield code="b">The Hindu Code Bill Controversy in India (1941-1956) /</marc:subfield>
+            <marc:subfield code="c">Chitra Sinha.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">New Delhi :</marc:subfield>
+            <marc:subfield code="b">OUP India :</marc:subfield>
+            <marc:subfield code="b">[distributor] Oxford University Press Distribution Services :</marc:subfield>
+            <marc:subfield code="b">[distributor] Oxford University Press Australia :</marc:subfield>
+            <marc:subfield code="b">[distributor] Oxford University Press Australia :</marc:subfield>
+            <marc:subfield code="b">[distributor] Oxford University Press Southern Africa,</marc:subfield>
+            <marc:subfield code="c">2012.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">312 p. ;</marc:subfield>
+            <marc:subfield code="c">22x15x3 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">25.00</marc:subfield>
+            <marc:subfield code="c">GBP</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">This price includes a tax element</marc:subfield>
+            <marc:subfield code="h">Z 25.00 0.00 25.00 0.00</marc:subfield>
+            <marc:subfield code="j">GB</marc:subfield>
+            <marc:subfield code="k">xxk</marc:subfield>
+            <marc:subfield code="m">OUPDIS</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">45.00</marc:subfield>
+            <marc:subfield code="c">USD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">Local taxes may apply</marc:subfield>
+            <marc:subfield code="h">Z 45.00 0.00 45.00 0.00</marc:subfield>
+            <marc:subfield code="j">US</marc:subfield>
+            <marc:subfield code="k">xxu</marc:subfield>
+            <marc:subfield code="m">Ingram</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120920</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20121109</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Hardback.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Originally published in: 2012.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="505" ind1="0" ind2=" ">
+            <marc:subfield code="a">PREFACE-- ACKNOWLEDGEMENTS-- LIST OF TABLES-- INTRODUCTION-- BIBLIOGRAPHY-- INDEX.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1=" " ind2=" ">
+            <marc:subfield code="a">Through an analysis of Hindu Code Bill, this book explores the formative process of
+                law. It examines the family law reforms in India to understand the connection between legal reforms and
+                social transformation.
+            </marc:subfield>
+            <marc:subfield code="b">The book explores a significant episode of Indian social history, the Hindu Code
+                Bill controversy that stirred the Indian social consciousness in the mid-twentieth century. Revisiting
+                the communicative processes surrounding the reform of Hindu customary laws relating to marriage,
+                divorce, succession, adoption and maintenance, the book provides an in-depth account of the intense
+                debate that took place in and outside the legislature involving political groups, social associations,
+                religious organizations, legal associations, and the women's movement. Placing the debate in a
+                historical continuum, the author tracess the genesis of the Hindu Code Bill by exploring the linkages of
+                late eighteenth century initiatives of colonial administration, the efforts of eighteenth century social
+                reformers, and the contribution of Indian national movement as well as women's organizations in early
+                twentieth century. The book analyses the relationship of discourses in the public and legislative
+                spheres and emphases the role of Nehru , Ambedkar, B.N. Rau and other prominent personalities in the
+                promotion of gender justice. The book argues that while effective implementation of enabling legal
+                provisions were impeded by deeply entrenched patriarchal structures in Independent India, the debate
+                contributed towards a gradual transformation of the Indian social consciousness , thus contributing
+                towards gender justice in Indian society. This book will interest scholars, researchers, and students of
+                law, modern Indian history, and gender studies. It will also appeal to general readers.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1="0" ind2=" ">
+            <marc:subfield code="a">Chitra Sinha is a PhD from the University of Mumbai and has been a Visiting Fellow,
+                Centre for Study of Women, University of California at Los Angeles, USA. She has taught at the Visva
+                Bharati University, SNDT Women's University and in colleges affiliated to the University of Mumbai in a
+                teaching career spanning two decades. She has been a recipient of several prestigious fellowships,
+                including the SSRC Fellowship of the Ford Foundation and the New India Foundation Book Writing
+                Fellowship. Presently, she is working on her second book on women, law and society in Asia and the
+                Middle East.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Patriarchy</marc:subfield>
+            <marc:subfield code="x">Law and legislation</marc:subfield>
+            <marc:subfield code="z">India.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Hindu law.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Domestic relations</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">20th century</marc:subfield>
+            <marc:subfield code="z">India.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Law reform</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">20th century</marc:subfield>
+            <marc:subfield code="z">India.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Legal history</marc:subfield>
+            <marc:subfield code="y">c 1945 to c 1960</marc:subfield>
+            <marc:subfield code="z">India.</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Gender studies, gender groups</marc:subfield>
+            <marc:subfield code="y">c 1945 to c 1960</marc:subfield>
+            <marc:subfield code="z">India.</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Law.</marc:subfield>
+            <marc:subfield code="2">ukslc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Legal history</marc:subfield>
+            <marc:subfield code="z">India</marc:subfield>
+            <marc:subfield code="y">c 1950 to c 1959.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Gender studies, gender groups</marc:subfield>
+            <marc:subfield code="z">India</marc:subfield>
+            <marc:subfield code="y">c 1950 to c 1959.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">India</marc:subfield>
+            <marc:subfield code="x">Social life and customs</marc:subfield>
+            <marc:subfield code="y">20th century.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="852" ind1=" " ind2=" ">
+            <marc:subfield code="a">DE-15</marc:subfield>
+            <marc:subfield code="z">2013-01-01T00:00:00Z</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="980" ind1=" " ind2=" ">
+            <marc:subfield code="a">9780198078944</marc:subfield>
+            <marc:subfield code="b">3</marc:subfield>
+            <marc:subfield code="c">20170817</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>

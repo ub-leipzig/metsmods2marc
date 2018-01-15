@@ -22,7 +22,17 @@ package de.ubleipzig.metsmods2marc;
 final class Constants {
 
     static final String OUTPUT_DIR =
-            "/tmp";
+            "/tmp/output";
+
+    static final String METS_MODS_STYLESHEET = "extract-mods.xsl";
+
+    static final String MODS_MARC_STYLESHEET = "MODS3-4_MARC21slim_XSLT1-0.xsl";
+
+    static final String MARC_MODS_STYLESHEET = "MARC21slim_MODS3-6_XSLT2-0.xsl";
+
+    static final String MODS_BIBFRAME_STYLESHEET = "mods2bibframe.xsl";
+
+    static final String REPOSITORY_BASE_URI = "http://localhost:8080/repository";
 
     private Constants() {
     }

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+    <marc:record>
+        <marc:leader>03892cam a22004572a 4500</marc:leader>
+        <marc:controlfield tag="001">0004825111</marc:controlfield>
+        <marc:controlfield tag="003">UK-WkNB</marc:controlfield>
+        <marc:controlfield tag="005">20130828000000.0</marc:controlfield>
+        <marc:controlfield tag="007">ta</marc:controlfield>
+        <marc:controlfield tag="008">120109e201209uuxxk | |||||||0|0 eng|d</marc:controlfield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">9781847669612 (pbk.) :</marc:subfield>
+            <marc:subfield code="c">£75.00</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">1847669611 (pbk.) :</marc:subfield>
+            <marc:subfield code="c">£75.00</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">UK-WkNB</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="c">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">KFFD1</marc:subfield>
+            <marc:subfield code="x">1DBK</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">LNUP</marc:subfield>
+            <marc:subfield code="x">1DBK</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">FIN</marc:subfield>
+            <marc:subfield code="2">eflch</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="082" ind1="0" ind2="4">
+            <marc:subfield code="a">343.4105242</marc:subfield>
+            <marc:subfield code="2">23</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bradford, Sarah.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">National insurance contributions 2012/13 /</marc:subfield>
+            <marc:subfield code="c">Sarah Bradford.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">London :</marc:subfield>
+            <marc:subfield code="b">Bloomsbury Professional :</marc:subfield>
+            <marc:subfield code="b">[distributor] Marston Book Services Ltd :</marc:subfield>
+            <marc:subfield code="b">[distributor] United Book Distributors :</marc:subfield>
+            <marc:subfield code="b">[distributor] United Book Distributors :</marc:subfield>
+            <marc:subfield code="b">[distributor] Jonathan Ball Publishers SA :</marc:subfield>
+            <marc:subfield code="b">[distributor] International Specialized Book Services,</marc:subfield>
+            <marc:subfield code="c">2012.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">378 p. ;</marc:subfield>
+            <marc:subfield code="c">23x16 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">75.00</marc:subfield>
+            <marc:subfield code="c">GBP</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">Local taxes may apply</marc:subfield>
+            <marc:subfield code="h">Z 75.00 0.0 75.00 0.00</marc:subfield>
+            <marc:subfield code="j">GB</marc:subfield>
+            <marc:subfield code="k">xxk</marc:subfield>
+            <marc:subfield code="m">Marston Book Services Ltd</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">148.00</marc:subfield>
+            <marc:subfield code="c">USD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">Local taxes may apply</marc:subfield>
+            <marc:subfield code="h">Z 148.00 0.0 148.00 0.00</marc:subfield>
+            <marc:subfield code="j">US</marc:subfield>
+            <marc:subfield code="k">xxu</marc:subfield>
+            <marc:subfield code="m">Ingram Book Company</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">150.00</marc:subfield>
+            <marc:subfield code="c">AUD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">Local taxes may apply</marc:subfield>
+            <marc:subfield code="h">S 150.00 0.0 150.00 0.00</marc:subfield>
+            <marc:subfield code="j">AU</marc:subfield>
+            <marc:subfield code="k">at</marc:subfield>
+            <marc:subfield code="m">Supplied in Australia on behalf of local Publisher/Distributor</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">190.00</marc:subfield>
+            <marc:subfield code="c">NZD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">Local taxes may apply</marc:subfield>
+            <marc:subfield code="h">S 190.00 0.0 190.00 0.00</marc:subfield>
+            <marc:subfield code="j">NZ</marc:subfield>
+            <marc:subfield code="k">nz</marc:subfield>
+            <marc:subfield code="m">Manual update made 20120601</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120918</marc:subfield>
+            <marc:subfield code="c">IP 20130702</marc:subfield>
+            <marc:subfield code="f">AMPRF01</marc:subfield>
+            <marc:subfield code="j">GB</marc:subfield>
+            <marc:subfield code="k">xxk</marc:subfield>
+            <marc:subfield code="m">Marston Book Services Ltd</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120930</marc:subfield>
+            <marc:subfield code="j">US</marc:subfield>
+            <marc:subfield code="k">xxu</marc:subfield>
+            <marc:subfield code="m">Ingram</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20121101</marc:subfield>
+            <marc:subfield code="c">IP 20121031</marc:subfield>
+            <marc:subfield code="j">AU</marc:subfield>
+            <marc:subfield code="k">at</marc:subfield>
+            <marc:subfield code="m">Supplied in Australia on behalf of local Publisher/Distributor</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120918</marc:subfield>
+            <marc:subfield code="c">IP 20121031</marc:subfield>
+            <marc:subfield code="j">NZ</marc:subfield>
+            <marc:subfield code="k">nz</marc:subfield>
+            <marc:subfield code="m">Manual update made 20121031</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="490" ind1="0" ind2=" ">
+            <marc:subfield code="a">Core tax annuals</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Paperback.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Replaces: 9781847667809.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="505" ind1="0" ind2=" ">
+            <marc:subfield code="a">1 Overview of the National Insurance system-- 2 Categorisation of earners-- 3 Class
+                1 National Insurance contributions-- 4 Class 1A National Insurance contributions-- 5 Class 1B National
+                Insurance contributions-- 6 Class 2 National Insurance contributions-- 7 Class 3 National Insurance
+                contributions-- 8 Class 4 National Insurance contributions-- 9 International considerations.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1=" " ind2=" ">
+            <marc:subfield code="a">National Insurance Contributions contains everything you need to know about this
+                specialist area. It outlines how and when contributions are due, how liabilities are calculated and what
+                can be done legitimately to minimise them.
+            </marc:subfield>
+            <marc:subfield code="b">National Insurance Contributions 2012/13 contains everything you need to know about
+                this specialist area. It outlines how and when contributions are due, how liabilities are calculated and
+                what can be done legitimately to minimise them. This new edition covers the various contributions using
+                a practical class-by-class format. Together with extensive cross-referencing and clear indexing, it
+                enables you to find the answers to your queries quickly and easily. The clear layout and practical
+                approach of National Insurance Contributions, together with its use of worked examples, make this book
+                indispensable to accountants, employers, tax advisers and NIC specialists alike.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1="0" ind2=" ">
+            <marc:subfield code="a">Sarah Bradford BA (Hons) ACA CTA (Fellow) is the director of Writetax Ltd, a company
+                providing technical writing and consultancy services on tax and national insurance. Sarah is an
+                experienced technical author and has written a number of popular titles. She contributes to a wide range
+                of publications and writes extensively on both tax and national insurance.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Social security taxes</marc:subfield>
+            <marc:subfield code="x">Law and legislation</marc:subfield>
+            <marc:subfield code="z">Great Britain.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Taxation</marc:subfield>
+            <marc:subfield code="z">United Kingdom, Great Britain.</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Personal tax</marc:subfield>
+            <marc:subfield code="z">United Kingdom, Great Britain.</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Finance and Accounting.</marc:subfield>
+            <marc:subfield code="2">eflch</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="852" ind1=" " ind2=" ">
+            <marc:subfield code="a">DE-15</marc:subfield>
+            <marc:subfield code="z">2013-01-01T00:00:00Z</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="980" ind1=" " ind2=" ">
+            <marc:subfield code="a">9781847669612</marc:subfield>
+            <marc:subfield code="b">3</marc:subfield>
+            <marc:subfield code="c">20130904</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>

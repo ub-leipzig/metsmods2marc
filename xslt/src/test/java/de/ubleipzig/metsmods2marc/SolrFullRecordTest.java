@@ -1,24 +1,49 @@
 package de.ubleipzig.metsmods2marc;
 
+import static de.ubleipzig.metsmods2marc.MarcXMLWriter.writeMarcXMLtoFile;
 import static java.nio.file.Paths.get;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.apache.solr.client.solrj.SolrQuery;
+import org.apache.solr.client.solrj.SolrServerException;
+import org.apache.solr.client.solrj.impl.HttpSolrClient;
+import org.apache.solr.client.solrj.response.QueryResponse;
+import org.apache.solr.common.SolrDocument;
+import org.apache.solr.common.SolrDocumentList;
 import org.junit.Test;
 import org.marc4j.MarcReader;
 import org.marc4j.MarcStreamReader;
 import org.marc4j.MarcXmlWriter;
 import org.marc4j.marc.Record;
 
-public class SolrFullRecordToMarcXMLTest {
+public class SolrFullRecordTest {
     private String testResource = "ms152.mrc";
+
+    @Test
+    public void testGetDocumentFromSolr() throws IOException, SolrServerException {
+        String urlString = "http://172.18.85.142:8085/solr/biblio";
+        HttpSolrClient solr = new HttpSolrClient.Builder(urlString).build();
+        SolrQuery query = new SolrQuery();
+        query.set("q", "institution:DE-15");
+        query.setRows(50);
+        QueryResponse response = solr.query(query);
+        SolrDocumentList docList = response.getResults();
+        for (SolrDocument doc : docList) {
+            String fr = (String) doc.getFieldValue("fullrecord");
+            String id = (String) doc.getFieldValue("id");
+            writeMarcXMLtoFile(fr, id);
+        }
+    }
+
     @Test
     public void testMarcReaderXmlWriter() throws Exception {
         String path = get(".").toAbsolutePath().normalize().toString();

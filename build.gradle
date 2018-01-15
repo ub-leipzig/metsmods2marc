@@ -21,6 +21,9 @@ configure(allprojects) { project ->
 
     ext {
         slf4jVersion = '1.7.21'
+        jenaVersion = '3.6.0'
+        trellisVersion = '0.5.1'
+        commonsRdfVersion = '0.5.0'
     }
 
     repositories {
@@ -55,12 +58,23 @@ project("xslt") {
     dependencies {
         testCompile group: 'junit', name: 'junit', version: '4.11'
         testCompile group: 'org.marc4j', name: 'marc4j', version: '2.8.3'
+        testCompile group: 'org.apache.solr', name: 'solr-solrj', version: '7.2.1'
+        testCompile group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
+        testCompile group: 'com.github.jsonld-java', name: 'jsonld-java', version: '0.11.1'
+        compile group: 'org.apache.commons', name: 'commons-rdf-api', version: commonsRdfVersion
+        compile group: 'org.trellisldp', name: 'trellis-api', version: trellisVersion
+        compile group: 'org.trellisldp', name: 'trellis-io-jena', version: trellisVersion
+        compile group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
+        compile group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
+        compile group: 'com.github.jsonld-java', name: 'jsonld-java', version: '0.11.1'
         compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+        compile group: 'org.marc4j', name: 'marc4j', version: '2.8.3'
+        compile group: 'org.apache.solr', name: 'solr-solrj', version: '7.2.1'
         compile group: 'commons-io', name: 'commons-io', version: '2.5'
         compile group: 'org.xmlbeam', name: 'xmlprojector', version: '1.4.8'
         compile group: 'org.apache.jena', name: 'jena-arq', version: '3.1.0'
         compile group: 'org.apache.jena', name: 'jena-core', version: '3.1.0'
-        compile group: 'net.sf.saxon', name: 'Saxon-HE', version: '9.8.0-1'
+        compile group: 'net.sf.saxon', name: 'Saxon-HE', version: '9.8.0-7'
         compile group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
         compile group: 'cool.pandora', name: 'modeller-fedora', version: '1.2.0'
     }

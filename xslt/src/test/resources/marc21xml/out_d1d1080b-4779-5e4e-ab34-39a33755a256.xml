@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+    <marc:record>
+        <marc:leader>04481cam a2200493za 4500</marc:leader>
+        <marc:controlfield tag="001">0004825174</marc:controlfield>
+        <marc:controlfield tag="003">UK-WkNB</marc:controlfield>
+        <marc:controlfield tag="005">20111209000000.0</marc:controlfield>
+        <marc:controlfield tag="007">ta</marc:controlfield>
+        <marc:controlfield tag="008">111209e201205uuxxu | |||||||0|0 eng|d</marc:controlfield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">9780865716636 (pbk.) :</marc:subfield>
+            <marc:subfield code="c">£8.99</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">0865716633 (pbk.) :</marc:subfield>
+            <marc:subfield code="c">£8.99</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">UK-WkNB</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="c">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">RNFY</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">THX</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">ENV</marc:subfield>
+            <marc:subfield code="2">ukslc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">RNFY</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">THV</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="082" ind1="0" ind2="4">
+            <marc:subfield code="a">697.78</marc:subfield>
+            <marc:subfield code="2">23</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Chiras, Dan.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Solar Home Heating Basics :</marc:subfield>
+            <marc:subfield code="b">A Green Energy Guide /</marc:subfield>
+            <marc:subfield code="c">Dan Chiras.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">Gabriola Island :</marc:subfield>
+            <marc:subfield code="b">New Society Publishers :</marc:subfield>
+            <marc:subfield code="b">[distributor] Grantham Book Services Ltd :</marc:subfield>
+            <marc:subfield code="b">[distributor] NewSouth Books :</marc:subfield>
+            <marc:subfield code="b">[distributor] NewSouth Books :</marc:subfield>
+            <marc:subfield code="b">[distributor] Jonathan Ball Publishers SA,</marc:subfield>
+            <marc:subfield code="c">2012.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">192 p. ;</marc:subfield>
+            <marc:subfield code="c">20x13 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">8.99</marc:subfield>
+            <marc:subfield code="c">GBP</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">This price includes a tax element</marc:subfield>
+            <marc:subfield code="h">Z 8.99 0.00 8.99 0.00</marc:subfield>
+            <marc:subfield code="j">GB</marc:subfield>
+            <marc:subfield code="k">xxk</marc:subfield>
+            <marc:subfield code="m">TIPTRE</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">12.95</marc:subfield>
+            <marc:subfield code="c">USD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">Local taxes may apply</marc:subfield>
+            <marc:subfield code="h">Z 12.95 0.00 12.95 0.00</marc:subfield>
+            <marc:subfield code="j">US</marc:subfield>
+            <marc:subfield code="k">xxu</marc:subfield>
+            <marc:subfield code="m">Ingram</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">22.99</marc:subfield>
+            <marc:subfield code="c">AUD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">This price includes a tax element</marc:subfield>
+            <marc:subfield code="j">AU</marc:subfield>
+            <marc:subfield code="k">at</marc:subfield>
+            <marc:subfield code="m">OZNSWU</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">27.99</marc:subfield>
+            <marc:subfield code="c">NZD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">This price includes a tax element</marc:subfield>
+            <marc:subfield code="j">NZ</marc:subfield>
+            <marc:subfield code="k">nz</marc:subfield>
+            <marc:subfield code="m">OZNSWU</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120524</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120508</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120611</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120508</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Paperback. Trade paperback (US).</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="505" ind1="0" ind2=" ">
+            <marc:subfield code="a">Introduction-- Primer on Energy-- Insulate!-- Understanding Solar Energy-- Passive
+                Solar-- Passive Solar Refit-- Solar Hot Air-- Solar Hot Water-- Energy Efficient Backup Heat-- Resource
+                Guide-- Index.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1=" " ind2=" ">
+            <marc:subfield code="a">An easy to understand introduction to practical and affordable ways to heat your
+                home with the power of the sun.
+            </marc:subfield>
+            <marc:subfield code="b">As fossil fuel supplies dwindle, home heating will be one of the major challenges in
+                temperate and cold climates in upcoming years. The reserves of natural gas used to heat the majority of
+                North American buildings are rapidly being depleted. This latest Green Energy Guide helps readers who
+                want to slash their energy bills and reduce their dependence on scarce resources to navigate the
+                sometimes confusing maze of clean, reliable, and affordable options. Solar Home Heating Basics focuses
+                on renewable energy strategies to heat new and existing homes and small businesses. These include: *
+                Energy efficiency, weatherization, and insulation * Solar hot air heating * Solar thermal systems *
+                Passive solar heating * Backup heating systems While most solar home heating resources are geared
+                primarily towards new buildings, this practical guide addresses ways of retrofitting existing buildings,
+                making solar a reality for many people. Packed with all the essential information home and small
+                business owners need to find alternatives to conventional heating solutions, Solar Home Heating Basics
+                is your key to a personal energy solution. Dan Chiras is a respected educator and the author of thirty
+                books on residential renewable energy and green building, including The Homeowner's Guide to Renewable
+                Energy and Power from the Sun. Dan is the director and lead instructor at the Evergreen Institute's
+                Center for Renewable Energy and Green Building, where he teaches workshops on energy efficiency, solar
+                electricity, solar hot water, small wind energy, green building, natural plasters, and natural building.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1="0" ind2=" ">
+            <marc:subfield code="a">Dan Chiras is a respected educator and the author of 30 books on residential
+                renewable energy and green building including The Homeowner's Guide to Renewable Energy and Power from
+                the Sun. He has studied and worked with renewable energy and energy efficiency for over three decades
+                and is the president of Sustainable Systems Design. Dan is also the director and lead instructor at the
+                Evergreen Institute's Center for Renewable Energy and Green Building (www.evergreeninstitute.org), where
+                he teaches workshops on energy efficiency, solar electricity, solar hot water, small wind energy, green
+                building, natural plasters and natural building.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Solar houses.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Solar heating.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Energy resources.</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Alternative &amp; renewable energy sources &amp; technology.</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Environment and Ecology.</marc:subfield>
+            <marc:subfield code="2">ukslc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Energy resources.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Alternative &amp; renewable energy sources &amp; technology.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="852" ind1=" " ind2=" ">
+            <marc:subfield code="a">DE-15</marc:subfield>
+            <marc:subfield code="z">2013-01-01T00:00:00Z</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="980" ind1=" " ind2=" ">
+            <marc:subfield code="a">9780865716636</marc:subfield>
+            <marc:subfield code="b">3</marc:subfield>
+            <marc:subfield code="c">20170817</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>

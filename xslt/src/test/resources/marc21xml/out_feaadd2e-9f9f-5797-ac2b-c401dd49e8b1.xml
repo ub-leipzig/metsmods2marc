@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+    <marc:record>
+        <marc:leader>03677cam a2200577za 4500</marc:leader>
+        <marc:controlfield tag="001">0004825159</marc:controlfield>
+        <marc:controlfield tag="003">UK-WkNB</marc:controlfield>
+        <marc:controlfield tag="005">20120411000000.0</marc:controlfield>
+        <marc:controlfield tag="007">ta</marc:controlfield>
+        <marc:controlfield tag="008">120411e201209uuxxk | |||||||0|0 eng|d</marc:controlfield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">9780230285200 (hbk.) :</marc:subfield>
+            <marc:subfield code="c">£65.00</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">0230285201 (hbk.) :</marc:subfield>
+            <marc:subfield code="c">£65.00</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="024" ind1="3" ind2=" ">
+            <marc:subfield code="a">9780230285200</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">UK-WkNB</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="c">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">PBB</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">PDA</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">MAT</marc:subfield>
+            <marc:subfield code="2">ukslc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">QD</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">PDA</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">PBX</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">PBB</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">QDX</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="082" ind1="0" ind2="4">
+            <marc:subfield code="a">510.1</marc:subfield>
+            <marc:subfield code="2">23</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bangu, Sorin.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="4">
+            <marc:subfield code="a">The Applicability of Mathematics in Science: Indispensability and Ontology /
+            </marc:subfield>
+            <marc:subfield code="c">Sorin Bangu.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">Basingstoke :</marc:subfield>
+            <marc:subfield code="b">Palgrave Macmillan :</marc:subfield>
+            <marc:subfield code="b">[distributor] Springer-Verlag Berlin and Heidelberg GmbH &amp; Co. KG :
+            </marc:subfield>
+            <marc:subfield code="b">[distributor] United Book Distributors :</marc:subfield>
+            <marc:subfield code="b">[distributor] United Book Distributors :</marc:subfield>
+            <marc:subfield code="b">[distributor] Macmillan South Africa Head Office,</marc:subfield>
+            <marc:subfield code="c">2012.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">256 p. :</marc:subfield>
+            <marc:subfield code="b">256 p. ;</marc:subfield>
+            <marc:subfield code="c">22x14 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">65.00</marc:subfield>
+            <marc:subfield code="c">GBP</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">Local taxes may apply</marc:subfield>
+            <marc:subfield code="h">Z 65.00 0.00 65.00 0.00</marc:subfield>
+            <marc:subfield code="j">GB</marc:subfield>
+            <marc:subfield code="k">xxk</marc:subfield>
+            <marc:subfield code="m">SPRING</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">100.00</marc:subfield>
+            <marc:subfield code="c">USD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">Local taxes may apply</marc:subfield>
+            <marc:subfield code="h">Z 100.00 0.00 100.00 0.00</marc:subfield>
+            <marc:subfield code="j">US</marc:subfield>
+            <marc:subfield code="k">xxu</marc:subfield>
+            <marc:subfield code="m">Ingram</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">213.95</marc:subfield>
+            <marc:subfield code="c">AUD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">This price includes a tax element</marc:subfield>
+            <marc:subfield code="h">S 194.50 10.00 213.95 19.45</marc:subfield>
+            <marc:subfield code="j">AU</marc:subfield>
+            <marc:subfield code="k">at</marc:subfield>
+            <marc:subfield code="m">CoInfo Book Services</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120924</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120924</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120924</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="490" ind1="0" ind2=" ">
+            <marc:subfield code="a">New Directions in the Philosophy of Science</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Hardback.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">No outer packaging.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="505" ind1="0" ind2=" ">
+            <marc:subfield code="a">Series Editor's Preface Acknowledgements Introduction: The Question PART I:
+                NATURALISM, INDISPENSABILITY AND POSIT REALISM Naturalism: Science as the Measure of All Things Holism
+                Posit Realism PART II: THE VANTAGE POINT: MATHEMATICS IN SCIENCE Standard and Non-Standard Applications
+                Mathematics and Scientific Discovery Wigner's Puzzle Revisited PART III: EXPLANATION AND MATHEMATICAL
+                REALISM Inference to the Best Mathematical Explanation Explanation, Holism, and Ontological Commitment:
+                The Objection from Scientific Practice Concluding remarks Notes Bibliography.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1=" " ind2=" ">
+            <marc:subfield code="a">This examination of a series of philosophical issues arising from the applicability
+                of mathematics to science consists of scientifically-informed philosophical analysis and argument. One
+                distinctive feature of this project is that it proposes to look at issues in philosophy of mathematics
+                within the larger context of philosophy of science.
+            </marc:subfield>
+            <marc:subfield code="b">This examination of a series of philosophical issues arising from the applicability
+                of mathematics to science consists of scientifically-informed philosophical analysis and argument. One
+                distinctive feature of this project is that it proposes to look at issues in philosophy of mathematics
+                within the larger context of philosophy of science.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1="0" ind2=" ">
+            <marc:subfield code="a">SORIN BANGU is Associate Professor in the Department of Philosophy, University of
+                Bergen, Norway. His main interests and publications are in philosophy of science and mathematics, and
+                the history of analytic philosophy (especially Wittgenstein and Quine).
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Mathematics</marc:subfield>
+            <marc:subfield code="x">Philosophy.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Science</marc:subfield>
+            <marc:subfield code="x">Mathematics.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Philosophy of mathematics.</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Philosophy of science.</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Mathematics.</marc:subfield>
+            <marc:subfield code="2">ukslc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Philosophy.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Philosophy of science.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">History of mathematics.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Philosophy of mathematics.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Popular philosophy.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="852" ind1=" " ind2=" ">
+            <marc:subfield code="a">DE-15</marc:subfield>
+            <marc:subfield code="z">2014-11-27T07:20:21Z</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="980" ind1=" " ind2=" ">
+            <marc:subfield code="a">9780230285200</marc:subfield>
+            <marc:subfield code="b">3</marc:subfield>
+            <marc:subfield code="c">20170802</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>

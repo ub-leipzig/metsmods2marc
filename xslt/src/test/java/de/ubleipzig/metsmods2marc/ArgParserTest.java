@@ -15,6 +15,7 @@
 package de.ubleipzig.metsmods2marc;
 
 import static de.ubleipzig.metsmods2marc.Constants.OUTPUT_DIR;
+import static de.ubleipzig.metsmods2marc.Constants.REPOSITORY_BASE_URI;
 import static java.nio.file.Paths.get;
 
 import java.io.File;
@@ -28,6 +29,7 @@ import org.junit.Test;
 public class ArgParserTest {
     private ArgParser parser;
     private String testFileName = "MS_152.xml";
+    private String marc21XmlFile = "out_feaadd2e-9f9f-5797-ac2b-c401dd49e8b1";
 
     @Test
     public void testArgs() {
@@ -36,16 +38,25 @@ public class ArgParserTest {
         if (!new File(OUTPUT_DIR).exists()) {
             String path = get(".").toAbsolutePath().normalize().getParent().toString();
             args = new String[]{"-r", path + "/xslt/src/test/resources/" + testFileName,
-                    "-x",
-                    path + "/xslt/src/main/resources/de.ubleipzig.metsmods2marc/extract-mods.xsl",
+                    "-p", REPOSITORY_BASE_URI,
                     "-d", "/tmp"};
         } else {
             String path = get(".").toAbsolutePath().normalize().getParent().toString();
-            args = new String[]{"-r", path + "/xslt/src/test/resources/" +testFileName,
-                    "-x",
-                    path + "/xslt/src/main/resources/de.ubleipzig.metsmods2marc/extract-mods.xsl",
+            args = new String[]{"-r", path + "/xslt/src/test/resources/" + testFileName,
+                    "-p", REPOSITORY_BASE_URI,
                     "-d", OUTPUT_DIR};
         }
+        final TransferProcess processor = parser.init(args);
+        processor.run();
+    }
+
+    @Test
+    public void testOptions() {
+        parser = new ArgParser();
+        final String[] args;
+        String path = get(".").toAbsolutePath().normalize().getParent().toString();
+        args = new String[]{"-r", path + "/xslt/src/test/resources/marc21xml/" + marc21XmlFile,
+                "-b", "-p", REPOSITORY_BASE_URI, "-d", OUTPUT_DIR};
         final TransferProcess processor = parser.init(args);
         processor.run();
     }

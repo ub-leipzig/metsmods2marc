@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+    <marc:record>
+        <marc:leader>06841cam a2200649za 4500</marc:leader>
+        <marc:controlfield tag="001">0004825137</marc:controlfield>
+        <marc:controlfield tag="003">UK-WkNB</marc:controlfield>
+        <marc:controlfield tag="005">20120608000000.0</marc:controlfield>
+        <marc:controlfield tag="007">ta</marc:controlfield>
+        <marc:controlfield tag="008">120608e201209uuxxc | |||||||0|0 eng|d</marc:controlfield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">9780773540507 (pbk.) :</marc:subfield>
+            <marc:subfield code="c">£27.99</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">0773540504 (pbk.) :</marc:subfield>
+            <marc:subfield code="c">£27.99</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="024" ind1="3" ind2=" ">
+            <marc:subfield code="a">9780773540507</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">UK-WkNB</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="c">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="050" ind1=" " ind2="4">
+            <marc:subfield code="a">LC191.8.C2</marc:subfield>
+            <marc:subfield code="b">L64 2012</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">JNKH</marc:subfield>
+            <marc:subfield code="x">1KBC</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">JFSJ1</marc:subfield>
+            <marc:subfield code="x">1KBC</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">EDU</marc:subfield>
+            <marc:subfield code="2">ukslc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">JNKH</marc:subfield>
+            <marc:subfield code="x">1KBC</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="072" ind1=" " ind2="7">
+            <marc:subfield code="a">JBSF1</marc:subfield>
+            <marc:subfield code="x">1KBC</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="082" ind1="0" ind2="4">
+            <marc:subfield code="a">370.8209045</marc:subfield>
+            <marc:subfield code="2">23</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Llewellyn, Kristina R.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Democracy's Angels :</marc:subfield>
+            <marc:subfield code="b">The Work of Women Teachers /</marc:subfield>
+            <marc:subfield code="c">Kristina R. Llewellyn.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">Montreal :</marc:subfield>
+            <marc:subfield code="b">McGill-Queen's University Press :</marc:subfield>
+            <marc:subfield code="b">[distributor] Marston Book Services Ltd :</marc:subfield>
+            <marc:subfield code="b">[distributor] Marston Book Services Ltd :</marc:subfield>
+            <marc:subfield code="b">[distributor] Duke University Press,</marc:subfield>
+            <marc:subfield code="c">2012.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">216 p. ;</marc:subfield>
+            <marc:subfield code="c">23x15 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">27.99</marc:subfield>
+            <marc:subfield code="c">GBP</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">This price includes a tax element</marc:subfield>
+            <marc:subfield code="h">Z 27.99 0.00 27.99 0.00</marc:subfield>
+            <marc:subfield code="j">GB</marc:subfield>
+            <marc:subfield code="k">xxk</marc:subfield>
+            <marc:subfield code="m">MARSTO</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">29.95</marc:subfield>
+            <marc:subfield code="c">USD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">Local taxes may apply</marc:subfield>
+            <marc:subfield code="h">Z 29.95 0.00 29.95 0.00</marc:subfield>
+            <marc:subfield code="j">US</marc:subfield>
+            <marc:subfield code="k">xxu</marc:subfield>
+            <marc:subfield code="m">Ingram</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">59.95</marc:subfield>
+            <marc:subfield code="c">AUD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">This price includes a tax element</marc:subfield>
+            <marc:subfield code="h">S 54.50 10.00 59.95 5.45</marc:subfield>
+            <marc:subfield code="j">AU</marc:subfield>
+            <marc:subfield code="k">at</marc:subfield>
+            <marc:subfield code="m">Inbooks</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">67.95</marc:subfield>
+            <marc:subfield code="c">NZD</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">This price includes a tax element</marc:subfield>
+            <marc:subfield code="h">S 59.09 15.00 67.95 8.86</marc:subfield>
+            <marc:subfield code="j">NZ</marc:subfield>
+            <marc:subfield code="k">nz</marc:subfield>
+            <marc:subfield code="m">Inbooks</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="365" ind1=" " ind2=" ">
+            <marc:subfield code="a">02</marc:subfield>
+            <marc:subfield code="b">27.99</marc:subfield>
+            <marc:subfield code="c">GBP</marc:subfield>
+            <marc:subfield code="d">00</marc:subfield>
+            <marc:subfield code="e">This price includes a tax element</marc:subfield>
+            <marc:subfield code="h">Z 27.99 0.00 27.99 0.00</marc:subfield>
+            <marc:subfield code="j">ZA</marc:subfield>
+            <marc:subfield code="k">sa</marc:subfield>
+            <marc:subfield code="m">CAP</marc:subfield>
+            <marc:subfield code="2">onix-pt</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120926</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120926</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120926</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120926</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="366" ind1=" " ind2=" ">
+            <marc:subfield code="b">20120926</marc:subfield>
+            <marc:subfield code="2">UK-WkNB</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Paperback.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1=" " ind2=" ">
+            <marc:subfield code="a">Following the Second World War, women teachers filled a labour shortage in schools
+                and Canadian newspapers rushed to feature their presence. One caption even called the teachers "pretty
+                enough to send dad to school with junior." Envisioned as shining examples of "proper" femininity, female
+                educators were expected to produce a new generation of housewives for a strong democratic nation.
+                Democracy's Angels is a daring exploration of the limitations of that vision, which ultimately confined
+                women to teaching a model of citizenship that privileged masculinity and reduced women's authority. In
+                an analytical tour-de-force, Kristina Llewellyn unravels the ideological underpinnings of democracy as
+                the objective for postwar education. Schools were charged with producing rational, autonomous,
+                politically engaged citizens, but women were not associated with these qualities. Claims to scholarly
+                knowledge, professional autonomy, and administrative positions were reserved for male teachers. Using
+                rigorous interdisciplinary scholarship and extensive interviews with former teachers, Llewellyn reveals
+                the ways in which women negotiated and even found opportunities within these troubling limitations. An
+                unflinching look at the difficult realities of women's work experiences in postwar Canada, Democracy's
+                Angels illustrates the intrinsic connections between gender, education, and democracy.
+            </marc:subfield>
+            <marc:subfield code="b">Following the Second World War, women teachers filled a labour shortage in schools
+                and Canadian newspapers rushed to feature their presence. One caption even called the teachers "pretty
+                enough to send dad to school with junior." Envisioned as shining examples of "proper" femininity, female
+                educators were expected to produce a new generation of housewives for a strong democratic nation.
+                Democracy's Angels is a daring exploration of the limitations of that vision, which ultimately confined
+                women to teaching a model of citizenship that privileged masculinity and reduced women's authority. In
+                an analytical tour-de-force, Kristina Llewellyn unravels the ideological underpinnings of democracy as
+                the objective for postwar education. Schools were charged with producing rational, autonomous,
+                politically engaged citizens, but women were not associated with these qualities. Claims to scholarly
+                knowledge, professional autonomy, and administrative positions were reserved for male teachers. Using
+                rigorous interdisciplinary scholarship and extensive interviews with former teachers, Llewellyn reveals
+                the ways in which women negotiated and even found opportunities within these troubling limitations. An
+                unflinching look at the difficult realities of women's work experiences in postwar Canada, Democracy's
+                Angels illustrates the intrinsic connections between gender, education, and democracy.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="1" ind2=" ">
+            <marc:subfield code="a">"Llewellyn is to be congratulated on this remarkable study - one which opens up new
+                vistas for understanding the circumstances in which female teachers worked during the immediate post-war
+                decades, and the ways in which they served, and resisted, the interests of the elite in promoting
+                "proper" forms of citizenship among high school students of the times - "democracy's angels" indeed! "
+                Histoire sociale / Social History "Democracy's Angels provides a fascinating insight into Canadian women
+                teachers' lives in a period not that well-trod by historians. Recommended reading for history students
+                and teachers, those working on school reform and public policy in Canada, and on gender issues in
+                education in general." History of Education Quarterly "This book illustrates beautifully the paradox of
+                a school system (indeed a nation) that was intent on producing ideal `democratic' citizens for a modern
+                - though abstractly defined - democratic state while simultaneously denying women the full rights of the
+                imagined democracy." Helen Raptis, Associate Professor, Faculty of Education, University of Victoria.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1="0" ind2=" ">
+            <marc:subfield code="a">Kristina R. Llewellyn is assistant professor of Social Development Studies at
+                Renison University College, University of Waterloo.
+            </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Women teachers</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">20th century</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Democracy and education</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">20th century</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Democracy and education</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Women teachers</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Gender identity in education</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">20th century</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Education</marc:subfield>
+            <marc:subfield code="x">Social aspects</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">20th century</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Education</marc:subfield>
+            <marc:subfield code="x">Social aspects</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Enseignantes</marc:subfield>
+            <marc:subfield code="x">Histoire</marc:subfield>
+            <marc:subfield code="y">20e siaecle</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Daemocratie et aeducation</marc:subfield>
+            <marc:subfield code="x">Histoire</marc:subfield>
+            <marc:subfield code="y">20e siaecle</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Identitae sexuelle en aeducation</marc:subfield>
+            <marc:subfield code="x">Histoire</marc:subfield>
+            <marc:subfield code="y">20e siaecle</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">aEducation</marc:subfield>
+            <marc:subfield code="x">Aspect social</marc:subfield>
+            <marc:subfield code="x">Histoire</marc:subfield>
+            <marc:subfield code="y">20e siaecle</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Teaching staff</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Gender studies: women</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+            <marc:subfield code="2">bicssc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Education.</marc:subfield>
+            <marc:subfield code="2">ukslc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Teaching staff</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Gender studies: women &amp; girls</marc:subfield>
+            <marc:subfield code="z">Canada.</marc:subfield>
+            <marc:subfield code="2">thema</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="852" ind1=" " ind2=" ">
+            <marc:subfield code="a">DE-15</marc:subfield>
+            <marc:subfield code="z">2013-01-01T00:00:00Z</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="980" ind1=" " ind2=" ">
+            <marc:subfield code="a">9780773540507</marc:subfield>
+            <marc:subfield code="b">3</marc:subfield>
+            <marc:subfield code="c">20170809</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>

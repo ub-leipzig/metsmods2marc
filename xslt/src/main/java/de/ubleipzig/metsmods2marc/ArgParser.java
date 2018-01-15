@@ -56,14 +56,6 @@ class ArgParser {
                 .required(false)
                 .build());
 
-        // Mode option
-        configOptions.addOption(Option.builder("x")
-                .longOpt("xslt")
-                .hasArg(true).numberOfArgs(1).argName("xslt")
-                .desc("XSLT Source File")
-                .required(true)
-                .build());
-
         // Resource option
         configOptions.addOption(Option.builder("r")
                 .longOpt("resource")
@@ -71,11 +63,24 @@ class ArgParser {
                 .desc("Resource (URI) to import")
                 .required(true).build());
 
+        // Repository option
+        configOptions.addOption(Option.builder("p")
+                .longOpt("repository")
+                .hasArg(true).numberOfArgs(1).argName("repository")
+                .desc("Repository Base URI")
+                .required(true).build());
+
         configOptions.addOption(Option.builder("d")
                 .longOpt("dir")
                 .hasArg(true).numberOfArgs(1).argName("dir")
                 .desc("The directory to export to")
                 .required(true).build());
+
+        configOptions.addOption(Option.builder("b")
+                .longOpt("bibframe")
+                .hasArg(false)
+                .desc("Export resource as BibFrame RDF")
+                .required(false).build());
     }
 
     /**
@@ -137,8 +142,9 @@ class ArgParser {
         final Config config = new Config();
 
         config.setResource(cmd.getOptionValue('r'));
-        config.setXsltResource(cmd.getOptionValue('x'));
         config.setBaseDirectory(cmd.getOptionValue('d'));
+        config.setBibFrame(cmd.hasOption('b'));
+        config.setRepositoryBaseUri(cmd.getOptionValue('p'));
         return config;
     }
 

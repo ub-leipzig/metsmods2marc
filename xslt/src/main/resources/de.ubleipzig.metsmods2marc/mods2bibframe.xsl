@@ -34,6 +34,7 @@
     -->
 
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
+    <xsl:param name="BASEURI"/>
     <!-- Notes Using marc2bibframe as a model for bibframe generation -->
     <!-- Build RDF output -->
     <xsl:template match="/">
@@ -141,18 +142,18 @@
         <!-- Pull it all together for URI -->
         <xsl:choose>
             <xsl:when test="$node/ancestor-or-self::mods:relatedItem">
-                <xsl:value-of select="concat('http://bibframe.org/resources/',$id,$ref-type,$ref-subType,count($node/preceding-sibling::*) +1)"/>
+                <xsl:value-of select="concat($BASEURI, '/',$id,$ref-type,$ref-subType,count($node/preceding-sibling::*) +1)"/>
             </xsl:when>
             <xsl:when test="$ref-type='work'">
-                <xsl:value-of select="concat('http://bibframe.org/resources/',$id)"/>
+                <xsl:value-of select="concat($BASEURI, '/',$id)"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:choose>
                     <xsl:when test="$ref-type !=''">
-                        <xsl:value-of select="concat('http://bibframe.org/resources/',$id,$ref-type,count($node/preceding-sibling::*) +1)"/>
+                        <xsl:value-of select="concat($BASEURI, '/',$id,$ref-type,count($node/preceding-sibling::*) +1)"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="concat('http://bibframe.org/resources/',$id,local-name($node),count($node/preceding-sibling::*) +1)"/>
+                        <xsl:value-of select="concat($BASEURI, '/',$id,local-name($node),count($node/preceding-sibling::*) +1)"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:otherwise>

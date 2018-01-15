@@ -1,0 +1,51 @@
+package de.ubleipzig.metsmods2marc;
+
+import static de.ubleipzig.metsmods2marc.Constants.OUTPUT_DIR;
+import static de.ubleipzig.metsmods2marc.UUIDType5.NAMESPACE_URL;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.UUID;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import org.marc4j.MarcReader;
+import org.marc4j.MarcStreamReader;
+import org.marc4j.MarcXmlWriter;
+import org.marc4j.marc.Record;
+
+public class MarcXMLWriter {
+
+    public static void writeMarcXMLtoFile(String content, String id) throws IOException {
+        StringBuffer sbf = removeUTFCharacters(content);
+        byte[] bytes = sbf.toString().getBytes();
+        InputStream input = new ByteArrayInputStream(bytes);
+        final ByteArrayOutputStream out = new ByteArrayOutputStream();
+        final MarcXmlWriter writer = new MarcXmlWriter(out, true);
+        MarcReader reader = new MarcStreamReader(input);
+        while (reader.hasNext()) {
+            Record record = reader.next();
+            writer.write(record);
+        }
+        writer.close();
+        UUID marcUUID = UUIDType5.nameUUIDFromNamespaceAndString(NAMESPACE_URL, id);
+        FileOutputStream fos = new FileOutputStream(
+                new File(OUTPUT_DIR + "/marc21xmlout_" + marcUUID));
+        out.writeTo(fos);
+    }
+
+    public static StringBuffer removeUTFCharacters(String data) {
+        Pattern p = Pattern.compile("\\\\u(\\p{XDigit}{4})");
+        Matcher m = p.matcher(data);
+        StringBuffer buf = new StringBuffer(data.length());
+        while (m.find()) {
+            String ch = String.valueOf((char) Integer.parseInt(m.group(1), 16));
+            m.appendReplacement(buf, Matcher.quoteReplacement(ch));
+        }
+        m.appendTail(buf);
+        return buf;
+    }
+}
