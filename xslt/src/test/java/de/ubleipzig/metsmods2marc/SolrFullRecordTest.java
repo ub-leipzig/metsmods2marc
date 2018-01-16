@@ -1,5 +1,6 @@
 package de.ubleipzig.metsmods2marc;
 
+import static de.ubleipzig.metsmods2marc.MarcXMLWriter.removeUTFCharacters;
 import static de.ubleipzig.metsmods2marc.MarcXMLWriter.writeMarcXMLtoFile;
 import static java.nio.file.Paths.get;
 
@@ -19,6 +20,7 @@ import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
+import org.apache.solr.common.params.CursorMarkParams;
 import org.junit.Test;
 import org.marc4j.MarcReader;
 import org.marc4j.MarcStreamReader;
@@ -30,17 +32,27 @@ public class SolrFullRecordTest {
 
     @Test
     public void testGetDocumentFromSolr() throws IOException, SolrServerException {
-        String urlString = "http://172.18.85.142:8085/solr/biblio";
+        String urlString = "https://index.ub.uni-leipzig.de/solr/biblio";
         HttpSolrClient solr = new HttpSolrClient.Builder(urlString).build();
         SolrQuery query = new SolrQuery();
-        query.set("q", "institution:DE-15");
-        query.setRows(50);
-        QueryResponse response = solr.query(query);
-        SolrDocumentList docList = response.getResults();
-        for (SolrDocument doc : docList) {
-            String fr = (String) doc.getFieldValue("fullrecord");
-            String id = (String) doc.getFieldValue("id");
-            writeMarcXMLtoFile(fr, id);
+        query.addSort("id", SolrQuery.ORDER.asc);
+        String cursorMark = CursorMarkParams.CURSOR_MARK_START;
+        boolean done = false;
+        query.set("q", "format:Manuscript");
+        query.setRows(500);
+        while (!done) {
+            query.set(CursorMarkParams.CURSOR_MARK_PARAM, cursorMark);
+            QueryResponse response = solr.query(query);
+            String nextCursorMark = response.getNextCursorMark();
+            for (SolrDocument doc : response.getResults()) {
+                String fr = (String) doc.getFieldValue("fullrecord");
+                String id = (String) doc.getFieldValue("id");
+                writeMarcXMLtoFile(fr, id);
+            }
+            if (cursorMark.equals(nextCursorMark)) {
+                done = true;
+            }
+            cursorMark = nextCursorMark;
         }
     }
 
@@ -65,17 +77,5 @@ public class SolrFullRecordTest {
         String result = new String(out.toByteArray());
         System.out.println(result);
         //assertXMLEqual(new String(out.toByteArray()), TestUtils.readFileIntoString("/fromsolr.mrc"));
-    }
-
-    public static StringBuffer removeUTFCharacters(String data){
-        Pattern p = Pattern.compile("\\\\u(\\p{XDigit}{4})");
-        Matcher m = p.matcher(data);
-        StringBuffer buf = new StringBuffer(data.length());
-        while (m.find()) {
-            String ch = String.valueOf((char) Integer.parseInt(m.group(1), 16));
-            m.appendReplacement(buf, Matcher.quoteReplacement(ch));
-        }
-        m.appendTail(buf);
-        return buf;
     }
 }

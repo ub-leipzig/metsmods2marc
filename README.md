@@ -13,11 +13,11 @@ The transformation works in two steps.
     
     $ cd ./xslt/build/install/xslt/bin
     
-    $ ./xslt -r {$filesytem path to XML source file} -x {$filesytem path to transformation xslt} -d {$output dir for transformed file} 
+    $ ./xslt -r {$filesytem path to XML source file} -d {$output dir for transformed file} 
     
 example:
      
-    $ ./xslt -r ~/IdeaProjects/metsmods2marc/xslt/src/test/resources/BntItin_021340072.xml -x ~/IdeaProjects/metsmods2marc/xslt/src/main/resources/de.ubleipzig.metsmods2marc/extract-mods.xsl -d /tmp/output-data 
+    $ ./xslt -r ~/IdeaProjects/metsmods2marc/xslt/src/test/resources/BntItin_021340072.xml -d /tmp/output-data 
 
 ### Output
 

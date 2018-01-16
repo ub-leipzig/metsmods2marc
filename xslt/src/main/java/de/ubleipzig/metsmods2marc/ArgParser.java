@@ -202,13 +202,13 @@ class ArgParser {
 
         writer.println("Running Import/Export Utility from command line arguments");
         formatter.printHelp(
-                writer, 80, "java -jar ingester.jar", "", configOptions, 4, 4, "", true);
+                writer, 80, "xslt", "", configOptions, 4, 4, "", true);
 
         writer.println("\n--- or ---\n");
 
         writer.println("Running Import/Export Utility from configuration file");
         formatter.printHelp(
-                writer, 80, "java -jar ingester.jar", "", configFileOptions, 4, 4, "", true);
+                writer, 80, "xslt", "", configFileOptions, 4, 4, "", true);
 
         writer.println("\n");
         writer.flush();

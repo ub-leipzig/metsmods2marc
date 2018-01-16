@@ -63,7 +63,7 @@ import org.xmlbeam.XBProjector;
 public class Ingester implements TransferProcess {
     private static final Logger logger = getLogger(Ingester.class);
     private final Config config;
-    static final JenaRDF rdf = new JenaRDF();
+    private static final JenaRDF rdf = new JenaRDF();
     private static final IOService ioService = new JenaIOService(null);
 
 
@@ -86,10 +86,10 @@ public class Ingester implements TransferProcess {
 
         URI resource = config.getResource();
         URI repositoryBaseUri = config.getRepositoryBaseUri();
-        Boolean bibframe = config.isBibFrame();
+        Boolean bibFrame = config.isBibFrame();
         File baseDir = config.getBaseDirectory();
 
-        if (!bibframe) {
+        if (!bibFrame) {
             final LocalTime now = LocalTime.now();
             final String resultFile = baseDir + "/marc-output_" + now + ".xml";
             final ClassLoader classloader = Thread.currentThread().getContextClassLoader();
@@ -150,7 +150,7 @@ public class Ingester implements TransferProcess {
         }
     }
 
-    public void convertRdfXmltoJsonLdGraph(String resultFile) throws IOException {
+    private void convertRdfXmltoJsonLdGraph(String resultFile) throws IOException {
         File result = new File(resultFile);
         InputStream fs = new FileInputStream(result);
         Graph g = getGraph(fs);
