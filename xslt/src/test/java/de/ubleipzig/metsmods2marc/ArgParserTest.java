@@ -28,8 +28,8 @@ import org.junit.Test;
  */
 public class ArgParserTest {
     private ArgParser parser;
-    private String testFileName = "MS_152.xml";
-    private String marc21XmlFile = "out_feaadd2e-9f9f-5797-ac2b-c401dd49e8b1";
+    private String testFileName = "mods_src/MS_152.xml";
+    private String marc21XmlFile = "out_feaadd2e-9f9f-5797-ac2b-c401dd49e8b1.xml";
 
     @Test
     public void testArgs() {
@@ -38,12 +38,10 @@ public class ArgParserTest {
         if (!new File(OUTPUT_DIR).exists()) {
             String path = get(".").toAbsolutePath().normalize().getParent().toString();
             args = new String[]{"-r", path + "/xslt/src/test/resources/" + testFileName,
-                    "-p", REPOSITORY_BASE_URI,
-                    "-d", "/tmp"};
+                   "-d", "/tmp"};
         } else {
             String path = get(".").toAbsolutePath().normalize().getParent().toString();
             args = new String[]{"-r", path + "/xslt/src/test/resources/" + testFileName,
-                    "-p", REPOSITORY_BASE_URI,
                     "-d", OUTPUT_DIR};
         }
         final TransferProcess processor = parser.init(args);

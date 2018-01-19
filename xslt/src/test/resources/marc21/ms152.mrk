@@ -1,0 +1,26 @@
+LEADER 01275ctm a2200325   4500
+001 0001140429
+003 DE-576
+005 20110728102508.0
+007 tu
+008 110324s1301    xx             00 0 lat c
+016   $a(OCoLC)712579864
+035   $a(DE-599)BSZ339310030
+040   $aDE-576$bger$cDE-576$erakwb
+041 0 $alat
+046   $jad14$2DE-576
+245 10$a[Theologische Sammelhandschrift] - Ms 152
+246 30$aMs.152 Cod.152 Cod 152 Cod. Lips. 152
+260   $a[S.l.],$c[14. Jh.]
+300   $a122 Bl.
+340   $aPergament
+500   $aKurzaufnahme der Handschrift. - Quelle: Helssig, Rudolf: Die lateinischen und deutschen Handschriften der Universitätsbibliothek Leipzig, Bd. 1: Die theologischen Handschriften. Teil 1. - Unveränd. Nachdr. der Aufl. 1926. - Wiesbaden : Harrassowitz, 1995. - (Katalog der Handschriften der Universitätsbibliothek Leipzig ; 4)
+856 42$uhttp://www.manuscripta-mediaevalia.de/obj31560861.html$3Handschriftenkatalog
+935   $bhandschr
+856   $9DE-15$uhttp://www.manuscripta-mediaevalia.de/obj31560861.html$ind14$ind2
+982   $a(DE-15)7006414076$x1
+969   $bKeine$x1
+983   $a(DE-15)2376441
+969   $cAH
+852   $aDE-15$z2011-07-28T10:24:45Z
+980   $a339310030$b0$c201403061351

@@ -1,3 +1,16 @@
+/*
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package de.ubleipzig.metsmods2marc;
 
 import static de.ubleipzig.metsmods2marc.MarcXMLWriter.removeUTFCharacters;
@@ -28,7 +41,7 @@ import org.marc4j.MarcXmlWriter;
 import org.marc4j.marc.Record;
 
 public class SolrFullRecordTest {
-    private String testResource = "ms152.mrc";
+    private String testResource = "fr-ruhnken.mrc";
 
     @Test
     public void testGetDocumentFromSolr() throws IOException, SolrServerException {
@@ -38,8 +51,8 @@ public class SolrFullRecordTest {
         query.addSort("id", SolrQuery.ORDER.asc);
         String cursorMark = CursorMarkParams.CURSOR_MARK_START;
         boolean done = false;
-        query.set("q", "format:Manuscript");
-        query.setRows(500);
+        query.set("q", "title:\"[Theologische Sammelhandschrift] - Ms 152\"");
+        query.setRows(50);
         while (!done) {
             query.set(CursorMarkParams.CURSOR_MARK_PARAM, cursorMark);
             QueryResponse response = solr.query(query);
@@ -59,7 +72,7 @@ public class SolrFullRecordTest {
     @Test
     public void testMarcReaderXmlWriter() throws Exception {
         String path = get(".").toAbsolutePath().normalize().toString();
-        String abspath = path + "/src/test/resources/" + testResource;
+        String abspath = path + "/src/test/resources/marc21/" + testResource;
         String content = new String(Files.readAllBytes(Paths.get(abspath)));
         StringBuffer sbf = removeUTFCharacters(content);
         byte[] bytes = sbf.toString().getBytes();

@@ -142,7 +142,7 @@
         <!-- Pull it all together for URI -->
         <xsl:choose>
             <xsl:when test="$node/ancestor-or-self::mods:relatedItem">
-                <xsl:value-of select="concat($BASEURI, '/',$id,$ref-type,$ref-subType,count($node/preceding-sibling::*) +1)"/>
+                <xsl:value-of select="concat($BASEURI, '/',$id,'/',$ref-type,$ref-subType,count($node/preceding-sibling::*) +1)"/>
             </xsl:when>
             <xsl:when test="$ref-type='work'">
                 <xsl:value-of select="concat($BASEURI, '/',$id)"/>
@@ -150,10 +150,10 @@
             <xsl:otherwise>
                 <xsl:choose>
                     <xsl:when test="$ref-type !=''">
-                        <xsl:value-of select="concat($BASEURI, '/',$id,$ref-type,count($node/preceding-sibling::*) +1)"/>
+                        <xsl:value-of select="concat($BASEURI, '/',$id,'/',$ref-type,count($node/preceding-sibling::*) +1)"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="concat($BASEURI, '/',$id,local-name($node),count($node/preceding-sibling::*) +1)"/>
+                        <xsl:value-of select="concat($BASEURI, '/',$id,'/',local-name($node),count($node/preceding-sibling::*) +1)"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:otherwise>
@@ -210,7 +210,6 @@
             <xsl:for-each select="mods:titleInfo[@type='uniform']|mods:titleInfo[not(@type)]">
                 <!-- Type? -->
                 <xsl:apply-templates select="mods:typeOfResource" mode="uri"/>
-                <xsl:call-template name="authorizedAccessPoint"/>
                 <!-- Title -->
                 <xsl:apply-templates select="." mode="uri"/>
                 <xsl:apply-templates select="."/>
@@ -257,8 +256,8 @@
                      xmlns:relators="http://id.loc.gov/vocabulary/relators/">
             <xsl:attribute name="about" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                 <xsl:choose>
-                    <xsl:when test="self::mods:relatedItem"><xsl:value-of select="concat(local:rdf-resource(.,'relatedItem'),'instance',count(child::*))"/></xsl:when>
-                    <xsl:otherwise><xsl:value-of select="concat(local:rdf-resource(.,'work'),'instance',count(child::*))"/></xsl:otherwise>
+                    <xsl:when test="self::mods:relatedItem"><xsl:value-of select="concat(local:rdf-resource(.,'relatedItem'),'/','instance',count(child::*))"/></xsl:when>
+                    <xsl:otherwise><xsl:value-of select="concat(local:rdf-resource(.,'work'),'/','instance',count(child::*))"/></xsl:otherwise>
                 </xsl:choose>
             </xsl:attribute>
             <xsl:apply-templates select="mods:typeOfResource" mode="uri"/>
@@ -295,8 +294,8 @@
                            xmlns:relators="http://id.loc.gov/vocabulary/relators/">
                 <xsl:attribute name="about" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                     <xsl:choose>
-                        <xsl:when test="self::mods:relatedItem"><xsl:value-of select="concat(local:rdf-resource(.,'relatedItem'),'annotation',count(child::*))"/></xsl:when>
-                        <xsl:otherwise><xsl:value-of select="concat(local:rdf-resource(.,'work'),'annotation',count(child::*))"/></xsl:otherwise>
+                        <xsl:when test="self::mods:relatedItem"><xsl:value-of select="concat(local:rdf-resource(.,'relatedItem'),'/','annotation',count(child::*))"/></xsl:when>
+                        <xsl:otherwise><xsl:value-of select="concat(local:rdf-resource(.,'work'),'/','annotation',count(child::*))"/></xsl:otherwise>
                     </xsl:choose>
                 </xsl:attribute>
                 <xsl:apply-templates select="mods:recordInfo"/>
@@ -330,7 +329,7 @@
 					descendant-or-self::mods:shelfLocator |
 					descendant-or-self::mods:accessCondition |
 					descendant-or-self::mods:copyInformation/mods:enumerationAndChronology | descendant-or-self::mods:note[@type='restriction']
-					| descendant-or-self::mods:location/mods:physicalLocation"></xsl:apply-templates>
+					| descendant-or-self::mods:location/mods:physicalLocation"/>
                 <bf:holdingFor rdf:resource="{concat(local:rdf-resource(.,'work'),'instance',count(child::*))}">
                     <xsl:attribute name="resource" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                         <xsl:choose>
@@ -341,15 +340,6 @@
                 </bf:holdingFor>
             </bf:HeldItem>
         </xsl:if>
-    </xsl:template>
-
-    <!-- Authorized access point @param nodes used for authorized acces points  -->
-    <xsl:template name="authorizedAccessPoint">
-        <bf:authorizedAccessPoint>
-            <xsl:value-of select="normalize-space(string-join(node(),' '))"/>
-        </bf:authorizedAccessPoint>
-        <!-- NOTE question about where this should be present-->
-        <bf:authorizedAccessPoint xml:lang="x-bf-hash"><xsl:value-of select="replace(lower-case(normalize-space(string-join(node(),''))),'([.,;:\[\]\s&quot;''])\s*','')"/></bf:authorizedAccessPoint>
     </xsl:template>
 
     <!-- TitleInfo for Work -->
@@ -530,36 +520,31 @@
         <xsl:choose>
             <xsl:when test="@type='family'">
                 <bf:Family rdf:about="{local:rdf-resource(.,$type)}">
-                    <bf:label><xsl:value-of select="$label"/></bf:label>
-                    <bf:authorizedAccessPoint><xsl:value-of select="$label"/></bf:authorizedAccessPoint>
+                    <rdfs:label><xsl:value-of select="$label"/></rdfs:label>
                     <xsl:call-template name="hasAuthority"/>
                 </bf:Family>
             </xsl:when>
             <xsl:when test="@type='personal'">
                 <bf:Person rdf:about="{local:rdf-resource(.,$type)}">
-                    <bf:label><xsl:value-of select="$label"/></bf:label>
-                    <bf:authorizedAccessPoint><xsl:value-of select="$label"/></bf:authorizedAccessPoint>
+                    <rdfs:label><xsl:value-of select="$label"/></rdfs:label>
                     <xsl:call-template name="hasAuthority"/>
                 </bf:Person>
             </xsl:when>
             <xsl:when test="@type='conference'">
                 <bf:Meeting rdf:about="{local:rdf-resource(.,$type)}">
-                    <bf:label><xsl:value-of select="$label"/></bf:label>
-                    <bf:authorizedAccessPoint><xsl:value-of select="$label"/></bf:authorizedAccessPoint>
+                    <rdfs:label><xsl:value-of select="$label"/></rdfs:label>
                     <xsl:call-template name="hasAuthority"/>
                 </bf:Meeting>
             </xsl:when>
             <xsl:when test=".[@type='corporate'] | .[@type='corporate' and .[mods:roleTerm[@type='code'] = 'dgg']]">
                 <bf:Organization rdf:about="{local:rdf-resource(.,$type)}">
-                    <bf:label><xsl:value-of select="$label"/></bf:label>
-                    <bf:authorizedAccessPoint><xsl:value-of select="$label"/></bf:authorizedAccessPoint>
+                    <rdfs:label><xsl:value-of select="$label"/></rdfs:label>
                     <xsl:call-template name="hasAuthority"/>
                 </bf:Organization>
             </xsl:when>
             <xsl:otherwise>
                 <bf:Agent rdf:about="{local:rdf-resource(.,$type)}">
-                    <bf:label><xsl:value-of select="$label"/></bf:label>
-                    <bf:authorizedAccessPoint><xsl:value-of select="$label"/></bf:authorizedAccessPoint>
+                    <rdfs:label><xsl:value-of select="$label"/></rdfs:label>
                     <xsl:call-template name="hasAuthority"/>
                 </bf:Agent>
             </xsl:otherwise>
@@ -757,7 +742,7 @@
                     <xsl:for-each select="mods:placeTerm">
                         <xsl:choose>
                             <xsl:when test="@type='text' or @authority='iso3166'">
-                                <bf:label><xsl:value-of select="."/></bf:label>
+                                <rdfs:label><xsl:value-of select="."/></rdfs:label>
                             </xsl:when>
                             <xsl:when test="@type='code' or @valueURI">
                                 <bf:Identifier>
@@ -777,7 +762,7 @@
         <xsl:if test=".!=''">
             <bf:providerName>
                 <bf:Organization>
-                    <bf:label><xsl:value-of select="."/></bf:label>
+                    <rdfs:label><xsl:value-of select="."/></rdfs:label>
                 </bf:Organization>
             </bf:providerName>
         </xsl:if>
@@ -960,7 +945,7 @@
             <xsl:when test="@type = 'review' and @xlink:href">
                 <bf:Review rdf:about="{local:rdf-resource(.,'review')}">
                     <xsl:if test="text()">
-                        <bf:label><xsl:value-of select="."/></bf:label>
+                        <rdfs:label><xsl:value-of select="."/></rdfs:label>
                     </xsl:if>
                     <xsl:if test="@xlink:href">
                         <bf:review rdf:resource="{@xlink}"></bf:review>
@@ -971,7 +956,7 @@
             <xsl:otherwise>
                 <bf:Summary rdf:about="{local:rdf-resource(.,'summary')}">
                     <rdf:type rdf:resource="http://bibframe.org/vocab/Summary"/>
-                    <bf:label><xsl:apply-templates select="text()"/></bf:label>
+                    <rdfs:label><xsl:apply-templates select="text()"/></rdfs:label>
                     <xsl:if test="@xlink:href">
                         <bf:summary rdf:resource="{@xlink:href}"/>
                     </xsl:if>
@@ -995,7 +980,7 @@
     <xsl:template match="mods:tableOfContents">
         <xsl:if test="mods:tableOfContents[@type='Incomplete contents'] or mods:tableOfContents[@type='Partial contents'] or mods:tableOfContents[@type='Contents']">
             <bf:TableOfContents rdf:about="{local:rdf-resource(.,'tableOfContents')}">
-                <bf:label><xsl:apply-templates/></bf:label>
+                <rdfs:label><xsl:apply-templates/></rdfs:label>
                 <bf:tableOfContentsFor rdf:resource="{local:rdf-resource(.,'work')}"/>
             </bf:TableOfContents>
         </xsl:if>
@@ -1019,7 +1004,7 @@
         <!-- NOTE: test dissertation note find examples -->
         <!-- NOTE: xql outputs thesis with
             element bf:dissertationInstitution {element bf:Organization {
-                element bf:label {fn:string($d/marcxml:subfield[@code="c"])}}
+                element rdfs:label {fn:string($d/marcxml:subfield[@code="c"])}}
                 }
             element bf:dissertationIdentifier  { element bf:Identifier {
                  element bf:identifierValue{fn:string($d/marcxml:subfield[@code="o"])}
@@ -1149,7 +1134,7 @@
                             </bf:authorizedAccessPoint>
                         </xsl:when>
                         <xsl:otherwise>
-                            <bf:label><xsl:value-of select="string-join(mods:hierarchicalGeographic/child::text(),'--')"/></bf:label>
+                            <rdfs:label><xsl:value-of select="string-join(mods:hierarchicalGeographic/child::text(),'--')"/></rdfs:label>
                         </xsl:otherwise>
                     </xsl:choose>
                     <xsl:choose>
@@ -1200,7 +1185,7 @@
 
     <xsl:template name="subject-child">
         <bf:authorizedAccessPoint><xsl:value-of select="normalize-space(string-join(child::*,'--'))"/></bf:authorizedAccessPoint>
-        <bf:label><xsl:value-of select="normalize-space(string-join(child::*,'--'))"/></bf:label>
+        <rdfs:label><xsl:value-of select="normalize-space(string-join(child::*,'--'))"/></rdfs:label>
         <xsl:if test="@valueURI">
             <bf:hasAuthority rdf:resource="{@valueURI}"/>
         </xsl:if>
@@ -1259,7 +1244,7 @@
                 </xsl:choose>
             </xsl:if>
             <bf:classificationNumber><xsl:value-of select="."/></bf:classificationNumber>
-            <bf:label><xsl:value-of select="."/></bf:label>
+            <rdfs:label><xsl:value-of select="."/></rdfs:label>
             <xsl:if test="@edition">
                 <bf:classificationEdition><xsl:value-of select="@edition"/></bf:classificationEdition>
             </xsl:if>

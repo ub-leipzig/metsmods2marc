@@ -113,6 +113,7 @@ public class Ingester implements TransferProcess {
                 th2.getTransformer().setOutputProperty(OutputKeys.INDENT, "yes");
                 th2.getTransformer().setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
                 t.transform(new StreamSource(new File(resource.toString())), new SAXResult(th1));
+                logger.info("Writing transformed output to " + resultFile);
             } catch (Exception e) {
                 e.printStackTrace();
             }

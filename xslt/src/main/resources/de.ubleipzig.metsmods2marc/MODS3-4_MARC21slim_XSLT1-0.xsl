@@ -1,5 +1,6 @@
 <xsl:stylesheet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:marc="http://www.loc.gov/MARC21/slim"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:functx="http://www.functx.com"
                 version="2.0" exclude-result-prefixes="mods xlink">
     <!--
  
@@ -7,9 +8,16 @@
     MODS v3 to MARC21Slim transformation - 2004/02/20
     -->
     <xsl:strip-space elements="*"/>
+    <xsl:function name="functx:substring-after-last-match" as="xs:string"
+                  xmlns:functx="http://www.functx.com">
+        <xsl:param name="arg" as="xs:string?"/>
+        <xsl:param name="regex" as="xs:string"/>
+        <xsl:sequence select="replace($arg,concat('^.*',$regex),'')"/>
+    </xsl:function>
+
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
 
-    <xsl:template match="out">
+    <xsl:template match="/">
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="mods:modsCollection">
@@ -580,6 +588,13 @@
             <xsl:if test="mods:classification[@authority = 'lcc']">
                 <xsl:call-template name="lcClassification"/>
             </xsl:if>
+            <!--  default Edition statement -->
+            <xsl:call-template name="datafield">
+            <xsl:with-param name="tag">250</xsl:with-param>
+            <xsl:with-param name="subfields">
+                <marc:subfield code="a">Online-Ressource</marc:subfield>
+            </xsl:with-param>
+            </xsl:call-template>
         </marc:record>
     </xsl:template>
     <xsl:template match="*"/>
@@ -684,7 +699,7 @@
     </xsl:template>
     <!--  v3 role -->
     <xsl:template
-            match="mods:name[@type = 'personal'][mods:role/mods:roleTerm[@type = 'text'] = 'creator']">
+            match="mods:name[@type = 'personal'][mods:role/mods:roleTerm[@type = 'code'] = 'aut']">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">100</xsl:with-param>
             <xsl:with-param name="ind1">1</xsl:with-param>
@@ -729,7 +744,7 @@
     </xsl:template>
     <!--  v3 role  -->
     <xsl:template
-            match="mods:name[@type = 'corporate'][mods:role/mods:roleTerm[@type = 'text'] = 'creator']">
+            match="mods:name[@type = 'corporate'][mods:role/mods:roleTerm[@type = 'code'] = 'aut']">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">110</xsl:with-param>
             <xsl:with-param name="ind1">2</xsl:with-param>
@@ -763,7 +778,7 @@
     </xsl:template>
     <!--  v3 role  -->
     <xsl:template
-            match="mods:name[@type = 'conference'][mods:role/mods:roleTerm[@type = 'text'] = 'creator']">
+            match="mods:name[@type = 'conference'][mods:role/mods:roleTerm[@type = 'code'] = 'aut']">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">111</xsl:with-param>
             <xsl:with-param name="ind1">2</xsl:with-param>
@@ -782,7 +797,7 @@
     </xsl:template>
     <!--  v3 role  -->
     <xsl:template
-            match="mods:name[@type = 'personal'][mods:role/mods:roleTerm[@type = 'text'] != 'creator' or not(mods:role)]">
+            match="mods:name[@type = 'personal'][mods:role/mods:roleTerm[@type = 'code'] != 'aut' or not(mods:role)]">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">700</xsl:with-param>
             <xsl:with-param name="ind1">1</xsl:with-param>
@@ -822,7 +837,7 @@
     </xsl:template>
     <!--  v3 role  -->
     <xsl:template
-            match="mods:name[@type = 'corporate'][mods:role/mods:roleTerm[@type = 'text'] != 'creator' or not(mods:role)]">
+            match="mods:name[@type = 'corporate'][mods:role/mods:roleTerm[@type = 'code'] != 'aut' or not(mods:role)]">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">710</xsl:with-param>
             <xsl:with-param name="ind1">2</xsl:with-param>
@@ -857,7 +872,7 @@
     </xsl:template>
     <!--  v3 role  -->
     <xsl:template
-            match="mods:name[@type = 'conference'][mods:role/mods:roleTerm[@type = 'text'] != 'creator' or not(mods:role)]">
+            match="mods:name[@type = 'conference'][mods:role/mods:roleTerm[@type = 'code'] != 'aut' or not(mods:role)]">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">711</xsl:with-param>
             <xsl:with-param name="ind1">2</xsl:with-param>
@@ -1162,6 +1177,17 @@
             </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
+    <!--  hack for UBL language MODS impl  -->
+    <xsl:template match="mods:language">
+        <xsl:call-template name="datafield">
+            <xsl:with-param name="tag">546</xsl:with-param>
+            <xsl:with-param name="subfields">
+                <marc:subfield code="a">
+                    <xsl:value-of select="."/>
+                </marc:subfield>
+            </xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
     <!--  Physical Description  -->
     <xsl:template match="mods:physicalDescription">
         <xsl:apply-templates/>
@@ -1170,9 +1196,21 @@
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">300</xsl:with-param>
             <xsl:with-param name="subfields">
-                <marc:subfield code="a">
-                    <xsl:value-of select="."/>
-                </marc:subfield>
+                <xsl:if test="@unit = 'leaves'">
+                    <marc:subfield code="a">
+                        <xsl:value-of select="."/>
+                    </marc:subfield>
+                </xsl:if>
+                <xsl:if test="@unit = 'cm'">
+                    <marc:subfield code="c">
+                        <xsl:value-of select="."/>
+                    </marc:subfield>
+                </xsl:if>
+                <xsl:if test="not(exists(@*))">
+                    <marc:subfield code="a">
+                        <xsl:value-of select="."/>
+                    </marc:subfield>
+                </xsl:if>
             </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
@@ -1362,10 +1400,30 @@
     <!--  1/04 fix  -->
     <xsl:template name="controlRecordInfo">
         <!-- <xsl:template match="mods:recordInfo"> -->
+        <!-- 2018/01/19 - check if URI is in recordIdentifier field -->
         <xsl:for-each select="mods:recordInfo/mods:recordIdentifier">
-            <marc:controlfield tag="001">
-                <xsl:value-of select="."/>
-            </marc:controlfield>
+            <xsl:if test="not(contains(.,'http'))">
+                <marc:controlfield tag="001">
+                    <xsl:value-of select="."/>
+                </marc:controlfield>
+            </xsl:if>
+            <xsl:if test="contains(.,'http')">
+                <marc:controlfield tag="001">
+                    <xsl:value-of select="functx:substring-after-last-match(., '/')"/>
+                </marc:controlfield>
+                <xsl:call-template name="datafield">
+                    <xsl:with-param name="tag">856</xsl:with-param>
+                    <xsl:with-param name="ind1">4</xsl:with-param>
+                    <xsl:with-param name="ind2">2</xsl:with-param>
+                    <xsl:with-param name="subfields">
+                        <marc:subfield code="3">Handschriftenkatalog</marc:subfield>
+                        <marc:subfield code="u">
+                            <xsl:value-of select="."/>
+                        </marc:subfield>
+                        <xsl:call-template name="mediaType"/>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:if>
             <xsl:for-each select="@source">
                 <marc:controlfield tag="003">
                     <xsl:value-of select="."/>
@@ -1974,6 +2032,32 @@
             </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
+    <xsl:template match="mods:identifier[@type = 'urn']">
+        <xsl:call-template name="datafield">
+            <xsl:with-param name="tag">024</xsl:with-param>
+            <xsl:with-param name="ind1">7</xsl:with-param>
+            <xsl:with-param name="subfields">
+                <marc:subfield>
+                    <marc:subfield code="a">
+                        <xsl:value-of select="."/>
+                    </marc:subfield>
+                    <marc:subfield code="2">urn</marc:subfield>
+                </marc:subfield>
+            </xsl:with-param>
+        </xsl:call-template>
+        <xsl:call-template name="datafield">
+            <xsl:with-param name="tag">856</xsl:with-param>
+            <xsl:with-param name="ind1">4</xsl:with-param>
+            <xsl:with-param name="ind2">0</xsl:with-param>
+            <xsl:with-param name="subfields">
+                <marc:subfield code="u">
+                    <xsl:value-of select="concat('http://nbn-resolving.de/',.)"/>
+                </marc:subfield>
+                <marc:subfield code="x">Digitalisierung</marc:subfield>
+                <marc:subfield code="y">Online-Zugriff</marc:subfield>
+            </xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
     <!-- v3 location/url  -->
     <xsl:template match="mods:location[mods:url]">
         <xsl:for-each select="mods:url">
@@ -2166,10 +2250,10 @@
         </xsl:call-template>
     </xsl:template>
     <xsl:template match="mods:relatedItem[@type = 'series']">
-        <!--  v3 build series type  -->
+        <!--  v3 build series type -->
         <xsl:for-each select="mods:titleInfo">
             <xsl:call-template name="datafield">
-                <xsl:with-param name="tag">440</xsl:with-param>
+                <xsl:with-param name="tag">912</xsl:with-param>
                 <xsl:with-param name="subfields">
                     <xsl:call-template name="titleInfo"/>
                 </xsl:with-param>
@@ -2203,13 +2287,15 @@
                             </marc:subfield>
                         </xsl:for-each>
                         <xsl:for-each select="mods:namePart[@type = 'date']">
-                            <!--  v3 namepart/date was $a; fixed to $d  -->
+
+                            <!--  v3 namepart/date was $a; fixed to $d -->
                             <marc:subfield code="d">
                                 <xsl:value-of select="."/>
                             </marc:subfield>
                         </xsl:for-each>
                     </xsl:if>
-                    <!--  v3 role  -->
+
+                    <!--  v3 role -->
                     <xsl:if test="@type != 'conference'">
                         <xsl:for-each select="mods:role/mods:roleTerm[@type = 'text']">
                             <marc:subfield code="e">
@@ -2225,6 +2311,7 @@
                 </xsl:with-param>
             </xsl:call-template>
         </xsl:for-each>
+
     </xsl:template>
     <xsl:template match="mods:relatedItem[not(@type)]">
         <!--  v3 was type="related"  -->

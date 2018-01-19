@@ -1,0 +1,325 @@
+{
+"rows" : [
+{
+	"RecordNumber" : "1",
+	"Tag" : "LDR",
+	"Indicators" : "",
+	"Content" : "07076cam a2200541za 4500"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "001",
+	"Indicators" : "\"  \"",
+	"Content" : "0004825115"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "003",
+	"Indicators" : "\"  \"",
+	"Content" : "UK-WkNB"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "005",
+	"Indicators" : "\"  \"",
+	"Content" : "20120611000000.0"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "007",
+	"Indicators" : "\"  \"",
+	"Content" : "ta"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "008",
+	"Indicators" : "\"  \"",
+	"Content" : "120611e201209uuxx#u||||||||||0|0\\||eng|d"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "020",
+	"Indicators" : "\\\\",
+	"Content" : "$a9780252078675 (pbk.) :$c£21.99"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "020",
+	"Indicators" : "\\\\",
+	"Content" : "$a0252078675 (pbk.) :$c£21.99"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "024",
+	"Indicators" : "3\\",
+	"Content" : "$a9780252078675"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "040",
+	"Indicators" : "\\\\",
+	"Content" : "$aUK-WkNB$beng$cUK-WkNB"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "072",
+	"Indicators" : "\\7",
+	"Content" : "$aJFSJ1$x1KBB$2bicssc"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "072",
+	"Indicators" : "\\7",
+	"Content" : "$aJKVP$x1KBB$2bicssc"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "072",
+	"Indicators" : "\\7",
+	"Content" : "$aSOC$2ukslc"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "072",
+	"Indicators" : "\\7",
+	"Content" : "$aJBSF1$x1KBB$2thema"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "072",
+	"Indicators" : "\\7",
+	"Content" : "$aJKVP$x1KBB$2thema"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "082",
+	"Indicators" : "04",
+	"Content" : "$a365.4309252$223"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "245",
+	"Indicators" : "14",
+	"Content" : "$aThe Story Within Us :$bWomen Prisoners Reflect on Reading /$cEdited by Megan Sweeney."
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "260",
+	"Indicators" : "\\\\",
+	"Content" : "$aBaltimore :$bUniversity of Illinois Press :$b[distributor] Marston Book Services Ltd :$b[distributor] Footprint Books :$b[distributor] Footprint Books :$b[distributor] Marston Book Services Ltd :$b[distributor] University of Illinois Press,$c2012."
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "300",
+	"Indicators" : "\\\\",
+	"Content" : "$a288 p. ;$c24x16 cm."
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "365",
+	"Indicators" : "\\\\",
+	"Content" : "$a02$b21.99$cGBP$d00$eThis price includes a tax element$hZ 21.99 0.00 21.99 0.00$jGB$kxxk$mCAP$2onix-pt"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "365",
+	"Indicators" : "\\\\",
+	"Content" : "$a02$b27.00$cUSD$d00$eLocal taxes may apply$hZ 27.00 0.00 27.00 0.00$jUS$kxxu$mIngram$2onix-pt"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "365",
+	"Indicators" : "\\\\",
+	"Content" : "$a02$b49.99$cAUD$d00$eThis price includes a tax element$jAU$kat$mFOOTP$2onix-pt"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "365",
+	"Indicators" : "\\\\",
+	"Content" : "$a02$b57.99$cNZD$d00$eThis price includes a tax element$jNZ$knz$mFOOTP$2onix-pt"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "365",
+	"Indicators" : "\\\\",
+	"Content" : "$a02$b21.99$cGBP$d00$eThis price includes a tax element$hZ 21.99 0.00 21.99 0.00$jZA$ksa$mCAP$2onix-pt"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "366",
+	"Indicators" : "\\\\",
+	"Content" : "$b20120911$2UK-WkNB"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "366",
+	"Indicators" : "\\\\",
+	"Content" : "$b20120911$2UK-WkNB"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "366",
+	"Indicators" : "\\\\",
+	"Content" : "$b20120911$2UK-WkNB"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "366",
+	"Indicators" : "\\\\",
+	"Content" : "$b20120911$2UK-WkNB"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "366",
+	"Indicators" : "\\\\",
+	"Content" : "$b20120911$2UK-WkNB"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "500",
+	"Indicators" : "\\\\",
+	"Content" : "$aPaperback."
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "520",
+	"Indicators" : "\\\\",
+	"Content" : "$aThe Story Within Us: Women Prisoners Reflect on Reading features in-depth, oral                 interviews with eleven incarcerated women, each of whom offers a narrative of her life and her reading                 experiences within prison walls. The women share powerful stories about their complex and diverse                 efforts to negotiate difficult relationships, exercise agency in restrictive circumstances, and find                 meaning and beauty in the midst of pain. Their shared emphases on abuse, poverty, addiction, and mental                 illness illuminate the pathways that lead many women to prison and suggest possibilities for addressing                 the profound social problems that fuel crime. Framing the narratives within an analytic introduction and                 reflective afterword, Megan Sweeney highlights the crucial intellectual work that the incarcerated women                 perform despite myriad restrictions on reading and education in U.S. prisons. These women use the                 limited reading materials available to them as sources of guidance and support and as tools for                 self-reflection and self-education. Through their creative engagements with books, the women learn to                 reframe their own life stories, situate their experiences in relation to broader social patterns, deepen                 their understanding of others, experiment with new ways of being, and maintain a sense of connection                 with their fellow citizens on both sides of the prison fence.             $bThe Story Within Us: Women Prisoners Reflect on Reading features in-depth, oral                 interviews with eleven incarcerated women, each of whom offers a narrative of her life and her reading                 experiences within prison walls. The women share powerful stories about their complex and diverse                 efforts to negotiate difficult relationships, exercise agency in restrictive circumstances, and find                 meaning and beauty in the midst of pain. Their shared emphases on abuse, poverty, addiction, and mental                 illness illuminate the pathways that lead many women to prison and suggest possibilities for addressing                 the profound social problems that fuel crime. Framing the narratives within an analytic introduction and                 reflective afterword, Megan Sweeney highlights the crucial intellectual work that the incarcerated women                 perform despite myriad restrictions on reading and education in U.S. prisons. These women use the                 limited reading materials available to them as sources of guidance and support and as tools for                 self-reflection and self-education. Through their creative engagements with books, the women learn to                 reframe their own life stories, situate their experiences in relation to broader social patterns, deepen                 their understanding of others, experiment with new ways of being, and maintain a sense of connection                 with their fellow citizens on both sides of the prison fence.             "
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "520",
+	"Indicators" : "1\\",
+	"Content" : "$a\"Riveting and poignant, the voices of these incarcerated women speak to the value of                 promoting autobiographical reflections and of reading as a therapeutic and community-building resource                 in prisons and society at large. A stimulating cry for social and familial change.\"--Patricia E.                 O'Connor, author of Speaking of Crime: Narratives of Prisoners \"A powerful addition to prison literature                 that will interest scholars of feminist criminology, prison studies, English, women's studies,                 sociology, and ethnic studies. While other anthologies feature the narratives of incarcerated women,                 this book is unique in that it includes rich narratives in which women describe what reading and books                 mean to them.\"--Jodie Michelle Lawston, coeditor of Razor Wire Women: Prisoners, Activists, Scholars,                 and Artists \"Megan Sweeney's The Story Within Us is a prime example of the rich evidence of reading for                 which many historians would be tempted to trade their nearest and dearest... These narratives show that                 women prisoners do not digest approved reading materials uncritically but use such literature as a                 coping mechanism on their own terms.--SHARP News.             "
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "545",
+	"Indicators" : "0\\",
+	"Content" : "$aMegan Sweeney is an associate professor of English Language & Literature and                 Afroamerican and African Studies at the University of Michigan. She is the author of Reading is My                 Window: Books and the Art of Reading in Women's Prisons.             "
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "650",
+	"Indicators" : "\\0",
+	"Content" : "$aWomen prisoners$xBooks and reading$zUnited States."
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "650",
+	"Indicators" : "\\0",
+	"Content" : "$aBooks and reading."
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "650",
+	"Indicators" : "\\0",
+	"Content" : "$aAfrican American women$xBooks and reading."
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "650",
+	"Indicators" : "\\7",
+	"Content" : "$aGender studies: women$zUSA.$2bicssc"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "650",
+	"Indicators" : "\\7",
+	"Content" : "$aPenology & punishment$zUSA.$2bicssc"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "650",
+	"Indicators" : "\\7",
+	"Content" : "$aSociety.$2ukslc"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "650",
+	"Indicators" : "\\7",
+	"Content" : "$aGender studies: women & girls$zUnited States of America, USA.$2thema"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "650",
+	"Indicators" : "\\7",
+	"Content" : "$aPenology & punishment$zUnited States of America, USA.$2thema"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "700",
+	"Indicators" : "1\\",
+	"Content" : "$aSweeney, Megan,$d1967-"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "852",
+	"Indicators" : "\\\\",
+	"Content" : "$aDE-15$z2013-01-01T00:00:00Z"
+}
+,
+{
+	"RecordNumber" : "1",
+	"Tag" : "980",
+	"Indicators" : "\\\\",
+	"Content" : "$a9780252078675$b3$c20170809"
+}
+,
+{
+	"RecordNumber" : "",
+	"Tag" : "",
+	"Indicators" : "",
+	"Content" : ""
+}
+,
+{
+	"RecordNumber" : "",
+	"Tag" : "",
+	"Indicators" : "",
+	"Content" : ""
+}
+]
+}

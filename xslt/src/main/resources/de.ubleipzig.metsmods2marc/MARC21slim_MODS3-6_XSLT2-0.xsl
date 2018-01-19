@@ -1737,7 +1737,7 @@
         </edition>
     </xsl:template>
     <!--  orginInfo frequency  -->
-    <xsl:template match="marc:datafield[@tag='310']|marc:datafield[@tag='321'] | marc:datafield[@tag='880'][starts-with(marc:subfield[@code='6'],'310')] | marc:datafield[@tag='880'][starts-with(marc:subfield[@code='6'],'321')]" mode="orginInfo">
+    <xsl:template match="marc:datafield[@tag='310'] | marc:datafield[@tag='321'] | marc:datafield[@tag='880'][starts-with(marc:subfield[@code='6'],'310')] | marc:datafield[@tag='880'][starts-with(marc:subfield[@code='6'],'321')]" mode="orginInfo">
         <frequency authority="marcfrequency">
             <xsl:value-of select="local:subfieldSelect(.,'ab')"/>
         </frequency>

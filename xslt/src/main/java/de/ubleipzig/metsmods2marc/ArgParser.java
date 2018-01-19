@@ -68,7 +68,7 @@ class ArgParser {
                 .longOpt("repository")
                 .hasArg(true).numberOfArgs(1).argName("repository")
                 .desc("Repository Base URI")
-                .required(true).build());
+                .required(false).build());
 
         configOptions.addOption(Option.builder("d")
                 .longOpt("dir")
@@ -144,7 +144,9 @@ class ArgParser {
         config.setResource(cmd.getOptionValue('r'));
         config.setBaseDirectory(cmd.getOptionValue('d'));
         config.setBibFrame(cmd.hasOption('b'));
-        config.setRepositoryBaseUri(cmd.getOptionValue('p'));
+        if (cmd.hasOption('p')) {
+            config.setRepositoryBaseUri(cmd.getOptionValue('p'));
+        }
         return config;
     }
 
