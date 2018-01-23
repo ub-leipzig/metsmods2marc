@@ -1116,7 +1116,7 @@ trait SolrMarcFincTrait
      * Get notice of a title representing a special case of University
      * library of Chemnitz: MAB field 999l
      *
-     * @return string
+     * @return stringw
      * @access protected
      */
     protected function getNotice()

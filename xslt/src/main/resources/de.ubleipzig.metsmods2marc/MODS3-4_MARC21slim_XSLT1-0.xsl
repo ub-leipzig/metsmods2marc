@@ -588,12 +588,31 @@
             <xsl:if test="mods:classification[@authority = 'lcc']">
                 <xsl:call-template name="lcClassification"/>
             </xsl:if>
+            <xsl:if test="mods:titleInfo[not(ancestor-or-self::mods:subject)][not(@type)][position() > 1]">
+                <xsl:call-template name="datafield">
+                    <xsl:with-param name="tag">505</xsl:with-param>
+                    <xsl:with-param name="ind1">0</xsl:with-param>
+                    <xsl:with-param name="subfields">
+                        <marc:subfield code="a">
+                            <xsl:for-each
+                                    select="mods:titleInfo[not(ancestor-or-self::mods:subject)][not(@type)][position() > 1]/mods:title">
+                                <xsl:if test="not(position() = last())">
+                                    <xsl:value-of select="concat(., ' -- ')"/>
+                                </xsl:if>
+                                <xsl:if test="position() = last()">
+                                    <xsl:value-of select="."/>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </marc:subfield>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:if>
             <!--  default Edition statement -->
             <xsl:call-template name="datafield">
-            <xsl:with-param name="tag">250</xsl:with-param>
-            <xsl:with-param name="subfields">
-                <marc:subfield code="a">Online-Ressource</marc:subfield>
-            </xsl:with-param>
+                <xsl:with-param name="tag">250</xsl:with-param>
+                <xsl:with-param name="subfields">
+                    <marc:subfield code="a">Online-Ressource</marc:subfield>
+                </xsl:with-param>
             </xsl:call-template>
         </marc:record>
     </xsl:template>
@@ -675,7 +694,7 @@
             </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
-    <!--  1/04 fix  -->
+    <!--  1/04 fix
     <xsl:template
             match="mods:titleInfo[not(ancestor-or-self::mods:subject)][not(@type)][position() > 1]">
         <xsl:call-template name="datafield">
@@ -686,6 +705,7 @@
             </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
+     -->
     <!--  Name elements  -->
     <xsl:template match="mods:name">
         <xsl:call-template name="datafield">
@@ -701,8 +721,7 @@
     <xsl:template
             match="mods:name[@type = 'personal'][mods:role/mods:roleTerm[@type = 'code'] = 'aut']">
         <xsl:call-template name="datafield">
-            <xsl:with-param name="tag">100</xsl:with-param>
-            <xsl:with-param name="ind1">1</xsl:with-param>
+            <xsl:with-param name="tag">700</xsl:with-param>
             <xsl:with-param name="subfields">
                 <marc:subfield code="a">
                     <xsl:value-of select="mods:namePart"/>
@@ -2140,13 +2159,34 @@
         </xsl:call-template>
     </xsl:template>
     <!--  v3 physicalLocation  -->
+    <!--  2018-01-23 add mods:identifier type shelfmark  -->
+    <xsl:template match="mods:identifier[@type = 'shelfmark']">
+        <xsl:call-template name="datafield">
+            <xsl:with-param name="tag">852</xsl:with-param>
+            <xsl:with-param name="ind1">8</xsl:with-param>
+            <xsl:with-param name="ind2">1</xsl:with-param>
+            <xsl:with-param name="subfields">
+                <marc:subfield code="h">
+                    <xsl:value-of select="."/>
+                </marc:subfield>
+                <xsl:for-each select="@displayLabel">
+                    <marc:subfield code="3">
+                        <xsl:value-of select="."/>
+                    </marc:subfield>
+                </xsl:for-each>
+            </xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
     <xsl:template match="mods:location[mods:physicalLocation]">
         <xsl:for-each select="mods:physicalLocation">
             <xsl:call-template name="datafield">
                 <xsl:with-param name="tag">852</xsl:with-param>
                 <xsl:with-param name="subfields">
                     <marc:subfield code="a">
-                        <xsl:value-of select="."/>
+                        <xsl:if test=". = 'Universitätsbibliothek Leipzig'">DE-15</xsl:if>
+                        <xsl:if test="not(. = 'Universitätsbibliothek Leipzig')">
+                            <xsl:value-of select="."/>
+                        </xsl:if>
                     </marc:subfield>
                     <!--  v3 displayLabel  -->
                     <xsl:for-each select="@displayLabel">

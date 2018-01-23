@@ -1,0 +1,3592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <row>
+        <ISO_639-2_Code>aar</ISO_639-2_Code>
+        <ISO_639-1_Code>aa</ISO_639-1_Code>
+        <English_name_of_Language>Afar</English_name_of_Language>
+        <French_name_of_Language>afar</French_name_of_Language>
+        <German_name_of_Language>Danakil-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>abk</ISO_639-2_Code>
+        <ISO_639-1_Code>ab</ISO_639-1_Code>
+        <English_name_of_Language>Abkhazian</English_name_of_Language>
+        <French_name_of_Language>abkhaze</French_name_of_Language>
+        <German_name_of_Language>Abchasisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ace</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Achinese</English_name_of_Language>
+        <French_name_of_Language>aceh</French_name_of_Language>
+        <German_name_of_Language>Aceh-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ach</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Acoli</English_name_of_Language>
+        <French_name_of_Language>acoli</French_name_of_Language>
+        <German_name_of_Language>Acholi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ada</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Adangme</English_name_of_Language>
+        <French_name_of_Language>adangme</French_name_of_Language>
+        <German_name_of_Language>Adangme-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ady</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Adyghe; Adygei</English_name_of_Language>
+        <French_name_of_Language>adyghé</French_name_of_Language>
+        <German_name_of_Language>Adygisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>afa</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Afro-Asiatic languages</English_name_of_Language>
+        <French_name_of_Language>afro-asiatiques, langues</French_name_of_Language>
+        <German_name_of_Language>Hamitosemitische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>afh</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Afrihili</English_name_of_Language>
+        <French_name_of_Language>afrihili</French_name_of_Language>
+        <German_name_of_Language>Afrihili</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>afr</ISO_639-2_Code>
+        <ISO_639-1_Code>af</ISO_639-1_Code>
+        <English_name_of_Language>Afrikaans</English_name_of_Language>
+        <French_name_of_Language>afrikaans</French_name_of_Language>
+        <German_name_of_Language>Afrikaans</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ain</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Ainu</English_name_of_Language>
+        <French_name_of_Language>aïnou</French_name_of_Language>
+        <German_name_of_Language>Ainu-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>aka</ISO_639-2_Code>
+        <ISO_639-1_Code>ak</ISO_639-1_Code>
+        <English_name_of_Language>Akan</English_name_of_Language>
+        <French_name_of_Language>akan</French_name_of_Language>
+        <German_name_of_Language>Akan-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>akk</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Akkadian</English_name_of_Language>
+        <French_name_of_Language>akkadien</French_name_of_Language>
+        <German_name_of_Language>Akkadisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>alb (B)
+sqi (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>sq</ISO_639-1_Code>
+        <English_name_of_Language>Albanian</English_name_of_Language>
+        <French_name_of_Language>albanais</French_name_of_Language>
+        <German_name_of_Language>Albanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ale</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Aleut</English_name_of_Language>
+        <French_name_of_Language>aléoute</French_name_of_Language>
+        <German_name_of_Language>Aleutisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>alg</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Algonquian languages</English_name_of_Language>
+        <French_name_of_Language>algonquines, langues</French_name_of_Language>
+        <German_name_of_Language>Algonkin-Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>alt</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Southern Altai</English_name_of_Language>
+        <French_name_of_Language>altai du Sud</French_name_of_Language>
+        <German_name_of_Language>Altaisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>amh</ISO_639-2_Code>
+        <ISO_639-1_Code>am</ISO_639-1_Code>
+        <English_name_of_Language>Amharic</English_name_of_Language>
+        <French_name_of_Language>amharique</French_name_of_Language>
+        <German_name_of_Language>Amharisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ang</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>English, Old (ca.450-1100)</English_name_of_Language>
+        <French_name_of_Language>anglo-saxon (ca.450-1100)</French_name_of_Language>
+        <German_name_of_Language>Altenglisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>anp</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Angika</English_name_of_Language>
+        <French_name_of_Language>angika</French_name_of_Language>
+        <German_name_of_Language>Anga-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>apa</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Apache languages</English_name_of_Language>
+        <French_name_of_Language>apaches, langues</French_name_of_Language>
+        <German_name_of_Language>Apachen-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ara</ISO_639-2_Code>
+        <ISO_639-1_Code>ar</ISO_639-1_Code>
+        <English_name_of_Language>Arabic</English_name_of_Language>
+        <French_name_of_Language>arabe</French_name_of_Language>
+        <German_name_of_Language>Arabisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>arc</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)</English_name_of_Language>
+        <French_name_of_Language>araméen d'empire (700-300 BCE)</French_name_of_Language>
+        <German_name_of_Language>Aramäisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>arg</ISO_639-2_Code>
+        <ISO_639-1_Code>an</ISO_639-1_Code>
+        <English_name_of_Language>Aragonese</English_name_of_Language>
+        <French_name_of_Language>aragonais</French_name_of_Language>
+        <German_name_of_Language>Aragonesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>arm (B)
+hye (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>hy</ISO_639-1_Code>
+        <English_name_of_Language>Armenian</English_name_of_Language>
+        <French_name_of_Language>arménien</French_name_of_Language>
+        <German_name_of_Language>Armenisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>arn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mapudungun; Mapuche</English_name_of_Language>
+        <French_name_of_Language>mapudungun; mapuche; mapuce</French_name_of_Language>
+        <German_name_of_Language>Arauka-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>arp</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Arapaho</English_name_of_Language>
+        <French_name_of_Language>arapaho</French_name_of_Language>
+        <German_name_of_Language>Arapaho-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>art</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Artificial languages</English_name_of_Language>
+        <French_name_of_Language>artificielles, langues</French_name_of_Language>
+        <German_name_of_Language>Kunstsprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>arw</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Arawak</English_name_of_Language>
+        <French_name_of_Language>arawak</French_name_of_Language>
+        <German_name_of_Language>Arawak-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>asm</ISO_639-2_Code>
+        <ISO_639-1_Code>as</ISO_639-1_Code>
+        <English_name_of_Language>Assamese</English_name_of_Language>
+        <French_name_of_Language>assamais</French_name_of_Language>
+        <German_name_of_Language>Assamesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ast</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Asturian; Bable; Leonese; Asturleonese</English_name_of_Language>
+        <French_name_of_Language>asturien; bable; léonais; asturoléonais</French_name_of_Language>
+        <German_name_of_Language>Asturisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ath</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Athapascan languages</English_name_of_Language>
+        <French_name_of_Language>athapascanes, langues</French_name_of_Language>
+        <German_name_of_Language>Athapaskische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>aus</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Australian languages</English_name_of_Language>
+        <French_name_of_Language>australiennes, langues</French_name_of_Language>
+        <German_name_of_Language>Australische Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ava</ISO_639-2_Code>
+        <ISO_639-1_Code>av</ISO_639-1_Code>
+        <English_name_of_Language>Avaric</English_name_of_Language>
+        <French_name_of_Language>avar</French_name_of_Language>
+        <German_name_of_Language>Awarisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ave</ISO_639-2_Code>
+        <ISO_639-1_Code>ae</ISO_639-1_Code>
+        <English_name_of_Language>Avestan</English_name_of_Language>
+        <French_name_of_Language>avestique</French_name_of_Language>
+        <German_name_of_Language>Avestisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>awa</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Awadhi</English_name_of_Language>
+        <French_name_of_Language>awadhi</French_name_of_Language>
+        <German_name_of_Language>Awadhi</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>aym</ISO_639-2_Code>
+        <ISO_639-1_Code>ay</ISO_639-1_Code>
+        <English_name_of_Language>Aymara</English_name_of_Language>
+        <French_name_of_Language>aymara</French_name_of_Language>
+        <German_name_of_Language>Aymará-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>aze</ISO_639-2_Code>
+        <ISO_639-1_Code>az</ISO_639-1_Code>
+        <English_name_of_Language>Azerbaijani</English_name_of_Language>
+        <French_name_of_Language>azéri</French_name_of_Language>
+        <German_name_of_Language>Aserbeidschanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bad</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Banda languages</English_name_of_Language>
+        <French_name_of_Language>banda, langues</French_name_of_Language>
+        <German_name_of_Language>Banda-Sprachen (Ubangi-Sprachen)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bai</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Bamileke languages</English_name_of_Language>
+        <French_name_of_Language>bamiléké, langues</French_name_of_Language>
+        <German_name_of_Language>Bamileke-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bak</ISO_639-2_Code>
+        <ISO_639-1_Code>ba</ISO_639-1_Code>
+        <English_name_of_Language>Bashkir</English_name_of_Language>
+        <French_name_of_Language>bachkir</French_name_of_Language>
+        <German_name_of_Language>Baschkirisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bal</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Baluchi</English_name_of_Language>
+        <French_name_of_Language>baloutchi</French_name_of_Language>
+        <German_name_of_Language>Belutschisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bam</ISO_639-2_Code>
+        <ISO_639-1_Code>bm</ISO_639-1_Code>
+        <English_name_of_Language>Bambara</English_name_of_Language>
+        <French_name_of_Language>bambara</French_name_of_Language>
+        <German_name_of_Language>Bambara-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ban</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Balinese</English_name_of_Language>
+        <French_name_of_Language>balinais</French_name_of_Language>
+        <German_name_of_Language>Balinesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>baq (B)
+eus (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>eu</ISO_639-1_Code>
+        <English_name_of_Language>Basque</English_name_of_Language>
+        <French_name_of_Language>basque</French_name_of_Language>
+        <German_name_of_Language>Baskisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bas</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Basa</English_name_of_Language>
+        <French_name_of_Language>basa</French_name_of_Language>
+        <German_name_of_Language>Basaa-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bat</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Baltic languages</English_name_of_Language>
+        <French_name_of_Language>baltes, langues</French_name_of_Language>
+        <German_name_of_Language>Baltische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bej</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Beja; Bedawiyet</English_name_of_Language>
+        <French_name_of_Language>bedja</French_name_of_Language>
+        <German_name_of_Language>Bedauye</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bel</ISO_639-2_Code>
+        <ISO_639-1_Code>be</ISO_639-1_Code>
+        <English_name_of_Language>Belarusian</English_name_of_Language>
+        <French_name_of_Language>biélorusse</French_name_of_Language>
+        <German_name_of_Language>Weißrussisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bem</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Bemba</English_name_of_Language>
+        <French_name_of_Language>bemba</French_name_of_Language>
+        <German_name_of_Language>Bemba-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ben</ISO_639-2_Code>
+        <ISO_639-1_Code>bn</ISO_639-1_Code>
+        <English_name_of_Language>Bengali</English_name_of_Language>
+        <French_name_of_Language>bengali</French_name_of_Language>
+        <German_name_of_Language>Bengali</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ber</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Berber languages</English_name_of_Language>
+        <French_name_of_Language>berbères, langues</French_name_of_Language>
+        <German_name_of_Language>Berbersprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bho</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Bhojpuri</English_name_of_Language>
+        <French_name_of_Language>bhojpuri</French_name_of_Language>
+        <German_name_of_Language>Bhojpuri</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bih</ISO_639-2_Code>
+        <ISO_639-1_Code>bh</ISO_639-1_Code>
+        <English_name_of_Language>Bihari languages</English_name_of_Language>
+        <French_name_of_Language>langues biharis</French_name_of_Language>
+        <German_name_of_Language>Bihari (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bik</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Bikol</English_name_of_Language>
+        <French_name_of_Language>bikol</French_name_of_Language>
+        <German_name_of_Language>Bikol-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bin</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Bini; Edo</English_name_of_Language>
+        <French_name_of_Language>bini; edo</French_name_of_Language>
+        <German_name_of_Language>Edo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bis</ISO_639-2_Code>
+        <ISO_639-1_Code>bi</ISO_639-1_Code>
+        <English_name_of_Language>Bislama</English_name_of_Language>
+        <French_name_of_Language>bichlamar</French_name_of_Language>
+        <German_name_of_Language>Beach-la-mar</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bla</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Siksika</English_name_of_Language>
+        <French_name_of_Language>blackfoot</French_name_of_Language>
+        <German_name_of_Language>Blackfoot-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bnt</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Bantu languages</English_name_of_Language>
+        <French_name_of_Language>bantou, langues</French_name_of_Language>
+        <German_name_of_Language>Bantusprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tib (B)
+bod (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>bo</ISO_639-1_Code>
+        <English_name_of_Language>Tibetan</English_name_of_Language>
+        <French_name_of_Language>tibétain</French_name_of_Language>
+        <German_name_of_Language>Tibetisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bos</ISO_639-2_Code>
+        <ISO_639-1_Code>bs</ISO_639-1_Code>
+        <English_name_of_Language>Bosnian</English_name_of_Language>
+        <French_name_of_Language>bosniaque</French_name_of_Language>
+        <German_name_of_Language>Bosnisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bra</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Braj</English_name_of_Language>
+        <French_name_of_Language>braj</French_name_of_Language>
+        <German_name_of_Language>Braj-Bhakha</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bre</ISO_639-2_Code>
+        <ISO_639-1_Code>br</ISO_639-1_Code>
+        <English_name_of_Language>Breton</English_name_of_Language>
+        <French_name_of_Language>breton</French_name_of_Language>
+        <German_name_of_Language>Bretonisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>btk</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Batak languages</English_name_of_Language>
+        <French_name_of_Language>batak, langues</French_name_of_Language>
+        <German_name_of_Language>Batak-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bua</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Buriat</English_name_of_Language>
+        <French_name_of_Language>bouriate</French_name_of_Language>
+        <German_name_of_Language>Burjatisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bug</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Buginese</English_name_of_Language>
+        <French_name_of_Language>bugi</French_name_of_Language>
+        <German_name_of_Language>Bugi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bul</ISO_639-2_Code>
+        <ISO_639-1_Code>bg</ISO_639-1_Code>
+        <English_name_of_Language>Bulgarian</English_name_of_Language>
+        <French_name_of_Language>bulgare</French_name_of_Language>
+        <German_name_of_Language>Bulgarisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bur (B)
+mya (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>my</ISO_639-1_Code>
+        <English_name_of_Language>Burmese</English_name_of_Language>
+        <French_name_of_Language>birman</French_name_of_Language>
+        <German_name_of_Language>Birmanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>byn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Blin; Bilin</English_name_of_Language>
+        <French_name_of_Language>blin; bilen</French_name_of_Language>
+        <German_name_of_Language>Bilin-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cad</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Caddo</English_name_of_Language>
+        <French_name_of_Language>caddo</French_name_of_Language>
+        <German_name_of_Language>Caddo-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cai</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Central American Indian languages</English_name_of_Language>
+        <French_name_of_Language>amérindiennes de l'Amérique centrale, langues</French_name_of_Language>
+        <German_name_of_Language>Indianersprachen, Zentralamerika (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>car</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Galibi Carib</English_name_of_Language>
+        <French_name_of_Language>karib; galibi; carib</French_name_of_Language>
+        <German_name_of_Language>Karibische Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cat</ISO_639-2_Code>
+        <ISO_639-1_Code>ca</ISO_639-1_Code>
+        <English_name_of_Language>Catalan; Valencian</English_name_of_Language>
+        <French_name_of_Language>catalan; valencien</French_name_of_Language>
+        <German_name_of_Language>Katalanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cau</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Caucasian languages</English_name_of_Language>
+        <French_name_of_Language>caucasiennes, langues</French_name_of_Language>
+        <German_name_of_Language>Kaukasische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ceb</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Cebuano</English_name_of_Language>
+        <French_name_of_Language>cebuano</French_name_of_Language>
+        <German_name_of_Language>Cebuano</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cel</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Celtic languages</English_name_of_Language>
+        <French_name_of_Language>celtiques, langues; celtes, langues</French_name_of_Language>
+        <German_name_of_Language>Keltische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cze (B)
+ces (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>cs</ISO_639-1_Code>
+        <English_name_of_Language>Czech</English_name_of_Language>
+        <French_name_of_Language>tchèque</French_name_of_Language>
+        <German_name_of_Language>Tschechisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cha</ISO_639-2_Code>
+        <ISO_639-1_Code>ch</ISO_639-1_Code>
+        <English_name_of_Language>Chamorro</English_name_of_Language>
+        <French_name_of_Language>chamorro</French_name_of_Language>
+        <German_name_of_Language>Chamorro-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chb</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Chibcha</English_name_of_Language>
+        <French_name_of_Language>chibcha</French_name_of_Language>
+        <German_name_of_Language>Chibcha-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>che</ISO_639-2_Code>
+        <ISO_639-1_Code>ce</ISO_639-1_Code>
+        <English_name_of_Language>Chechen</English_name_of_Language>
+        <French_name_of_Language>tchétchène</French_name_of_Language>
+        <German_name_of_Language>Tschetschenisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chg</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Chagatai</English_name_of_Language>
+        <French_name_of_Language>djaghataï</French_name_of_Language>
+        <German_name_of_Language>Tschagataisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chi (B)
+zho (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>zh</ISO_639-1_Code>
+        <English_name_of_Language>Chinese</English_name_of_Language>
+        <French_name_of_Language>chinois</French_name_of_Language>
+        <German_name_of_Language>Chinesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chk</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Chuukese</English_name_of_Language>
+        <French_name_of_Language>chuuk</French_name_of_Language>
+        <German_name_of_Language>Trukesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chm</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mari</English_name_of_Language>
+        <French_name_of_Language>mari</French_name_of_Language>
+        <German_name_of_Language>Tscheremissisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Chinook jargon</English_name_of_Language>
+        <French_name_of_Language>chinook, jargon</French_name_of_Language>
+        <German_name_of_Language>Chinook-Jargon</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cho</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Choctaw</English_name_of_Language>
+        <French_name_of_Language>choctaw</French_name_of_Language>
+        <German_name_of_Language>Choctaw-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chp</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Chipewyan; Dene Suline</English_name_of_Language>
+        <French_name_of_Language>chipewyan</French_name_of_Language>
+        <German_name_of_Language>Chipewyan-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chr</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Cherokee</English_name_of_Language>
+        <French_name_of_Language>cherokee</French_name_of_Language>
+        <German_name_of_Language>Cherokee-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chu</ISO_639-2_Code>
+        <ISO_639-1_Code>cu</ISO_639-1_Code>
+        <English_name_of_Language>Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic</English_name_of_Language>
+        <French_name_of_Language>slavon d'église; vieux slave; slavon liturgique; vieux bulgare</French_name_of_Language>
+        <German_name_of_Language>Kirchenslawisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chv</ISO_639-2_Code>
+        <ISO_639-1_Code>cv</ISO_639-1_Code>
+        <English_name_of_Language>Chuvash</English_name_of_Language>
+        <French_name_of_Language>tchouvache</French_name_of_Language>
+        <German_name_of_Language>Tschuwaschisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chy</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Cheyenne</English_name_of_Language>
+        <French_name_of_Language>cheyenne</French_name_of_Language>
+        <German_name_of_Language>Cheyenne-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cmc</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Chamic languages</English_name_of_Language>
+        <French_name_of_Language>chames, langues</French_name_of_Language>
+        <German_name_of_Language>Cham-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cnr</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Montenegrin</English_name_of_Language>
+        <French_name_of_Language>monténégrin</French_name_of_Language>
+        <German_name_of_Language>Montenegrinisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cop</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Coptic</English_name_of_Language>
+        <French_name_of_Language>copte</French_name_of_Language>
+        <German_name_of_Language>Koptisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cor</ISO_639-2_Code>
+        <ISO_639-1_Code>kw</ISO_639-1_Code>
+        <English_name_of_Language>Cornish</English_name_of_Language>
+        <French_name_of_Language>cornique</French_name_of_Language>
+        <German_name_of_Language>Kornisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cos</ISO_639-2_Code>
+        <ISO_639-1_Code>co</ISO_639-1_Code>
+        <English_name_of_Language>Corsican</English_name_of_Language>
+        <French_name_of_Language>corse</French_name_of_Language>
+        <German_name_of_Language>Korsisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cpe</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Creoles and pidgins, English based</English_name_of_Language>
+        <French_name_of_Language>créoles et pidgins basés sur l'anglais</French_name_of_Language>
+        <German_name_of_Language>Kreolisch-Englisch (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cpf</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Creoles and pidgins, French-based</English_name_of_Language>
+        <French_name_of_Language>créoles et pidgins basés sur le français</French_name_of_Language>
+        <German_name_of_Language>Kreolisch-Französisch (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cpp</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Creoles and pidgins, Portuguese-based</English_name_of_Language>
+        <French_name_of_Language>créoles et pidgins basés sur le portugais</French_name_of_Language>
+        <German_name_of_Language>Kreolisch-Portugiesisch (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cre</ISO_639-2_Code>
+        <ISO_639-1_Code>cr</ISO_639-1_Code>
+        <English_name_of_Language>Cree</English_name_of_Language>
+        <French_name_of_Language>cree</French_name_of_Language>
+        <German_name_of_Language>Cree-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>crh</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Crimean Tatar; Crimean Turkish</English_name_of_Language>
+        <French_name_of_Language>tatar de Crimé</French_name_of_Language>
+        <German_name_of_Language>Krimtatarisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>crp</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Creoles and pidgins</English_name_of_Language>
+        <French_name_of_Language>créoles et pidgins</French_name_of_Language>
+        <German_name_of_Language>Kreolische Sprachen; Pidginsprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>csb</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kashubian</English_name_of_Language>
+        <French_name_of_Language>kachoube</French_name_of_Language>
+        <German_name_of_Language>Kaschubisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cus</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Cushitic languages</English_name_of_Language>
+        <French_name_of_Language>couchitiques, langues</French_name_of_Language>
+        <German_name_of_Language>Kuschitische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>wel (B)
+cym (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>cy</ISO_639-1_Code>
+        <English_name_of_Language>Welsh</English_name_of_Language>
+        <French_name_of_Language>gallois</French_name_of_Language>
+        <German_name_of_Language>Kymrisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>cze (B)
+ces (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>cs</ISO_639-1_Code>
+        <English_name_of_Language>Czech</English_name_of_Language>
+        <French_name_of_Language>tchèque</French_name_of_Language>
+        <German_name_of_Language>Tschechisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dak</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Dakota</English_name_of_Language>
+        <French_name_of_Language>dakota</French_name_of_Language>
+        <German_name_of_Language>Dakota-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dan</ISO_639-2_Code>
+        <ISO_639-1_Code>da</ISO_639-1_Code>
+        <English_name_of_Language>Danish</English_name_of_Language>
+        <French_name_of_Language>danois</French_name_of_Language>
+        <German_name_of_Language>Dänisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dar</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Dargwa</English_name_of_Language>
+        <French_name_of_Language>dargwa</French_name_of_Language>
+        <German_name_of_Language>Darginisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>day</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Land Dayak languages</English_name_of_Language>
+        <French_name_of_Language>dayak, langues</French_name_of_Language>
+        <German_name_of_Language>Dajakisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>del</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Delaware</English_name_of_Language>
+        <French_name_of_Language>delaware</French_name_of_Language>
+        <German_name_of_Language>Delaware-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>den</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Slave (Athapascan)</English_name_of_Language>
+        <French_name_of_Language>esclave (athapascan)</French_name_of_Language>
+        <German_name_of_Language>Slave-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ger (B)
+deu (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>de</ISO_639-1_Code>
+        <English_name_of_Language>German</English_name_of_Language>
+        <French_name_of_Language>allemand</French_name_of_Language>
+        <German_name_of_Language>Deutsch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dgr</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Dogrib</English_name_of_Language>
+        <French_name_of_Language>dogrib</French_name_of_Language>
+        <German_name_of_Language>Dogrib-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>din</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Dinka</English_name_of_Language>
+        <French_name_of_Language>dinka</French_name_of_Language>
+        <German_name_of_Language>Dinka-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>div</ISO_639-2_Code>
+        <ISO_639-1_Code>dv</ISO_639-1_Code>
+        <English_name_of_Language>Divehi; Dhivehi; Maldivian</English_name_of_Language>
+        <French_name_of_Language>maldivien</French_name_of_Language>
+        <German_name_of_Language>Maledivisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>doi</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Dogri</English_name_of_Language>
+        <French_name_of_Language>dogri</French_name_of_Language>
+        <German_name_of_Language>Dogri</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dra</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Dravidian languages</English_name_of_Language>
+        <French_name_of_Language>dravidiennes, langues</French_name_of_Language>
+        <German_name_of_Language>Drawidische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dsb</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Lower Sorbian</English_name_of_Language>
+        <French_name_of_Language>bas-sorabe</French_name_of_Language>
+        <German_name_of_Language>Niedersorbisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dua</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Duala</English_name_of_Language>
+        <French_name_of_Language>douala</French_name_of_Language>
+        <German_name_of_Language>Duala-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dum</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Dutch, Middle (ca.1050-1350)</English_name_of_Language>
+        <French_name_of_Language>néerlandais moyen (ca. 1050-1350)</French_name_of_Language>
+        <German_name_of_Language>Mittelniederländisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dut (B)
+nld (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>nl</ISO_639-1_Code>
+        <English_name_of_Language>Dutch; Flemish</English_name_of_Language>
+        <French_name_of_Language>néerlandais; flamand</French_name_of_Language>
+        <German_name_of_Language>Niederländisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dyu</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Dyula</English_name_of_Language>
+        <French_name_of_Language>dioula</French_name_of_Language>
+        <German_name_of_Language>Dyula-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dzo</ISO_639-2_Code>
+        <ISO_639-1_Code>dz</ISO_639-1_Code>
+        <English_name_of_Language>Dzongkha</English_name_of_Language>
+        <French_name_of_Language>dzongkha</French_name_of_Language>
+        <German_name_of_Language>Dzongkha</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>efi</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Efik</English_name_of_Language>
+        <French_name_of_Language>efik</French_name_of_Language>
+        <German_name_of_Language>Efik</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>egy</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Egyptian (Ancient)</English_name_of_Language>
+        <French_name_of_Language>égyptien</French_name_of_Language>
+        <German_name_of_Language>Ägyptisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>eka</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Ekajuk</English_name_of_Language>
+        <French_name_of_Language>ekajuk</French_name_of_Language>
+        <German_name_of_Language>Ekajuk</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gre (B)
+ell (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>el</ISO_639-1_Code>
+        <English_name_of_Language>Greek, Modern (1453-)</English_name_of_Language>
+        <French_name_of_Language>grec moderne (après 1453)</French_name_of_Language>
+        <German_name_of_Language>Neugriechisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>elx</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Elamite</English_name_of_Language>
+        <French_name_of_Language>élamite</French_name_of_Language>
+        <German_name_of_Language>Elamisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>eng</ISO_639-2_Code>
+        <ISO_639-1_Code>en</ISO_639-1_Code>
+        <English_name_of_Language>English</English_name_of_Language>
+        <French_name_of_Language>anglais</French_name_of_Language>
+        <German_name_of_Language>Englisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>enm</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>English, Middle (1100-1500)</English_name_of_Language>
+        <French_name_of_Language>anglais moyen (1100-1500)</French_name_of_Language>
+        <German_name_of_Language>Mittelenglisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>epo</ISO_639-2_Code>
+        <ISO_639-1_Code>eo</ISO_639-1_Code>
+        <English_name_of_Language>Esperanto</English_name_of_Language>
+        <French_name_of_Language>espéranto</French_name_of_Language>
+        <German_name_of_Language>Esperanto</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>est</ISO_639-2_Code>
+        <ISO_639-1_Code>et</ISO_639-1_Code>
+        <English_name_of_Language>Estonian</English_name_of_Language>
+        <French_name_of_Language>estonien</French_name_of_Language>
+        <German_name_of_Language>Estnisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>baq (B)
+eus (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>eu</ISO_639-1_Code>
+        <English_name_of_Language>Basque</English_name_of_Language>
+        <French_name_of_Language>basque</French_name_of_Language>
+        <German_name_of_Language>Baskisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ewe</ISO_639-2_Code>
+        <ISO_639-1_Code>ee</ISO_639-1_Code>
+        <English_name_of_Language>Ewe</English_name_of_Language>
+        <French_name_of_Language>éwé</French_name_of_Language>
+        <German_name_of_Language>Ewe-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ewo</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Ewondo</English_name_of_Language>
+        <French_name_of_Language>éwondo</French_name_of_Language>
+        <German_name_of_Language>Ewondo</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fan</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Fang</English_name_of_Language>
+        <French_name_of_Language>fang</French_name_of_Language>
+        <German_name_of_Language>Pangwe-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fao</ISO_639-2_Code>
+        <ISO_639-1_Code>fo</ISO_639-1_Code>
+        <English_name_of_Language>Faroese</English_name_of_Language>
+        <French_name_of_Language>féroïen</French_name_of_Language>
+        <German_name_of_Language>Färöisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>per (B)
+fas (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>fa</ISO_639-1_Code>
+        <English_name_of_Language>Persian</English_name_of_Language>
+        <French_name_of_Language>persan</French_name_of_Language>
+        <German_name_of_Language>Persisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fat</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Fanti</English_name_of_Language>
+        <French_name_of_Language>fanti</French_name_of_Language>
+        <German_name_of_Language>Fante-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fij</ISO_639-2_Code>
+        <ISO_639-1_Code>fj</ISO_639-1_Code>
+        <English_name_of_Language>Fijian</English_name_of_Language>
+        <French_name_of_Language>fidjien</French_name_of_Language>
+        <German_name_of_Language>Fidschi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fil</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Filipino; Pilipino</English_name_of_Language>
+        <French_name_of_Language>filipino; pilipino</French_name_of_Language>
+        <German_name_of_Language>Pilipino</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fin</ISO_639-2_Code>
+        <ISO_639-1_Code>fi</ISO_639-1_Code>
+        <English_name_of_Language>Finnish</English_name_of_Language>
+        <French_name_of_Language>finnois</French_name_of_Language>
+        <German_name_of_Language>Finnisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fiu</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Finno-Ugrian languages</English_name_of_Language>
+        <French_name_of_Language>finno-ougriennes, langues</French_name_of_Language>
+        <German_name_of_Language>Finnougrische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fon</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Fon</English_name_of_Language>
+        <French_name_of_Language>fon</French_name_of_Language>
+        <German_name_of_Language>Fon-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fre (B)
+fra (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>fr</ISO_639-1_Code>
+        <English_name_of_Language>French</English_name_of_Language>
+        <French_name_of_Language>français</French_name_of_Language>
+        <German_name_of_Language>Französisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fre (B)
+fra (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>fr</ISO_639-1_Code>
+        <English_name_of_Language>French</English_name_of_Language>
+        <French_name_of_Language>français</French_name_of_Language>
+        <German_name_of_Language>Französisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>frm</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>French, Middle (ca.1400-1600)</English_name_of_Language>
+        <French_name_of_Language>français moyen (1400-1600)</French_name_of_Language>
+        <German_name_of_Language>Mittelfranzösisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fro</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>French, Old (842-ca.1400)</English_name_of_Language>
+        <French_name_of_Language>français ancien (842-ca.1400)</French_name_of_Language>
+        <German_name_of_Language>Altfranzösisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>frr</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Northern Frisian</English_name_of_Language>
+        <French_name_of_Language>frison septentrional</French_name_of_Language>
+        <German_name_of_Language>Nordfriesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>frs</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Eastern Frisian</English_name_of_Language>
+        <French_name_of_Language>frison oriental</French_name_of_Language>
+        <German_name_of_Language>Ostfriesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fry</ISO_639-2_Code>
+        <ISO_639-1_Code>fy</ISO_639-1_Code>
+        <English_name_of_Language>Western Frisian</English_name_of_Language>
+        <French_name_of_Language>frison occidental</French_name_of_Language>
+        <German_name_of_Language>Friesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ful</ISO_639-2_Code>
+        <ISO_639-1_Code>ff</ISO_639-1_Code>
+        <English_name_of_Language>Fulah</English_name_of_Language>
+        <French_name_of_Language>peul</French_name_of_Language>
+        <German_name_of_Language>Ful</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>fur</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Friulian</English_name_of_Language>
+        <French_name_of_Language>frioulan</French_name_of_Language>
+        <German_name_of_Language>Friulisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gaa</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Ga</English_name_of_Language>
+        <French_name_of_Language>ga</French_name_of_Language>
+        <German_name_of_Language>Ga-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gay</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Gayo</English_name_of_Language>
+        <French_name_of_Language>gayo</French_name_of_Language>
+        <German_name_of_Language>Gayo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gba</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Gbaya</English_name_of_Language>
+        <French_name_of_Language>gbaya</French_name_of_Language>
+        <German_name_of_Language>Gbaya-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gem</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Germanic languages</English_name_of_Language>
+        <French_name_of_Language>germaniques, langues</French_name_of_Language>
+        <German_name_of_Language>Germanische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>geo (B)
+kat (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>ka</ISO_639-1_Code>
+        <English_name_of_Language>Georgian</English_name_of_Language>
+        <French_name_of_Language>géorgien</French_name_of_Language>
+        <German_name_of_Language>Georgisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ger (B)
+deu (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>de</ISO_639-1_Code>
+        <English_name_of_Language>German</English_name_of_Language>
+        <French_name_of_Language>allemand</French_name_of_Language>
+        <German_name_of_Language>Deutsch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gez</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Geez</English_name_of_Language>
+        <French_name_of_Language>guèze</French_name_of_Language>
+        <German_name_of_Language>Altäthiopisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gil</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Gilbertese</English_name_of_Language>
+        <French_name_of_Language>kiribati</French_name_of_Language>
+        <German_name_of_Language>Gilbertesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gla</ISO_639-2_Code>
+        <ISO_639-1_Code>gd</ISO_639-1_Code>
+        <English_name_of_Language>Gaelic; Scottish Gaelic</English_name_of_Language>
+        <French_name_of_Language>gaélique; gaélique écossais</French_name_of_Language>
+        <German_name_of_Language>Gälisch-Schottisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gle</ISO_639-2_Code>
+        <ISO_639-1_Code>ga</ISO_639-1_Code>
+        <English_name_of_Language>Irish</English_name_of_Language>
+        <French_name_of_Language>irlandais</French_name_of_Language>
+        <German_name_of_Language>Irisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>glg</ISO_639-2_Code>
+        <ISO_639-1_Code>gl</ISO_639-1_Code>
+        <English_name_of_Language>Galician</English_name_of_Language>
+        <French_name_of_Language>galicien</French_name_of_Language>
+        <German_name_of_Language>Galicisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>glv</ISO_639-2_Code>
+        <ISO_639-1_Code>gv</ISO_639-1_Code>
+        <English_name_of_Language>Manx</English_name_of_Language>
+        <French_name_of_Language>manx; mannois</French_name_of_Language>
+        <German_name_of_Language>Manx</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gmh</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>German, Middle High (ca.1050-1500)</English_name_of_Language>
+        <French_name_of_Language>allemand, moyen haut (ca. 1050-1500)</French_name_of_Language>
+        <German_name_of_Language>Mittelhochdeutsch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>goh</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>German, Old High (ca.750-1050)</English_name_of_Language>
+        <French_name_of_Language>allemand, vieux haut (ca. 750-1050)</French_name_of_Language>
+        <German_name_of_Language>Althochdeutsch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gon</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Gondi</English_name_of_Language>
+        <French_name_of_Language>gond</French_name_of_Language>
+        <German_name_of_Language>Gondi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gor</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Gorontalo</English_name_of_Language>
+        <French_name_of_Language>gorontalo</French_name_of_Language>
+        <German_name_of_Language>Gorontalesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>got</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Gothic</English_name_of_Language>
+        <French_name_of_Language>gothique</French_name_of_Language>
+        <German_name_of_Language>Gotisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>grb</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Grebo</English_name_of_Language>
+        <French_name_of_Language>grebo</French_name_of_Language>
+        <German_name_of_Language>Grebo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>grc</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Greek, Ancient (to 1453)</English_name_of_Language>
+        <French_name_of_Language>grec ancien (jusqu'à 1453)</French_name_of_Language>
+        <German_name_of_Language>Griechisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gre (B)
+ell (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>el</ISO_639-1_Code>
+        <English_name_of_Language>Greek, Modern (1453-)</English_name_of_Language>
+        <French_name_of_Language>grec moderne (après 1453)</French_name_of_Language>
+        <German_name_of_Language>Neugriechisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>grn</ISO_639-2_Code>
+        <ISO_639-1_Code>gn</ISO_639-1_Code>
+        <English_name_of_Language>Guarani</English_name_of_Language>
+        <French_name_of_Language>guarani</French_name_of_Language>
+        <German_name_of_Language>Guaraní-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gsw</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Swiss German; Alemannic; Alsatian</English_name_of_Language>
+        <French_name_of_Language>suisse alémanique; alémanique; alsacien</French_name_of_Language>
+        <German_name_of_Language>Schweizerdeutsch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>guj</ISO_639-2_Code>
+        <ISO_639-1_Code>gu</ISO_639-1_Code>
+        <English_name_of_Language>Gujarati</English_name_of_Language>
+        <French_name_of_Language>goudjrati</French_name_of_Language>
+        <German_name_of_Language>Gujarati-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>gwi</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Gwich'in</English_name_of_Language>
+        <French_name_of_Language>gwich'in</French_name_of_Language>
+        <German_name_of_Language>Kutchin-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hai</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Haida</English_name_of_Language>
+        <French_name_of_Language>haida</French_name_of_Language>
+        <German_name_of_Language>Haida-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hat</ISO_639-2_Code>
+        <ISO_639-1_Code>ht</ISO_639-1_Code>
+        <English_name_of_Language>Haitian; Haitian Creole</English_name_of_Language>
+        <French_name_of_Language>haïtien; créole haïtien</French_name_of_Language>
+        <German_name_of_Language>Haïtien (Haiti-Kreolisch)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hau</ISO_639-2_Code>
+        <ISO_639-1_Code>ha</ISO_639-1_Code>
+        <English_name_of_Language>Hausa</English_name_of_Language>
+        <French_name_of_Language>haoussa</French_name_of_Language>
+        <German_name_of_Language>Haussa-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>haw</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Hawaiian</English_name_of_Language>
+        <French_name_of_Language>hawaïen</French_name_of_Language>
+        <German_name_of_Language>Hawaiisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>heb</ISO_639-2_Code>
+        <ISO_639-1_Code>he</ISO_639-1_Code>
+        <English_name_of_Language>Hebrew</English_name_of_Language>
+        <French_name_of_Language>hébreu</French_name_of_Language>
+        <German_name_of_Language>Hebräisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>her</ISO_639-2_Code>
+        <ISO_639-1_Code>hz</ISO_639-1_Code>
+        <English_name_of_Language>Herero</English_name_of_Language>
+        <French_name_of_Language>herero</French_name_of_Language>
+        <German_name_of_Language>Herero-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hil</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Hiligaynon</English_name_of_Language>
+        <French_name_of_Language>hiligaynon</French_name_of_Language>
+        <German_name_of_Language>Hiligaynon-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>him</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Himachali languages; Western Pahari languages</English_name_of_Language>
+        <French_name_of_Language>langues himachalis; langues paharis occidentales</French_name_of_Language>
+        <German_name_of_Language>Himachali</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hin</ISO_639-2_Code>
+        <ISO_639-1_Code>hi</ISO_639-1_Code>
+        <English_name_of_Language>Hindi</English_name_of_Language>
+        <French_name_of_Language>hindi</French_name_of_Language>
+        <German_name_of_Language>Hindi</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hit</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Hittite</English_name_of_Language>
+        <French_name_of_Language>hittite</French_name_of_Language>
+        <German_name_of_Language>Hethitisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hmn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Hmong; Mong</English_name_of_Language>
+        <French_name_of_Language>hmong</French_name_of_Language>
+        <German_name_of_Language>Miao-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hmo</ISO_639-2_Code>
+        <ISO_639-1_Code>ho</ISO_639-1_Code>
+        <English_name_of_Language>Hiri Motu</English_name_of_Language>
+        <French_name_of_Language>hiri motu</French_name_of_Language>
+        <German_name_of_Language>Hiri-Motu</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hrv</ISO_639-2_Code>
+        <ISO_639-1_Code>hr</ISO_639-1_Code>
+        <English_name_of_Language>Croatian</English_name_of_Language>
+        <French_name_of_Language>croate</French_name_of_Language>
+        <German_name_of_Language>Kroatisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hsb</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Upper Sorbian</English_name_of_Language>
+        <French_name_of_Language>haut-sorabe</French_name_of_Language>
+        <German_name_of_Language>Obersorbisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hun</ISO_639-2_Code>
+        <ISO_639-1_Code>hu</ISO_639-1_Code>
+        <English_name_of_Language>Hungarian</English_name_of_Language>
+        <French_name_of_Language>hongrois</French_name_of_Language>
+        <German_name_of_Language>Ungarisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>hup</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Hupa</English_name_of_Language>
+        <French_name_of_Language>hupa</French_name_of_Language>
+        <German_name_of_Language>Hupa-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>arm (B)
+hye (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>hy</ISO_639-1_Code>
+        <English_name_of_Language>Armenian</English_name_of_Language>
+        <French_name_of_Language>arménien</French_name_of_Language>
+        <German_name_of_Language>Armenisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>iba</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Iban</English_name_of_Language>
+        <French_name_of_Language>iban</French_name_of_Language>
+        <German_name_of_Language>Iban-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ibo</ISO_639-2_Code>
+        <ISO_639-1_Code>ig</ISO_639-1_Code>
+        <English_name_of_Language>Igbo</English_name_of_Language>
+        <French_name_of_Language>igbo</French_name_of_Language>
+        <German_name_of_Language>Ibo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ice (B)
+isl (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>is</ISO_639-1_Code>
+        <English_name_of_Language>Icelandic</English_name_of_Language>
+        <French_name_of_Language>islandais</French_name_of_Language>
+        <German_name_of_Language>Isländisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ido</ISO_639-2_Code>
+        <ISO_639-1_Code>io</ISO_639-1_Code>
+        <English_name_of_Language>Ido</English_name_of_Language>
+        <French_name_of_Language>ido</French_name_of_Language>
+        <German_name_of_Language>Ido</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>iii</ISO_639-2_Code>
+        <ISO_639-1_Code>ii</ISO_639-1_Code>
+        <English_name_of_Language>Sichuan Yi; Nuosu</English_name_of_Language>
+        <French_name_of_Language>yi de Sichuan</French_name_of_Language>
+        <German_name_of_Language>Lalo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ijo</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Ijo languages</English_name_of_Language>
+        <French_name_of_Language>ijo, langues</French_name_of_Language>
+        <German_name_of_Language>Ijo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>iku</ISO_639-2_Code>
+        <ISO_639-1_Code>iu</ISO_639-1_Code>
+        <English_name_of_Language>Inuktitut</English_name_of_Language>
+        <French_name_of_Language>inuktitut</French_name_of_Language>
+        <German_name_of_Language>Inuktitut</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ile</ISO_639-2_Code>
+        <ISO_639-1_Code>ie</ISO_639-1_Code>
+        <English_name_of_Language>Interlingue; Occidental</English_name_of_Language>
+        <French_name_of_Language>interlingue</French_name_of_Language>
+        <German_name_of_Language>Interlingue</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ilo</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Iloko</English_name_of_Language>
+        <French_name_of_Language>ilocano</French_name_of_Language>
+        <German_name_of_Language>Ilokano-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ina</ISO_639-2_Code>
+        <ISO_639-1_Code>ia</ISO_639-1_Code>
+        <English_name_of_Language>Interlingua (International Auxiliary Language Association)</English_name_of_Language>
+        <French_name_of_Language>interlingua (langue auxiliaire internationale)</French_name_of_Language>
+        <German_name_of_Language>Interlingua</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>inc</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Indic languages</English_name_of_Language>
+        <French_name_of_Language>indo-aryennes, langues</French_name_of_Language>
+        <German_name_of_Language>Indoarische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ind</ISO_639-2_Code>
+        <ISO_639-1_Code>id</ISO_639-1_Code>
+        <English_name_of_Language>Indonesian</English_name_of_Language>
+        <French_name_of_Language>indonésien</French_name_of_Language>
+        <German_name_of_Language>Bahasa Indonesia</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ine</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Indo-European languages</English_name_of_Language>
+        <French_name_of_Language>indo-européennes, langues</French_name_of_Language>
+        <German_name_of_Language>Indogermanische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>inh</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Ingush</English_name_of_Language>
+        <French_name_of_Language>ingouche</French_name_of_Language>
+        <German_name_of_Language>Inguschisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ipk</ISO_639-2_Code>
+        <ISO_639-1_Code>ik</ISO_639-1_Code>
+        <English_name_of_Language>Inupiaq</English_name_of_Language>
+        <French_name_of_Language>inupiaq</French_name_of_Language>
+        <German_name_of_Language>Inupik</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ira</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Iranian languages</English_name_of_Language>
+        <French_name_of_Language>iraniennes, langues</French_name_of_Language>
+        <German_name_of_Language>Iranische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>iro</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Iroquoian languages</English_name_of_Language>
+        <French_name_of_Language>iroquoises, langues</French_name_of_Language>
+        <German_name_of_Language>Irokesische Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ice (B)
+isl (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>is</ISO_639-1_Code>
+        <English_name_of_Language>Icelandic</English_name_of_Language>
+        <French_name_of_Language>islandais</French_name_of_Language>
+        <German_name_of_Language>Isländisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ita</ISO_639-2_Code>
+        <ISO_639-1_Code>it</ISO_639-1_Code>
+        <English_name_of_Language>Italian</English_name_of_Language>
+        <French_name_of_Language>italien</French_name_of_Language>
+        <German_name_of_Language>Italienisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>jav</ISO_639-2_Code>
+        <ISO_639-1_Code>jv</ISO_639-1_Code>
+        <English_name_of_Language>Javanese</English_name_of_Language>
+        <French_name_of_Language>javanais</French_name_of_Language>
+        <German_name_of_Language>Javanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>jbo</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Lojban</English_name_of_Language>
+        <French_name_of_Language>lojban</French_name_of_Language>
+        <German_name_of_Language>Lojban</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>jpn</ISO_639-2_Code>
+        <ISO_639-1_Code>ja</ISO_639-1_Code>
+        <English_name_of_Language>Japanese</English_name_of_Language>
+        <French_name_of_Language>japonais</French_name_of_Language>
+        <German_name_of_Language>Japanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>jpr</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Judeo-Persian</English_name_of_Language>
+        <French_name_of_Language>judéo-persan</French_name_of_Language>
+        <German_name_of_Language>Jüdisch-Persisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>jrb</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Judeo-Arabic</English_name_of_Language>
+        <French_name_of_Language>judéo-arabe</French_name_of_Language>
+        <German_name_of_Language>Jüdisch-Arabisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kaa</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kara-Kalpak</English_name_of_Language>
+        <French_name_of_Language>karakalpak</French_name_of_Language>
+        <German_name_of_Language>Karakalpakisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kab</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kabyle</English_name_of_Language>
+        <French_name_of_Language>kabyle</French_name_of_Language>
+        <German_name_of_Language>Kabylisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kac</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kachin; Jingpho</English_name_of_Language>
+        <French_name_of_Language>kachin; jingpho</French_name_of_Language>
+        <German_name_of_Language>Kachin-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kal</ISO_639-2_Code>
+        <ISO_639-1_Code>kl</ISO_639-1_Code>
+        <English_name_of_Language>Kalaallisut; Greenlandic</English_name_of_Language>
+        <French_name_of_Language>groenlandais</French_name_of_Language>
+        <German_name_of_Language>Grönländisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kam</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kamba</English_name_of_Language>
+        <French_name_of_Language>kamba</French_name_of_Language>
+        <German_name_of_Language>Kamba-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kan</ISO_639-2_Code>
+        <ISO_639-1_Code>kn</ISO_639-1_Code>
+        <English_name_of_Language>Kannada</English_name_of_Language>
+        <French_name_of_Language>kannada</French_name_of_Language>
+        <German_name_of_Language>Kannada</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kar</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Karen languages</English_name_of_Language>
+        <French_name_of_Language>karen, langues</French_name_of_Language>
+        <German_name_of_Language>Karenisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kas</ISO_639-2_Code>
+        <ISO_639-1_Code>ks</ISO_639-1_Code>
+        <English_name_of_Language>Kashmiri</English_name_of_Language>
+        <French_name_of_Language>kashmiri</French_name_of_Language>
+        <German_name_of_Language>Kaschmiri</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>geo (B)
+kat (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>ka</ISO_639-1_Code>
+        <English_name_of_Language>Georgian</English_name_of_Language>
+        <French_name_of_Language>géorgien</French_name_of_Language>
+        <German_name_of_Language>Georgisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kau</ISO_639-2_Code>
+        <ISO_639-1_Code>kr</ISO_639-1_Code>
+        <English_name_of_Language>Kanuri</English_name_of_Language>
+        <French_name_of_Language>kanouri</French_name_of_Language>
+        <German_name_of_Language>Kanuri-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kaw</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kawi</English_name_of_Language>
+        <French_name_of_Language>kawi</French_name_of_Language>
+        <German_name_of_Language>Kawi</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kaz</ISO_639-2_Code>
+        <ISO_639-1_Code>kk</ISO_639-1_Code>
+        <English_name_of_Language>Kazakh</English_name_of_Language>
+        <French_name_of_Language>kazakh</French_name_of_Language>
+        <German_name_of_Language>Kasachisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kbd</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kabardian</English_name_of_Language>
+        <French_name_of_Language>kabardien</French_name_of_Language>
+        <German_name_of_Language>Kabardinisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kha</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Khasi</English_name_of_Language>
+        <French_name_of_Language>khasi</French_name_of_Language>
+        <German_name_of_Language>Khasi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>khi</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Khoisan languages</English_name_of_Language>
+        <French_name_of_Language>khoïsan, langues</French_name_of_Language>
+        <German_name_of_Language>Khoisan-Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>khm</ISO_639-2_Code>
+        <ISO_639-1_Code>km</ISO_639-1_Code>
+        <English_name_of_Language>Central Khmer</English_name_of_Language>
+        <French_name_of_Language>khmer central</French_name_of_Language>
+        <German_name_of_Language>Kambodschanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kho</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Khotanese; Sakan</English_name_of_Language>
+        <French_name_of_Language>khotanais; sakan</French_name_of_Language>
+        <German_name_of_Language>Sakisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kik</ISO_639-2_Code>
+        <ISO_639-1_Code>ki</ISO_639-1_Code>
+        <English_name_of_Language>Kikuyu; Gikuyu</English_name_of_Language>
+        <French_name_of_Language>kikuyu</French_name_of_Language>
+        <German_name_of_Language>Kikuyu-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kin</ISO_639-2_Code>
+        <ISO_639-1_Code>rw</ISO_639-1_Code>
+        <English_name_of_Language>Kinyarwanda</English_name_of_Language>
+        <French_name_of_Language>rwanda</French_name_of_Language>
+        <German_name_of_Language>Rwanda-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kir</ISO_639-2_Code>
+        <ISO_639-1_Code>ky</ISO_639-1_Code>
+        <English_name_of_Language>Kirghiz; Kyrgyz</English_name_of_Language>
+        <French_name_of_Language>kirghiz</French_name_of_Language>
+        <German_name_of_Language>Kirgisisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kmb</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kimbundu</English_name_of_Language>
+        <French_name_of_Language>kimbundu</French_name_of_Language>
+        <German_name_of_Language>Kimbundu-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kok</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Konkani</English_name_of_Language>
+        <French_name_of_Language>konkani</French_name_of_Language>
+        <German_name_of_Language>Konkani</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kom</ISO_639-2_Code>
+        <ISO_639-1_Code>kv</ISO_639-1_Code>
+        <English_name_of_Language>Komi</English_name_of_Language>
+        <French_name_of_Language>kom</French_name_of_Language>
+        <German_name_of_Language>Komi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kon</ISO_639-2_Code>
+        <ISO_639-1_Code>kg</ISO_639-1_Code>
+        <English_name_of_Language>Kongo</English_name_of_Language>
+        <French_name_of_Language>kongo</French_name_of_Language>
+        <German_name_of_Language>Kongo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kor</ISO_639-2_Code>
+        <ISO_639-1_Code>ko</ISO_639-1_Code>
+        <English_name_of_Language>Korean</English_name_of_Language>
+        <French_name_of_Language>coréen</French_name_of_Language>
+        <German_name_of_Language>Koreanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kos</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kosraean</English_name_of_Language>
+        <French_name_of_Language>kosrae</French_name_of_Language>
+        <German_name_of_Language>Kosraeanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kpe</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kpelle</English_name_of_Language>
+        <French_name_of_Language>kpellé</French_name_of_Language>
+        <German_name_of_Language>Kpelle-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>krc</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Karachay-Balkar</English_name_of_Language>
+        <French_name_of_Language>karatchai balkar</French_name_of_Language>
+        <German_name_of_Language>Karatschaiisch-Balkarisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>krl</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Karelian</English_name_of_Language>
+        <French_name_of_Language>carélien</French_name_of_Language>
+        <German_name_of_Language>Karelisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kro</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kru languages</English_name_of_Language>
+        <French_name_of_Language>krou, langues</French_name_of_Language>
+        <German_name_of_Language>Kru-Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kru</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kurukh</English_name_of_Language>
+        <French_name_of_Language>kurukh</French_name_of_Language>
+        <German_name_of_Language>Oraon-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kua</ISO_639-2_Code>
+        <ISO_639-1_Code>kj</ISO_639-1_Code>
+        <English_name_of_Language>Kuanyama; Kwanyama</English_name_of_Language>
+        <French_name_of_Language>kuanyama; kwanyama</French_name_of_Language>
+        <German_name_of_Language>Kwanyama-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kum</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kumyk</English_name_of_Language>
+        <French_name_of_Language>koumyk</French_name_of_Language>
+        <German_name_of_Language>Kumükisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kur</ISO_639-2_Code>
+        <ISO_639-1_Code>ku</ISO_639-1_Code>
+        <English_name_of_Language>Kurdish</English_name_of_Language>
+        <French_name_of_Language>kurde</French_name_of_Language>
+        <German_name_of_Language>Kurdisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>kut</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kutenai</English_name_of_Language>
+        <French_name_of_Language>kutenai</French_name_of_Language>
+        <German_name_of_Language>Kutenai-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lad</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Ladino</English_name_of_Language>
+        <French_name_of_Language>judéo-espagnol</French_name_of_Language>
+        <German_name_of_Language>Judenspanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lah</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Lahnda</English_name_of_Language>
+        <French_name_of_Language>lahnda</French_name_of_Language>
+        <German_name_of_Language>Lahnda</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lam</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Lamba</English_name_of_Language>
+        <French_name_of_Language>lamba</French_name_of_Language>
+        <German_name_of_Language>Lamba-Sprache (Bantusprache)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lao</ISO_639-2_Code>
+        <ISO_639-1_Code>lo</ISO_639-1_Code>
+        <English_name_of_Language>Lao</English_name_of_Language>
+        <French_name_of_Language>lao</French_name_of_Language>
+        <German_name_of_Language>Laotisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lat</ISO_639-2_Code>
+        <ISO_639-1_Code>la</ISO_639-1_Code>
+        <English_name_of_Language>Latin</English_name_of_Language>
+        <French_name_of_Language>latin</French_name_of_Language>
+        <German_name_of_Language>Latein</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lav</ISO_639-2_Code>
+        <ISO_639-1_Code>lv</ISO_639-1_Code>
+        <English_name_of_Language>Latvian</English_name_of_Language>
+        <French_name_of_Language>letton</French_name_of_Language>
+        <German_name_of_Language>Lettisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lez</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Lezghian</English_name_of_Language>
+        <French_name_of_Language>lezghien</French_name_of_Language>
+        <German_name_of_Language>Lesgisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lim</ISO_639-2_Code>
+        <ISO_639-1_Code>li</ISO_639-1_Code>
+        <English_name_of_Language>Limburgan; Limburger; Limburgish</English_name_of_Language>
+        <French_name_of_Language>limbourgeois</French_name_of_Language>
+        <German_name_of_Language>Limburgisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lin</ISO_639-2_Code>
+        <ISO_639-1_Code>ln</ISO_639-1_Code>
+        <English_name_of_Language>Lingala</English_name_of_Language>
+        <French_name_of_Language>lingala</French_name_of_Language>
+        <German_name_of_Language>Lingala</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lit</ISO_639-2_Code>
+        <ISO_639-1_Code>lt</ISO_639-1_Code>
+        <English_name_of_Language>Lithuanian</English_name_of_Language>
+        <French_name_of_Language>lituanien</French_name_of_Language>
+        <German_name_of_Language>Litauisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lol</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mongo</English_name_of_Language>
+        <French_name_of_Language>mongo</French_name_of_Language>
+        <German_name_of_Language>Mongo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>loz</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Lozi</English_name_of_Language>
+        <French_name_of_Language>lozi</French_name_of_Language>
+        <German_name_of_Language>Rotse-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ltz</ISO_639-2_Code>
+        <ISO_639-1_Code>lb</ISO_639-1_Code>
+        <English_name_of_Language>Luxembourgish; Letzeburgesch</English_name_of_Language>
+        <French_name_of_Language>luxembourgeois</French_name_of_Language>
+        <German_name_of_Language>Luxemburgisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lua</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Luba-Lulua</English_name_of_Language>
+        <French_name_of_Language>luba-lulua</French_name_of_Language>
+        <German_name_of_Language>Lulua-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lub</ISO_639-2_Code>
+        <ISO_639-1_Code>lu</ISO_639-1_Code>
+        <English_name_of_Language>Luba-Katanga</English_name_of_Language>
+        <French_name_of_Language>luba-katanga</French_name_of_Language>
+        <German_name_of_Language>Luba-Katanga-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lug</ISO_639-2_Code>
+        <ISO_639-1_Code>lg</ISO_639-1_Code>
+        <English_name_of_Language>Ganda</English_name_of_Language>
+        <French_name_of_Language>ganda</French_name_of_Language>
+        <German_name_of_Language>Ganda-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lui</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Luiseno</English_name_of_Language>
+        <French_name_of_Language>luiseno</French_name_of_Language>
+        <German_name_of_Language>Luiseño-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lun</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Lunda</English_name_of_Language>
+        <French_name_of_Language>lunda</French_name_of_Language>
+        <German_name_of_Language>Lunda-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>luo</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Luo (Kenya and Tanzania)</English_name_of_Language>
+        <French_name_of_Language>luo (Kenya et Tanzanie)</French_name_of_Language>
+        <German_name_of_Language>Luo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>lus</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Lushai</English_name_of_Language>
+        <French_name_of_Language>lushai</French_name_of_Language>
+        <German_name_of_Language>Lushai-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mac (B)
+mkd (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>mk</ISO_639-1_Code>
+        <English_name_of_Language>Macedonian</English_name_of_Language>
+        <French_name_of_Language>macédonien</French_name_of_Language>
+        <German_name_of_Language>Makedonisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mad</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Madurese</English_name_of_Language>
+        <French_name_of_Language>madourais</French_name_of_Language>
+        <German_name_of_Language>Maduresisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mag</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Magahi</English_name_of_Language>
+        <French_name_of_Language>magahi</French_name_of_Language>
+        <German_name_of_Language>Khotta</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mah</ISO_639-2_Code>
+        <ISO_639-1_Code>mh</ISO_639-1_Code>
+        <English_name_of_Language>Marshallese</English_name_of_Language>
+        <French_name_of_Language>marshall</French_name_of_Language>
+        <German_name_of_Language>Marschallesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mai</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Maithili</English_name_of_Language>
+        <French_name_of_Language>maithili</French_name_of_Language>
+        <German_name_of_Language>Maithili</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mak</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Makasar</English_name_of_Language>
+        <French_name_of_Language>makassar</French_name_of_Language>
+        <German_name_of_Language>Makassarisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mal</ISO_639-2_Code>
+        <ISO_639-1_Code>ml</ISO_639-1_Code>
+        <English_name_of_Language>Malayalam</English_name_of_Language>
+        <French_name_of_Language>malayalam</French_name_of_Language>
+        <German_name_of_Language>Malayalam</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>man</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mandingo</English_name_of_Language>
+        <French_name_of_Language>mandingue</French_name_of_Language>
+        <German_name_of_Language>Malinke-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mao (B)
+mri (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>mi</ISO_639-1_Code>
+        <English_name_of_Language>Maori</English_name_of_Language>
+        <French_name_of_Language>maori</French_name_of_Language>
+        <German_name_of_Language>Maori-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>map</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Austronesian languages</English_name_of_Language>
+        <French_name_of_Language>austronésiennes, langues</French_name_of_Language>
+        <German_name_of_Language>Austronesische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mar</ISO_639-2_Code>
+        <ISO_639-1_Code>mr</ISO_639-1_Code>
+        <English_name_of_Language>Marathi</English_name_of_Language>
+        <French_name_of_Language>marathe</French_name_of_Language>
+        <German_name_of_Language>Marathi</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mas</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Masai</English_name_of_Language>
+        <French_name_of_Language>massaï</French_name_of_Language>
+        <German_name_of_Language>Massai-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>may (B)
+msa (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>ms</ISO_639-1_Code>
+        <English_name_of_Language>Malay</English_name_of_Language>
+        <French_name_of_Language>malais</French_name_of_Language>
+        <German_name_of_Language>Malaiisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mdf</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Moksha</English_name_of_Language>
+        <French_name_of_Language>moksa</French_name_of_Language>
+        <German_name_of_Language>Mokscha-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mdr</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mandar</English_name_of_Language>
+        <French_name_of_Language>mandar</French_name_of_Language>
+        <German_name_of_Language>Mandaresisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>men</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mende</English_name_of_Language>
+        <French_name_of_Language>mendé</French_name_of_Language>
+        <German_name_of_Language>Mende-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mga</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Irish, Middle (900-1200)</English_name_of_Language>
+        <French_name_of_Language>irlandais moyen (900-1200)</French_name_of_Language>
+        <German_name_of_Language>Mittelirisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mic</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mi'kmaq; Micmac</English_name_of_Language>
+        <French_name_of_Language>mi'kmaq; micmac</French_name_of_Language>
+        <German_name_of_Language>Micmac-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>min</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Minangkabau</English_name_of_Language>
+        <French_name_of_Language>minangkabau</French_name_of_Language>
+        <German_name_of_Language>Minangkabau-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mis</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Uncoded languages</English_name_of_Language>
+        <French_name_of_Language>langues non codées</French_name_of_Language>
+        <German_name_of_Language>Einzelne andere Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mac (B)
+mkd (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>mk</ISO_639-1_Code>
+        <English_name_of_Language>Macedonian</English_name_of_Language>
+        <French_name_of_Language>macédonien</French_name_of_Language>
+        <German_name_of_Language>Makedonisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mkh</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mon-Khmer languages</English_name_of_Language>
+        <French_name_of_Language>môn-khmer, langues</French_name_of_Language>
+        <German_name_of_Language>Mon-Khmer-Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mlg</ISO_639-2_Code>
+        <ISO_639-1_Code>mg</ISO_639-1_Code>
+        <English_name_of_Language>Malagasy</English_name_of_Language>
+        <French_name_of_Language>malgache</French_name_of_Language>
+        <German_name_of_Language>Malagassi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mlt</ISO_639-2_Code>
+        <ISO_639-1_Code>mt</ISO_639-1_Code>
+        <English_name_of_Language>Maltese</English_name_of_Language>
+        <French_name_of_Language>maltais</French_name_of_Language>
+        <German_name_of_Language>Maltesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mnc</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Manchu</English_name_of_Language>
+        <French_name_of_Language>mandchou</French_name_of_Language>
+        <German_name_of_Language>Mandschurisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mni</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Manipuri</English_name_of_Language>
+        <French_name_of_Language>manipuri</French_name_of_Language>
+        <German_name_of_Language>Meithei-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mno</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Manobo languages</English_name_of_Language>
+        <French_name_of_Language>manobo, langues</French_name_of_Language>
+        <German_name_of_Language>Manobo-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>moh</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mohawk</English_name_of_Language>
+        <French_name_of_Language>mohawk</French_name_of_Language>
+        <German_name_of_Language>Mohawk-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mon</ISO_639-2_Code>
+        <ISO_639-1_Code>mn</ISO_639-1_Code>
+        <English_name_of_Language>Mongolian</English_name_of_Language>
+        <French_name_of_Language>mongol</French_name_of_Language>
+        <German_name_of_Language>Mongolisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mos</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mossi</English_name_of_Language>
+        <French_name_of_Language>moré</French_name_of_Language>
+        <German_name_of_Language>Mossi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mao (B)
+mri (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>mi</ISO_639-1_Code>
+        <English_name_of_Language>Maori</English_name_of_Language>
+        <French_name_of_Language>maori</French_name_of_Language>
+        <German_name_of_Language>Maori-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>may (B)
+msa (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>ms</ISO_639-1_Code>
+        <English_name_of_Language>Malay</English_name_of_Language>
+        <French_name_of_Language>malais</French_name_of_Language>
+        <German_name_of_Language>Malaiisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mul</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Multiple languages</English_name_of_Language>
+        <French_name_of_Language>multilingue</French_name_of_Language>
+        <German_name_of_Language>Mehrere Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mun</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Munda languages</English_name_of_Language>
+        <French_name_of_Language>mounda, langues</French_name_of_Language>
+        <German_name_of_Language>Mundasprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mus</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Creek</English_name_of_Language>
+        <French_name_of_Language>muskogee</French_name_of_Language>
+        <German_name_of_Language>Muskogisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mwl</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mirandese</English_name_of_Language>
+        <French_name_of_Language>mirandais</French_name_of_Language>
+        <German_name_of_Language>Mirandesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>mwr</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Marwari</English_name_of_Language>
+        <French_name_of_Language>marvari</French_name_of_Language>
+        <German_name_of_Language>Marwari</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>bur (B)
+mya (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>my</ISO_639-1_Code>
+        <English_name_of_Language>Burmese</English_name_of_Language>
+        <French_name_of_Language>birman</French_name_of_Language>
+        <German_name_of_Language>Birmanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>myn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Mayan languages</English_name_of_Language>
+        <French_name_of_Language>maya, langues</French_name_of_Language>
+        <German_name_of_Language>Maya-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>myv</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Erzya</English_name_of_Language>
+        <French_name_of_Language>erza</French_name_of_Language>
+        <German_name_of_Language>Erza-Mordwinisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nah</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Nahuatl languages</English_name_of_Language>
+        <French_name_of_Language>nahuatl, langues</French_name_of_Language>
+        <German_name_of_Language>Nahuatl</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nai</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>North American Indian languages</English_name_of_Language>
+        <French_name_of_Language>nord-amérindiennes, langues</French_name_of_Language>
+        <German_name_of_Language>Indianersprachen, Nordamerika (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nap</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Neapolitan</English_name_of_Language>
+        <French_name_of_Language>napolitain</French_name_of_Language>
+        <German_name_of_Language>Neapel / Mundart</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nau</ISO_639-2_Code>
+        <ISO_639-1_Code>na</ISO_639-1_Code>
+        <English_name_of_Language>Nauru</English_name_of_Language>
+        <French_name_of_Language>nauruan</French_name_of_Language>
+        <German_name_of_Language>Nauruanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nav</ISO_639-2_Code>
+        <ISO_639-1_Code>nv</ISO_639-1_Code>
+        <English_name_of_Language>Navajo; Navaho</English_name_of_Language>
+        <French_name_of_Language>navaho</French_name_of_Language>
+        <German_name_of_Language>Navajo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nbl</ISO_639-2_Code>
+        <ISO_639-1_Code>nr</ISO_639-1_Code>
+        <English_name_of_Language>Ndebele, South; South Ndebele</English_name_of_Language>
+        <French_name_of_Language>ndébélé du Sud</French_name_of_Language>
+        <German_name_of_Language>Ndebele-Sprache (Transvaal)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nde</ISO_639-2_Code>
+        <ISO_639-1_Code>nd</ISO_639-1_Code>
+        <English_name_of_Language>Ndebele, North; North Ndebele</English_name_of_Language>
+        <French_name_of_Language>ndébélé du Nord</French_name_of_Language>
+        <German_name_of_Language>Ndebele-Sprache (Simbabwe)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ndo</ISO_639-2_Code>
+        <ISO_639-1_Code>ng</ISO_639-1_Code>
+        <English_name_of_Language>Ndonga</English_name_of_Language>
+        <French_name_of_Language>ndonga</French_name_of_Language>
+        <German_name_of_Language>Ndonga</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nds</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Low German; Low Saxon; German, Low; Saxon, Low</English_name_of_Language>
+        <French_name_of_Language>bas allemand; bas saxon; allemand, bas; saxon, bas</French_name_of_Language>
+        <German_name_of_Language>Niederdeutsch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nep</ISO_639-2_Code>
+        <ISO_639-1_Code>ne</ISO_639-1_Code>
+        <English_name_of_Language>Nepali</English_name_of_Language>
+        <French_name_of_Language>népalais</French_name_of_Language>
+        <German_name_of_Language>Nepali</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>new</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Nepal Bhasa; Newari</English_name_of_Language>
+        <French_name_of_Language>nepal bhasa; newari</French_name_of_Language>
+        <German_name_of_Language>Newari</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nia</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Nias</English_name_of_Language>
+        <French_name_of_Language>nias</French_name_of_Language>
+        <German_name_of_Language>Nias-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nic</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Niger-Kordofanian languages</English_name_of_Language>
+        <French_name_of_Language>nigéro-kordofaniennes, langues</French_name_of_Language>
+        <German_name_of_Language>Nigerkordofanische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>niu</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Niuean</English_name_of_Language>
+        <French_name_of_Language>niué</French_name_of_Language>
+        <German_name_of_Language>Niue-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>dut (B)
+nld (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>nl</ISO_639-1_Code>
+        <English_name_of_Language>Dutch; Flemish</English_name_of_Language>
+        <French_name_of_Language>néerlandais; flamand</French_name_of_Language>
+        <German_name_of_Language>Niederländisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nno</ISO_639-2_Code>
+        <ISO_639-1_Code>nn</ISO_639-1_Code>
+        <English_name_of_Language>Norwegian Nynorsk; Nynorsk, Norwegian</English_name_of_Language>
+        <French_name_of_Language>norvégien nynorsk; nynorsk, norvégien</French_name_of_Language>
+        <German_name_of_Language>Nynorsk</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nob</ISO_639-2_Code>
+        <ISO_639-1_Code>nb</ISO_639-1_Code>
+        <English_name_of_Language>Bokmål, Norwegian; Norwegian Bokmål</English_name_of_Language>
+        <French_name_of_Language>norvégien bokmål</French_name_of_Language>
+        <German_name_of_Language>Bokmål</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nog</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Nogai</English_name_of_Language>
+        <French_name_of_Language>nogaï; nogay</French_name_of_Language>
+        <German_name_of_Language>Nogaisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>non</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Norse, Old</English_name_of_Language>
+        <French_name_of_Language>norrois, vieux</French_name_of_Language>
+        <German_name_of_Language>Altnorwegisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nor</ISO_639-2_Code>
+        <ISO_639-1_Code>no</ISO_639-1_Code>
+        <English_name_of_Language>Norwegian</English_name_of_Language>
+        <French_name_of_Language>norvégien</French_name_of_Language>
+        <German_name_of_Language>Norwegisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nqo</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>N'Ko</English_name_of_Language>
+        <French_name_of_Language>n'ko</French_name_of_Language>
+        <German_name_of_Language>N'Ko</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nso</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Pedi; Sepedi; Northern Sotho</English_name_of_Language>
+        <French_name_of_Language>pedi; sepedi; sotho du Nord</French_name_of_Language>
+        <German_name_of_Language>Pedi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nub</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Nubian languages</English_name_of_Language>
+        <French_name_of_Language>nubiennes, langues</French_name_of_Language>
+        <German_name_of_Language>Nubische Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nwc</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Classical Newari; Old Newari; Classical Nepal Bhasa</English_name_of_Language>
+        <French_name_of_Language>newari classique</French_name_of_Language>
+        <German_name_of_Language>Alt-Newari</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nya</ISO_639-2_Code>
+        <ISO_639-1_Code>ny</ISO_639-1_Code>
+        <English_name_of_Language>Chichewa; Chewa; Nyanja</English_name_of_Language>
+        <French_name_of_Language>chichewa; chewa; nyanja</French_name_of_Language>
+        <German_name_of_Language>Nyanja-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nym</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Nyamwezi</English_name_of_Language>
+        <French_name_of_Language>nyamwezi</French_name_of_Language>
+        <German_name_of_Language>Nyamwezi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nyn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Nyankole</English_name_of_Language>
+        <French_name_of_Language>nyankolé</French_name_of_Language>
+        <German_name_of_Language>Nkole-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nyo</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Nyoro</English_name_of_Language>
+        <French_name_of_Language>nyoro</French_name_of_Language>
+        <German_name_of_Language>Nyoro-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>nzi</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Nzima</English_name_of_Language>
+        <French_name_of_Language>nzema</French_name_of_Language>
+        <German_name_of_Language>Nzima-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>oci</ISO_639-2_Code>
+        <ISO_639-1_Code>oc</ISO_639-1_Code>
+        <English_name_of_Language>Occitan (post 1500)</English_name_of_Language>
+        <French_name_of_Language>occitan (après 1500)</French_name_of_Language>
+        <German_name_of_Language>Okzitanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>oji</ISO_639-2_Code>
+        <ISO_639-1_Code>oj</ISO_639-1_Code>
+        <English_name_of_Language>Ojibwa</English_name_of_Language>
+        <French_name_of_Language>ojibwa</French_name_of_Language>
+        <German_name_of_Language>Ojibwa-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ori</ISO_639-2_Code>
+        <ISO_639-1_Code>or</ISO_639-1_Code>
+        <English_name_of_Language>Oriya</English_name_of_Language>
+        <French_name_of_Language>oriya</French_name_of_Language>
+        <German_name_of_Language>Oriya-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>orm</ISO_639-2_Code>
+        <ISO_639-1_Code>om</ISO_639-1_Code>
+        <English_name_of_Language>Oromo</English_name_of_Language>
+        <French_name_of_Language>galla</French_name_of_Language>
+        <German_name_of_Language>Galla-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>osa</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Osage</English_name_of_Language>
+        <French_name_of_Language>osage</French_name_of_Language>
+        <German_name_of_Language>Osage-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>oss</ISO_639-2_Code>
+        <ISO_639-1_Code>os</ISO_639-1_Code>
+        <English_name_of_Language>Ossetian; Ossetic</English_name_of_Language>
+        <French_name_of_Language>ossète</French_name_of_Language>
+        <German_name_of_Language>Ossetisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ota</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Turkish, Ottoman (1500-1928)</English_name_of_Language>
+        <French_name_of_Language>turc ottoman (1500-1928)</French_name_of_Language>
+        <German_name_of_Language>Osmanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>oto</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Otomian languages</English_name_of_Language>
+        <French_name_of_Language>otomi, langues</French_name_of_Language>
+        <German_name_of_Language>Otomangue-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>paa</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Papuan languages</English_name_of_Language>
+        <French_name_of_Language>papoues, langues</French_name_of_Language>
+        <German_name_of_Language>Papuasprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pag</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Pangasinan</English_name_of_Language>
+        <French_name_of_Language>pangasinan</French_name_of_Language>
+        <German_name_of_Language>Pangasinan-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pal</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Pahlavi</English_name_of_Language>
+        <French_name_of_Language>pahlavi</French_name_of_Language>
+        <German_name_of_Language>Mittelpersisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pam</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Pampanga; Kapampangan</English_name_of_Language>
+        <French_name_of_Language>pampangan</French_name_of_Language>
+        <German_name_of_Language>Pampanggan-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pan</ISO_639-2_Code>
+        <ISO_639-1_Code>pa</ISO_639-1_Code>
+        <English_name_of_Language>Panjabi; Punjabi</English_name_of_Language>
+        <French_name_of_Language>pendjabi</French_name_of_Language>
+        <German_name_of_Language>Pandschabi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pap</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Papiamento</English_name_of_Language>
+        <French_name_of_Language>papiamento</French_name_of_Language>
+        <German_name_of_Language>Papiamento</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pau</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Palauan</English_name_of_Language>
+        <French_name_of_Language>palau</French_name_of_Language>
+        <German_name_of_Language>Palau-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>peo</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Persian, Old (ca.600-400 B.C.)</English_name_of_Language>
+        <French_name_of_Language>perse, vieux (ca. 600-400 av. J.-C.)</French_name_of_Language>
+        <German_name_of_Language>Altpersisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>per (B)
+fas (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>fa</ISO_639-1_Code>
+        <English_name_of_Language>Persian</English_name_of_Language>
+        <French_name_of_Language>persan</French_name_of_Language>
+        <German_name_of_Language>Persisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>phi</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Philippine languages</English_name_of_Language>
+        <French_name_of_Language>philippines, langues</French_name_of_Language>
+        <German_name_of_Language>Philippinisch-Austronesisch (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>phn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Phoenician</English_name_of_Language>
+        <French_name_of_Language>phénicien</French_name_of_Language>
+        <German_name_of_Language>Phönikisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pli</ISO_639-2_Code>
+        <ISO_639-1_Code>pi</ISO_639-1_Code>
+        <English_name_of_Language>Pali</English_name_of_Language>
+        <French_name_of_Language>pali</French_name_of_Language>
+        <German_name_of_Language>Pali</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pol</ISO_639-2_Code>
+        <ISO_639-1_Code>pl</ISO_639-1_Code>
+        <English_name_of_Language>Polish</English_name_of_Language>
+        <French_name_of_Language>polonais</French_name_of_Language>
+        <German_name_of_Language>Polnisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pon</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Pohnpeian</English_name_of_Language>
+        <French_name_of_Language>pohnpei</French_name_of_Language>
+        <German_name_of_Language>Ponapeanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>por</ISO_639-2_Code>
+        <ISO_639-1_Code>pt</ISO_639-1_Code>
+        <English_name_of_Language>Portuguese</English_name_of_Language>
+        <French_name_of_Language>portugais</French_name_of_Language>
+        <German_name_of_Language>Portugiesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pra</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Prakrit languages</English_name_of_Language>
+        <French_name_of_Language>prâkrit, langues</French_name_of_Language>
+        <German_name_of_Language>Prakrit</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pro</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Provençal, Old (to 1500);Occitan, Old (to 1500)</English_name_of_Language>
+        <French_name_of_Language>provençal ancien (jusqu'à 1500); occitan ancien (jusqu'à 1500)</French_name_of_Language>
+        <German_name_of_Language>Altokzitanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>pus</ISO_639-2_Code>
+        <ISO_639-1_Code>ps</ISO_639-1_Code>
+        <English_name_of_Language>Pushto; Pashto</English_name_of_Language>
+        <French_name_of_Language>pachto</French_name_of_Language>
+        <German_name_of_Language>Paschtu</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>qaa-qtz</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Reserved for local use</English_name_of_Language>
+        <French_name_of_Language>réservée à l'usage local</French_name_of_Language>
+        <German_name_of_Language>Reserviert für lokale Verwendung</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>que</ISO_639-2_Code>
+        <ISO_639-1_Code>qu</ISO_639-1_Code>
+        <English_name_of_Language>Quechua</English_name_of_Language>
+        <French_name_of_Language>quechua</French_name_of_Language>
+        <German_name_of_Language>Quechua-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>raj</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Rajasthani</English_name_of_Language>
+        <French_name_of_Language>rajasthani</French_name_of_Language>
+        <German_name_of_Language>Rajasthani</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>rap</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Rapanui</English_name_of_Language>
+        <French_name_of_Language>rapanui</French_name_of_Language>
+        <German_name_of_Language>Osterinsel-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>rar</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Rarotongan; Cook Islands Maori</English_name_of_Language>
+        <French_name_of_Language>rarotonga; maori des îles Cook</French_name_of_Language>
+        <German_name_of_Language>Rarotonganisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>roa</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Romance languages</English_name_of_Language>
+        <French_name_of_Language>romanes, langues</French_name_of_Language>
+        <German_name_of_Language>Romanische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>roh</ISO_639-2_Code>
+        <ISO_639-1_Code>rm</ISO_639-1_Code>
+        <English_name_of_Language>Romansh</English_name_of_Language>
+        <French_name_of_Language>romanche</French_name_of_Language>
+        <German_name_of_Language>Rätoromanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>rom</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Romany</English_name_of_Language>
+        <French_name_of_Language>tsigane</French_name_of_Language>
+        <German_name_of_Language>Romani (Sprache)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>rum (B)
+ron (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>ro</ISO_639-1_Code>
+        <English_name_of_Language>Romanian; Moldavian; Moldovan</English_name_of_Language>
+        <French_name_of_Language>roumain; moldave</French_name_of_Language>
+        <German_name_of_Language>Rumänisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>rum (B)
+ron (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>ro</ISO_639-1_Code>
+        <English_name_of_Language>Romanian; Moldavian; Moldovan</English_name_of_Language>
+        <French_name_of_Language>roumain; moldave</French_name_of_Language>
+        <German_name_of_Language>Rumänisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>run</ISO_639-2_Code>
+        <ISO_639-1_Code>rn</ISO_639-1_Code>
+        <English_name_of_Language>Rundi</English_name_of_Language>
+        <French_name_of_Language>rundi</French_name_of_Language>
+        <German_name_of_Language>Rundi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>rup</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Aromanian; Arumanian; Macedo-Romanian</English_name_of_Language>
+        <French_name_of_Language>aroumain; macédo-roumain</French_name_of_Language>
+        <German_name_of_Language>Aromunisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>rus</ISO_639-2_Code>
+        <ISO_639-1_Code>ru</ISO_639-1_Code>
+        <English_name_of_Language>Russian</English_name_of_Language>
+        <French_name_of_Language>russe</French_name_of_Language>
+        <German_name_of_Language>Russisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sad</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sandawe</English_name_of_Language>
+        <French_name_of_Language>sandawe</French_name_of_Language>
+        <German_name_of_Language>Sandawe-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sag</ISO_639-2_Code>
+        <ISO_639-1_Code>sg</ISO_639-1_Code>
+        <English_name_of_Language>Sango</English_name_of_Language>
+        <French_name_of_Language>sango</French_name_of_Language>
+        <German_name_of_Language>Sango-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sah</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Yakut</English_name_of_Language>
+        <French_name_of_Language>iakoute</French_name_of_Language>
+        <German_name_of_Language>Jakutisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sai</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>South American Indian languages</English_name_of_Language>
+        <French_name_of_Language>sud-amérindiennes, langues</French_name_of_Language>
+        <German_name_of_Language>Indianersprachen, Südamerika (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sal</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Salishan languages</English_name_of_Language>
+        <French_name_of_Language>salishennes, langues</French_name_of_Language>
+        <German_name_of_Language>Salish-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sam</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Samaritan Aramaic</English_name_of_Language>
+        <French_name_of_Language>samaritain</French_name_of_Language>
+        <German_name_of_Language>Samaritanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>san</ISO_639-2_Code>
+        <ISO_639-1_Code>sa</ISO_639-1_Code>
+        <English_name_of_Language>Sanskrit</English_name_of_Language>
+        <French_name_of_Language>sanskrit</French_name_of_Language>
+        <German_name_of_Language>Sanskrit</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sas</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sasak</English_name_of_Language>
+        <French_name_of_Language>sasak</French_name_of_Language>
+        <German_name_of_Language>Sasak</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sat</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Santali</English_name_of_Language>
+        <French_name_of_Language>santal</French_name_of_Language>
+        <German_name_of_Language>Santali</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>scn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sicilian</English_name_of_Language>
+        <French_name_of_Language>sicilien</French_name_of_Language>
+        <German_name_of_Language>Sizilianisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sco</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Scots</English_name_of_Language>
+        <French_name_of_Language>écossais</French_name_of_Language>
+        <German_name_of_Language>Schottisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sel</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Selkup</English_name_of_Language>
+        <French_name_of_Language>selkoupe</French_name_of_Language>
+        <German_name_of_Language>Selkupisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sem</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Semitic languages</English_name_of_Language>
+        <French_name_of_Language>sémitiques, langues</French_name_of_Language>
+        <German_name_of_Language>Semitische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sga</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Irish, Old (to 900)</English_name_of_Language>
+        <French_name_of_Language>irlandais ancien (jusqu'à 900)</French_name_of_Language>
+        <German_name_of_Language>Altirisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sgn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sign Languages</English_name_of_Language>
+        <French_name_of_Language>langues des signes</French_name_of_Language>
+        <German_name_of_Language>Zeichensprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>shn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Shan</English_name_of_Language>
+        <French_name_of_Language>chan</French_name_of_Language>
+        <German_name_of_Language>Schan-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sid</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sidamo</English_name_of_Language>
+        <French_name_of_Language>sidamo</French_name_of_Language>
+        <German_name_of_Language>Sidamo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sin</ISO_639-2_Code>
+        <ISO_639-1_Code>si</ISO_639-1_Code>
+        <English_name_of_Language>Sinhala; Sinhalese</English_name_of_Language>
+        <French_name_of_Language>singhalais</French_name_of_Language>
+        <German_name_of_Language>Singhalesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sio</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Siouan languages</English_name_of_Language>
+        <French_name_of_Language>sioux, langues</French_name_of_Language>
+        <German_name_of_Language>Sioux-Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sit</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sino-Tibetan languages</English_name_of_Language>
+        <French_name_of_Language>sino-tibétaines, langues</French_name_of_Language>
+        <German_name_of_Language>Sinotibetische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sla</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Slavic languages</English_name_of_Language>
+        <French_name_of_Language>slaves, langues</French_name_of_Language>
+        <German_name_of_Language>Slawische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>slo (B)
+slk (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>sk</ISO_639-1_Code>
+        <English_name_of_Language>Slovak</English_name_of_Language>
+        <French_name_of_Language>slovaque</French_name_of_Language>
+        <German_name_of_Language>Slowakisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>slo (B)
+slk (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>sk</ISO_639-1_Code>
+        <English_name_of_Language>Slovak</English_name_of_Language>
+        <French_name_of_Language>slovaque</French_name_of_Language>
+        <German_name_of_Language>Slowakisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>slv</ISO_639-2_Code>
+        <ISO_639-1_Code>sl</ISO_639-1_Code>
+        <English_name_of_Language>Slovenian</English_name_of_Language>
+        <French_name_of_Language>slovène</French_name_of_Language>
+        <German_name_of_Language>Slowenisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sma</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Southern Sami</English_name_of_Language>
+        <French_name_of_Language>sami du Sud</French_name_of_Language>
+        <German_name_of_Language>Südsaamisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sme</ISO_639-2_Code>
+        <ISO_639-1_Code>se</ISO_639-1_Code>
+        <English_name_of_Language>Northern Sami</English_name_of_Language>
+        <French_name_of_Language>sami du Nord</French_name_of_Language>
+        <German_name_of_Language>Nordsaamisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>smi</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sami languages</English_name_of_Language>
+        <French_name_of_Language>sames, langues</French_name_of_Language>
+        <German_name_of_Language>Saamisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>smj</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Lule Sami</English_name_of_Language>
+        <French_name_of_Language>sami de Lule</French_name_of_Language>
+        <German_name_of_Language>Lulesaamisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>smn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Inari Sami</English_name_of_Language>
+        <French_name_of_Language>sami d'Inari</French_name_of_Language>
+        <German_name_of_Language>Inarisaamisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>smo</ISO_639-2_Code>
+        <ISO_639-1_Code>sm</ISO_639-1_Code>
+        <English_name_of_Language>Samoan</English_name_of_Language>
+        <French_name_of_Language>samoan</French_name_of_Language>
+        <German_name_of_Language>Samoanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sms</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Skolt Sami</English_name_of_Language>
+        <French_name_of_Language>sami skolt</French_name_of_Language>
+        <German_name_of_Language>Skoltsaamisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sna</ISO_639-2_Code>
+        <ISO_639-1_Code>sn</ISO_639-1_Code>
+        <English_name_of_Language>Shona</English_name_of_Language>
+        <French_name_of_Language>shona</French_name_of_Language>
+        <German_name_of_Language>Schona-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>snd</ISO_639-2_Code>
+        <ISO_639-1_Code>sd</ISO_639-1_Code>
+        <English_name_of_Language>Sindhi</English_name_of_Language>
+        <French_name_of_Language>sindhi</French_name_of_Language>
+        <German_name_of_Language>Sindhi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>snk</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Soninke</English_name_of_Language>
+        <French_name_of_Language>soninké</French_name_of_Language>
+        <German_name_of_Language>Soninke-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sog</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sogdian</English_name_of_Language>
+        <French_name_of_Language>sogdien</French_name_of_Language>
+        <German_name_of_Language>Sogdisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>som</ISO_639-2_Code>
+        <ISO_639-1_Code>so</ISO_639-1_Code>
+        <English_name_of_Language>Somali</English_name_of_Language>
+        <French_name_of_Language>somali</French_name_of_Language>
+        <German_name_of_Language>Somali</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>son</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Songhai languages</English_name_of_Language>
+        <French_name_of_Language>songhai, langues</French_name_of_Language>
+        <German_name_of_Language>Songhai-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sot</ISO_639-2_Code>
+        <ISO_639-1_Code>st</ISO_639-1_Code>
+        <English_name_of_Language>Sotho, Southern</English_name_of_Language>
+        <French_name_of_Language>sotho du Sud</French_name_of_Language>
+        <German_name_of_Language>Süd-Sotho-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>spa</ISO_639-2_Code>
+        <ISO_639-1_Code>es</ISO_639-1_Code>
+        <English_name_of_Language>Spanish; Castilian</English_name_of_Language>
+        <French_name_of_Language>espagnol; castillan</French_name_of_Language>
+        <German_name_of_Language>Spanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>alb (B)
+sqi (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>sq</ISO_639-1_Code>
+        <English_name_of_Language>Albanian</English_name_of_Language>
+        <French_name_of_Language>albanais</French_name_of_Language>
+        <German_name_of_Language>Albanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>srd</ISO_639-2_Code>
+        <ISO_639-1_Code>sc</ISO_639-1_Code>
+        <English_name_of_Language>Sardinian</English_name_of_Language>
+        <French_name_of_Language>sarde</French_name_of_Language>
+        <German_name_of_Language>Sardisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>srn</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sranan Tongo</English_name_of_Language>
+        <French_name_of_Language>sranan tongo</French_name_of_Language>
+        <German_name_of_Language>Sranantongo</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>srp</ISO_639-2_Code>
+        <ISO_639-1_Code>sr</ISO_639-1_Code>
+        <English_name_of_Language>Serbian</English_name_of_Language>
+        <French_name_of_Language>serbe</French_name_of_Language>
+        <German_name_of_Language>Serbisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>srr</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Serer</English_name_of_Language>
+        <French_name_of_Language>sérère</French_name_of_Language>
+        <German_name_of_Language>Serer-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ssa</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Nilo-Saharan languages</English_name_of_Language>
+        <French_name_of_Language>nilo-sahariennes, langues</French_name_of_Language>
+        <German_name_of_Language>Nilosaharanische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ssw</ISO_639-2_Code>
+        <ISO_639-1_Code>ss</ISO_639-1_Code>
+        <English_name_of_Language>Swati</English_name_of_Language>
+        <French_name_of_Language>swati</French_name_of_Language>
+        <German_name_of_Language>Swasi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>suk</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sukuma</English_name_of_Language>
+        <French_name_of_Language>sukuma</French_name_of_Language>
+        <German_name_of_Language>Sukuma-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sun</ISO_639-2_Code>
+        <ISO_639-1_Code>su</ISO_639-1_Code>
+        <English_name_of_Language>Sundanese</English_name_of_Language>
+        <French_name_of_Language>soundanais</French_name_of_Language>
+        <German_name_of_Language>Sundanesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sus</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Susu</English_name_of_Language>
+        <French_name_of_Language>soussou</French_name_of_Language>
+        <German_name_of_Language>Susu</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>sux</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sumerian</English_name_of_Language>
+        <French_name_of_Language>sumérien</French_name_of_Language>
+        <German_name_of_Language>Sumerisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>swa</ISO_639-2_Code>
+        <ISO_639-1_Code>sw</ISO_639-1_Code>
+        <English_name_of_Language>Swahili</English_name_of_Language>
+        <French_name_of_Language>swahili</French_name_of_Language>
+        <German_name_of_Language>Swahili</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>swe</ISO_639-2_Code>
+        <ISO_639-1_Code>sv</ISO_639-1_Code>
+        <English_name_of_Language>Swedish</English_name_of_Language>
+        <French_name_of_Language>suédois</French_name_of_Language>
+        <German_name_of_Language>Schwedisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>syc</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Classical Syriac</English_name_of_Language>
+        <French_name_of_Language>syriaque classique</French_name_of_Language>
+        <German_name_of_Language>Syrisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>syr</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Syriac</English_name_of_Language>
+        <French_name_of_Language>syriaque</French_name_of_Language>
+        <German_name_of_Language>Neuostaramäisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tah</ISO_639-2_Code>
+        <ISO_639-1_Code>ty</ISO_639-1_Code>
+        <English_name_of_Language>Tahitian</English_name_of_Language>
+        <French_name_of_Language>tahitien</French_name_of_Language>
+        <German_name_of_Language>Tahitisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tai</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tai languages</English_name_of_Language>
+        <French_name_of_Language>tai, langues</French_name_of_Language>
+        <German_name_of_Language>Thaisprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tam</ISO_639-2_Code>
+        <ISO_639-1_Code>ta</ISO_639-1_Code>
+        <English_name_of_Language>Tamil</English_name_of_Language>
+        <French_name_of_Language>tamoul</French_name_of_Language>
+        <German_name_of_Language>Tamil</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tat</ISO_639-2_Code>
+        <ISO_639-1_Code>tt</ISO_639-1_Code>
+        <English_name_of_Language>Tatar</English_name_of_Language>
+        <French_name_of_Language>tatar</French_name_of_Language>
+        <German_name_of_Language>Tatarisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tel</ISO_639-2_Code>
+        <ISO_639-1_Code>te</ISO_639-1_Code>
+        <English_name_of_Language>Telugu</English_name_of_Language>
+        <French_name_of_Language>télougou</French_name_of_Language>
+        <German_name_of_Language>Telugu-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tem</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Timne</English_name_of_Language>
+        <French_name_of_Language>temne</French_name_of_Language>
+        <German_name_of_Language>Temne-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ter</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tereno</English_name_of_Language>
+        <French_name_of_Language>tereno</French_name_of_Language>
+        <German_name_of_Language>Tereno-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tet</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tetum</English_name_of_Language>
+        <French_name_of_Language>tetum</French_name_of_Language>
+        <German_name_of_Language>Tetum-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tgk</ISO_639-2_Code>
+        <ISO_639-1_Code>tg</ISO_639-1_Code>
+        <English_name_of_Language>Tajik</English_name_of_Language>
+        <French_name_of_Language>tadjik</French_name_of_Language>
+        <German_name_of_Language>Tadschikisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tgl</ISO_639-2_Code>
+        <ISO_639-1_Code>tl</ISO_639-1_Code>
+        <English_name_of_Language>Tagalog</English_name_of_Language>
+        <French_name_of_Language>tagalog</French_name_of_Language>
+        <German_name_of_Language>Tagalog</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tha</ISO_639-2_Code>
+        <ISO_639-1_Code>th</ISO_639-1_Code>
+        <English_name_of_Language>Thai</English_name_of_Language>
+        <French_name_of_Language>thaï</French_name_of_Language>
+        <German_name_of_Language>Thailändisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tib (B)
+bod (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>bo</ISO_639-1_Code>
+        <English_name_of_Language>Tibetan</English_name_of_Language>
+        <French_name_of_Language>tibétain</French_name_of_Language>
+        <German_name_of_Language>Tibetisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tig</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tigre</English_name_of_Language>
+        <French_name_of_Language>tigré</French_name_of_Language>
+        <German_name_of_Language>Tigre-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tir</ISO_639-2_Code>
+        <ISO_639-1_Code>ti</ISO_639-1_Code>
+        <English_name_of_Language>Tigrinya</English_name_of_Language>
+        <French_name_of_Language>tigrigna</French_name_of_Language>
+        <German_name_of_Language>Tigrinja-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tiv</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tiv</English_name_of_Language>
+        <French_name_of_Language>tiv</French_name_of_Language>
+        <German_name_of_Language>Tiv-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tkl</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tokelau</English_name_of_Language>
+        <French_name_of_Language>tokelau</French_name_of_Language>
+        <German_name_of_Language>Tokelauanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tlh</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Klingon; tlhIngan-Hol</English_name_of_Language>
+        <French_name_of_Language>klingon</French_name_of_Language>
+        <German_name_of_Language>Klingonisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tli</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tlingit</English_name_of_Language>
+        <French_name_of_Language>tlingit</French_name_of_Language>
+        <German_name_of_Language>Tlingit-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tmh</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tamashek</English_name_of_Language>
+        <French_name_of_Language>tamacheq</French_name_of_Language>
+        <German_name_of_Language>Tamašeq</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tog</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tonga (Nyasa)</English_name_of_Language>
+        <French_name_of_Language>tonga (Nyasa)</French_name_of_Language>
+        <German_name_of_Language>Tonga (Bantusprache, Sambia)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ton</ISO_639-2_Code>
+        <ISO_639-1_Code>to</ISO_639-1_Code>
+        <English_name_of_Language>Tonga (Tonga Islands)</English_name_of_Language>
+        <French_name_of_Language>tongan (Îles Tonga)</French_name_of_Language>
+        <German_name_of_Language>Tongaisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tpi</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tok Pisin</English_name_of_Language>
+        <French_name_of_Language>tok pisin</French_name_of_Language>
+        <German_name_of_Language>Neumelanesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tsi</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tsimshian</English_name_of_Language>
+        <French_name_of_Language>tsimshian</French_name_of_Language>
+        <German_name_of_Language>Tsimshian-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tsn</ISO_639-2_Code>
+        <ISO_639-1_Code>tn</ISO_639-1_Code>
+        <English_name_of_Language>Tswana</English_name_of_Language>
+        <French_name_of_Language>tswana</French_name_of_Language>
+        <German_name_of_Language>Tswana-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tso</ISO_639-2_Code>
+        <ISO_639-1_Code>ts</ISO_639-1_Code>
+        <English_name_of_Language>Tsonga</English_name_of_Language>
+        <French_name_of_Language>tsonga</French_name_of_Language>
+        <German_name_of_Language>Tsonga-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tuk</ISO_639-2_Code>
+        <ISO_639-1_Code>tk</ISO_639-1_Code>
+        <English_name_of_Language>Turkmen</English_name_of_Language>
+        <French_name_of_Language>turkmène</French_name_of_Language>
+        <German_name_of_Language>Turkmenisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tum</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tumbuka</English_name_of_Language>
+        <French_name_of_Language>tumbuka</French_name_of_Language>
+        <German_name_of_Language>Tumbuka-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tup</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tupi languages</English_name_of_Language>
+        <French_name_of_Language>tupi, langues</French_name_of_Language>
+        <German_name_of_Language>Tupi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tur</ISO_639-2_Code>
+        <ISO_639-1_Code>tr</ISO_639-1_Code>
+        <English_name_of_Language>Turkish</English_name_of_Language>
+        <French_name_of_Language>turc</French_name_of_Language>
+        <German_name_of_Language>Türkisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tut</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Altaic languages</English_name_of_Language>
+        <French_name_of_Language>altaïques, langues</French_name_of_Language>
+        <German_name_of_Language>Altaische Sprachen (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tvl</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tuvalu</English_name_of_Language>
+        <French_name_of_Language>tuvalu</French_name_of_Language>
+        <German_name_of_Language>Elliceanisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>twi</ISO_639-2_Code>
+        <ISO_639-1_Code>tw</ISO_639-1_Code>
+        <English_name_of_Language>Twi</English_name_of_Language>
+        <French_name_of_Language>twi</French_name_of_Language>
+        <German_name_of_Language>Twi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>tyv</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Tuvinian</English_name_of_Language>
+        <French_name_of_Language>touva</French_name_of_Language>
+        <German_name_of_Language>Tuwinisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>udm</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Udmurt</English_name_of_Language>
+        <French_name_of_Language>oudmourte</French_name_of_Language>
+        <German_name_of_Language>Udmurtisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>uga</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Ugaritic</English_name_of_Language>
+        <French_name_of_Language>ougaritique</French_name_of_Language>
+        <German_name_of_Language>Ugaritisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>uig</ISO_639-2_Code>
+        <ISO_639-1_Code>ug</ISO_639-1_Code>
+        <English_name_of_Language>Uighur; Uyghur</English_name_of_Language>
+        <French_name_of_Language>ouïgour</French_name_of_Language>
+        <German_name_of_Language>Uigurisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ukr</ISO_639-2_Code>
+        <ISO_639-1_Code>uk</ISO_639-1_Code>
+        <English_name_of_Language>Ukrainian</English_name_of_Language>
+        <French_name_of_Language>ukrainien</French_name_of_Language>
+        <German_name_of_Language>Ukrainisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>umb</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Umbundu</English_name_of_Language>
+        <French_name_of_Language>umbundu</French_name_of_Language>
+        <German_name_of_Language>Mbundu-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>und</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Undetermined</English_name_of_Language>
+        <French_name_of_Language>indéterminée</French_name_of_Language>
+        <German_name_of_Language>Nicht zu entscheiden</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>urd</ISO_639-2_Code>
+        <ISO_639-1_Code>ur</ISO_639-1_Code>
+        <English_name_of_Language>Urdu</English_name_of_Language>
+        <French_name_of_Language>ourdou</French_name_of_Language>
+        <German_name_of_Language>Urdu</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>uzb</ISO_639-2_Code>
+        <ISO_639-1_Code>uz</ISO_639-1_Code>
+        <English_name_of_Language>Uzbek</English_name_of_Language>
+        <French_name_of_Language>ouszbek</French_name_of_Language>
+        <German_name_of_Language>Usbekisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>vai</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Vai</English_name_of_Language>
+        <French_name_of_Language>vaï</French_name_of_Language>
+        <German_name_of_Language>Vai-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ven</ISO_639-2_Code>
+        <ISO_639-1_Code>ve</ISO_639-1_Code>
+        <English_name_of_Language>Venda</English_name_of_Language>
+        <French_name_of_Language>venda</French_name_of_Language>
+        <German_name_of_Language>Venda-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>vie</ISO_639-2_Code>
+        <ISO_639-1_Code>vi</ISO_639-1_Code>
+        <English_name_of_Language>Vietnamese</English_name_of_Language>
+        <French_name_of_Language>vietnamien</French_name_of_Language>
+        <German_name_of_Language>Vietnamesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>vol</ISO_639-2_Code>
+        <ISO_639-1_Code>vo</ISO_639-1_Code>
+        <English_name_of_Language>Volapük</English_name_of_Language>
+        <French_name_of_Language>volapük</French_name_of_Language>
+        <German_name_of_Language>Volapük</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>vot</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Votic</English_name_of_Language>
+        <French_name_of_Language>vote</French_name_of_Language>
+        <German_name_of_Language>Wotisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>wak</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Wakashan languages</English_name_of_Language>
+        <French_name_of_Language>wakashanes, langues</French_name_of_Language>
+        <German_name_of_Language>Wakash-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>wal</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Wolaitta; Wolaytta</English_name_of_Language>
+        <French_name_of_Language>wolaitta; wolaytta</French_name_of_Language>
+        <German_name_of_Language>Walamo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>war</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Waray</English_name_of_Language>
+        <French_name_of_Language>waray</French_name_of_Language>
+        <German_name_of_Language>Waray</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>was</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Washo</English_name_of_Language>
+        <French_name_of_Language>washo</French_name_of_Language>
+        <German_name_of_Language>Washo-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>wel (B)
+cym (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>cy</ISO_639-1_Code>
+        <English_name_of_Language>Welsh</English_name_of_Language>
+        <French_name_of_Language>gallois</French_name_of_Language>
+        <German_name_of_Language>Kymrisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>wen</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Sorbian languages</English_name_of_Language>
+        <French_name_of_Language>sorabes, langues</French_name_of_Language>
+        <German_name_of_Language>Sorbisch (Andere)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>wln</ISO_639-2_Code>
+        <ISO_639-1_Code>wa</ISO_639-1_Code>
+        <English_name_of_Language>Walloon</English_name_of_Language>
+        <French_name_of_Language>wallon</French_name_of_Language>
+        <German_name_of_Language>Wallonisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>wol</ISO_639-2_Code>
+        <ISO_639-1_Code>wo</ISO_639-1_Code>
+        <English_name_of_Language>Wolof</English_name_of_Language>
+        <French_name_of_Language>wolof</French_name_of_Language>
+        <German_name_of_Language>Wolof-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>xal</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Kalmyk; Oirat</English_name_of_Language>
+        <French_name_of_Language>kalmouk; oïrat</French_name_of_Language>
+        <German_name_of_Language>Kalmückisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>xho</ISO_639-2_Code>
+        <ISO_639-1_Code>xh</ISO_639-1_Code>
+        <English_name_of_Language>Xhosa</English_name_of_Language>
+        <French_name_of_Language>xhosa</French_name_of_Language>
+        <German_name_of_Language>Xhosa-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>yao</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Yao</English_name_of_Language>
+        <French_name_of_Language>yao</French_name_of_Language>
+        <German_name_of_Language>Yao-Sprache (Bantusprache)</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>yap</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Yapese</English_name_of_Language>
+        <French_name_of_Language>yapois</French_name_of_Language>
+        <German_name_of_Language>Yapesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>yid</ISO_639-2_Code>
+        <ISO_639-1_Code>yi</ISO_639-1_Code>
+        <English_name_of_Language>Yiddish</English_name_of_Language>
+        <French_name_of_Language>yiddish</French_name_of_Language>
+        <German_name_of_Language>Jiddisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>yor</ISO_639-2_Code>
+        <ISO_639-1_Code>yo</ISO_639-1_Code>
+        <English_name_of_Language>Yoruba</English_name_of_Language>
+        <French_name_of_Language>yoruba</French_name_of_Language>
+        <German_name_of_Language>Yoruba-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>ypk</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Yupik languages</English_name_of_Language>
+        <French_name_of_Language>yupik, langues</French_name_of_Language>
+        <German_name_of_Language>Ypik-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>zap</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Zapotec</English_name_of_Language>
+        <French_name_of_Language>zapotèque</French_name_of_Language>
+        <German_name_of_Language>Zapotekisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>zbl</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Blissymbols; Blissymbolics; Bliss</English_name_of_Language>
+        <French_name_of_Language>symboles Bliss; Bliss</French_name_of_Language>
+        <German_name_of_Language>Bliss-Symbol</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>zen</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Zenaga</English_name_of_Language>
+        <French_name_of_Language>zenaga</French_name_of_Language>
+        <German_name_of_Language>Zenaga</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>zgh</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Standard Moroccan Tamazight</English_name_of_Language>
+        <French_name_of_Language>amazighe standard marocain</French_name_of_Language>
+        <German_name_of_Language></German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>zha</ISO_639-2_Code>
+        <ISO_639-1_Code>za</ISO_639-1_Code>
+        <English_name_of_Language>Zhuang; Chuang</English_name_of_Language>
+        <French_name_of_Language>zhuang; chuang</French_name_of_Language>
+        <German_name_of_Language>Zhuang</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>chi (B)
+zho (T)</ISO_639-2_Code>
+        <ISO_639-1_Code>zh</ISO_639-1_Code>
+        <English_name_of_Language>Chinese</English_name_of_Language>
+        <French_name_of_Language>chinois</French_name_of_Language>
+        <German_name_of_Language>Chinesisch</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>znd</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Zande languages</English_name_of_Language>
+        <French_name_of_Language>zandé, langues</French_name_of_Language>
+        <German_name_of_Language>Zande-Sprachen</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>zul</ISO_639-2_Code>
+        <ISO_639-1_Code>zu</ISO_639-1_Code>
+        <English_name_of_Language>Zulu</English_name_of_Language>
+        <French_name_of_Language>zoulou</French_name_of_Language>
+        <German_name_of_Language>Zulu-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>zun</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Zuni</English_name_of_Language>
+        <French_name_of_Language>zuni</French_name_of_Language>
+        <German_name_of_Language>Zuñi-Sprache</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>zxx</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>No linguistic content; Not applicable</English_name_of_Language>
+        <French_name_of_Language>pas de contenu linguistique; non applicable</French_name_of_Language>
+        <German_name_of_Language>Kein linguistischer Inhalt</German_name_of_Language>
+    </row>
+    <row>
+        <ISO_639-2_Code>zza</ISO_639-2_Code>
+        <ISO_639-1_Code> </ISO_639-1_Code>
+        <English_name_of_Language>Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki</English_name_of_Language>
+        <French_name_of_Language>zaza; dimili; dimli; kirdki; kirmanjki; zazaki</French_name_of_Language>
+        <German_name_of_Language>Zazaki</German_name_of_Language>
+    </row>
+</root>

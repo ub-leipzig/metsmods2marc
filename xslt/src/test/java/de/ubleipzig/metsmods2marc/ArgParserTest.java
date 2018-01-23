@@ -28,7 +28,7 @@ import org.junit.Test;
  */
 public class ArgParserTest {
     private ArgParser parser;
-    private String testFileName = "mods_src/MS_152.xml";
+    private String testFileName = "mods_src/ReutBeit_086770535.xml";
     private String marc21XmlFile = "out_feaadd2e-9f9f-5797-ac2b-c401dd49e8b1.xml";
 
     @Test
