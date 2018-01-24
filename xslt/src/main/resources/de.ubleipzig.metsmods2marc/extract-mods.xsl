@@ -9,15 +9,21 @@
             <xsl:for-each select="//mods:mods">
                 <xsl:apply-templates select="node()|@*"/>                
             </xsl:for-each>
+            <xsl:call-template name="metsHdr"/>
         </mods:mods>
     </xsl:template>
-
     <xsl:template match="node()|@*">
         <xsl:copy>
             <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:template match="mets:metsHdr"/>
+    <xsl:template name="metsHdr">
+        <mods:recordInfo>
+            <mods:recordCreationDate>
+                <xsl:value-of select="//mets:metsHdr/@CREATEDATE"/>
+            </mods:recordCreationDate>
+        </mods:recordInfo>
+    </xsl:template>
     <xsl:template match="mets:*">
         <xsl:apply-templates/>
     </xsl:template>

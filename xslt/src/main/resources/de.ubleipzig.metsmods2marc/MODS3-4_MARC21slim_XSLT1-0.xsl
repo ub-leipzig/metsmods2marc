@@ -217,21 +217,27 @@
                 <xsl:text>4500</xsl:text>
             </marc:leader>
             <xsl:call-template name="controlRecordInfo"/>
-            <xsl:if test="mods:genre[@authority = 'marc'] = 'atlas'">
-                <marc:controlfield tag="007">ad||||||</marc:controlfield>
-            </xsl:if>
-            <xsl:if test="mods:genre[@authority = 'marc'] = 'model'">
-                <marc:controlfield tag="007">aq||||||</marc:controlfield>
-            </xsl:if>
-            <xsl:if test="mods:genre[@authority = 'marc'] = 'remote sensing image'">
-                <marc:controlfield tag="007">ar||||||</marc:controlfield>
-            </xsl:if>
-            <xsl:if test="mods:genre[@authority = 'marc'] = 'map'">
-                <marc:controlfield tag="007">aj||||||</marc:controlfield>
-            </xsl:if>
-            <xsl:if test="mods:genre[@authority = 'marc'] = 'globe'">
-                <marc:controlfield tag="007">d|||||</marc:controlfield>
-            </xsl:if>
+            <xsl:choose>
+                <xsl:when test="mods:genre[@authority = 'marc'] = 'atlas'">
+                    <marc:controlfield tag="007">ad||||||</marc:controlfield>
+                </xsl:when>
+                <xsl:when test="mods:genre[@authority = 'marc'] = 'model'">
+                    <marc:controlfield tag="007">aq||||||</marc:controlfield>
+                </xsl:when>
+                <xsl:when test="mods:genre[@authority = 'marc'] = 'remote sensing image'">
+                    <marc:controlfield tag="007">ar||||||</marc:controlfield>
+                </xsl:when>
+                <xsl:when test="mods:genre[@authority = 'marc'] = 'map'">
+                    <marc:controlfield tag="007">aj||||||</marc:controlfield>
+                </xsl:when>
+                <xsl:when test="mods:genre[@authority = 'marc'] = 'globe'">
+                    <marc:controlfield tag="007">d|||||</marc:controlfield>
+                </xsl:when>
+                <!--  UBL default  -->
+                <xsl:otherwise>
+                    <marc:controlfield tag="007">cr uuu---uuuuu</marc:controlfield>
+                </xsl:otherwise>
+            </xsl:choose>
             <marc:controlfield tag="008">
                 <xsl:variable name="typeOf008">
                     <xsl:apply-templates mode="ctrl008" select="mods:typeOfResource"/>
@@ -245,7 +251,7 @@
                                 select="mods:recordInfo/mods:recordCreationDate[@encoding = 'marc']"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text/>
+                        <xsl:text>||||||</xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
                 <!--  06  -->
@@ -280,7 +286,8 @@
                     </xsl:when>
                     <!--  v3 copyright date -->
                     <xsl:when test="mods:originInfo/mods:copyrightDate">s</xsl:when>
-                    <xsl:otherwise>|</xsl:otherwise>
+                    <!--  UBL default -->
+                    <xsl:otherwise>s</xsl:otherwise>
                 </xsl:choose>
                 <!--  07-14           -->
                 <!--  07-10  -->
@@ -293,6 +300,10 @@
                     </xsl:when>
                     <xsl:when test="mods:originInfo/mods:dateIssued[@encoding = 'marc']">
                         <xsl:value-of select="mods:originInfo/mods:dateIssued[@encoding = 'marc']"/>
+                    </xsl:when>
+                    <!--  UBL hack  -->
+                    <xsl:when test="mods:recordInfo/mods:recordCreationDate">
+                        <xsl:value-of select="substring-before(mods:recordInfo/mods:recordCreationDate, '-')"/>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:text/>
@@ -307,7 +318,7 @@
                         />
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text/>
+                        <xsl:text>||||</xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
                 <!--  15-17  -->
@@ -325,7 +336,7 @@
                         </xsl:if>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text/>
+                        <xsl:text>|||</xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
                 <!--  18-20  -->
@@ -607,11 +618,51 @@
                     </xsl:with-param>
                 </xsl:call-template>
             </xsl:if>
+            <!--  UBL Defaults -->
             <!--  default Edition statement -->
             <xsl:call-template name="datafield">
                 <xsl:with-param name="tag">250</xsl:with-param>
                 <xsl:with-param name="subfields">
                     <marc:subfield code="a">Online-Ressource</marc:subfield>
+                </xsl:with-param>
+            </xsl:call-template>
+            <!--  default production statement -->
+            <xsl:call-template name="datafield">
+                <xsl:with-param name="tag">264</xsl:with-param>
+                <xsl:with-param name="ind2">1</xsl:with-param>
+                <xsl:with-param name="subfields">
+                    <marc:subfield code="a">[Leipzig]</marc:subfield>
+                    <marc:subfield code="b">[Universitätsbibliothek Leipzig]</marc:subfield>
+                    <marc:subfield code="c">
+                        <xsl:value-of select="substring-before(mods:recordInfo/mods:recordCreationDate, '-')"/>
+                    </marc:subfield>
+                </xsl:with-param>
+            </xsl:call-template>
+            <!--  default content statement -->
+            <xsl:call-template name="datafield">
+                <xsl:with-param name="tag">336</xsl:with-param>
+                <xsl:with-param name="subfields">
+                    <marc:subfield code="a">Text</marc:subfield>
+                    <marc:subfield code="b">txt</marc:subfield>
+                    <marc:subfield code="2">rdacontent</marc:subfield>
+                </xsl:with-param>
+            </xsl:call-template>
+            <!--  default media statement -->
+            <xsl:call-template name="datafield">
+                <xsl:with-param name="tag">337</xsl:with-param>
+                <xsl:with-param name="subfields">
+                    <marc:subfield code="a">Computermedien</marc:subfield>
+                    <marc:subfield code="b">c</marc:subfield>
+                    <marc:subfield code="2">rdamedia</marc:subfield>
+                </xsl:with-param>
+            </xsl:call-template>
+            <!--  default carrier type statement -->
+            <xsl:call-template name="datafield">
+                <xsl:with-param name="tag">338</xsl:with-param>
+                <xsl:with-param name="subfields">
+                    <marc:subfield code="a">Online-Ressource</marc:subfield>
+                    <marc:subfield code="b">cr</marc:subfield>
+                    <marc:subfield code="2">rdacarrier</marc:subfield>
                 </xsl:with-param>
             </xsl:call-template>
         </marc:record>
@@ -726,6 +777,11 @@
                 <marc:subfield code="a">
                     <xsl:value-of select="mods:namePart"/>
                 </marc:subfield>
+                <xsl:if test="@authority = 'gnd'">
+                    <marc:subfield code="1">
+                        <xsl:value-of select="./@valueURI"/>
+                    </marc:subfield>
+                </xsl:if>
                 <!--  v3 termsOfAddress  -->
                 <xsl:for-each select="mods:namePart[@type = 'termsOfAddress']">
                     <marc:subfield code="c">
@@ -974,7 +1030,7 @@
                 </xsl:with-param>
             </xsl:call-template>
         </xsl:if>
-        <!--  v3 dates  -->
+        <!--  v3 dates 2018-01-24 omit per BM
         <xsl:if test="mods:dateModified | mods:dateCreated | mods:dateValid">
             <xsl:call-template name="datafield">
                 <xsl:with-param name="tag">046</xsl:with-param>
@@ -1009,6 +1065,7 @@
                 </xsl:with-param>
             </xsl:call-template>
         </xsl:if>
+        -->
         <xsl:for-each select="mods:edition">
             <xsl:call-template name="datafield">
                 <xsl:with-param name="tag">250</xsl:with-param>
@@ -1048,7 +1105,7 @@
                                 test="@displayLabel = 'producer' or @displayLabel = 'publisher' or @displayLabel = 'manufacturer' or @displayLabel = 'distributor'"
                         >264
                         </xsl:when>
-                        <xsl:otherwise>260</xsl:otherwise>
+                        <xsl:otherwise>534</xsl:otherwise>
                     </xsl:choose>
                 </xsl:with-param>
                 <xsl:with-param name="ind2">
@@ -1090,7 +1147,7 @@
                         </marc:subfield>
                     </xsl:for-each>
                     <xsl:for-each select="mods:dateCreated">
-                        <marc:subfield code="g">
+                        <marc:subfield code="c">
                             <xsl:value-of select="."/>
                         </marc:subfield>
                     </xsl:for-each>
