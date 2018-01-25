@@ -252,6 +252,15 @@ public class Config {
     }
 
     /**
+     * Gets the URI of the stylesheet.
+     *
+     * @return resource
+     */
+    public URI getXsltResource() {
+        return xsltresource;
+    }
+
+    /**
      * Sets the URI of the stylesheet.
      *
      * @param xsltresource URI to import/export
@@ -266,22 +275,21 @@ public class Config {
     }
 
     /**
-     * Gets the URI of the stylesheet.
-     *
-     * @return resource
-     */
-    public URI getXsltResource() {
-        return xsltresource;
-    }
-
-
-    /**
      * Sets the URI of the XML resource.
      *
      * @param resource URI to import/export
      */
     public void setResource(final String resource) {
         setResource(URI.create(resource));
+    }
+
+    /**
+     * Gets the URI of the XML resource.
+     *
+     * @return resource
+     */
+    public URI getResource() {
+        return resource;
     }
 
     /**
@@ -299,38 +307,12 @@ public class Config {
     }
 
     /**
-     * Gets the URI of the XML resource.
-     *
-     * @return resource
-     */
-    public URI getResource() {
-        return resource;
-    }
-
-
-
-    /**
      * Sets the URI of the repository.
      *
      * @param repositoryBaseUri URI to import/export
      */
     public void setRepositoryBaseUri(final String repositoryBaseUri) {
         setRepositoryBaseUri(URI.create(repositoryBaseUri));
-    }
-
-    /**
-     * Sets the URI of the repository.
-     *
-     * @param repositoryBaseUri URI to import/export
-     */
-    private void setRepositoryBaseUri(final URI repositoryBaseUri) {
-        if (repositoryBaseUri.toString().endsWith("/")) {
-            this.repositoryBaseUri =
-                    URI.create(repositoryBaseUri.toString().substring(0,
-                            repositoryBaseUri.toString().length() - 1));
-        } else {
-            this.repositoryBaseUri = repositoryBaseUri;
-        }
     }
 
     /**
@@ -342,7 +324,21 @@ public class Config {
         return repositoryBaseUri;
     }
 
-
+    /**
+     * Sets the URI of the repository.
+     *
+     * @param repositoryBaseUri URI to import/export
+     */
+    private void setRepositoryBaseUri(final URI repositoryBaseUri) {
+        if (repositoryBaseUri.toString().endsWith("/")) {
+            this.repositoryBaseUri =
+                    URI.create(repositoryBaseUri.toString().substring(
+                            0,
+                            repositoryBaseUri.toString().length() - 1));
+        } else {
+            this.repositoryBaseUri = repositoryBaseUri;
+        }
+    }
 
     /**
      * Sets the URI map, for mapping URIs being imported.

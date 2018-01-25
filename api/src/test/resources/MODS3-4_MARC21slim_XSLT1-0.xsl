@@ -770,10 +770,9 @@
     </xsl:template>
     <!--  v3 role -->
     <xsl:template
-            match="mods:name[@type = 'personal'][mods:role/mods:roleTerm[@type = 'code'][@valueURI = 'http://id.loc.gov/vocabulary/relators/aut']]">
+            match="mods:name[@type = 'personal'][mods:role/mods:roleTerm[@type = 'code'] = 'aut']">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">700</xsl:with-param>
-            <xsl:with-param name="ind1">1</xsl:with-param>
             <xsl:with-param name="subfields">
                 <marc:subfield code="a">
                     <xsl:value-of select="mods:namePart"/>
@@ -820,7 +819,7 @@
     </xsl:template>
     <!--  v3 role  -->
     <xsl:template
-            match="mods:name[@type = 'corporate'][mods:role/mods:roleTerm[@type = 'code'][@valueURI = 'http://id.loc.gov/vocabulary/relators/aut']]">
+            match="mods:name[@type = 'corporate'][mods:role/mods:roleTerm[@type = 'code'] = 'aut']">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">110</xsl:with-param>
             <xsl:with-param name="ind1">2</xsl:with-param>
@@ -854,7 +853,7 @@
     </xsl:template>
     <!--  v3 role  -->
     <xsl:template
-            match="mods:name[@type = 'conference'][mods:role/mods:roleTerm[@type = 'code'][@valueURI = 'http://id.loc.gov/vocabulary/relators/aut']]">
+            match="mods:name[@type = 'conference'][mods:role/mods:roleTerm[@type = 'code'] = 'aut']">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">111</xsl:with-param>
             <xsl:with-param name="ind1">2</xsl:with-param>
@@ -873,7 +872,7 @@
     </xsl:template>
     <!--  v3 role  -->
     <xsl:template
-            match="mods:name[@type = 'personal'][mods:role/mods:roleTerm[@type = 'code'][@valueURI != 'http://id.loc.gov/vocabulary/relators/aut'] or not(mods:role)]">
+            match="mods:name[@type = 'personal'][mods:role/mods:roleTerm[@type = 'code'] != 'aut' or not(mods:role)]">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">700</xsl:with-param>
             <xsl:with-param name="ind1">1</xsl:with-param>
@@ -913,7 +912,7 @@
     </xsl:template>
     <!--  v3 role  -->
     <xsl:template
-            match="mods:name[@type = 'corporate'][mods:role/mods:roleTerm[@type = 'code'][@valueURI != 'http://id.loc.gov/vocabulary/relators/aut'] or not(mods:role)]">
+            match="mods:name[@type = 'corporate'][mods:role/mods:roleTerm[@type = 'code'] != 'aut' or not(mods:role)]">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">710</xsl:with-param>
             <xsl:with-param name="ind1">2</xsl:with-param>
@@ -948,7 +947,7 @@
     </xsl:template>
     <!--  v3 role  -->
     <xsl:template
-            match="mods:name[@type = 'conference'][mods:role/mods:roleTerm[@type = 'code'][@valueURI != 'http://id.loc.gov/vocabulary/relators/aut'] or not(mods:role)]">
+            match="mods:name[@type = 'conference'][mods:role/mods:roleTerm[@type = 'code'] != 'aut' or not(mods:role)]">
         <xsl:call-template name="datafield">
             <xsl:with-param name="tag">711</xsl:with-param>
             <xsl:with-param name="ind1">2</xsl:with-param>

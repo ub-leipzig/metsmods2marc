@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mets:mets
-        xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd"
-        xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        xmlns:mets="http://www.loc.gov/METS/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd">
     <mets:metsHdr CREATEDATE="2017-09-15T17:10:54">
         <mets:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
             <mets:name>Goobi - UGH-1.11.0-7b3c2be - 26−March−2015</mets:name>
@@ -93,28 +93,28 @@
     <mets:fileSec>
         <mets:fileGrp USE="ORIGINAL">
             <mets:file ID="FILE_0001_ORIGINAL" MIMETYPE="image/tiff">
-                <mets:FLocat LOCTYPE="URL" xlink:href="Fragm_lat_655_tif/00000003.tif"
-                             xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL"
+                             xlink:href="Fragm_lat_655_tif/00000003.tif"/>
             </mets:file>
             <mets:file ID="FILE_0002_ORIGINAL" MIMETYPE="image/tiff">
-                <mets:FLocat LOCTYPE="URL" xlink:href="Fragm_lat_655_tif/00000001.tif"
-                             xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL"
+                             xlink:href="Fragm_lat_655_tif/00000001.tif"/>
             </mets:file>
             <mets:file ID="FILE_0003_ORIGINAL" MIMETYPE="image/tiff">
-                <mets:FLocat LOCTYPE="URL" xlink:href="Fragm_lat_655_tif/00000002.tif"
-                             xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL"
+                             xlink:href="Fragm_lat_655_tif/00000002.tif"/>
             </mets:file>
             <mets:file ID="FILE_0004_ORIGINAL" MIMETYPE="image/tiff">
-                <mets:FLocat LOCTYPE="URL" xlink:href="Fragm_lat_655_tif/00000004.tif"
-                             xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL"
+                             xlink:href="Fragm_lat_655_tif/00000004.tif"/>
             </mets:file>
             <mets:file ID="FILE_0005_ORIGINAL" MIMETYPE="image/tiff">
-                <mets:FLocat LOCTYPE="URL" xlink:href="Fragm_lat_655_tif/00000005.tif"
-                             xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL"
+                             xlink:href="Fragm_lat_655_tif/00000005.tif"/>
             </mets:file>
             <mets:file ID="FILE_0006_ORIGINAL" MIMETYPE="image/tiff">
-                <mets:FLocat LOCTYPE="URL" xlink:href="Fragm_lat_655_tif/00000006.tif"
-                             xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL"
+                             xlink:href="Fragm_lat_655_tif/00000006.tif"/>
             </mets:file>
         </mets:fileGrp>
     </mets:fileSec>
@@ -149,17 +149,17 @@
         </mets:div>
     </mets:structMap>
     <mets:structLink>
-        <mets:smLink xlink:to="PHYS_0001" xlink:from="LOG_0000" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0002" xlink:from="LOG_0000" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0003" xlink:from="LOG_0000" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0004" xlink:from="LOG_0000" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0005" xlink:from="LOG_0000" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0006" xlink:from="LOG_0000" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0001" xlink:from="LOG_0001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0002" xlink:from="LOG_0001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0003" xlink:from="LOG_0001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0004" xlink:from="LOG_0001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0005" xlink:from="LOG_0002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-        <mets:smLink xlink:to="PHYS_0006" xlink:from="LOG_0002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0001" xlink:from="LOG_0000"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0002" xlink:from="LOG_0000"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0003" xlink:from="LOG_0000"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0004" xlink:from="LOG_0000"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0005" xlink:from="LOG_0000"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0006" xlink:from="LOG_0000"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0001" xlink:from="LOG_0001"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0002" xlink:from="LOG_0001"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0003" xlink:from="LOG_0001"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0004" xlink:from="LOG_0001"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0005" xlink:from="LOG_0002"/>
+        <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0006" xlink:from="LOG_0002"/>
     </mets:structLink>
 </mets:mets>

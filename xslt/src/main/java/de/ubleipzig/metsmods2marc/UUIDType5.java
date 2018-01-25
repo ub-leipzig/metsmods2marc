@@ -11,6 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package de.ubleipzig.metsmods2marc;
 
 import java.nio.charset.Charset;
@@ -20,14 +21,19 @@ import java.util.Objects;
 import java.util.UUID;
 
 public class UUIDType5 {
+    public static final UUID NAMESPACE_DNS = UUID.fromString(
+            "6ba7b810-9dad-11d1-80b4-00c04fd430c8");
+    public static final UUID NAMESPACE_URL = UUID.fromString(
+            "6ba7b811-9dad-11d1-80b4-00c04fd430c8");
+    public static final UUID NAMESPACE_OID = UUID.fromString(
+            "6ba7b812-9dad-11d1-80b4-00c04fd430c8");
+    public static final UUID NAMESPACE_X500 = UUID.fromString(
+            "6ba7b814-9dad-11d1-80b4-00c04fd430c8");
     private static final Charset UTF8 = Charset.forName("UTF-8");
-    public static final UUID NAMESPACE_DNS = UUID.fromString("6ba7b810-9dad-11d1-80b4-00c04fd430c8");
-    public static final UUID NAMESPACE_URL = UUID.fromString("6ba7b811-9dad-11d1-80b4-00c04fd430c8");
-    public static final UUID NAMESPACE_OID = UUID.fromString("6ba7b812-9dad-11d1-80b4-00c04fd430c8");
-    public static final UUID NAMESPACE_X500 = UUID.fromString("6ba7b814-9dad-11d1-80b4-00c04fd430c8");
 
     public static UUID nameUUIDFromNamespaceAndString(UUID namespace, String name) {
-        return nameUUIDFromNamespaceAndBytes(namespace, Objects.requireNonNull(name, "name == null").getBytes(UTF8));
+        return nameUUIDFromNamespaceAndBytes(
+                namespace, Objects.requireNonNull(name, "name == null").getBytes(UTF8));
     }
 
     public static UUID nameUUIDFromNamespaceAndBytes(UUID namespace, byte[] name) {

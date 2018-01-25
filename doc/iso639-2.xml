@@ -86,7 +86,8 @@
     </row>
     <row>
         <ISO_639-2_Code>alb (B)
-sqi (T)</ISO_639-2_Code>
+            sqi (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>sq</ISO_639-1_Code>
         <English_name_of_Language>Albanian</English_name_of_Language>
         <French_name_of_Language>albanais</French_name_of_Language>
@@ -151,7 +152,8 @@ sqi (T)</ISO_639-2_Code>
     <row>
         <ISO_639-2_Code>arc</ISO_639-2_Code>
         <ISO_639-1_Code> </ISO_639-1_Code>
-        <English_name_of_Language>Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)</English_name_of_Language>
+        <English_name_of_Language>Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)
+        </English_name_of_Language>
         <French_name_of_Language>araméen d'empire (700-300 BCE)</French_name_of_Language>
         <German_name_of_Language>Aramäisch</German_name_of_Language>
     </row>
@@ -164,7 +166,8 @@ sqi (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>arm (B)
-hye (T)</ISO_639-2_Code>
+            hye (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>hy</ISO_639-1_Code>
         <English_name_of_Language>Armenian</English_name_of_Language>
         <French_name_of_Language>arménien</French_name_of_Language>
@@ -305,7 +308,8 @@ hye (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>baq (B)
-eus (T)</ISO_639-2_Code>
+            eus (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>eu</ISO_639-1_Code>
         <English_name_of_Language>Basque</English_name_of_Language>
         <French_name_of_Language>basque</French_name_of_Language>
@@ -411,7 +415,8 @@ eus (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>tib (B)
-bod (T)</ISO_639-2_Code>
+            bod (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>bo</ISO_639-1_Code>
         <English_name_of_Language>Tibetan</English_name_of_Language>
         <French_name_of_Language>tibétain</French_name_of_Language>
@@ -468,7 +473,8 @@ bod (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>bur (B)
-mya (T)</ISO_639-2_Code>
+            mya (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>my</ISO_639-1_Code>
         <English_name_of_Language>Burmese</English_name_of_Language>
         <French_name_of_Language>birman</French_name_of_Language>
@@ -532,7 +538,8 @@ mya (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>cze (B)
-ces (T)</ISO_639-2_Code>
+            ces (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>cs</ISO_639-1_Code>
         <English_name_of_Language>Czech</English_name_of_Language>
         <French_name_of_Language>tchèque</French_name_of_Language>
@@ -568,7 +575,8 @@ ces (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>chi (B)
-zho (T)</ISO_639-2_Code>
+            zho (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>zh</ISO_639-1_Code>
         <English_name_of_Language>Chinese</English_name_of_Language>
         <French_name_of_Language>chinois</French_name_of_Language>
@@ -619,8 +627,10 @@ zho (T)</ISO_639-2_Code>
     <row>
         <ISO_639-2_Code>chu</ISO_639-2_Code>
         <ISO_639-1_Code>cu</ISO_639-1_Code>
-        <English_name_of_Language>Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic</English_name_of_Language>
-        <French_name_of_Language>slavon d'église; vieux slave; slavon liturgique; vieux bulgare</French_name_of_Language>
+        <English_name_of_Language>Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic
+        </English_name_of_Language>
+        <French_name_of_Language>slavon d'église; vieux slave; slavon liturgique; vieux bulgare
+        </French_name_of_Language>
         <German_name_of_Language>Kirchenslawisch</German_name_of_Language>
     </row>
     <row>
@@ -730,7 +740,8 @@ zho (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>wel (B)
-cym (T)</ISO_639-2_Code>
+            cym (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>cy</ISO_639-1_Code>
         <English_name_of_Language>Welsh</English_name_of_Language>
         <French_name_of_Language>gallois</French_name_of_Language>
@@ -738,7 +749,8 @@ cym (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>cze (B)
-ces (T)</ISO_639-2_Code>
+            ces (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>cs</ISO_639-1_Code>
         <English_name_of_Language>Czech</English_name_of_Language>
         <French_name_of_Language>tchèque</French_name_of_Language>
@@ -788,7 +800,8 @@ ces (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>ger (B)
-deu (T)</ISO_639-2_Code>
+            deu (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>de</ISO_639-1_Code>
         <English_name_of_Language>German</English_name_of_Language>
         <French_name_of_Language>allemand</French_name_of_Language>
@@ -852,7 +865,8 @@ deu (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>dut (B)
-nld (T)</ISO_639-2_Code>
+            nld (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>nl</ISO_639-1_Code>
         <English_name_of_Language>Dutch; Flemish</English_name_of_Language>
         <French_name_of_Language>néerlandais; flamand</French_name_of_Language>
@@ -895,7 +909,8 @@ nld (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>gre (B)
-ell (T)</ISO_639-2_Code>
+            ell (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>el</ISO_639-1_Code>
         <English_name_of_Language>Greek, Modern (1453-)</English_name_of_Language>
         <French_name_of_Language>grec moderne (après 1453)</French_name_of_Language>
@@ -938,7 +953,8 @@ ell (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>baq (B)
-eus (T)</ISO_639-2_Code>
+            eus (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>eu</ISO_639-1_Code>
         <English_name_of_Language>Basque</English_name_of_Language>
         <French_name_of_Language>basque</French_name_of_Language>
@@ -974,7 +990,8 @@ eus (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>per (B)
-fas (T)</ISO_639-2_Code>
+            fas (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>fa</ISO_639-1_Code>
         <English_name_of_Language>Persian</English_name_of_Language>
         <French_name_of_Language>persan</French_name_of_Language>
@@ -1024,7 +1041,8 @@ fas (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>fre (B)
-fra (T)</ISO_639-2_Code>
+            fra (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>fr</ISO_639-1_Code>
         <English_name_of_Language>French</English_name_of_Language>
         <French_name_of_Language>français</French_name_of_Language>
@@ -1032,7 +1050,8 @@ fra (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>fre (B)
-fra (T)</ISO_639-2_Code>
+            fra (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>fr</ISO_639-1_Code>
         <English_name_of_Language>French</English_name_of_Language>
         <French_name_of_Language>français</French_name_of_Language>
@@ -1117,7 +1136,8 @@ fra (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>geo (B)
-kat (T)</ISO_639-2_Code>
+            kat (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>ka</ISO_639-1_Code>
         <English_name_of_Language>Georgian</English_name_of_Language>
         <French_name_of_Language>géorgien</French_name_of_Language>
@@ -1125,7 +1145,8 @@ kat (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>ger (B)
-deu (T)</ISO_639-2_Code>
+            deu (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>de</ISO_639-1_Code>
         <English_name_of_Language>German</English_name_of_Language>
         <French_name_of_Language>allemand</French_name_of_Language>
@@ -1224,7 +1245,8 @@ deu (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>gre (B)
-ell (T)</ISO_639-2_Code>
+            ell (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>el</ISO_639-1_Code>
         <English_name_of_Language>Greek, Modern (1453-)</English_name_of_Language>
         <French_name_of_Language>grec moderne (après 1453)</French_name_of_Language>
@@ -1372,7 +1394,8 @@ ell (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>arm (B)
-hye (T)</ISO_639-2_Code>
+            hye (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>hy</ISO_639-1_Code>
         <English_name_of_Language>Armenian</English_name_of_Language>
         <French_name_of_Language>arménien</French_name_of_Language>
@@ -1394,7 +1417,8 @@ hye (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>ice (B)
-isl (T)</ISO_639-2_Code>
+            isl (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>is</ISO_639-1_Code>
         <English_name_of_Language>Icelandic</English_name_of_Language>
         <French_name_of_Language>islandais</French_name_of_Language>
@@ -1500,7 +1524,8 @@ isl (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>ice (B)
-isl (T)</ISO_639-2_Code>
+            isl (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>is</ISO_639-1_Code>
         <English_name_of_Language>Icelandic</English_name_of_Language>
         <French_name_of_Language>islandais</French_name_of_Language>
@@ -1606,7 +1631,8 @@ isl (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>geo (B)
-kat (T)</ISO_639-2_Code>
+            kat (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>ka</ISO_639-1_Code>
         <English_name_of_Language>Georgian</English_name_of_Language>
         <French_name_of_Language>géorgien</French_name_of_Language>
@@ -1936,7 +1962,8 @@ kat (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>mac (B)
-mkd (T)</ISO_639-2_Code>
+            mkd (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>mk</ISO_639-1_Code>
         <English_name_of_Language>Macedonian</English_name_of_Language>
         <French_name_of_Language>macédonien</French_name_of_Language>
@@ -1993,7 +2020,8 @@ mkd (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>mao (B)
-mri (T)</ISO_639-2_Code>
+            mri (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>mi</ISO_639-1_Code>
         <English_name_of_Language>Maori</English_name_of_Language>
         <French_name_of_Language>maori</French_name_of_Language>
@@ -2022,7 +2050,8 @@ mri (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>may (B)
-msa (T)</ISO_639-2_Code>
+            msa (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>ms</ISO_639-1_Code>
         <English_name_of_Language>Malay</English_name_of_Language>
         <French_name_of_Language>malais</French_name_of_Language>
@@ -2079,7 +2108,8 @@ msa (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>mac (B)
-mkd (T)</ISO_639-2_Code>
+            mkd (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>mk</ISO_639-1_Code>
         <English_name_of_Language>Macedonian</English_name_of_Language>
         <French_name_of_Language>macédonien</French_name_of_Language>
@@ -2150,7 +2180,8 @@ mkd (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>mao (B)
-mri (T)</ISO_639-2_Code>
+            mri (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>mi</ISO_639-1_Code>
         <English_name_of_Language>Maori</English_name_of_Language>
         <French_name_of_Language>maori</French_name_of_Language>
@@ -2158,7 +2189,8 @@ mri (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>may (B)
-msa (T)</ISO_639-2_Code>
+            msa (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>ms</ISO_639-1_Code>
         <English_name_of_Language>Malay</English_name_of_Language>
         <French_name_of_Language>malais</French_name_of_Language>
@@ -2201,7 +2233,8 @@ msa (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>bur (B)
-mya (T)</ISO_639-2_Code>
+            mya (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>my</ISO_639-1_Code>
         <English_name_of_Language>Burmese</English_name_of_Language>
         <French_name_of_Language>birman</French_name_of_Language>
@@ -2321,7 +2354,8 @@ mya (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>dut (B)
-nld (T)</ISO_639-2_Code>
+            nld (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>nl</ISO_639-1_Code>
         <English_name_of_Language>Dutch; Flemish</English_name_of_Language>
         <French_name_of_Language>néerlandais; flamand</French_name_of_Language>
@@ -2539,7 +2573,8 @@ nld (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>per (B)
-fas (T)</ISO_639-2_Code>
+            fas (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>fa</ISO_639-1_Code>
         <English_name_of_Language>Persian</English_name_of_Language>
         <French_name_of_Language>persan</French_name_of_Language>
@@ -2598,7 +2633,8 @@ fas (T)</ISO_639-2_Code>
         <ISO_639-2_Code>pro</ISO_639-2_Code>
         <ISO_639-1_Code> </ISO_639-1_Code>
         <English_name_of_Language>Provençal, Old (to 1500);Occitan, Old (to 1500)</English_name_of_Language>
-        <French_name_of_Language>provençal ancien (jusqu'à 1500); occitan ancien (jusqu'à 1500)</French_name_of_Language>
+        <French_name_of_Language>provençal ancien (jusqu'à 1500); occitan ancien (jusqu'à 1500)
+        </French_name_of_Language>
         <German_name_of_Language>Altokzitanisch</German_name_of_Language>
     </row>
     <row>
@@ -2666,7 +2702,8 @@ fas (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>rum (B)
-ron (T)</ISO_639-2_Code>
+            ron (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>ro</ISO_639-1_Code>
         <English_name_of_Language>Romanian; Moldavian; Moldovan</English_name_of_Language>
         <French_name_of_Language>roumain; moldave</French_name_of_Language>
@@ -2674,7 +2711,8 @@ ron (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>rum (B)
-ron (T)</ISO_639-2_Code>
+            ron (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>ro</ISO_639-1_Code>
         <English_name_of_Language>Romanian; Moldavian; Moldovan</English_name_of_Language>
         <French_name_of_Language>roumain; moldave</French_name_of_Language>
@@ -2850,7 +2888,8 @@ ron (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>slo (B)
-slk (T)</ISO_639-2_Code>
+            slk (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>sk</ISO_639-1_Code>
         <English_name_of_Language>Slovak</English_name_of_Language>
         <French_name_of_Language>slovaque</French_name_of_Language>
@@ -2858,7 +2897,8 @@ slk (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>slo (B)
-slk (T)</ISO_639-2_Code>
+            slk (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>sk</ISO_639-1_Code>
         <English_name_of_Language>Slovak</English_name_of_Language>
         <French_name_of_Language>slovaque</French_name_of_Language>
@@ -2978,7 +3018,8 @@ slk (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>alb (B)
-sqi (T)</ISO_639-2_Code>
+            sqi (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>sq</ISO_639-1_Code>
         <English_name_of_Language>Albanian</English_name_of_Language>
         <French_name_of_Language>albanais</French_name_of_Language>
@@ -3161,7 +3202,8 @@ sqi (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>tib (B)
-bod (T)</ISO_639-2_Code>
+            bod (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>bo</ISO_639-1_Code>
         <English_name_of_Language>Tibetan</English_name_of_Language>
         <French_name_of_Language>tibétain</French_name_of_Language>
@@ -3435,7 +3477,8 @@ bod (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>wel (B)
-cym (T)</ISO_639-2_Code>
+            cym (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>cy</ISO_639-1_Code>
         <English_name_of_Language>Welsh</English_name_of_Language>
         <French_name_of_Language>gallois</French_name_of_Language>
@@ -3548,7 +3591,8 @@ cym (T)</ISO_639-2_Code>
     </row>
     <row>
         <ISO_639-2_Code>chi (B)
-zho (T)</ISO_639-2_Code>
+            zho (T)
+        </ISO_639-2_Code>
         <ISO_639-1_Code>zh</ISO_639-1_Code>
         <English_name_of_Language>Chinese</English_name_of_Language>
         <French_name_of_Language>chinois</French_name_of_Language>

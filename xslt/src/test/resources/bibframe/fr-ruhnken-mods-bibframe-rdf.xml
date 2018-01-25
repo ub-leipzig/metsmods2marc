@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:local="http://www.loc.org/namespace"
          xmlns:bf="http://bibframe.org/vocab/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
-         xmlns:relators="http://id.loc.gov/vocabulary/relators/"
-         xmlns:marc="http://www.loc.gov/MARC21/slim">
+>
     <bf:Work rdf:about="http://bibframe.org/resources/0007186275">
         <bf:authorizedAccessPoint>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:authorizedAccessPoint>
-        <bf:authorizedAccessPoint xml:lang="x-bf-hash">ruhnkeniietaliorumepistolaeadernesti-ms0350</bf:authorizedAccessPoint>
+        <bf:authorizedAccessPoint xml:lang="x-bf-hash">ruhnkeniietaliorumepistolaeadernesti-ms0350
+        </bf:authorizedAccessPoint>
         <bf:workTitle rdf:resource="http://bibframe.org/resources/0007186275title1"/>
         <bf:title>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
         <bf:title xml:lang="x-bf-sort">[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
@@ -47,7 +45,8 @@
         <bf:creationDate>130319</bf:creationDate>
         <bf:changeDate>20130702142005.0</bf:changeDate>
 
-        <bf:generationProcess>Converted from MODS to BIBFRAME using MODS_BIBFRAME.xsl (2018-01-12T09:33:19.151+01:00)</bf:generationProcess>
+        <bf:generationProcess>Converted from MODS to BIBFRAME using MODS_BIBFRAME.xsl (2018-01-12T09:33:19.151+01:00)
+        </bf:generationProcess>
         <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/ger"/>
         <bf:annotates rdf:resource="http://bibframe.org/resources/0007186275"/>
     </bf:Annotation>
@@ -76,7 +75,8 @@
     </bf:Language>
     <bf:Work rdf:about="http://bibframe.org/resources/(de-576)380132060relatedItem12">
         <bf:authorizedAccessPoint>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:authorizedAccessPoint>
-        <bf:authorizedAccessPoint xml:lang="x-bf-hash">ruhnkeniietaliorumepistolaeadernesti-ms0350</bf:authorizedAccessPoint>
+        <bf:authorizedAccessPoint xml:lang="x-bf-hash">ruhnkeniietaliorumepistolaeadernesti-ms0350
+        </bf:authorizedAccessPoint>
         <bf:workTitle rdf:resource="http://bibframe.org/resources/(de-576)380132060relatedItemotherVersionTitle1"/>
         <bf:title>[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>
         <bf:title xml:lang="x-bf-sort">[ruhnkenii et aliorum epistolae ad ernesti] - ms 0350</bf:title>

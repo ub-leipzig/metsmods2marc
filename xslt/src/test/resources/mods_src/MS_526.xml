@@ -61,7 +61,7 @@
           </mods:name>
           <mods:recordInfo>
             <mods:recordOrigin>Peter Burkhart, Die lateinischen und deutschen Handschriften der Universitäts-Bibliothek Leipzig, Bd. 2: Die theologischen Handschriften, Teil 1: Ms 501-625 (Katalog der Handschriften der Universitäts-Bibliothek Leipzig V,2), Wiesbaden 1999, S. 42f.</mods:recordOrigin>
-            <mods:recordIdentifier>http://www.manuscripta-mediaevalia.de/dokumente/html/obj90793062,T</mods:recordIdentifier>
+            <mods:recordIdentifier>http://www.manuscripta-mediaevalia.de/dokumente/html/obj90793062</mods:recordIdentifier>
           </mods:recordInfo>
         </mods:mods>
       </mets:xmlData>

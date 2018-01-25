@@ -62,13 +62,19 @@ import org.xmlbeam.XBProjector;
  */
 public class Ingester implements TransferProcess {
     private static final Logger logger = getLogger(Ingester.class);
-    private final Config config;
     private static final JenaRDF rdf = new JenaRDF();
     private static final IOService ioService = new JenaIOService(null);
+    private final Config config;
 
 
     Ingester(final Config config) {
         this.config = config;
+    }
+
+    private static Graph getGraph(InputStream stream) {
+        final Graph graph = rdf.createGraph();
+        ioService.read(stream, null, RDFXML).forEachOrdered(graph::add);
+        return graph;
     }
 
     @Override
@@ -161,12 +167,6 @@ public class Ingester implements TransferProcess {
         FileOutputStream fos = new FileOutputStream(
                 new File(OUTPUT_DIR + "/bibframe_jsonld_out_" + uuid + ".jsonld"));
         out.writeTo(fos);
-    }
-
-    private static Graph getGraph(InputStream stream) {
-        final Graph graph = rdf.createGraph();
-        ioService.read(stream, null, RDFXML).forEachOrdered(graph::add);
-        return graph;
     }
 
     private void putResult(final String resultFile) throws IOException, JAXBException {

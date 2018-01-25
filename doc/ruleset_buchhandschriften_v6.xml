@@ -7,928 +7,946 @@
 -->
 
 <Preferences>
-	<debug>1</debug>
+    <debug>1</debug>
 
-<!--
-	MetadataType
+    <!--
+        MetadataType
 
-	A <MetadataType> element define a metadata type, which can be used,
-	when a new metadata object is generated. A metadata object consists
-	of a value and a type and is attached to a DocStrct. The DocStrct
-	section contains lists for every single DocStrct type which show
-	the MetadataTypes that are allowed for that specific DocStrct type.
+        A <MetadataType> element define a metadata type, which can be used,
+        when a new metadata object is generated. A metadata object consists
+        of a value and a type and is attached to a DocStrct. The DocStrct
+        section contains lists for every single DocStrct type which show
+        the MetadataTypes that are allowed for that specific DocStrct type.
 
-	A <MetadataType> element can have the following child elements:
-			<Name> contains the internal name of the MetadataType. This name
-			is always used to reference this type.
-			<language> contains the string being displayed in the user
-			interface for this metadata type. The "name" attribute of this
-			element specifies the language using the two-letter ISO code.
+        A <MetadataType> element can have the following child elements:
+                <Name> contains the internal name of the MetadataType. This name
+                is always used to reference this type.
+                <language> contains the string being displayed in the user
+                interface for this metadata type. The "name" attribute of this
+                element specifies the language using the two-letter ISO code.
 
-	The internal name is used for referencing the metadata type from the
-	DocStrct and in the <Formats>-section. For that reason the internal
-	name needs to be unique - no other Metadata or DocStruct must be
-	named in the same way.
+        The internal name is used for referencing the metadata type from the
+        DocStrct and in the <Formats>-section. For that reason the internal
+        name needs to be unique - no other Metadata or DocStruct must be
+        named in the same way.
 
-	Example:
-			<MetadataType>
-				<Name>TitleDocMain</Name>
-				<language name="de">Haupttitel</language>
-				<language name="en">main title</language>
-			</MetadataType>
+        Example:
+                <MetadataType>
+                    <Name>TitleDocMain</Name>
+                    <language name="de">Haupttitel</language>
+                    <language name="en">main title</language>
+                </MetadataType>
 
-	Besides simple metadata, the UGH metadata API knows also Persons.
-	Persons are a special kind of metadata - instead of a single value
-	they contain additional information: firstname, lastname,
-	affiliation, an id (of an authority file) and the role. Persons are
-	defined in the MetadataType section as well by using the type
-	attribute. The value of the type attribute must be "person". The
-	metadata type is the role of the person.
+        Besides simple metadata, the UGH metadata API knows also Persons.
+        Persons are a special kind of metadata - instead of a single value
+        they contain additional information: firstname, lastname,
+        affiliation, an id (of an authority file) and the role. Persons are
+        defined in the MetadataType section as well by using the type
+        attribute. The value of the type attribute must be "person". The
+        metadata type is the role of the person.
 
-	Example:
-			<MetadataType type="person">
-				<Name>Author</Name>
-				<language name="en">Author</language>
-				<language name="de">Autor</language>
-			</MetadataType>
+        Example:
+                <MetadataType type="person">
+                    <Name>Author</Name>
+                    <language name="en">Author</language>
+                    <language name="de">Autor</language>
+                </MetadataType>
 
--->
+    -->
 
-<!--
-	metadata for physical document structures - these metadata types are
-	still hardcoded in GOOBI.
-	DO NOT MODIFY!
--->
+    <!--
+        metadata for physical document structures - these metadata types are
+        still hardcoded in GOOBI.
+        DO NOT MODIFY!
+    -->
 
-	<MetadataType>
-			<Name>physPageNumber</Name>
-			<language name="de">physische Seitenzahl (Imagenummer)</language>
-			<language name="en">physical page number (image number)</language>
-	</MetadataType>
-	<MetadataType>
-			<Name>logicalPageNumber</Name>
-			<language name="de">logische Seitenzahl (gedruckte Seitenzahl)</language>
-			<language name="en">logical page number (printed page number)</language>
-	</MetadataType>
-	<MetadataType>
-			<Name>pagesize</Name>
-			<language name="de">Seitengröße/Format</language>
-			<language name="en">format of book</language>
-	</MetadataType>
-	<MetadataType>
-			<Name>mediumsource</Name>
-			<language name="de">Vorlagenform</language>
-			<language name="en">Medium of source</language>
-	</MetadataType>
-	<MetadataType>
-			<Name>shelfmarkarchiveimageset</Name>
-			<language name="de">Signatur des Archivierungsimagesets</language>
-			<language name="en">shelfmark of archive imageset</language>
-	</MetadataType>
-	<MetadataType>
-			<Name>imagedescr</Name>
-			<language name="de">ImageDescription (TIFF-Header)</language>
-			<language name="en">image description of tiff header</language>
-	</MetadataType>
-	<MetadataType>
-			<Name>datedigit</Name>
-			<language name="de">Datum der Digitalisierung</language>
-			<language name="en">date of digitalization</language>
-	</MetadataType>
-	<MetadataType>
-			<Name>pathimagefiles</Name>
-			<language name="de">Pfad der Imagedaten</language>
-			<language name="en">path to image data</language>
-	</MetadataType>
-
-<!--
-	metadata for logical document structures - these metadata types are
-	fully configurable. Make sure that modules within GOOBI will be
-	reconfigured accordingly if any changes are made here.
--->
-
-	<MetadataType>
-			<Name>SizeSourcePrint</Name>
-			<language name="en">size of source</language>
-			<language name="de">Größe der Vorlage</language>
-	</MetadataType>
-
-	<MetadataType>
-			<Name>shelfmarksource</Name>
-			<language name="de">Signatur (Vorlage)</language>
-			<language name="en">shelfmark (source)</language>
-	</MetadataType>
-
-	<MetadataType>
-			<Name>copyrightimageset</Name>
-			<language name="de">Copyright (Imageset)</language>
-			<language name="en">copyright (imageset)</language>
-	</MetadataType>
-
-	<MetadataType>
-			<Name>FormatSourcePrint</Name>
-			<language name="de">Ausmaße/Dimension (Vorlage)</language>
-			<language name="en">format (source)</language>
-	</MetadataType>
-
-	<MetadataType>
-			<Name>CatalogIDDigital</Name>
-			<language name="en">PPN (digital copy)</language>
-			<language name="de">PPN (Digitalisat)</language>
-	</MetadataType>
-
-	<MetadataType>
-			<Name>ProcessID</Name>
-			<language name="de">Goobi-Vorgangsnummer</language>
-			<language name="en">Goobi Process ID</language>
-	</MetadataType>
-
-	<MetadataType>
-            <Name>URN</Name>
-            <language name="de">URN</language>
-            <language name="en">URN</language>
+    <MetadataType>
+        <Name>physPageNumber</Name>
+        <language name="de">physische Seitenzahl (Imagenummer)</language>
+        <language name="en">physical page number (image number)</language>
+    </MetadataType>
+    <MetadataType>
+        <Name>logicalPageNumber</Name>
+        <language name="de">logische Seitenzahl (gedruckte Seitenzahl)</language>
+        <language name="en">logical page number (printed page number)</language>
+    </MetadataType>
+    <MetadataType>
+        <Name>pagesize</Name>
+        <language name="de">Seitengröße/Format</language>
+        <language name="en">format of book</language>
+    </MetadataType>
+    <MetadataType>
+        <Name>mediumsource</Name>
+        <language name="de">Vorlagenform</language>
+        <language name="en">Medium of source</language>
+    </MetadataType>
+    <MetadataType>
+        <Name>shelfmarkarchiveimageset</Name>
+        <language name="de">Signatur des Archivierungsimagesets</language>
+        <language name="en">shelfmark of archive imageset</language>
+    </MetadataType>
+    <MetadataType>
+        <Name>imagedescr</Name>
+        <language name="de">ImageDescription (TIFF-Header)</language>
+        <language name="en">image description of tiff header</language>
+    </MetadataType>
+    <MetadataType>
+        <Name>datedigit</Name>
+        <language name="de">Datum der Digitalisierung</language>
+        <language name="en">date of digitalization</language>
+    </MetadataType>
+    <MetadataType>
+        <Name>pathimagefiles</Name>
+        <language name="de">Pfad der Imagedaten</language>
+        <language name="en">path to image data</language>
     </MetadataType>
 
-	<MetadataType>
-			<Name>TitleDocMain</Name>
-			<language name="de">Haupttitel</language>
-			<language name="en">main title</language>
-	</MetadataType>
-
-	<MetadataType>
-			<Name>singleDigCollection</Name>
-			<language name="de">Digitale Sammlung</language>
-			<language name="en">digital collection</language>
-	</MetadataType>	
-
-	<MetadataType>
-		<Name>slub_comment</Name>
-		<language name="de">Bemerkung</language>
-		<language name="en">comment</language>
-	</MetadataType>
-	
-	
-<!-- Spezifische Metadaten für mittelalterliche Handschriften (UBL) -->
-
-<MetadataType>
-	<Name>ms_place</Name>
-	<language name="de">Ort (Verwaltung)</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_institution</Name>
-	<language name="de">Institution (Verwaltung)</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_shelfmark</Name>
-	<language name="de">Signatur (Verwaltung)</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_identifying_shelfmark</Name>
-	<language name="de">Identifizierende Signatur (als Titel)</language>
-</MetadataType>
-
-<MetadataType type="identifier">
-	<Name>ms_identifying_shelfmark_hash</Name>
-	<language name="de">Identifier-Hash aus Signatur</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_manuscript_title</Name>
-	<language name="de">Objekttitel (summarische Beschreibung)</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_medium</Name>
-	<language name="de">Medium</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_type</Name>
-	<language name="de">Formtyp</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_material</Name>
-	<language name="de">Beschreibstoff</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_extent</Name>
-	<language name="de">Umfang</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_dimensions</Name>
-	<language name="de">Abmessungen</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_language</Name>
-	<language name="de">Sprache</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_place_of_origin</Name>
-	<language name="de">Lokalisierung</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_dating_verbal</Name>
-	<language name="de">Datierung (verbalisiert)</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_dated</Name>
-	<language name="de">Datiert (num.)</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_dating_not_before</Name>
-	<language name="de">Datierung (num.): Nicht vor</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_dating_not_after</Name>
-	<language name="de">Datierung (num.): Nicht nach</language>
-</MetadataType>
-
-<MetadataType type="person" normdata="true">
-	<Name>ms_author</Name>
-	<language name="de">Autor</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_work_authority</Name>
-	<language name="de">Enthaltenes Werk: GND-Nummer</language>
-</MetadataType>
-
-<MetadataType normdata="true">
-	<Name>ms_work_title</Name>
-	<language name="de">Enthaltenes Werk: Titel</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_work_subject</Name>
-	<language name="de">Enthaltenes Werk: Sacherschließung</language>
-</MetadataType>
-
-<MetadataType type="person" normdata="true">
-	<Name>ms_work_author</Name>
-	<language name="de">Enthaltenes Werk: Autor</language>
-</MetadataType>
-
-<MetadataType type="person" normdata="true">
-	<Name>ms_previous_owner_person</Name>
-	<language name="de">Vorbesitz (Person)</language>
-</MetadataType>
-
-<MetadataType type="person" normdata="true">
-	<Name>ms_previous_owner_institution</Name>
-	<language name="de">Vorbesitz (Sozietät)</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_host_volume_institution</Name>
-	<language name="de">Trägerband: Verwaltung</language>
-</MetadataType>
-<MetadataType>
-	<Name>ms_host_volume_shelfmark</Name>
-	<language name="de">Trägerband: Signatur</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_host_volume_identifying_shelfmark</Name>
-	<language name="de">Trägerband: Identifizierende Signatur (als Titel)</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_record_origin</Name>
-	<language name="de">Quelle der Angaben zur Hs.</language>
-</MetadataType>
-
-<MetadataType>
-	<Name>ms_record_id</Name>
-	<language name="de">Erschließungsdaten (ManuMed)</language>
-</MetadataType>
-
-
-<!--
-	The <DocStrctType> element defines a type for a DocStrct object.
-	DocStrct objects represent the logical or physical structure
-	entities such as monographs, chapters, articles, pages etc. Each
-	type is defined within a <DocStrctType> element. Depending on the
-	type certain structures may be allowed as children and certain
-	metadata types may be available. Similar to the metadata type each
-	DocStrctType has an unique internal name.
-
-	The <DocStrctType> element has the following child-elements:
-			<Name> contains the internal name (there can only a single <Name>
-			element within a <DocStrctType>
-			<language> contains a string for display in the user interface.
-			The <language> element needs to have a name-attribute containing
-			the language according to the two-letter ISO standard. There can
-			be multiple instances of a <language> element, but only one for a
-			certain language.
-			<allowedchildtype> element contains ONE structure type which can
-			be added as a child to a structure entity defined by the current
-			<DocStrctType> element. There can be several <allowedchildtype>
-			elements for every structure. To reference another <DocStrctType>
-			the internal name is used.
-			<metadata> element contains the MetadataType which is available
-			for the DocStrctType. A <metadata> element contains only the
-			internal name of a single <MetadataType>. Multiple instances of
-			the <metadata> element may appear within a <DocStrctType>. It has
-			two attributes:
-				num: states the number of occurences within a document
-				structure. E.g. an article may only have a single main title,
-				but several authors. Possible values for the num attribute are
-						"*"  zero or more
-						"+"  one or more
-						"1m" one
-						"1o" zero or one
-				DefaultDisplay: if set to true, this metadata is displayed in
-				the metadata form for capturing metadata, even if the
-				appropriate metadata has no content.
-			The <DocStrctType> element can have optional attributes:
-				anchor: can be set to true, if the defined structure entity
-				type is a virtual entity. This means that it will not have any
-				physical entities - as pages - attached to it. Usually virtual
-				structure entities are periodicals (Pica b-records) and
-				multivolumes (Pica c-records) as they just group different
-				volumes into a larger entity.
-				topmost: (not working in GOOBI yet)
--->
-
-	
-
-		<DocStrctType>
-			<Name>Manuscript</Name>
-			<language name="en">Manuscript</language>
-			<language name="de">Handschrift</language>
-			<allowedchildtype>slub_Binding</allowedchildtype>
-			<allowedchildtype>Fascicle</allowedchildtype>
-			<allowedchildtype>ContainedWork</allowedchildtype>
-			<allowedchildtype>Ornament</allowedchildtype>
-			<allowedchildtype>Supplement</allowedchildtype>
-			<allowedchildtype>OtherDocStrct</allowedchildtype>
-			<metadata DefaultDisplay="true" num="1m">ms_place</metadata>
-			<metadata DefaultDisplay="true" num="1m">ms_institution</metadata>
-			<metadata DefaultDisplay="true" num="1m">ms_shelfmark</metadata>
-			<!--<metadata DefaultDisplay="true" num="1m">ms_identifying_shelfmark</metadata>
-				Ersetzt durch TitleDocMain, um ein METS Label für das Strukturelement zu erzeugen.
-				Scheint Kitodo nur für TitleDocMain zu können. -->
-			<metadata DefaultDisplay="true" num="1m">TitleDocMain</metadata>
-			<metadata DefaultDisplay="true" num="1m">ms_manuscript_title</metadata> 
-			<metadata DefaultDisplay="true" num="*">ms_medium</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_type</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_material</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_extent</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_dimensions</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_language</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_place_of_origin</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_dating_verbal</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_dated</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_dating_not_before</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_dating_not_after</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_author</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_previous_owner_person</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_previous_owner_institution</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_record_origin</metadata>
-			<metadata DefaultDisplay="true" num="1m">ms_record_id</metadata>
-			<metadata num="1o">ProcessID</metadata>
-			<metadata num="*">singleDigCollection</metadata>
-			<metadata num="1m">ms_identifying_shelfmark_hash</metadata>		
-			<metadata DefaultDisplay="true" num="1o">URN</metadata>			
-	</DocStrctType>
-
-	<DocStrctType>
-			<Name>ContainedWork</Name>
-			<language name="en">Contained Work</language>
-			<language name="de">Enthaltenes Werk</language>
-			<allowedchildtype>Chapter</allowedchildtype>
-			<allowedchildtype>Ornament</allowedchildtype>
-			<allowedchildtype>OtherDocStrct</allowedchildtype>
-			<!--<metadata DefaultDisplay="true" num="*">ms_work_title</metadata>-->
-			<metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
-			<metadata DefaultDisplay="true" num="1o">ms_work_authority</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_work_subject</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_work_author</metadata>
-			<metadata DefaultDisplay="true" num="*">slub_comment</metadata>
-	</DocStrctType>
-	
-	<DocStrctType>
-			<Name>slub_Binding</Name>
-			<language name="de">Einband</language>
-			<language name="en">binding</language>
-			<allowedchildtype>Fragment</allowedchildtype>
-			<allowedchildtype>Ornament</allowedchildtype>
-			<allowedchildtype>OtherDocStrct</allowedchildtype>
-			<metadata DefaultDisplay="true" num="*">slub_comment</metadata>
-	</DocStrctType>	
-
-	<DocStrctType>
-			<!-- Neu für mittelalterliche Handschriften -->
-			<Name>Fragment</Name> 	
-			<language name="de">Fragment</language>
-			<language name="en">Fragment</language>
-			<allowedchildtype>ContainedWork</allowedchildtype>
-			<allowedchildtype>Ornament</allowedchildtype>
-			<allowedchildtype>OtherDocStrct</allowedchildtype>		
-			<metadata DefaultDisplay="true" num="*">ms_host_volume_institution</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_host_volume_shelfmark</metadata>
-			<metadata DefaultDisplay="true" num="*">ms_host_volume_identifying_shelfmark</metadata>
-			<metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
-			<metadata DefaultDisplay="true" num="*">slub_comment</metadata>
-	</DocStrctType>
-
-	<DocStrctType>
-			<Name>Fascicle</Name> 	
-			<language name="de">Faszikel</language>
-			<language name="en">Fascicle</language>
-			<allowedchildtype>ContainedWork</allowedchildtype>
-			<allowedchildtype>Ornament</allowedchildtype>
-			<allowedchildtype>OtherDocStrct</allowedchildtype>
-			<metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
-			<metadata DefaultDisplay="true" num="*">slub_comment</metadata>
-	</DocStrctType>
-
-	<DocStrctType>
-			<Name>Supplement</Name>
-			<language name="de">Beilage</language>
-			<language name="en">Supplement</language>
-			<allowedchildtype>Ornament</allowedchildtype>
-			<allowedchildtype>OtherDocStrct</allowedchildtype>
-			<metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
-			<metadata DefaultDisplay="true" num="*">slub_comment</metadata>
-	</DocStrctType>
-
-	<DocStrctType>
-		 	<!-- Neu für mittelalterliche Handschriften -->
-			<Name>Ornament</Name>
-			<language name="de">Buchschmuck</language>
-			<language name="en">Ornament</language>
-			<metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
-			<metadata DefaultDisplay="true" num="*">slub_comment</metadata>
-	</DocStrctType>	
-
-	<DocStrctType>
-			<Name>OtherDocStrct</Name>
-			<language name="de">Sonstiges</language>
-			<language name="en">Other Structure</language>
-			<allowedchildtype>Ornament</allowedchildtype>
-			<allowedchildtype>OtherDocStrct</allowedchildtype>
-			<metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
-			<metadata DefaultDisplay="true" num="*">slub_comment</metadata>
-	</DocStrctType>
-
-	<!-- Zur richtigen Funktion nötig, wird nicht aktiv verwendet -->
-	<DocStrctType>
-			<Name>Chapter</Name>
-			<language name="en">Chapter</language>
-			<language name="de">Kapitel</language>
-	</DocStrctType>
-	
-	<!-- Physical structure entities -->
-	<DocStrctType>
-			<Name>page</Name>
-			<language name="de">Seite</language>
-			<language name="en">Page</language>
-			<metadata num="1m">physPageNumber</metadata>
-			<metadata num="1m">logicalPageNumber</metadata>
-	</DocStrctType>
-	<DocStrctType>
-			<Name>BoundBook</Name>
-			<language name="de">Gebundenes Buch</language>
-			<language name="en">Bound Book</language>
-			<allowedchildtype>page</allowedchildtype>
-			<metadata num="1o">copyrightimageset</metadata>
-			<metadata num="1o">mediumsource</metadata>
-			<metadata num="1o">shelfmarksource</metadata>
-			<metadata num="1o">shelfmarkarchiveimageset</metadata>
-			<metadata num="1o">imagedescr</metadata>
-			<metadata num="1o">FormatSourcePrint</metadata>
-			<metadata num="1o">datedigit</metadata>
-			<metadata num="1o">pathimagefiles</metadata>
-	</DocStrctType>
-
-
-	
-<!--
-	The Format section contains information how the ruleset defined
-	above can be read from/written to a specific format. The format
-	needs to be implemented by special classes. The appropriate section
-	of the configuration file are read by those file format specific
-	classes. The workflow component of GOOBI uses the RDF format only.
-	For that reason METS/MODS information is not defined yet completly.
--->
-
-	<Formats>
-<!--
-	This is obsolete!
-
-	The RDF format is used to store metadata / structure information
-	within the GOOBI workflow system. Every single metadata type and
-	document strucutre type which should be read/written must be defined
-	in this section. Just a simple mapping is done here: map the
-	internal metadata/docstrct name to the name of an XML-element. The
-	metadata section has support for RDF:List groups. If you want to use
-	this, some additional attributes for the <Metadata> element must be
-	used:
-			rdfList: names the rdfList. The parent element of the <rdf:bag>
-			or <rdf:seq> element is named according to the name.
-			rdfListType: defines if the child element of the parent is an rdf
-			sequence or an rdf bag. Therefore "bag" and "seq" are the only
-			allowed values.
-
-	Example:
-	<Metadata rdfList="AGORA:DigitalLibraryCollections" rdfListType="bag">
-			will result in:
-	<AGORA:DigitalLibraryCollections>
-			<rdf:Baq>
-				<rdf:Li>
-						<mapped RDF element name here />
-				</rdf:Li>
-			</rdf:Bag>
-	</AGORA:DigitalLibraryCollections>
--->
-
-			<RDF/>
-
-
-
-		<!-- The ZVDD METS/MODS format
-						====================================================================================
-
-						The ZVDD METS/MODS format describes the structure information in METS, while
-						the descriptive metadata is stored in MODS.
-
-						The configuration describes the mapping between the internal metadata
-						structure and MODS. For every metadata type there is a Metadata element. This
-						metadata element must have least the following two sub elements:
-
-						- <MODSName> contains the MODS name as defined in the MODS schema
-						- <InternalName> the name of metadata type
-
-						In case the MODSName belongs to a substructure as e.g. the title, which is
-						stored in the titleinfo element, we have a MODSGroup element.
-
-						Many MODS elements have appropriate attributes to qualify the metadata value.
-						E.g. a type, an authority are stored in these attributes. For each
-						MODS-attribute there is a special element which contains the value of the
-						attribute. When reading a METS file, the MODS metadata field is only mapped
-						to the internal Metadata type, when the appropriate MODS attribute has the
-						same value.
-
-						The following elements are available for the MODS attributes:
-
-						MODSType            type - attribute
-						MODSAuthority       authority - attribute
-						MODSEncoding        encoding - attribute
-						MODSQualifier       qualifier attribute
-						MODSQualifierValue  qualifierValue - attribute
-						MODSLang            lang - attribute
-						MODSXMLLang         xmlLang - attribute
-						MODSID              ID - attribute
-						MODSTransliteration	Transliteration - attibute
-						XPath               The XPath for reading MODS metadata
-						WriteXPath			The XPath for writing MODS metadata, you have to put in
-											the appropriate namespace ("mods:" or "gdz:")
-						FirstnameXPath      relative path within the <mods:name> element
-						LastnameXPath     	relative path within the <mods:name> element
-
-						As MODS is very flexible and extendable, there are two elements which may
-						contain two complete MODS records. This is the "originInfo" and the
-						"relatedItem" element. If an internal metadata element should only be read
-						from (or written to) one of those elements, the ruleset's MODSName element
-						must have a parentElement-attribute which must contain the value "originInfo"
-						or "relatedItem".
-						The parentElement attribute is also used in case of the
-						MODS:physicalDescription element. If a metadata type should be mapped to the
-						MODS physical description element, the appropriate sub element must be named
-						in the MODSName element and the parentElement-attribute must be set to
-						"physicalDescription".
-
-						Storing persons in MODS requires to store the role of each person. Therefore
-						the MODSName element can have a role-attribute if the value of MODSName is
-						"person".
-						================================================================================ -->
-
-		<METS>
-			<class>ugh.fileformats.mets.MetsModsImportExport</class>
-
-			<!-- Additional namespaces used in the mapping below -->
-			<NamespaceDefinition>
-	                        <URI>http://ub.uni-leipzig.de</URI>
-				<prefix>slub</prefix>
-			</NamespaceDefinition>
-
-			<!-- The XPathAnchorQuery defines the element, whose content contains the
-				identifier of the anchor. The anchor is stored in another METS file which is
-				loaded separatly; during databaseimport this identifier is used to store the
-				relationship between these docstruct objects. -->
-			<XPathAnchorQuery>./mods:mods/mods:relatedItem[@type='host']/mods:recordInfo/mods:recordIdentifier[@source='http://digital.ub.uni-leipzig.de/oai/']</XPathAnchorQuery>
-			<AnchorIdentifierMetadataType>CatalogIDDigital</AnchorIdentifierMetadataType>
-			<ValueRegExp>s/(.*)/oai:de:ub.uni-leipzig:db:id-$1/</ValueRegExp>
-			<!--
-								##########################################################################
-								##  Metadata mapping definition                                         ##
-								##########################################################################
-						-->
-			<Metadata>
-				<InternalName>ProcessID</InternalName>
-				<WriteXPath>./mods:mods/#mods:identifier[@type='goobi']</WriteXPath>
-			</Metadata>
-
-			<Metadata>
-				<InternalName>datedigit</InternalName>
-				<WriteXPath>./mods:mods/mods:originInfo[mods:edition='[Electronic ed.]']/#mods:dateCaptured[@encoding='marc']</WriteXPath>
-			</Metadata>
-			<Metadata>
-				<InternalName>singleDigCollection</InternalName>
-				<WriteXPath>./mods:mods/#mods:relatedItem[@type='series']/mods:titleInfo/mods:title[@lang='ger']</WriteXPath>
-				<!-- Keine Unterscheidung zu slub_serial, außer über @lang="ger". -->
-			</Metadata>
-
-			<Metadata>
-				<InternalName>CatalogIDDigital</InternalName>
-				<ValueRegExp>s/(.*)/oai:de:ub.uni-leipzig:db:id-$1/</ValueRegExp>
-				<WriteXPath>./mods:mods/#mods:recordInfo/mods:recordIdentifier[@source='http://digital.ub.uni-leipzig.de/oai/']</WriteXPath>
-			</Metadata>
-			<Metadata>
-				<InternalName>CatalogIDDigital</InternalName>
-				<ValueRegExp>s/(.*)/reformatted digital/</ValueRegExp>
-				<WriteXPath>./mods:mods/#mods:physicalDescription/mods:digitalOrigin</WriteXPath>
-			</Metadata>
-			<Metadata>
-				<InternalName>CatalogIDDigital</InternalName>
-				<ValueCondition>/^[0-9]{8}[0-9X]{1}$/</ValueCondition>
-				<WriteXPath>./mods:mods/#mods:identifier[@type='swb-ppn']</WriteXPath>
-			</Metadata>
-			<Metadata>
-				<InternalName>CatalogIDDigital</InternalName>
-				<ValueCondition>/^[0-9]{8}[YZ]$/</ValueCondition>
-				<ValueRegExp>s/(.*)[YZ]$/$1/</ValueRegExp>
-				<WriteXPath>./mods:mods/#mods:identifier[@type='barcode']</WriteXPath>
-			</Metadata>
-
-			<Metadata>
-				<InternalName>URN</InternalName>
-				<WriteXPath>./mods:mods/#mods:identifier[@type='urn']</WriteXPath>
-			</Metadata>
-			
-			
-			<Metadata>
-				<InternalName>TitleDocMain</InternalName>
-				<WriteXPath>./mods:mods/mods:titleInfo/#mods:title</WriteXPath>
-			</Metadata>	
-						
-			<Metadata>
-				<InternalName>slub_comment</InternalName>
-				<WriteXPath>./mods:mods/#mods:note[@type='comment']</WriteXPath>
-			</Metadata>
-			
-
-
-<!-- Spezifisches Mapping mittelalterliche Handschriften (UBL) -->
-
-		<!-- Export-Mapping 
-
-		Momentan mit deutschen DisplayLabels, Werten etc.
-		Für hebräische Hss. sind englische Bezeichnungen zu verwenden!
-
--->
-
-<Metadata>
-	<InternalName>ms_place</InternalName>
-	<WriteXPath>./mods:mods/mods:location/#mods:physicalLocation</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_institution</InternalName>
-	<WriteXPath>./mods:mods/mods:location/#mods:physicalLocation</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_shelfmark</InternalName>
-	<WriteXPath>./mods:mods/#mods:identifier[@type='shelfmark'][@displayLabel='Signatur']</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_identifying_shelfmark</InternalName>
-	<WriteXPath>./mods:mods/mods:titleInfo/#mods:title</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_manuscript_title</InternalName>
-	<WriteXPath>./mods:mods/mods:titleInfo/#mods:subtitle</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_medium</InternalName>
-	<WriteXPath>./mods:mods/#mods:typeOfResource[@manuscript='yes']</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_type</InternalName>
-	<WriteXPath>./mods:mods/#mods:genre</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_material</InternalName>
-	<WriteXPath>./mods:mods/mods:physicalDescription/#mods:form[@type='material']</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_extent</InternalName>
-	<WriteXPath>./mods:mods/mods:physicalDescription/#mods:extent[@unit='leaves']</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_dimensions</InternalName>
-	<WriteXPath>./mods:mods/mods:physicalDescription/#mods:extent[@unit='cm']</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_language</InternalName>
-	<WriteXPath>./mods:mods/#mods:language/mods:languageTerm</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_place_of_origin</InternalName>
-	<WriteXPath>./mods:mods/mods:originInfo/#mods:place[@eventType='manufacture']</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_dating_verbal</InternalName>
-	<WriteXPath>./mods:mods/mods:originInfo/#mods:dateCreated[@qualifier='inferred']</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_dated</InternalName>
-	<WriteXPath>./mods:mods/mods:originInfo/#mods:dateCreated[@keyDate='yes']</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_dating_not_before</InternalName>
-	<WriteXPath>./mods:mods/mods:originInfo/#mods:dateCreated[@keyDate='yes'][@point='start'][@qualifier='inferred']</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_dating_not_after</InternalName>
-	<WriteXPath>./mods:mods/mods:originInfo/#mods:dateCreated[@point='end'][@qualifier='inferred']</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_author</InternalName>
-	<WriteXPath>./mods:mods/#mods:name[@type='personal'][mods:role/mods:roleTerm[@type='text']='Autor'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/aut']='aut']</WriteXPath>
-	<FirstnameXPath>./mods:namePart</FirstnameXPath>
-	<DisplayNameXPath>./mods:displayForm</DisplayNameXPath>
-	<IdentifierXPath>../mods:name[@authority='gnd']/@valueURI</IdentifierXPath>
-</Metadata>
-
-<!-- Durch METS-Hierarchie zusammengebunden: Enthaltenes Werk als Substrukturelement. -->
-	<Metadata>
-		<InternalName>ms_work_title</InternalName>
-		<!--<WriteXPath>./mods:mods/mods:relatedItem[@type='constituent'][@displayLabel='Abschrift']/#mods:title</WriteXPath>-->
-		<WriteXPath>./mods:mods/#mods:title</WriteXPath>		
-	</Metadata>
-
-	<Metadata>
-		<InternalName>ms_work_authority</InternalName>
-		<!--<WriteXPath>./mods:mods/mods:relatedItem[@type='constituent'][@displayLabel='Abschrift']/#mods:identifier[@type='gnd']</WriteXPath>-->
-		<WriteXPath>./mods:mods/#mods:identifier[@type='gnd']</WriteXPath>	
-		<!-- Möglichst schon beim Import zu ergänzen: 'http://d-nb.info/gnd/' -->	
-	</Metadata>
-
-	<Metadata>
-		<InternalName>ms_work_subject</InternalName>
-		<!--<WriteXPath>./mods:mods/mods:relatedItem[@type='constituent'][@displayLabel='Abschrift']/#subject/topic</WriteXPath>-->
-		<WriteXPath>./mods:mods/#mods:subject/mods:topic</WriteXPath>
-	</Metadata>
-
-	<Metadata>
-		<InternalName>ms_work_author</InternalName>
-		<!--<WriteXPath>./mods:mods/mods:relatedItem[@type='constituent'][@displayLabel='Abschrift']/#mods:name[@type='personal'][mods:role/mods:roleTerm[@type='text']='Autor'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/aut']='aut']</WriteXPath>-->
-		<WriteXPath>./mods:mods/#mods:name[@type='personal'][mods:role/mods:roleTerm[@type='text']='Autor'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/aut']='aut']</WriteXPath>
-		<FirstnameXPath>./mods:namePart</FirstnameXPath>
-		<DisplayNameXPath>./mods:displayForm</DisplayNameXPath>
-		<IdentifierXPath>../mods:name[@authority='gnd']/@valueURI</IdentifierXPath>
-	</Metadata>
-<!-- Ende zusammenbinden. -->
-
-<Metadata>
-	<InternalName>ms_previous_owner_person</InternalName>
-	<WriteXPath>./mods:mods/#mods:name[@type='personal'][mods:role/mods:roleTerm[@type='text']='Vorbesitz'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/fmo']='fmo']</WriteXPath>
-	<FirstnameXPath>./mods:namePart</FirstnameXPath>
-	<DisplayNameXPath>./mods:displayForm</DisplayNameXPath>
-	<IdentifierXPath>../mods:name[@authority='gnd']/@valueURI</IdentifierXPath>	
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_previous_owner_institution</InternalName>
-	<WriteXPath>./mods:mods/#mods:name[@type='corporate'][mods:role/mods:roleTerm[@type='text']='Vorbesitz'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/fmo']='fmo']</WriteXPath>
-	<FirstnameXPath>./mods:namePart</FirstnameXPath>
-	<IdentifierXPath>../mods:name[@authority='gnd']/@valueURI</IdentifierXPath>	
-</Metadata>
-
-<!-- Durch METS-Hierarchie zusammengebunden: Beigefügtes Werk als Substrukturelement. -->
-	<Metadata>
-		<InternalName>ms_host_volume_institution</InternalName>
-		<WriteXPath>./mods:mods/mods:relatedItem[@type='original'][@displayLabel='Ehem. Trägerband']/#mods:name[@type='corporate'][mods:role/mods:roleTerm[@type='text']='Verwaltung'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/oth']='oth']/mods:namePart</WriteXPath>
-		<!--<WriteXPath>./mods:mods/#mods:name[@type='corporate'][mods:role/mods:roleTerm[@type='text']='Verwaltung'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/oth']='oth']/mods:namePart</WriteXPath>-->
-	</Metadata>
-
-	<Metadata>
-		<InternalName>ms_host_volume_shelfmark</InternalName>
-		<WriteXPath>./mods:mods/mods:relatedItem[@type='original'][@displayLabel='Ehem. Trägerband']/#mods:identifier[@type='shelfmark'][@displayLabel='Signatur']</WriteXPath>
-		<!--<WriteXPath>./mods:mods/#mods:identifier[@type='shelfmark'][@displayLabel='Signatur']</WriteXPath>-->
-	</Metadata>
-
-	<Metadata>
-		<InternalName>ms_host_volume_identifying_shelfmark</InternalName>
-		<WriteXPath>./mods:mods/mods:relatedItem[@type='original'][@displayLabel='Ehem. Trägerband']/#mods:titleInfo/mods:title</WriteXPath>
-		<!--<WriteXPath>./mods:mods/#mods:titleInfo/mods:title</WriteXPath>-->
-	</Metadata>
-<!-- Ende zusammenbinden. -->
-
-<Metadata>
-	<InternalName>ms_record_origin</InternalName>
-	<WriteXPath>./mods:mods/mods:recordInfo/#mods:recordOrigin</WriteXPath>
-</Metadata>
-
-<Metadata>
-	<InternalName>ms_record_id</InternalName>
-	<WriteXPath>./mods:mods/mods:recordInfo/#mods:recordIdentifier</WriteXPath>
-	<!-- Möglichst schon beim Import zu ergänzen: 'http://www.manuscripta-mediaevalia.de/dokumente/html/obj' -->
-</Metadata>
-
-
-
-
-			<!-- ##########################################################################
-				##  Declare the mapping between DocStructs - physical and logical       ##
-				########################################################################## -->
-
-			<DocStruct>
-				<InternalName>BoundBook</InternalName>
-				<MetsType>physSequence</MetsType>
-			</DocStruct>
-
-			<DocStruct>
-				<InternalName>page</InternalName>
-				<MetsType>page</MetsType>
-			</DocStruct>
-
-			<!-- ##########################################################################
-				##  Logical structure entities                                          ##
-				########################################################################## -->
-					
-			
-			<DocStruct>
-				<InternalName>Manuscript</InternalName>
-				<MetsType>manuscript</MetsType>
-			</DocStruct>
-
-			<DocStruct>
-				<InternalName>Fascicle</InternalName>
-				<MetsType>fascicle</MetsType>
-			</DocStruct>
-
-			<DocStruct>
-				<InternalName>ContainedWork</InternalName>
-				<MetsType>contained_work</MetsType>
-			</DocStruct>
-
-			<DocStruct>
-				<InternalName>slub_Binding</InternalName>
-				<MetsType>binding</MetsType>
-			</DocStruct>
-
-			<DocStruct>
-				<InternalName>Fragment</InternalName>
-				<MetsType>fragment</MetsType>
-			</DocStruct>
-
-			<DocStruct>
-				<InternalName>Supplement</InternalName>
-				<MetsType>additional</MetsType>
-			</DocStruct>
-
-			<DocStruct>
-				<InternalName>Ornament</InternalName>
-				<MetsType>ornament</MetsType>
-			</DocStruct>
-
-			<DocStruct>
-				<InternalName>OtherDocStrct</InternalName>
-				<MetsType>other</MetsType>
-			</DocStruct>
-
-		</METS>
-
-	</Formats>
+    <!--
+        metadata for logical document structures - these metadata types are
+        fully configurable. Make sure that modules within GOOBI will be
+        reconfigured accordingly if any changes are made here.
+    -->
+
+    <MetadataType>
+        <Name>SizeSourcePrint</Name>
+        <language name="en">size of source</language>
+        <language name="de">Größe der Vorlage</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>shelfmarksource</Name>
+        <language name="de">Signatur (Vorlage)</language>
+        <language name="en">shelfmark (source)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>copyrightimageset</Name>
+        <language name="de">Copyright (Imageset)</language>
+        <language name="en">copyright (imageset)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>FormatSourcePrint</Name>
+        <language name="de">Ausmaße/Dimension (Vorlage)</language>
+        <language name="en">format (source)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>CatalogIDDigital</Name>
+        <language name="en">PPN (digital copy)</language>
+        <language name="de">PPN (Digitalisat)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ProcessID</Name>
+        <language name="de">Goobi-Vorgangsnummer</language>
+        <language name="en">Goobi Process ID</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>URN</Name>
+        <language name="de">URN</language>
+        <language name="en">URN</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>TitleDocMain</Name>
+        <language name="de">Haupttitel</language>
+        <language name="en">main title</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>singleDigCollection</Name>
+        <language name="de">Digitale Sammlung</language>
+        <language name="en">digital collection</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>slub_comment</Name>
+        <language name="de">Bemerkung</language>
+        <language name="en">comment</language>
+    </MetadataType>
+
+
+    <!-- Spezifische Metadaten für mittelalterliche Handschriften (UBL) -->
+
+    <MetadataType>
+        <Name>ms_place</Name>
+        <language name="de">Ort (Verwaltung)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_institution</Name>
+        <language name="de">Institution (Verwaltung)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_shelfmark</Name>
+        <language name="de">Signatur (Verwaltung)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_identifying_shelfmark</Name>
+        <language name="de">Identifizierende Signatur (als Titel)</language>
+    </MetadataType>
+
+    <MetadataType type="identifier">
+        <Name>ms_identifying_shelfmark_hash</Name>
+        <language name="de">Identifier-Hash aus Signatur</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_manuscript_title</Name>
+        <language name="de">Objekttitel (summarische Beschreibung)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_medium</Name>
+        <language name="de">Medium</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_type</Name>
+        <language name="de">Formtyp</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_material</Name>
+        <language name="de">Beschreibstoff</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_extent</Name>
+        <language name="de">Umfang</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_dimensions</Name>
+        <language name="de">Abmessungen</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_language</Name>
+        <language name="de">Sprache</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_place_of_origin</Name>
+        <language name="de">Lokalisierung</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_dating_verbal</Name>
+        <language name="de">Datierung (verbalisiert)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_dated</Name>
+        <language name="de">Datiert (num.)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_dating_not_before</Name>
+        <language name="de">Datierung (num.): Nicht vor</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_dating_not_after</Name>
+        <language name="de">Datierung (num.): Nicht nach</language>
+    </MetadataType>
+
+    <MetadataType type="person" normdata="true">
+        <Name>ms_author</Name>
+        <language name="de">Autor</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_work_authority</Name>
+        <language name="de">Enthaltenes Werk: GND-Nummer</language>
+    </MetadataType>
+
+    <MetadataType normdata="true">
+        <Name>ms_work_title</Name>
+        <language name="de">Enthaltenes Werk: Titel</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_work_subject</Name>
+        <language name="de">Enthaltenes Werk: Sacherschließung</language>
+    </MetadataType>
+
+    <MetadataType type="person" normdata="true">
+        <Name>ms_work_author</Name>
+        <language name="de">Enthaltenes Werk: Autor</language>
+    </MetadataType>
+
+    <MetadataType type="person" normdata="true">
+        <Name>ms_previous_owner_person</Name>
+        <language name="de">Vorbesitz (Person)</language>
+    </MetadataType>
+
+    <MetadataType type="person" normdata="true">
+        <Name>ms_previous_owner_institution</Name>
+        <language name="de">Vorbesitz (Sozietät)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_host_volume_institution</Name>
+        <language name="de">Trägerband: Verwaltung</language>
+    </MetadataType>
+    <MetadataType>
+        <Name>ms_host_volume_shelfmark</Name>
+        <language name="de">Trägerband: Signatur</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_host_volume_identifying_shelfmark</Name>
+        <language name="de">Trägerband: Identifizierende Signatur (als Titel)</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_record_origin</Name>
+        <language name="de">Quelle der Angaben zur Hs.</language>
+    </MetadataType>
+
+    <MetadataType>
+        <Name>ms_record_id</Name>
+        <language name="de">Erschließungsdaten (ManuMed)</language>
+    </MetadataType>
+
+
+    <!--
+        The <DocStrctType> element defines a type for a DocStrct object.
+        DocStrct objects represent the logical or physical structure
+        entities such as monographs, chapters, articles, pages etc. Each
+        type is defined within a <DocStrctType> element. Depending on the
+        type certain structures may be allowed as children and certain
+        metadata types may be available. Similar to the metadata type each
+        DocStrctType has an unique internal name.
+
+        The <DocStrctType> element has the following child-elements:
+                <Name> contains the internal name (there can only a single <Name>
+                element within a <DocStrctType>
+                <language> contains a string for display in the user interface.
+                The <language> element needs to have a name-attribute containing
+                the language according to the two-letter ISO standard. There can
+                be multiple instances of a <language> element, but only one for a
+                certain language.
+                <allowedchildtype> element contains ONE structure type which can
+                be added as a child to a structure entity defined by the current
+                <DocStrctType> element. There can be several <allowedchildtype>
+                elements for every structure. To reference another <DocStrctType>
+                the internal name is used.
+                <metadata> element contains the MetadataType which is available
+                for the DocStrctType. A <metadata> element contains only the
+                internal name of a single <MetadataType>. Multiple instances of
+                the <metadata> element may appear within a <DocStrctType>. It has
+                two attributes:
+                    num: states the number of occurences within a document
+                    structure. E.g. an article may only have a single main title,
+                    but several authors. Possible values for the num attribute are
+                            "*"  zero or more
+                            "+"  one or more
+                            "1m" one
+                            "1o" zero or one
+                    DefaultDisplay: if set to true, this metadata is displayed in
+                    the metadata form for capturing metadata, even if the
+                    appropriate metadata has no content.
+                The <DocStrctType> element can have optional attributes:
+                    anchor: can be set to true, if the defined structure entity
+                    type is a virtual entity. This means that it will not have any
+                    physical entities - as pages - attached to it. Usually virtual
+                    structure entities are periodicals (Pica b-records) and
+                    multivolumes (Pica c-records) as they just group different
+                    volumes into a larger entity.
+                    topmost: (not working in GOOBI yet)
+    -->
+
+
+    <DocStrctType>
+        <Name>Manuscript</Name>
+        <language name="en">Manuscript</language>
+        <language name="de">Handschrift</language>
+        <allowedchildtype>slub_Binding</allowedchildtype>
+        <allowedchildtype>Fascicle</allowedchildtype>
+        <allowedchildtype>ContainedWork</allowedchildtype>
+        <allowedchildtype>Ornament</allowedchildtype>
+        <allowedchildtype>Supplement</allowedchildtype>
+        <allowedchildtype>OtherDocStrct</allowedchildtype>
+        <metadata DefaultDisplay="true" num="1m">ms_place</metadata>
+        <metadata DefaultDisplay="true" num="1m">ms_institution</metadata>
+        <metadata DefaultDisplay="true" num="1m">ms_shelfmark</metadata>
+        <!--<metadata DefaultDisplay="true" num="1m">ms_identifying_shelfmark</metadata>
+            Ersetzt durch TitleDocMain, um ein METS Label für das Strukturelement zu erzeugen.
+            Scheint Kitodo nur für TitleDocMain zu können. -->
+        <metadata DefaultDisplay="true" num="1m">TitleDocMain</metadata>
+        <metadata DefaultDisplay="true" num="1m">ms_manuscript_title</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_medium</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_type</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_material</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_extent</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_dimensions</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_language</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_place_of_origin</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_dating_verbal</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_dated</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_dating_not_before</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_dating_not_after</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_author</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_previous_owner_person</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_previous_owner_institution</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_record_origin</metadata>
+        <metadata DefaultDisplay="true" num="1m">ms_record_id</metadata>
+        <metadata num="1o">ProcessID</metadata>
+        <metadata num="*">singleDigCollection</metadata>
+        <metadata num="1m">ms_identifying_shelfmark_hash</metadata>
+        <metadata DefaultDisplay="true" num="1o">URN</metadata>
+    </DocStrctType>
+
+    <DocStrctType>
+        <Name>ContainedWork</Name>
+        <language name="en">Contained Work</language>
+        <language name="de">Enthaltenes Werk</language>
+        <allowedchildtype>Chapter</allowedchildtype>
+        <allowedchildtype>Ornament</allowedchildtype>
+        <allowedchildtype>OtherDocStrct</allowedchildtype>
+        <!--<metadata DefaultDisplay="true" num="*">ms_work_title</metadata>-->
+        <metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
+        <metadata DefaultDisplay="true" num="1o">ms_work_authority</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_work_subject</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_work_author</metadata>
+        <metadata DefaultDisplay="true" num="*">slub_comment</metadata>
+    </DocStrctType>
+
+    <DocStrctType>
+        <Name>slub_Binding</Name>
+        <language name="de">Einband</language>
+        <language name="en">binding</language>
+        <allowedchildtype>Fragment</allowedchildtype>
+        <allowedchildtype>Ornament</allowedchildtype>
+        <allowedchildtype>OtherDocStrct</allowedchildtype>
+        <metadata DefaultDisplay="true" num="*">slub_comment</metadata>
+    </DocStrctType>
+
+    <DocStrctType>
+        <!-- Neu für mittelalterliche Handschriften -->
+        <Name>Fragment</Name>
+        <language name="de">Fragment</language>
+        <language name="en">Fragment</language>
+        <allowedchildtype>ContainedWork</allowedchildtype>
+        <allowedchildtype>Ornament</allowedchildtype>
+        <allowedchildtype>OtherDocStrct</allowedchildtype>
+        <metadata DefaultDisplay="true" num="*">ms_host_volume_institution</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_host_volume_shelfmark</metadata>
+        <metadata DefaultDisplay="true" num="*">ms_host_volume_identifying_shelfmark</metadata>
+        <metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
+        <metadata DefaultDisplay="true" num="*">slub_comment</metadata>
+    </DocStrctType>
+
+    <DocStrctType>
+        <Name>Fascicle</Name>
+        <language name="de">Faszikel</language>
+        <language name="en">Fascicle</language>
+        <allowedchildtype>ContainedWork</allowedchildtype>
+        <allowedchildtype>Ornament</allowedchildtype>
+        <allowedchildtype>OtherDocStrct</allowedchildtype>
+        <metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
+        <metadata DefaultDisplay="true" num="*">slub_comment</metadata>
+    </DocStrctType>
+
+    <DocStrctType>
+        <Name>Supplement</Name>
+        <language name="de">Beilage</language>
+        <language name="en">Supplement</language>
+        <allowedchildtype>Ornament</allowedchildtype>
+        <allowedchildtype>OtherDocStrct</allowedchildtype>
+        <metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
+        <metadata DefaultDisplay="true" num="*">slub_comment</metadata>
+    </DocStrctType>
+
+    <DocStrctType>
+        <!-- Neu für mittelalterliche Handschriften -->
+        <Name>Ornament</Name>
+        <language name="de">Buchschmuck</language>
+        <language name="en">Ornament</language>
+        <metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
+        <metadata DefaultDisplay="true" num="*">slub_comment</metadata>
+    </DocStrctType>
+
+    <DocStrctType>
+        <Name>OtherDocStrct</Name>
+        <language name="de">Sonstiges</language>
+        <language name="en">Other Structure</language>
+        <allowedchildtype>Ornament</allowedchildtype>
+        <allowedchildtype>OtherDocStrct</allowedchildtype>
+        <metadata DefaultDisplay="true" num="1o">TitleDocMain</metadata>
+        <metadata DefaultDisplay="true" num="*">slub_comment</metadata>
+    </DocStrctType>
+
+    <!-- Zur richtigen Funktion nötig, wird nicht aktiv verwendet -->
+    <DocStrctType>
+        <Name>Chapter</Name>
+        <language name="en">Chapter</language>
+        <language name="de">Kapitel</language>
+    </DocStrctType>
+
+    <!-- Physical structure entities -->
+    <DocStrctType>
+        <Name>page</Name>
+        <language name="de">Seite</language>
+        <language name="en">Page</language>
+        <metadata num="1m">physPageNumber</metadata>
+        <metadata num="1m">logicalPageNumber</metadata>
+    </DocStrctType>
+    <DocStrctType>
+        <Name>BoundBook</Name>
+        <language name="de">Gebundenes Buch</language>
+        <language name="en">Bound Book</language>
+        <allowedchildtype>page</allowedchildtype>
+        <metadata num="1o">copyrightimageset</metadata>
+        <metadata num="1o">mediumsource</metadata>
+        <metadata num="1o">shelfmarksource</metadata>
+        <metadata num="1o">shelfmarkarchiveimageset</metadata>
+        <metadata num="1o">imagedescr</metadata>
+        <metadata num="1o">FormatSourcePrint</metadata>
+        <metadata num="1o">datedigit</metadata>
+        <metadata num="1o">pathimagefiles</metadata>
+    </DocStrctType>
+
+
+    <!--
+        The Format section contains information how the ruleset defined
+        above can be read from/written to a specific format. The format
+        needs to be implemented by special classes. The appropriate section
+        of the configuration file are read by those file format specific
+        classes. The workflow component of GOOBI uses the RDF format only.
+        For that reason METS/MODS information is not defined yet completly.
+    -->
+
+    <Formats>
+        <!--
+            This is obsolete!
+
+            The RDF format is used to store metadata / structure information
+            within the GOOBI workflow system. Every single metadata type and
+            document strucutre type which should be read/written must be defined
+            in this section. Just a simple mapping is done here: map the
+            internal metadata/docstrct name to the name of an XML-element. The
+            metadata section has support for RDF:List groups. If you want to use
+            this, some additional attributes for the <Metadata> element must be
+            used:
+                    rdfList: names the rdfList. The parent element of the <rdf:bag>
+                    or <rdf:seq> element is named according to the name.
+                    rdfListType: defines if the child element of the parent is an rdf
+                    sequence or an rdf bag. Therefore "bag" and "seq" are the only
+                    allowed values.
+
+            Example:
+            <Metadata rdfList="AGORA:DigitalLibraryCollections" rdfListType="bag">
+                    will result in:
+            <AGORA:DigitalLibraryCollections>
+                    <rdf:Baq>
+                        <rdf:Li>
+                                <mapped RDF element name here />
+                        </rdf:Li>
+                    </rdf:Bag>
+            </AGORA:DigitalLibraryCollections>
+        -->
+
+        <RDF/>
+
+
+        <!-- The ZVDD METS/MODS format
+                        ====================================================================================
+
+                        The ZVDD METS/MODS format describes the structure information in METS, while
+                        the descriptive metadata is stored in MODS.
+
+                        The configuration describes the mapping between the internal metadata
+                        structure and MODS. For every metadata type there is a Metadata element. This
+                        metadata element must have least the following two sub elements:
+
+                        - <MODSName> contains the MODS name as defined in the MODS schema
+                        - <InternalName> the name of metadata type
+
+                        In case the MODSName belongs to a substructure as e.g. the title, which is
+                        stored in the titleinfo element, we have a MODSGroup element.
+
+                        Many MODS elements have appropriate attributes to qualify the metadata value.
+                        E.g. a type, an authority are stored in these attributes. For each
+                        MODS-attribute there is a special element which contains the value of the
+                        attribute. When reading a METS file, the MODS metadata field is only mapped
+                        to the internal Metadata type, when the appropriate MODS attribute has the
+                        same value.
+
+                        The following elements are available for the MODS attributes:
+
+                        MODSType            type - attribute
+                        MODSAuthority       authority - attribute
+                        MODSEncoding        encoding - attribute
+                        MODSQualifier       qualifier attribute
+                        MODSQualifierValue  qualifierValue - attribute
+                        MODSLang            lang - attribute
+                        MODSXMLLang         xmlLang - attribute
+                        MODSID              ID - attribute
+                        MODSTransliteration	Transliteration - attibute
+                        XPath               The XPath for reading MODS metadata
+                        WriteXPath			The XPath for writing MODS metadata, you have to put in
+                                            the appropriate namespace ("mods:" or "gdz:")
+                        FirstnameXPath      relative path within the <mods:name> element
+                        LastnameXPath     	relative path within the <mods:name> element
+
+                        As MODS is very flexible and extendable, there are two elements which may
+                        contain two complete MODS records. This is the "originInfo" and the
+                        "relatedItem" element. If an internal metadata element should only be read
+                        from (or written to) one of those elements, the ruleset's MODSName element
+                        must have a parentElement-attribute which must contain the value "originInfo"
+                        or "relatedItem".
+                        The parentElement attribute is also used in case of the
+                        MODS:physicalDescription element. If a metadata type should be mapped to the
+                        MODS physical description element, the appropriate sub element must be named
+                        in the MODSName element and the parentElement-attribute must be set to
+                        "physicalDescription".
+
+                        Storing persons in MODS requires to store the role of each person. Therefore
+                        the MODSName element can have a role-attribute if the value of MODSName is
+                        "person".
+                        ================================================================================ -->
+
+        <METS>
+            <class>ugh.fileformats.mets.MetsModsImportExport</class>
+
+            <!-- Additional namespaces used in the mapping below -->
+            <NamespaceDefinition>
+                <URI>http://ub.uni-leipzig.de</URI>
+                <prefix>slub</prefix>
+            </NamespaceDefinition>
+
+            <!-- The XPathAnchorQuery defines the element, whose content contains the
+                identifier of the anchor. The anchor is stored in another METS file which is
+                loaded separatly; during databaseimport this identifier is used to store the
+                relationship between these docstruct objects. -->
+            <XPathAnchorQuery>
+                ./mods:mods/mods:relatedItem[@type='host']/mods:recordInfo/mods:recordIdentifier[@source='http://digital.ub.uni-leipzig.de/oai/']
+            </XPathAnchorQuery>
+            <AnchorIdentifierMetadataType>CatalogIDDigital</AnchorIdentifierMetadataType>
+            <ValueRegExp>s/(.*)/oai:de:ub.uni-leipzig:db:id-$1/</ValueRegExp>
+            <!--
+                                ##########################################################################
+                                ##  Metadata mapping definition                                         ##
+                                ##########################################################################
+                        -->
+            <Metadata>
+                <InternalName>ProcessID</InternalName>
+                <WriteXPath>./mods:mods/#mods:identifier[@type='goobi']</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>datedigit</InternalName>
+                <WriteXPath>./mods:mods/mods:originInfo[mods:edition='[Electronic
+                    ed.]']/#mods:dateCaptured[@encoding='marc']
+                </WriteXPath>
+            </Metadata>
+            <Metadata>
+                <InternalName>singleDigCollection</InternalName>
+                <WriteXPath>./mods:mods/#mods:relatedItem[@type='series']/mods:titleInfo/mods:title[@lang='ger']
+                </WriteXPath>
+                <!-- Keine Unterscheidung zu slub_serial, außer über @lang="ger". -->
+            </Metadata>
+
+            <Metadata>
+                <InternalName>CatalogIDDigital</InternalName>
+                <ValueRegExp>s/(.*)/oai:de:ub.uni-leipzig:db:id-$1/</ValueRegExp>
+                <WriteXPath>
+                    ./mods:mods/#mods:recordInfo/mods:recordIdentifier[@source='http://digital.ub.uni-leipzig.de/oai/']
+                </WriteXPath>
+            </Metadata>
+            <Metadata>
+                <InternalName>CatalogIDDigital</InternalName>
+                <ValueRegExp>s/(.*)/reformatted digital/</ValueRegExp>
+                <WriteXPath>./mods:mods/#mods:physicalDescription/mods:digitalOrigin</WriteXPath>
+            </Metadata>
+            <Metadata>
+                <InternalName>CatalogIDDigital</InternalName>
+                <ValueCondition>/^[0-9]{8}[0-9X]{1}$/</ValueCondition>
+                <WriteXPath>./mods:mods/#mods:identifier[@type='swb-ppn']</WriteXPath>
+            </Metadata>
+            <Metadata>
+                <InternalName>CatalogIDDigital</InternalName>
+                <ValueCondition>/^[0-9]{8}[YZ]$/</ValueCondition>
+                <ValueRegExp>s/(.*)[YZ]$/$1/</ValueRegExp>
+                <WriteXPath>./mods:mods/#mods:identifier[@type='barcode']</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>URN</InternalName>
+                <WriteXPath>./mods:mods/#mods:identifier[@type='urn']</WriteXPath>
+            </Metadata>
+
+
+            <Metadata>
+                <InternalName>TitleDocMain</InternalName>
+                <WriteXPath>./mods:mods/mods:titleInfo/#mods:title</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>slub_comment</InternalName>
+                <WriteXPath>./mods:mods/#mods:note[@type='comment']</WriteXPath>
+            </Metadata>
+
+
+            <!-- Spezifisches Mapping mittelalterliche Handschriften (UBL) -->
+
+            <!-- Export-Mapping
+
+            Momentan mit deutschen DisplayLabels, Werten etc.
+            Für hebräische Hss. sind englische Bezeichnungen zu verwenden!
+
+    -->
+
+            <Metadata>
+                <InternalName>ms_place</InternalName>
+                <WriteXPath>./mods:mods/mods:location/#mods:physicalLocation</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_institution</InternalName>
+                <WriteXPath>./mods:mods/mods:location/#mods:physicalLocation</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_shelfmark</InternalName>
+                <WriteXPath>./mods:mods/#mods:identifier[@type='shelfmark'][@displayLabel='Signatur']</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_identifying_shelfmark</InternalName>
+                <WriteXPath>./mods:mods/mods:titleInfo/#mods:title</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_manuscript_title</InternalName>
+                <WriteXPath>./mods:mods/mods:titleInfo/#mods:subtitle</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_medium</InternalName>
+                <WriteXPath>./mods:mods/#mods:typeOfResource[@manuscript='yes']</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_type</InternalName>
+                <WriteXPath>./mods:mods/#mods:genre</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_material</InternalName>
+                <WriteXPath>./mods:mods/mods:physicalDescription/#mods:form[@type='material']</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_extent</InternalName>
+                <WriteXPath>./mods:mods/mods:physicalDescription/#mods:extent[@unit='leaves']</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_dimensions</InternalName>
+                <WriteXPath>./mods:mods/mods:physicalDescription/#mods:extent[@unit='cm']</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_language</InternalName>
+                <WriteXPath>./mods:mods/#mods:language/mods:languageTerm</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_place_of_origin</InternalName>
+                <WriteXPath>./mods:mods/mods:originInfo/#mods:place[@eventType='manufacture']</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_dating_verbal</InternalName>
+                <WriteXPath>./mods:mods/mods:originInfo/#mods:dateCreated[@qualifier='inferred']</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_dated</InternalName>
+                <WriteXPath>./mods:mods/mods:originInfo/#mods:dateCreated[@keyDate='yes']</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_dating_not_before</InternalName>
+                <WriteXPath>
+                    ./mods:mods/mods:originInfo/#mods:dateCreated[@keyDate='yes'][@point='start'][@qualifier='inferred']
+                </WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_dating_not_after</InternalName>
+                <WriteXPath>./mods:mods/mods:originInfo/#mods:dateCreated[@point='end'][@qualifier='inferred']
+                </WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_author</InternalName>
+                <WriteXPath>
+                    ./mods:mods/#mods:name[@type='personal'][mods:role/mods:roleTerm[@type='text']='Autor'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/aut']='aut']
+                </WriteXPath>
+                <FirstnameXPath>./mods:namePart</FirstnameXPath>
+                <DisplayNameXPath>./mods:displayForm</DisplayNameXPath>
+                <IdentifierXPath>../mods:name[@authority='gnd']/@valueURI</IdentifierXPath>
+            </Metadata>
+
+            <!-- Durch METS-Hierarchie zusammengebunden: Enthaltenes Werk als Substrukturelement. -->
+            <Metadata>
+                <InternalName>ms_work_title</InternalName>
+                <!--<WriteXPath>./mods:mods/mods:relatedItem[@type='constituent'][@displayLabel='Abschrift']/#mods:title</WriteXPath>-->
+                <WriteXPath>./mods:mods/#mods:title</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_work_authority</InternalName>
+                <!--<WriteXPath>./mods:mods/mods:relatedItem[@type='constituent'][@displayLabel='Abschrift']/#mods:identifier[@type='gnd']</WriteXPath>-->
+                <WriteXPath>./mods:mods/#mods:identifier[@type='gnd']</WriteXPath>
+                <!-- Möglichst schon beim Import zu ergänzen: 'http://d-nb.info/gnd/' -->
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_work_subject</InternalName>
+                <!--<WriteXPath>./mods:mods/mods:relatedItem[@type='constituent'][@displayLabel='Abschrift']/#subject/topic</WriteXPath>-->
+                <WriteXPath>./mods:mods/#mods:subject/mods:topic</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_work_author</InternalName>
+                <!--<WriteXPath>./mods:mods/mods:relatedItem[@type='constituent'][@displayLabel='Abschrift']/#mods:name[@type='personal'][mods:role/mods:roleTerm[@type='text']='Autor'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/aut']='aut']</WriteXPath>-->
+                <WriteXPath>
+                    ./mods:mods/#mods:name[@type='personal'][mods:role/mods:roleTerm[@type='text']='Autor'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/aut']='aut']
+                </WriteXPath>
+                <FirstnameXPath>./mods:namePart</FirstnameXPath>
+                <DisplayNameXPath>./mods:displayForm</DisplayNameXPath>
+                <IdentifierXPath>../mods:name[@authority='gnd']/@valueURI</IdentifierXPath>
+            </Metadata>
+            <!-- Ende zusammenbinden. -->
+
+            <Metadata>
+                <InternalName>ms_previous_owner_person</InternalName>
+                <WriteXPath>
+                    ./mods:mods/#mods:name[@type='personal'][mods:role/mods:roleTerm[@type='text']='Vorbesitz'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/fmo']='fmo']
+                </WriteXPath>
+                <FirstnameXPath>./mods:namePart</FirstnameXPath>
+                <DisplayNameXPath>./mods:displayForm</DisplayNameXPath>
+                <IdentifierXPath>../mods:name[@authority='gnd']/@valueURI</IdentifierXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_previous_owner_institution</InternalName>
+                <WriteXPath>
+                    ./mods:mods/#mods:name[@type='corporate'][mods:role/mods:roleTerm[@type='text']='Vorbesitz'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/fmo']='fmo']
+                </WriteXPath>
+                <FirstnameXPath>./mods:namePart</FirstnameXPath>
+                <IdentifierXPath>../mods:name[@authority='gnd']/@valueURI</IdentifierXPath>
+            </Metadata>
+
+            <!-- Durch METS-Hierarchie zusammengebunden: Beigefügtes Werk als Substrukturelement. -->
+            <Metadata>
+                <InternalName>ms_host_volume_institution</InternalName>
+                <WriteXPath>./mods:mods/mods:relatedItem[@type='original'][@displayLabel='Ehem.
+                    Trägerband']/#mods:name[@type='corporate'][mods:role/mods:roleTerm[@type='text']='Verwaltung'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/oth']='oth']/mods:namePart
+                </WriteXPath>
+                <!--<WriteXPath>./mods:mods/#mods:name[@type='corporate'][mods:role/mods:roleTerm[@type='text']='Verwaltung'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code'][@valueURI='http://id.loc.gov/vocabulary/relators/oth']='oth']/mods:namePart</WriteXPath>-->
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_host_volume_shelfmark</InternalName>
+                <WriteXPath>./mods:mods/mods:relatedItem[@type='original'][@displayLabel='Ehem.
+                    Trägerband']/#mods:identifier[@type='shelfmark'][@displayLabel='Signatur']
+                </WriteXPath>
+                <!--<WriteXPath>./mods:mods/#mods:identifier[@type='shelfmark'][@displayLabel='Signatur']</WriteXPath>-->
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_host_volume_identifying_shelfmark</InternalName>
+                <WriteXPath>./mods:mods/mods:relatedItem[@type='original'][@displayLabel='Ehem.
+                    Trägerband']/#mods:titleInfo/mods:title
+                </WriteXPath>
+                <!--<WriteXPath>./mods:mods/#mods:titleInfo/mods:title</WriteXPath>-->
+            </Metadata>
+            <!-- Ende zusammenbinden. -->
+
+            <Metadata>
+                <InternalName>ms_record_origin</InternalName>
+                <WriteXPath>./mods:mods/mods:recordInfo/#mods:recordOrigin</WriteXPath>
+            </Metadata>
+
+            <Metadata>
+                <InternalName>ms_record_id</InternalName>
+                <WriteXPath>./mods:mods/mods:recordInfo/#mods:recordIdentifier</WriteXPath>
+                <!-- Möglichst schon beim Import zu ergänzen: 'http://www.manuscripta-mediaevalia.de/dokumente/html/obj' -->
+            </Metadata>
+
+
+            <!-- ##########################################################################
+                ##  Declare the mapping between DocStructs - physical and logical       ##
+                ########################################################################## -->
+
+            <DocStruct>
+                <InternalName>BoundBook</InternalName>
+                <MetsType>physSequence</MetsType>
+            </DocStruct>
+
+            <DocStruct>
+                <InternalName>page</InternalName>
+                <MetsType>page</MetsType>
+            </DocStruct>
+
+            <!-- ##########################################################################
+                ##  Logical structure entities                                          ##
+                ########################################################################## -->
+
+
+            <DocStruct>
+                <InternalName>Manuscript</InternalName>
+                <MetsType>manuscript</MetsType>
+            </DocStruct>
+
+            <DocStruct>
+                <InternalName>Fascicle</InternalName>
+                <MetsType>fascicle</MetsType>
+            </DocStruct>
+
+            <DocStruct>
+                <InternalName>ContainedWork</InternalName>
+                <MetsType>contained_work</MetsType>
+            </DocStruct>
+
+            <DocStruct>
+                <InternalName>slub_Binding</InternalName>
+                <MetsType>binding</MetsType>
+            </DocStruct>
+
+            <DocStruct>
+                <InternalName>Fragment</InternalName>
+                <MetsType>fragment</MetsType>
+            </DocStruct>
+
+            <DocStruct>
+                <InternalName>Supplement</InternalName>
+                <MetsType>additional</MetsType>
+            </DocStruct>
+
+            <DocStruct>
+                <InternalName>Ornament</InternalName>
+                <MetsType>ornament</MetsType>
+            </DocStruct>
+
+            <DocStruct>
+                <InternalName>OtherDocStrct</InternalName>
+                <MetsType>other</MetsType>
+            </DocStruct>
+
+        </METS>
+
+    </Formats>
 
 </Preferences>

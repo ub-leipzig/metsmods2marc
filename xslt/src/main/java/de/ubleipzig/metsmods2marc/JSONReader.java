@@ -29,11 +29,9 @@ import java.io.UncheckedIOException;
  */
 public class JSONReader {
 
-    private final JsonNode data;
-
-    private final String filePath;
-
     private static final ObjectMapper MAPPER = new ObjectMapper();
+    private final JsonNode data;
+    private final String filePath;
 
     /**
      * Create a JSON-based Namespace service.
@@ -47,10 +45,6 @@ public class JSONReader {
         this.data = read(filePath);
     }
 
-    public JsonNode getRoot() {
-        return data;
-    }
-
     public static JsonNode read(final String filePath) {
         final File file = new File(filePath);
         JsonNode rootNode = null;
@@ -62,6 +56,10 @@ public class JSONReader {
             }
         }
         return rootNode;
+    }
+
+    public JsonNode getRoot() {
+        return data;
     }
 }
 

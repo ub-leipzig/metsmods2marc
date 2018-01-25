@@ -38,7 +38,7 @@ public class ArgParserTest {
         if (!new File(OUTPUT_DIR).exists()) {
             String path = get(".").toAbsolutePath().normalize().getParent().toString();
             args = new String[]{"-r", path + "/xslt/src/test/resources/" + testFileName,
-                   "-d", "/tmp"};
+                    "-d", "/tmp"};
         } else {
             String path = get(".").toAbsolutePath().normalize().getParent().toString();
             args = new String[]{"-r", path + "/xslt/src/test/resources/" + testFileName,

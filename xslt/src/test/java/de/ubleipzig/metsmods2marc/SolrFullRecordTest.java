@@ -11,6 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package de.ubleipzig.metsmods2marc;
 
 import static de.ubleipzig.metsmods2marc.MarcXMLWriter.removeUTFCharacters;
@@ -25,14 +26,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
-import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.params.CursorMarkParams;
 import org.junit.Test;
 import org.marc4j.MarcReader;
@@ -85,10 +83,11 @@ public class SolrFullRecordTest {
             writer.write(record);
         }
         writer.close();
-        FileOutputStream fos = new FileOutputStream (new File("/tmp/out_" + testResource));
+        FileOutputStream fos = new FileOutputStream(new File("/tmp/out_" + testResource));
         out.writeTo(fos);
         String result = new String(out.toByteArray());
         System.out.println(result);
-        //assertXMLEqual(new String(out.toByteArray()), TestUtils.readFileIntoString("/fromsolr.mrc"));
+        //assertXMLEqual(new String(out.toByteArray()), TestUtils.readFileIntoString("/fromsolr
+        // .mrc"));
     }
 }

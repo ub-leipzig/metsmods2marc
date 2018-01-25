@@ -140,7 +140,6 @@ public interface TransferProcess {
 
     /**
      * This method does the import or export.
-     *
      */
     public void run();
 
