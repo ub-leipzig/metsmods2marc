@@ -1,13 +1,21 @@
-## MetsMods2Marc
+## XSLT_API
 
-A CLI tool that creates Marc21 XML from a MetsMods XML file.
+This repository provides two methods for XML transformation:
 
-### Transformation Process
-The transformation works in two steps. 
-- The first XSLT (`extract-mods.xsl`) separates the mets elements from the mods elements. 
-- The second XSLT (`MODS3-4_MARC21slim_XSLT1-0.xsl`) processes known mods elements into Marc21 encoded XML.
+* An HTTP API powered by Apache Camel.
+* A CLI tool 
 
-### Usage
+### HTTP API Usage
+The API depends on HTTP accessible resources.  For example, XML binaries stored in a [Trellis Repository](https://github.com/trellis-ldp/trellis-deployment).
+
+The API can be accessed like this:
+
+    $ curl "http://localhost:9095/xml?format=marc21&context=http://localhost:8080/repository/node/collection/DE15/buchhandschriften/res/MS_1033.xml" 
+
+* `context` is an HTTP accessible resource.  Currently, only METS/MODS XML formatted documents are supported.
+* `format` can be one of three values (mods, marc21, bibframe).  
+    
+### CLI Usage
 
     $ gradle installDist
     
@@ -19,6 +27,6 @@ example:
      
     $ ./xslt -r ~/IdeaProjects/metsmods2marc/xslt/src/test/resources/BntItin_021340072.xml -d /tmp/output-data 
 
-### Output
+### MARC21 Output
 
-See [example](https://github.com/ub-leipzig/metsmods2marc/blob/master/xslt/src/test/resources/marc-output_15:32:11.860.xml)
+See [example](https://github.com/ub-leipzig/xslt-api/blob/62fa0fc40b1a6b9d562a3d101bdd66c1fa3115cd/xslt/src/test/resources/marc21xml/marc-output_17:48:51.468.xml)
