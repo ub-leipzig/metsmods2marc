@@ -12,22 +12,38 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.metsmods2marc;
+package de.ubleipzig.xslt;
 
-import static java.nio.file.Paths.get;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
-import org.junit.Test;
+/**
+ * ResourceDescriptor.
+ *
+ * @author Christopher Johnson
+ */
+@XmlRootElement
+public class ResourceDescriptor {
 
-public class IngesterTest {
+    private String body;
 
-    @Test
-    public void testIngester() {
-        String path = get(".").toAbsolutePath().normalize().getParent().toString();
-        String xsl = path
-                + "/xslt/src/main/resources/de.ubleipzig"
-                + ".metsmods2marc/MODS3-4_MARC21slim_XSLT1-0.xsl";
-        Config config = new Config();
-        config.setXsltResource(xsl);
-        new Ingester(config);
+    /**
+     * getBody.
+     *
+     * @return String
+     */
+    public String getBody() {
+        return body;
     }
+
+    /**
+     * setBody.
+     *
+     * @param body String
+     */
+    @XmlElement
+    void setBody(final String body) {
+        this.body = body;
+    }
+
 }

@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.metsmods2marc;
+package de.ubleipzig.xslt;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

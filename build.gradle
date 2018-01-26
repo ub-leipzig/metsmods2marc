@@ -58,7 +58,7 @@ project("xslt") {
     apply plugin: 'application'
 
     sourceCompatibility = 1.8
-    mainClassName = "de.ubleipzig.metsmods2marc.IngesterDriver"
+    mainClassName = "de.ubleipzig.xslt.IngesterDriver"
     jar.baseName = "ingester"
 
     dependencies {

@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.metsmods2marc;
+package de.ubleipzig.xslt;
 
-import static de.ubleipzig.metsmods2marc.Constants.OUTPUT_DIR;
-import static de.ubleipzig.metsmods2marc.UUIDType5.NAMESPACE_URL;
+import static de.ubleipzig.xslt.Constants.OUTPUT_DIR;
+import static de.ubleipzig.xslt.UUIDType5.NAMESPACE_URL;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

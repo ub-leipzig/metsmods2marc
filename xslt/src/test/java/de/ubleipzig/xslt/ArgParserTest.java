@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.metsmods2marc;
+package de.ubleipzig.xslt;
 
-import static de.ubleipzig.metsmods2marc.Constants.OUTPUT_DIR;
-import static de.ubleipzig.metsmods2marc.Constants.REPOSITORY_BASE_URI;
+import static de.ubleipzig.xslt.Constants.OUTPUT_DIR;
+import static de.ubleipzig.xslt.Constants.REPOSITORY_BASE_URI;
 import static java.nio.file.Paths.get;
 
 import java.io.File;

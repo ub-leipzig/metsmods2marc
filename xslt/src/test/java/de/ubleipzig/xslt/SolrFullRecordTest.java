@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.metsmods2marc;
+package de.ubleipzig.xslt;
 
-import static de.ubleipzig.metsmods2marc.MarcXMLWriter.removeUTFCharacters;
-import static de.ubleipzig.metsmods2marc.MarcXMLWriter.writeMarcXMLtoFile;
+import static de.ubleipzig.xslt.MarcXMLWriter.removeUTFCharacters;
+import static de.ubleipzig.xslt.MarcXMLWriter.writeMarcXMLtoFile;
 import static java.nio.file.Paths.get;
 
 import java.io.ByteArrayInputStream;

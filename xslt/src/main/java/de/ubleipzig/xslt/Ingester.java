@@ -12,13 +12,13 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.metsmods2marc;
+package de.ubleipzig.xslt;
 
-import static de.ubleipzig.metsmods2marc.Constants.MARC_MODS_STYLESHEET;
-import static de.ubleipzig.metsmods2marc.Constants.METS_MODS_STYLESHEET;
-import static de.ubleipzig.metsmods2marc.Constants.MODS_BIBFRAME_STYLESHEET;
-import static de.ubleipzig.metsmods2marc.Constants.MODS_MARC_STYLESHEET;
-import static de.ubleipzig.metsmods2marc.Constants.OUTPUT_DIR;
+import static de.ubleipzig.xslt.Constants.MARC_MODS_STYLESHEET;
+import static de.ubleipzig.xslt.Constants.METS_MODS_STYLESHEET;
+import static de.ubleipzig.xslt.Constants.MODS_BIBFRAME_STYLESHEET;
+import static de.ubleipzig.xslt.Constants.MODS_MARC_STYLESHEET;
+import static de.ubleipzig.xslt.Constants.OUTPUT_DIR;
 import static org.apache.commons.lang3.exception.ExceptionUtils.getMessage;
 import static org.apache.commons.rdf.api.RDFSyntax.JSONLD;
 import static org.apache.commons.rdf.api.RDFSyntax.RDFXML;
@@ -100,9 +100,9 @@ public class Ingester implements TransferProcess {
             final String resultFile = baseDir + "/marc-output_" + now + ".xml";
             final ClassLoader classloader = Thread.currentThread().getContextClassLoader();
             final InputStream xsltfile1 = classloader.getResourceAsStream(
-                    "de.ubleipzig.metsmods2marc/" + METS_MODS_STYLESHEET);
+                    "de.ubleipzig.xslt/" + METS_MODS_STYLESHEET);
             final InputStream xsltfile2 = classloader.getResourceAsStream(
-                    "de.ubleipzig.metsmods2marc/" + MODS_MARC_STYLESHEET);
+                    "de.ubleipzig.xslt/" + MODS_MARC_STYLESHEET);
             final SAXTransformerFactory stf = (SAXTransformerFactory) TransformerFactory
                     .newInstance();
 
@@ -129,9 +129,9 @@ public class Ingester implements TransferProcess {
             final String resultFile = baseDir + "/bibframe-output_" + now + ".rdf";
             final ClassLoader classloader = Thread.currentThread().getContextClassLoader();
             final InputStream xsltfile1 = classloader.getResourceAsStream(
-                    "de.ubleipzig.metsmods2marc/" + MARC_MODS_STYLESHEET);
+                    "de.ubleipzig.xslt/" + MARC_MODS_STYLESHEET);
             final InputStream xsltfile2 = classloader.getResourceAsStream(
-                    "de.ubleipzig.metsmods2marc/" + MODS_BIBFRAME_STYLESHEET);
+                    "de.ubleipzig.xslt/" + MODS_BIBFRAME_STYLESHEET);
             final SAXTransformerFactory stf = (SAXTransformerFactory) TransformerFactory
                     .newInstance();
 

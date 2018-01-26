@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.metsmods2marc;
+package de.ubleipzig.xslt;
 
 import java.io.FileReader;
 import java.io.IOException;

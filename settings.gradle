@@ -1,4 +1,4 @@
-rootProject.name = 'metsmods2marc'
+rootProject.name = 'xslt-api'
 include 'xslt'
 include 'api'
 

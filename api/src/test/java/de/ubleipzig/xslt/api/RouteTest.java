@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.transformer.api;
+package de.ubleipzig.xslt.api;
 
 import static org.apache.camel.Exchange.CONTENT_TYPE;
 import static org.apache.camel.Exchange.HTTP_METHOD;
@@ -40,6 +40,7 @@ public class RouteTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(RouteTest.class);
     private static final String HTTP_QUERY_CONTEXT = "context";
     private static final String FORMAT = "format";
+    private static final String ACCEPT = "Accept";
 
     public static void main(final String[] args) throws Exception {
         LOGGER.info("About to run Camel integration...");
@@ -62,6 +63,7 @@ public class RouteTest {
                                 Exchange.HTTP_URI,
                                 e.getIn().getHeader(HTTP_QUERY_CONTEXT)))
                         .log(INFO, LOGGER, "Setting Resource Header : ${headers[CamelHttpUri]}")
+                        .removeHeader(ACCEPT)
                         .setHeader(REPO_BASE_URL).simple("{{repo.baseUrl}}")
                         .choice()
                         .when(header(HTTP_METHOD).isEqualTo("OPTIONS"))
@@ -71,14 +73,16 @@ public class RouteTest {
                         .when(header(FORMAT).isEqualTo("marc21"))
                         .to("direct:mods")
                         .to("direct:marc21")
+                        .when(header(FORMAT).isEqualTo("bibframe"))
+                        .to("direct:mods")
+                        .to("direct:bibframe")
                         .otherwise()
                         .to("direct:choice");
 
                 from("direct:mods")
                         .routeId("XmlModsXslt")
-                        .log(INFO, LOGGER, "Headers: ${headers}")
                         .to("direct:getResource")
-                        .filter(header(HTTP_RESPONSE_CODE).isEqualTo(200))
+                        //.filter(header(HTTP_RESPONSE_CODE).isEqualTo(200))
                         .setHeader(CONTENT_TYPE).constant("application/xml")
                         .convertBodyTo(String.class)
                         .log(INFO, LOGGER,
@@ -93,6 +97,15 @@ public class RouteTest {
                         .log(INFO, LOGGER,
                                 "Converting resource to MARC21/XML: ${headers[CamelHttpUri]}")
                         .to("xslt:{{marc21.xslt}}?saxon=true");
+
+                from("direct:bibframe")
+                        .routeId("XmlBibframeXslt")
+                        .filter(header(HTTP_RESPONSE_CODE).isEqualTo(200))
+                        .setHeader(CONTENT_TYPE).constant("application/xml")
+                        .convertBodyTo(String.class)
+                        .log(INFO, LOGGER,
+                                "Converting resource to RDF/XML: ${headers[CamelHttpUri]}")
+                        .to("xslt:{{bibframe.xslt}}?saxon=true");
 
                 from("direct:options")
                         .routeId("XmlOptions")
