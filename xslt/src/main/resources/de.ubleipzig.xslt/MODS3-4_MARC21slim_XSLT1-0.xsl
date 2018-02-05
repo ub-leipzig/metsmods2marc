@@ -171,7 +171,8 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="mods:mods">
-        <marc:record>
+        <marc:record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
             <marc:leader>
                 <!--  00-04  -->
                 <xsl:text>     </xsl:text>
@@ -216,7 +217,6 @@
                 <!--  20-23  -->
                 <xsl:text>4500</xsl:text>
             </marc:leader>
-            <xsl:call-template name="controlRecordInfo"/>
             <xsl:choose>
                 <xsl:when test="mods:genre[@authority = 'marc'] = 'atlas'">
                     <marc:controlfield tag="007">ad||||||</marc:controlfield>
@@ -593,6 +593,7 @@
                 <!--  38-39  -->
                 <xsl:text>||</xsl:text>
             </marc:controlfield>
+            <xsl:call-template name="controlRecordInfo"/>
             <!--  1/04 fix sort  -->
             <xsl:call-template name="source"/>
             <xsl:apply-templates/>
@@ -1097,13 +1098,14 @@
                 </xsl:with-param>
             </xsl:call-template>
         </xsl:for-each>
-        <xsl:if
-                test="mods:place/mods:placeTerm[@type = 'text'] or mods:publisher or mods:dateIssued or mods:dateCreated">
+
+        <!-- UBL override
+        <xsl:if test="mods:place/mods:placeTerm[@type = 'text'] or mods:publisher or mods:dateIssued">
             <xsl:call-template name="datafield">
                 <xsl:with-param name="tag">
                     <xsl:choose>
                         <xsl:when
-                                test="@displayLabel = 'producer' or @displayLabel = 'publisher' or @displayLabel = 'manufacturer' or @displayLabel = 'distributor'"
+                                test="@displayLabel = 'producer' or @displayLabel = 'publisher' or @displayLabel = 'distributor'"
                         >264
                         </xsl:when>
                         <xsl:otherwise>534</xsl:otherwise>
@@ -1121,7 +1123,6 @@
                     </xsl:choose>
                 </xsl:with-param>
                 <xsl:with-param name="subfields">
-                    <!--  v3 place; changed to text   -->
                     <xsl:for-each select="mods:place/mods:placeTerm[@type = 'text']">
                         <marc:subfield code="a">
                             <xsl:value-of select="."/>
@@ -1136,11 +1137,7 @@
                             select="mods:dateIssued[@point = 'start'] | mods:dateIssued[not(@point)]">
                         <marc:subfield code="c">
                             <xsl:value-of select="."/>
-                            <!--
- v3.4 generate question mark for dateIssued with qualifier="questionable" 
--->
                             <xsl:if test="@qualifier = 'questionable'">?</xsl:if>
-                            <!--  v3.4 Generate a hyphen before end date  -->
                             <xsl:if test="mods:dateIssued[@point = 'end']">-
                                 <xsl:value-of
                                         select="../mods:dateIssued[@point = 'end']"/>
@@ -1154,6 +1151,27 @@
                     </xsl:for-each>
                 </xsl:with-param>
             </xsl:call-template>
+        </xsl:if>         -->
+
+        <!-- check for multiple DateCreated and if so generate repeating 534 for each -->
+        <xsl:if test="mods:dateCreated">
+            <xsl:for-each select="mods:dateCreated">
+                <xsl:call-template name="datafield">
+                    <xsl:with-param name="tag">
+                        <xsl:if test="ancestor::mods:originInfo[@eventType = 'manufacture']">534</xsl:if>
+                    </xsl:with-param>
+                    <xsl:with-param name="subfields">
+                        <xsl:for-each select="preceding-sibling::mods:place/mods:placeTerm[@type = 'text']">
+                            <marc:subfield code="a">
+                                <xsl:value-of select="."/>
+                            </marc:subfield>
+                        </xsl:for-each>
+                        <marc:subfield code="c">
+                            <xsl:value-of select="."/>
+                        </marc:subfield>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:for-each>
         </xsl:if>
     </xsl:template>
     <!--  Language  -->
@@ -2700,10 +2718,10 @@
     <xsl:template name="datafield">
         <xsl:param name="tag"/>
         <xsl:param name="ind1">
-            <xsl:text></xsl:text>
+            <xsl:text> </xsl:text>
         </xsl:param>
         <xsl:param name="ind2">
-            <xsl:text></xsl:text>
+            <xsl:text> </xsl:text>
         </xsl:param>
         <xsl:param name="subfields"/>
         <xsl:element name="marc:datafield">

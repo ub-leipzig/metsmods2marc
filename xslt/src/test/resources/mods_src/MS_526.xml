@@ -34,8 +34,8 @@
           <mods:language>
             <mods:languageTerm>lateinisch</mods:languageTerm>
           </mods:language>
-          <mods:originInfo>
-            <mods:place eventType="manufacture">Prag / Böhmen</mods:place>
+          <mods:originInfo eventType="manufacture">
+            <mods:place ><mods:placeTerm type="text">Prag / Böhmen</mods:placeTerm></mods:place>
             <mods:dateCreated qualifier="inferred">Anfang des 15. Jahrhunderts</mods:dateCreated>
             <mods:dateCreated point="end" qualifier="inferred">1409</mods:dateCreated>
           </mods:originInfo>
