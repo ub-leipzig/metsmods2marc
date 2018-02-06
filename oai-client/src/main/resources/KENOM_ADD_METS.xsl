@@ -43,10 +43,10 @@
                         </mets:dmdSec>
                     <mets:fileSec>
                         <mets:fileGrp USE="ORIGINAL">
-                            <mets:file ID="FILE_0001_ORIGINAL" MIMETYPE="image/jpeg">
+                            <mets:file ID="FILE_0001_ORIGINAL" MIMETYPE="image/tiff">
                                 <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="{$identifier}_media/{$identifier}_vs.tif"/>
                             </mets:file>
-                            <mets:file ID="FILE_0002_ORIGINAL" MIMETYPE="image/jpeg">
+                            <mets:file ID="FILE_0002_ORIGINAL" MIMETYPE="image/tiff">
                                 <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="{$identifier}_media/{$identifier}_rs.tif"/>
                             </mets:file>
                         </mets:fileGrp>
