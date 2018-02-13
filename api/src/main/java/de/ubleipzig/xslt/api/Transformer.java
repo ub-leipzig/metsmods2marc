@@ -57,6 +57,7 @@ public class Transformer {
     public static class TransformRoute extends RouteBuilder {
         private static final Logger LOGGER = LoggerFactory.getLogger(TransformRoute.class);
         private static final String REPO_BASE_URL = "CamelRepoBaseUrl";
+        private static final String BASEURI = "BASEURI";
         private static final String HTTP_QUERY_CONTEXT = "context";
         private static final String FORMAT = "format";
         private static final String ACCEPT = "Accept";
@@ -94,7 +95,7 @@ public class Transformer {
             from("direct:mods")
                     .routeId("XmlModsXslt")
                     .to("direct:getResource")
-                    //.filter(header(HTTP_RESPONSE_CODE).isEqualTo(200))
+                    .filter(header(HTTP_RESPONSE_CODE).isEqualTo(200))
                     .setHeader(CONTENT_TYPE).constant("application/xml")
                     .convertBodyTo(String.class)
                     .log(INFO, LOGGER,
@@ -114,6 +115,7 @@ public class Transformer {
                     .routeId("XmlBibframeXslt")
                     .filter(header(HTTP_RESPONSE_CODE).isEqualTo(200))
                     .setHeader(CONTENT_TYPE).constant("application/xml")
+                    .setHeader(BASEURI).constant("{{repo.baseUrl}}")
                     .convertBodyTo(String.class)
                     .log(INFO, LOGGER,
                             "Converting resource to RDF/XML: ${headers[CamelHttpUri]}")
@@ -135,7 +137,7 @@ public class Transformer {
                     .routeId("XmlTransformationCommon")
                     .removeHeader(HTTP_QUERY_CONTEXT)
                     .removeHeader(FORMAT)
-                    .to("http4:localhost:8080?throwExceptionOnFailure=false");
+                    .to("http4:{{rest.host}}:{{rest.port}}?throwExceptionOnFailure=false");
 
         }
     }

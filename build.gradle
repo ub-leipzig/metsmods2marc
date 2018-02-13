@@ -55,11 +55,11 @@ configure(allprojects) { project ->
 }
 
 project("xslt") {
-    apply plugin: 'application'
+    //apply plugin: 'application'
 
     sourceCompatibility = 1.8
-    mainClassName = "de.ubleipzig.xslt.IngesterDriver"
-    jar.baseName = "ingester"
+    //mainClassName = "de.ubleipzig.xslt.IngesterDriver"
+    //jar.baseName = "ingester"
 
     dependencies {
         testCompile group: 'junit', name: 'junit', version: '4.12'
@@ -90,6 +90,9 @@ project("xslt") {
 
 project("api") {
     description = 'A Camel service that transforms resources with XSLT'
+    apply plugin: 'application'
+    mainClassName = 'de.ubleipzig.xslt.api.Transformer'
+
     dependencies {
         compile group: 'org.apache.camel', name: 'camel-jetty9', version: camelVersion
         compile group: 'org.apache.camel', name: 'camel-http4', version: camelVersion
