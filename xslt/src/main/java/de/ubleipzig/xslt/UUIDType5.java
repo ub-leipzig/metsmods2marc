@@ -21,19 +21,15 @@ import java.util.Objects;
 import java.util.UUID;
 
 public class UUIDType5 {
-    public static final UUID NAMESPACE_DNS = UUID.fromString(
-            "6ba7b810-9dad-11d1-80b4-00c04fd430c8");
-    public static final UUID NAMESPACE_URL = UUID.fromString(
-            "6ba7b811-9dad-11d1-80b4-00c04fd430c8");
-    public static final UUID NAMESPACE_OID = UUID.fromString(
-            "6ba7b812-9dad-11d1-80b4-00c04fd430c8");
-    public static final UUID NAMESPACE_X500 = UUID.fromString(
-            "6ba7b814-9dad-11d1-80b4-00c04fd430c8");
+
+    public static final UUID NAMESPACE_DNS = UUID.fromString("6ba7b810-9dad-11d1-80b4-00c04fd430c8");
+    public static final UUID NAMESPACE_URL = UUID.fromString("6ba7b811-9dad-11d1-80b4-00c04fd430c8");
+    public static final UUID NAMESPACE_OID = UUID.fromString("6ba7b812-9dad-11d1-80b4-00c04fd430c8");
+    public static final UUID NAMESPACE_X500 = UUID.fromString("6ba7b814-9dad-11d1-80b4-00c04fd430c8");
     private static final Charset UTF8 = Charset.forName("UTF-8");
 
     public static UUID nameUUIDFromNamespaceAndString(UUID namespace, String name) {
-        return nameUUIDFromNamespaceAndBytes(
-                namespace, Objects.requireNonNull(name, "name == null").getBytes(UTF8));
+        return nameUUIDFromNamespaceAndBytes(namespace, Objects.requireNonNull(name, "name == null").getBytes(UTF8));
     }
 
     public static UUID nameUUIDFromNamespaceAndBytes(UUID namespace, byte[] name) {
@@ -58,10 +54,12 @@ public class UUIDType5 {
         long msb = 0;
         long lsb = 0;
         assert data.length >= 16;
-        for (int i = 0; i < 8; i++)
+        for (int i = 0; i < 8; i++) {
             msb = (msb << 8) | (data[i] & 0xff);
-        for (int i = 8; i < 16; i++)
+        }
+        for (int i = 8; i < 16; i++) {
             lsb = (lsb << 8) | (data[i] & 0xff);
+        }
         return new UUID(msb, lsb);
     }
 
@@ -70,10 +68,12 @@ public class UUIDType5 {
         byte[] out = new byte[16];
         long msb = uuid.getMostSignificantBits();
         long lsb = uuid.getLeastSignificantBits();
-        for (int i = 0; i < 8; i++)
+        for (int i = 0; i < 8; i++) {
             out[i] = (byte) ((msb >> ((7 - i) * 8)) & 0xff);
-        for (int i = 8; i < 16; i++)
+        }
+        for (int i = 8; i < 16; i++) {
             out[i] = (byte) ((lsb >> ((15 - i) * 8)) & 0xff);
+        }
         return out;
     }
 }

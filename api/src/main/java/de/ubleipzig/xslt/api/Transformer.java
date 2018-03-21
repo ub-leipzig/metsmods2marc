@@ -137,7 +137,7 @@ public class Transformer {
                     .routeId("XmlTransformationCommon")
                     .removeHeader(HTTP_QUERY_CONTEXT)
                     .removeHeader(FORMAT)
-                    .to("http4:{{rest.host}}:{{rest.port}}?throwExceptionOnFailure=false");
+                    .to("http4:{{resource.host}}:{{resource.port}}?throwExceptionOnFailure=false");
 
         }
     }

@@ -44,7 +44,7 @@ public class RouteTest {
 
     public static void main(final String[] args) throws Exception {
         LOGGER.info("About to run Camel integration...");
-        JndiRegistry registry = new JndiRegistry(createInitialContext());
+       JndiRegistry registry = new JndiRegistry(createInitialContext());
         // registry.bind("resourceMessageList", new ResourceMessageList());
         final CamelContext camelContext = new DefaultCamelContext();
 
@@ -123,7 +123,7 @@ public class RouteTest {
                         .routeId("XmlTransformationCommon")
                         .removeHeader(HTTP_QUERY_CONTEXT)
                         .removeHeader(FORMAT)
-                        .to("http4:localhost:8080?throwExceptionOnFailure=false");
+                        .to("http4:goobi-prod.ub.uni-leipzig.de:12105?throwExceptionOnFailure=false");
 
             }
         });
