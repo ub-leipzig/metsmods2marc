@@ -31,32 +31,48 @@ import org.marc4j.MarcStreamReader;
 import org.marc4j.MarcXmlWriter;
 import org.marc4j.marc.Record;
 
+/**
+ * MarcXMLWriter.
+ */
 public class MarcXMLWriter {
 
-    public static void writeMarcXMLtoFile(String content, String id) throws IOException {
-        StringBuffer sbf = removeUTFCharacters(content);
-        byte[] bytes = sbf.toString().getBytes();
-        InputStream input = new ByteArrayInputStream(bytes);
+    /**
+     * writeMarcXMLtoFile.
+     *
+     * @param content String
+     * @param id String
+     * @throws IOException IOException
+     */
+    public static void writeMarcXMLtoFile(final String content, final String id) throws IOException {
+        final StringBuffer sbf = removeUTFCharacters(content);
+        final byte[] bytes = sbf.toString().getBytes();
+        final InputStream input = new ByteArrayInputStream(bytes);
         final ByteArrayOutputStream out = new ByteArrayOutputStream();
         final MarcXmlWriter writer = new MarcXmlWriter(out, true);
-        MarcReader reader = new MarcStreamReader(input);
+        final MarcReader reader = new MarcStreamReader(input);
         while (reader.hasNext()) {
-            Record record = reader.next();
+            final Record record = reader.next();
             writer.write(record);
         }
         writer.close();
-        UUID marcUUID = UUIDType5.nameUUIDFromNamespaceAndString(NAMESPACE_URL, id);
-        FileOutputStream fos = new FileOutputStream(
+        final UUID marcUUID = UUIDType5.nameUUIDFromNamespaceAndString(NAMESPACE_URL, id);
+        final FileOutputStream fos = new FileOutputStream(
                 new File(OUTPUT_DIR + "/marc21xmlout_" + marcUUID + ".xml"));
         out.writeTo(fos);
     }
 
-    public static StringBuffer removeUTFCharacters(String data) {
-        Pattern p = Pattern.compile("\\\\u(\\p{XDigit}{4})");
-        Matcher m = p.matcher(data);
-        StringBuffer buf = new StringBuffer(data.length());
+    /**
+     * removeUTFCharacters.
+     *
+     * @param data String
+     * @return StringBuffer
+     */
+    public static StringBuffer removeUTFCharacters(final String data) {
+        final Pattern p = Pattern.compile("\\\\u(\\p{XDigit}{4})");
+        final Matcher m = p.matcher(data);
+        final StringBuffer buf = new StringBuffer(data.length());
         while (m.find()) {
-            String ch = String.valueOf((char) Integer.parseInt(m.group(1), 16));
+            final String ch = String.valueOf((char) Integer.parseInt(m.group(1), 16));
             m.appendReplacement(buf, Matcher.quoteReplacement(ch));
         }
         m.appendTail(buf);

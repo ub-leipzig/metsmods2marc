@@ -28,14 +28,19 @@ import org.apache.camel.main.MainSupport;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Transformer.
+ *
+ * @author christopher-johnson
+ */
 public class Transformer {
-    public static void main(String[] args) throws Exception {
-        Transformer transformer = new Transformer();
+    public static void main(final String[] args) throws Exception {
+        final Transformer transformer = new Transformer();
         transformer.init();
     }
 
     private void init() throws Exception {
-        Main main = new Main();
+        final Main main = new Main();
         main.addRouteBuilder(new TransformRoute());
         main.addMainListener(new Events());
         main.run();
@@ -44,12 +49,12 @@ public class Transformer {
     public static class Events extends MainListenerSupport {
 
         @Override
-        public void afterStart(MainSupport main) {
+        public void afterStart(final MainSupport main) {
             System.out.println("Transformer is now started!");
         }
 
         @Override
-        public void beforeStop(MainSupport main) {
+        public void beforeStop(final MainSupport main) {
             System.out.println("Transformer is now being stopped!");
         }
     }
@@ -62,6 +67,9 @@ public class Transformer {
         private static final String FORMAT = "format";
         private static final String ACCEPT = "Accept";
 
+        /**
+         * configure.
+         */
         public void configure() {
 
             final PropertiesComponent pc =
@@ -137,7 +145,8 @@ public class Transformer {
                     .routeId("XmlTransformationCommon")
                     .removeHeader(HTTP_QUERY_CONTEXT)
                     .removeHeader(FORMAT)
-                    .to("http4:{{resource.host}}:{{resource.port}}?throwExceptionOnFailure=false");
+                    .to("http4:{{resource.host}}:{{resource.port}}?throwExceptionOnFailure=false"
+                            + "&proxyHost={{proxy.host}}&proxyPort={{proxy.port}}");
 
         }
     }

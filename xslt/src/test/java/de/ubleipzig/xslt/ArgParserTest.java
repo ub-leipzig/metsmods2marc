@@ -36,11 +36,11 @@ public class ArgParserTest {
         parser = new ArgParser();
         final String[] args;
         if (!new File(OUTPUT_DIR).exists()) {
-            String path = get(".").toAbsolutePath().normalize().getParent().toString();
+            final String path = get(".").toAbsolutePath().normalize().getParent().toString();
             args = new String[]{"-r", path + "/xslt/src/test/resources/" + testFileName,
                     "-d", "/tmp"};
         } else {
-            String path = get(".").toAbsolutePath().normalize().getParent().toString();
+            final String path = get(".").toAbsolutePath().normalize().getParent().toString();
             args = new String[]{"-r", path + "/xslt/src/test/resources/" + testFileName,
                     "-d", OUTPUT_DIR};
         }
@@ -52,7 +52,7 @@ public class ArgParserTest {
     public void testOptions() {
         parser = new ArgParser();
         final String[] args;
-        String path = get(".").toAbsolutePath().normalize().getParent().toString();
+        final String path = get(".").toAbsolutePath().normalize().getParent().toString();
         args = new String[]{"-r", path + "/xslt/src/test/resources/marc21xml/" + marc21XmlFile,
                 "-b", "-p", REPOSITORY_BASE_URI, "-d", OUTPUT_DIR};
         final TransferProcess processor = parser.init(args);

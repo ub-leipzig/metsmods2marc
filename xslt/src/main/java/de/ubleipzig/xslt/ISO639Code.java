@@ -14,38 +14,44 @@
 
 package de.ubleipzig.xslt;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 class ISO639Code {
 
-    @JsonProperty("ISO_639_2")
-    private String ISO_639_2;
-    @JsonProperty("ISO_639_1")
-    private String ISO_639_1;
-    @JsonProperty("English_name_of_Language")
-    private String English_name_of_Language;
-    @JsonProperty("French_name_of_Language")
-    private String French_name_of_Language;
-    @JsonProperty("German_name_of_Language")
-    private String German_name_of_Language;
+    @JsonProperty("iso6392")
+    private String iso6392;
+    @JsonProperty("iso6391")
+    private String iso6391;
+    @JsonProperty("englishLabel")
+    private String englishLabel;
+    @JsonProperty("frenchLabel")
+    private String frenchLabel;
+    @JsonProperty("germanLabel")
+    private String germanLabel;
 
-    public String getISO_639_2() {
-        return ISO_639_2;
+    @JsonIgnore
+    public String getIso6392() {
+        return iso6392;
     }
 
-    public String getISO_639_1() {
-        return ISO_639_1;
+    @JsonIgnore
+    public String getIso6391() {
+        return iso6391;
     }
 
-    public String getEnglishName() {
-        return English_name_of_Language;
+    @JsonIgnore
+    public String getEnglishLabel() {
+        return englishLabel;
     }
 
-    public String getFrenchName() {
-        return French_name_of_Language;
+    @JsonIgnore
+    public String getFrenchLabel() {
+        return frenchLabel;
     }
 
-    public String getGermanName() {
-        return German_name_of_Language;
+    @JsonIgnore
+    public String getGermanLabel() {
+        return germanLabel;
     }
 }

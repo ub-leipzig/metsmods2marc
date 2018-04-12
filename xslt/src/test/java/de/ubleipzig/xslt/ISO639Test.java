@@ -14,26 +14,28 @@
 
 package de.ubleipzig.xslt;
 
-import java.io.FileReader;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.io.IOException;
 import java.net.URL;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import java.util.List;
+
 import org.junit.Test;
 
 public class ISO639Test {
 
+    protected static final ObjectMapper MAPPER = new ObjectMapper();
+
     @Test
-    public void getCodesFromJson() throws IOException, ParseException {
+    public void getCodesFromJson() throws IOException {
         final URL res = JSONReader.class.getResource("/iso639-2.json");
-        JSONParser parser = new JSONParser();
-        Object obj = parser.parse(new FileReader(res.getPath()));
-        JSONObject jsonObject = (JSONObject) obj;
-        JSONArray codes = (JSONArray) jsonObject.get("codes");
+        final ISO639CodeList codelist = MAPPER.readValue(res, new TypeReference<ISO639CodeList>() {
+        });
+        final List<ISO639Code> codes = codelist.getCodes();
         codes.stream()
-                .filter(code -> ((JSONObject) code).containsValue("lo"))
-                .forEach(System.out::println);
+             .filter(c -> c.getEnglishLabel()
+                           .contains("lo"))
+             .forEach(c -> System.out.println(c.getEnglishLabel()));
     }
 }

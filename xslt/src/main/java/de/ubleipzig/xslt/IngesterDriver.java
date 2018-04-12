@@ -30,7 +30,7 @@ import org.xmlbeam.XBProjector;
  * @author Christopher Johnson
  * @since 2016-08-29
  */
-class IngesterDriver {
+final class IngesterDriver {
     private static final Logger logger = getLogger(IngesterDriver.class);
 
     private IngesterDriver() {

@@ -524,7 +524,7 @@ public class Config {
      * intentionally omitted from import because updating them wasn't supported by
      * Fedora.
      *
-     * @param legacy true to indicate legacy mode should be enabled, false to disable it
+     * @param bibframe true to indicate legacy mode should be enabled, false to disable it
      */
     public void setBibFrame(final boolean bibframe) {
         this.bibframe = bibframe;

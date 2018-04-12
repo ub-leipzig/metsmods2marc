@@ -45,6 +45,12 @@ public class JSONReader {
         this.data = read(filePath);
     }
 
+    /**
+     * read.
+     *
+     * @param filePath String
+     * @return JsonNode
+     */
     public static JsonNode read(final String filePath) {
         final File file = new File(filePath);
         JsonNode rootNode = null;

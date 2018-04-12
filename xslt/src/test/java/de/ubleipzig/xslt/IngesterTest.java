@@ -22,11 +22,11 @@ public class IngesterTest {
 
     @Test
     public void testIngester() {
-        String path = get(".").toAbsolutePath().normalize().getParent().toString();
-        String xsl = path
+        final String path = get(".").toAbsolutePath().normalize().getParent().toString();
+        final String xsl = path
                 + "/xslt/src/main/resources/de.ubleipzig"
                 + ".xslt/MODS3-4_MARC21slim_XSLT1-0.xsl";
-        Config config = new Config();
+        final Config config = new Config();
         config.setXsltResource(xsl);
         new Ingester(config);
     }

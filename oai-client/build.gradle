@@ -1,0 +1,12 @@
+dependencies {
+    compile "org.xmlbeam:xmlprojector:1.4.8"
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient-osgi', version: '4.5.3'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: logbackVersion
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'com.lyncode', name: 'xoai-common', version: '4.1.0'
+    testCompile group: 'com.lyncode', name: 'xoai-service-provider', version: '4.1.0'
+    testCompile group: 'com.lyncode', name: 'xoai-data-provider', version: '4.1.0'
+    testRuntimeClasspath group: 'ch.qos.logback', name: 'logback-classic', version: logbackVersion
+}
