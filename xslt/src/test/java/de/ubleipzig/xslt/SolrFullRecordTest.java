@@ -43,9 +43,9 @@ public class SolrFullRecordTest {
 
     @Test
     public void testGetDocumentFromSolr() throws IOException, SolrServerException {
-        String urlString = "https://index.ub.uni-leipzig.de/solr/biblio";
-        HttpSolrClient solr = new HttpSolrClient.Builder(urlString).build();
-        SolrQuery query = new SolrQuery();
+        final String urlString = "https://index.ub.uni-leipzig.de/solr/biblio";
+        final HttpSolrClient solr = new HttpSolrClient.Builder(urlString).build();
+        final SolrQuery query = new SolrQuery();
         query.addSort("id", SolrQuery.ORDER.asc);
         String cursorMark = CursorMarkParams.CURSOR_MARK_START;
         boolean done = false;
@@ -53,11 +53,11 @@ public class SolrFullRecordTest {
         query.setRows(50);
         while (!done) {
             query.set(CursorMarkParams.CURSOR_MARK_PARAM, cursorMark);
-            QueryResponse response = solr.query(query);
-            String nextCursorMark = response.getNextCursorMark();
+            final QueryResponse response = solr.query(query);
+            final String nextCursorMark = response.getNextCursorMark();
             for (SolrDocument doc : response.getResults()) {
-                String fr = (String) doc.getFieldValue("fullrecord");
-                String id = (String) doc.getFieldValue("id");
+                final  String fr = (String) doc.getFieldValue("fullrecord");
+                final String id = (String) doc.getFieldValue("id");
                 writeMarcXMLtoFile(fr, id);
             }
             if (cursorMark.equals(nextCursorMark)) {
@@ -69,23 +69,23 @@ public class SolrFullRecordTest {
 
     @Test
     public void testMarcReaderXmlWriter() throws Exception {
-        String path = get(".").toAbsolutePath().normalize().toString();
-        String abspath = path + "/src/test/resources/marc21/" + testResource;
-        String content = new String(Files.readAllBytes(Paths.get(abspath)));
-        StringBuffer sbf = removeUTFCharacters(content);
-        byte[] bytes = sbf.toString().getBytes();
-        InputStream input = new ByteArrayInputStream(bytes);
+        final String path = get(".").toAbsolutePath().normalize().toString();
+        final String abspath = path + "/src/test/resources/marc21/" + testResource;
+        final String content = new String(Files.readAllBytes(Paths.get(abspath)));
+        final StringBuffer sbf = removeUTFCharacters(content);
+        final byte[] bytes = sbf.toString().getBytes();
+        final InputStream input = new ByteArrayInputStream(bytes);
         final ByteArrayOutputStream out = new ByteArrayOutputStream();
         final MarcXmlWriter writer = new MarcXmlWriter(out, true);
-        MarcReader reader = new MarcStreamReader(input);
+        final MarcReader reader = new MarcStreamReader(input);
         while (reader.hasNext()) {
-            Record record = reader.next();
+            final Record record = reader.next();
             writer.write(record);
         }
         writer.close();
-        FileOutputStream fos = new FileOutputStream(new File("/tmp/out_" + testResource));
+        final FileOutputStream fos = new FileOutputStream(new File("/tmp/out_" + testResource));
         out.writeTo(fos);
-        String result = new String(out.toByteArray());
+        final String result = new String(out.toByteArray());
         System.out.println(result);
         //assertXMLEqual(new String(out.toByteArray()), TestUtils.readFileIntoString("/fromsolr
         // .mrc"));

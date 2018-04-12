@@ -1,0 +1,23 @@
+description = 'A Camel service that transforms resources with XSLT'
+apply plugin: 'application'
+mainClassName = 'de.ubleipzig.xslt.api.Transformer'
+
+dependencies {
+    compile group: 'org.apache.camel', name: 'camel-jetty9', version: camelVersion
+    compile group: 'org.apache.camel', name: 'camel-http4', version: camelVersion
+    compile group: 'org.apache.camel', name: 'camel-saxon', version: camelVersion
+    compile group: 'javax.xml.bind', name: 'jaxb-api', version: jaxbVersion
+    compile group: 'javax.activation', name: 'activation', version: '1.1.1'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: logbackVersion
+    testImplementation group: 'org.apiguardian', name: 'apiguardian-api', version: apiguardianVersion
+    testImplementation group: 'org.junit.platform', name: 'junit-platform-runner', version: junitPlatformVersion
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: junitVersion
+    testImplementation group: 'org.apache.camel', name: 'camel-test', version: camelVersion
+    testImplementation group: 'org.apache.camel', name: 'camel-jetty9', version: camelVersion
+    testImplementation group: 'org.apache.camel', name: 'camel-http4', version: camelVersion
+    testImplementation group: 'org.apache.camel', name: 'camel-saxon', version: camelVersion
+    testImplementation group: 'javax.xml.bind', name: 'jaxb-api', version: jaxbVersion
+    testImplementation group: 'javax.activation', name: 'activation', version: '1.1.1'
+    testImplementation group: 'ch.qos.logback', name: 'logback-classic', version: logbackVersion
+    testImplementation group: 'org.apache.camel', name: 'camel-test-blueprint', version: camelVersion
+}

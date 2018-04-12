@@ -44,7 +44,7 @@ public class RouteTest {
 
     public static void main(final String[] args) throws Exception {
         LOGGER.info("About to run Camel integration...");
-       JndiRegistry registry = new JndiRegistry(createInitialContext());
+        final JndiRegistry registry = new JndiRegistry(createInitialContext());
         // registry.bind("resourceMessageList", new ResourceMessageList());
         final CamelContext camelContext = new DefaultCamelContext();
 
@@ -123,7 +123,8 @@ public class RouteTest {
                         .routeId("XmlTransformationCommon")
                         .removeHeader(HTTP_QUERY_CONTEXT)
                         .removeHeader(FORMAT)
-                        .to("http4:goobi-prod.ub.uni-leipzig.de:12105?throwExceptionOnFailure=false");
+                        .to("http4:{{resource.host}}:{{resource.port}}?throwExceptionOnFailure=false"
+                                + "&proxyHost={{proxy.host}}&proxyPort={{proxy.port}}");
 
             }
         });
@@ -135,9 +136,9 @@ public class RouteTest {
     }
 
     public static Context createInitialContext() throws Exception {
-        InputStream in = RouteTest.class.getClassLoader().getResourceAsStream("jndi.properties");
+        final InputStream in = RouteTest.class.getClassLoader().getResourceAsStream("jndi.properties");
         try {
-            Properties properties = new Properties();
+            final Properties properties = new Properties();
             properties.load(in);
             return new InitialContext(new Hashtable<>(properties));
         } finally {

@@ -71,7 +71,7 @@ public class Ingester implements TransferProcess {
         this.config = config;
     }
 
-    private static Graph getGraph(InputStream stream) {
+    private static Graph getGraph(final InputStream stream) {
         final Graph graph = rdf.createGraph();
         ioService.read(stream, null, RDFXML).forEachOrdered(graph::add);
         return graph;
@@ -90,10 +90,10 @@ public class Ingester implements TransferProcess {
                 "javax.xml.transform.TransformerFactory",
                 "net.sf.saxon.TransformerFactoryImpl");
 
-        URI resource = config.getResource();
-        URI repositoryBaseUri = config.getRepositoryBaseUri();
-        Boolean bibFrame = config.isBibFrame();
-        File baseDir = config.getBaseDirectory();
+        final URI resource = config.getResource();
+        final URI repositoryBaseUri = config.getRepositoryBaseUri();
+        final Boolean bibFrame = config.isBibFrame();
+        final File baseDir = config.getBaseDirectory();
 
         if (!bibFrame) {
             final LocalTime now = LocalTime.now();
@@ -157,14 +157,14 @@ public class Ingester implements TransferProcess {
         }
     }
 
-    private void convertRdfXmltoJsonLdGraph(String resultFile) throws IOException {
-        File result = new File(resultFile);
-        InputStream fs = new FileInputStream(result);
-        Graph g = getGraph(fs);
+    private void convertRdfXmltoJsonLdGraph(final String resultFile) throws IOException {
+        final File result = new File(resultFile);
+        final InputStream fs = new FileInputStream(result);
+        final Graph g = getGraph(fs);
         final ByteArrayOutputStream out = new ByteArrayOutputStream();
         ioService.write(g.stream(), out, JSONLD);
-        UUID uuid = UUID.randomUUID();
-        FileOutputStream fos = new FileOutputStream(
+        final UUID uuid = UUID.randomUUID();
+        final FileOutputStream fos = new FileOutputStream(
                 new File(OUTPUT_DIR + "/bibframe_jsonld_out_" + uuid + ".jsonld"));
         out.writeTo(fos);
     }

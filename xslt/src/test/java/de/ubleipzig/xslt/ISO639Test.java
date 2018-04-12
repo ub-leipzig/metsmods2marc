@@ -28,10 +28,10 @@ public class ISO639Test {
     @Test
     public void getCodesFromJson() throws IOException, ParseException {
         final URL res = JSONReader.class.getResource("/iso639-2.json");
-        JSONParser parser = new JSONParser();
-        Object obj = parser.parse(new FileReader(res.getPath()));
-        JSONObject jsonObject = (JSONObject) obj;
-        JSONArray codes = (JSONArray) jsonObject.get("codes");
+        final JSONParser parser = new JSONParser();
+        final Object obj = parser.parse(new FileReader(res.getPath()));
+        final JSONObject jsonObject = (JSONObject) obj;
+        final JSONArray codes = (JSONArray) jsonObject.get("codes");
         codes.stream()
                 .filter(code -> ((JSONObject) code).containsValue("lo"))
                 .forEach(System.out::println);

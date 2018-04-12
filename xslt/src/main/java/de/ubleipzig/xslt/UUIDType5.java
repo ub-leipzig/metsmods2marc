@@ -28,12 +28,19 @@ public class UUIDType5 {
     public static final UUID NAMESPACE_X500 = UUID.fromString("6ba7b814-9dad-11d1-80b4-00c04fd430c8");
     private static final Charset UTF8 = Charset.forName("UTF-8");
 
-    public static UUID nameUUIDFromNamespaceAndString(UUID namespace, String name) {
+    public static UUID nameUUIDFromNamespaceAndString(final UUID namespace, final String name) {
         return nameUUIDFromNamespaceAndBytes(namespace, Objects.requireNonNull(name, "name == null").getBytes(UTF8));
     }
 
-    public static UUID nameUUIDFromNamespaceAndBytes(UUID namespace, byte[] name) {
-        MessageDigest md;
+    /**
+     * nameUUIDFromNamespaceAndBytes.
+     *
+     * @param namespace namespace
+     * @param name name
+     * @return UUID
+     */
+    public static UUID nameUUIDFromNamespaceAndBytes(final UUID namespace, final byte[] name) {
+        final MessageDigest md;
         try {
             md = MessageDigest.getInstance("SHA-1");
         } catch (NoSuchAlgorithmException nsae) {
@@ -41,7 +48,7 @@ public class UUIDType5 {
         }
         md.update(toBytes(Objects.requireNonNull(namespace, "namespace is null")));
         md.update(Objects.requireNonNull(name, "name is null"));
-        byte[] sha1Bytes = md.digest();
+        final byte[] sha1Bytes = md.digest();
         sha1Bytes[6] &= 0x0f;  /* clear version        */
         sha1Bytes[6] |= 0x50;  /* set to version 5     */
         sha1Bytes[8] &= 0x3f;  /* clear variant        */
@@ -49,7 +56,7 @@ public class UUIDType5 {
         return fromBytes(sha1Bytes);
     }
 
-    private static UUID fromBytes(byte[] data) {
+    private static UUID fromBytes(final byte[] data) {
         // Based on the private UUID(bytes[]) constructor
         long msb = 0;
         long lsb = 0;
@@ -63,11 +70,11 @@ public class UUIDType5 {
         return new UUID(msb, lsb);
     }
 
-    private static byte[] toBytes(UUID uuid) {
+    private static byte[] toBytes(final UUID uuid) {
         // inverted logic of fromBytes()
-        byte[] out = new byte[16];
-        long msb = uuid.getMostSignificantBits();
-        long lsb = uuid.getLeastSignificantBits();
+        final byte[] out = new byte[16];
+        final long msb = uuid.getMostSignificantBits();
+        final long lsb = uuid.getLeastSignificantBits();
         for (int i = 0; i < 8; i++) {
             out[i] = (byte) ((msb >> ((7 - i) * 8)) & 0xff);
         }
